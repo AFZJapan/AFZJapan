@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      {% if page.title %}
+      {{ page.title | escape }}
+      {% else %}
+      {{ site.title | escape }}
+      {% endif %}
+    </title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/assets/res/favicon.ico">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/menu.css">
+    {% for css in layout.css %}
+    {% if css contains "//" %}
+    <link rel="stylesheet" href="{{css}}">
+    {% else %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
+    {% endif %}
+    {% endfor %}
+    {% for css in page.css %}
+    {% if css contains "//" %}
+    <link rel="stylesheet" href="{{css}}">
+    {% else %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
+    {% endif %}
+    {% endfor %}
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
+    {% seo title=false %}
+  </head>
+  <body>
+    <header>
+      <nav class="top-nav black">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+      <ul id="slide-out" class="side-nav fixed">
+        <li class="logo">
+            <img class=" z-depth-2" width="300" height="300" src="{{site.baseurl}}/assets/imgs/afz.png">
+        </li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>ホーム</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/what-is-bds"><img src="{{site.baseurl}}/assets/menu/handala.png" height="30" style="vertical-align:middle" />　　&nbsp;&nbsp;BDS運動とは</a>
+          <li><a class="waves-effect" href="{{site.baseurl}}/what-is-afz"><img src="{{site.baseurl}}/assets/menu/pin.png" height="30" style="vertical-align:middle" />　　&nbsp;&nbsp;AFZとは</a></li>
+          <ul >
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/add-afz"><i class="material-icons">add_circle</i>AFZを登録する</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/what-you-can-do"><i class="material-icons">map</i>AFZとしてできること</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/guide"><i class="material-icons">checklist</i>AFZ のガイドライン</a></li>
+          </ul>
+        </li>
+
+        <li><a class="waves-effect" href="{{site.baseurl}}/palestine"><img src="{{site.baseurl}}/assets/menu/map.png" height="32" style="vertical-align:middle" />　　&nbsp;&nbsp;パレスチナについて学ぼう</a>
+          <ul>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/nakba"><i class="material-icons">key</i>ナクバについて</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/occupation"><img src="{{site.baseurl}}/assets/menu/occupation.png" height="25" style="vertical-align:middle" />　　イスラエルの占領について</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/apartheid"><img src="{{site.baseurl}}/assets/menu/apartheid.png" height="30" style="vertical-align:middle" />　　アパルトヘイトについて</a></li>
+            <li><div class="divider"></div></li>
+          </ul>
+        </li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/faq"><i class="material-icons">question_answer</i>FAQ</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/downloads"><i class="material-icons">file_download</i>資料、ダウンロード</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>問い合わせ</a></li>
+        <!-- li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">info</i>詳しい情報</a></li -->
+      </ul>
+    </header>
+    <main>

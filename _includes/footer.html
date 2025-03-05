@@ -1,0 +1,27 @@
+    </main>
+    <footer class="page-footer black">
+      <div class="footer-copyright">
+        <div class="container">
+          &#x1f1f5;&#x1f1f8; Free Palestine
+        </div>
+      </div>
+    </footer>
+    <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    {% for js in layout.js %}
+    {% if js contains "//" %}
+    <script src="{{js}}"></script>
+    {% else %}
+    <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
+    {% endif %}
+    {% endfor %}
+    {% for js in page.js %}
+    {% if js contains "//" %}
+    <script src="{{js}}"></script>
+    {% else %}
+    <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
+    {% endif %}
+    {% endfor %}
+    <script src="{{site.baseurl}}/assets/js/main.js"></script>
+  </body>
+</html>

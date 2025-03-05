@@ -1,0 +1,12 @@
+#legend li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 16px;
+}
+
+span {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0px;
+  margin-left: 5px;
+}
