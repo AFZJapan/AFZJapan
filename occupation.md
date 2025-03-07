@@ -12,3 +12,5 @@ css: ["index.css"]
 人を排除してイスラエルは「建国」されました。<br />
 
 <img src="{{site.baseurl}}/assets/img/occupation.png" style="width: 360px"/>
+
+<a href="/apartheid">▶︎ アパルトヘイトについて</a>
