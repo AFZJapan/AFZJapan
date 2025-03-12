@@ -1,8 +1,9 @@
 ---
 layout: page
 css: ["index.css", "map.css"]
-js: ["https://www.openlayers.org/api/OpenLayers.js", "map.js"]
+js: ["map.js"]
 ---
+<script src="//openlayers.org/api/2.13.1/OpenLayers.js"></script>
 <script>window.OpenLayers || document.write('<script src="{{site.baseurl}}/assets/js/OpenLayers.js">\x3C/script>')</script>
 
 <div class="row">
