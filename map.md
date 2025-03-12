@@ -3,6 +3,8 @@ layout: page
 css: ["index.css", "map.css"]
 js: ["https://www.openlayers.org/api/OpenLayers.js", "map.js"]
 ---
+<script>window.OpenLayers || document.write('<script src="{{site.baseurl}}/assets/js/OpenLayers.js">\x3C/script>')</script>
+
 <div class="row">
 
 <h4>アパルトヘイト・フリー・ゾーン（AFZ）とは？</h4>
