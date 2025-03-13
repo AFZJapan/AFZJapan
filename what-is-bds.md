@@ -4,20 +4,20 @@ css: ["index.css"]
 ---
 <div class="page">
 
-<img src="/assets/img/handala.png" style="float:right; width: 200px; padding-right: 10px" />
+<table><thead>
+  <tr>
+    <td><div style="text-align: center; min-width:100px"><h4><strong>B</strong></h4></div></td>
+    <td><div style="text-align: center; min-width:100px"><h4><strong>D</strong></h4></div></td>
+    <td><div style="text-align: center; min-width:100px"><h4><strong>S</strong></h4></div></td>
+    <td rowspan="2"><img src="/assets/img/handala.png" style="float:right; width: 100px; padding-right: 10px" /></td>
+  </tr>
+  <tr>
+    <td><div style="text-align: center; min-width:100px"><h6>ボイコット<br />(不買運動)</h6></div></td>
+    <td><div style="text-align: center; min-width:100px"><h6>ダイベスト<br />(資本の引き上げ)</h6></div></td>
+    <td><div style="text-align: center; min-width:100px"><h6>サンクション<br />(経済制裁)</h6></div></td>
+  </tr></thead>
+</table>
 
-<div style="float:left; width: 400px; padding-bottom: 60px">
-  <div style="display: table-row;">
-    <div style="display: table-cell; text-align: center; min-width:100px"><h4><strong>B</strong></h4></div>
-    <div style="display: table-cell; text-align: center; min-width:100px"><h4><strong>D</strong></h4></div>
-    <div style="display: table-cell; text-align: center; min-width:100px"><h4><strong>S</strong></h4></div>
-  </div>
-  <div style="display: table-row;" >
-    <div style="display: table-cell; text-align: center; min-width:100px"><h6>ボイコット<br />(不買運動)</h6></div>
-    <div style="display: table-cell; text-align: center; min-width:100px"><h6>ダイベスト<br />(資本の引き上げ)</h6></div>
-    <div style="display: table-cell; text-align: center; min-width:100px"><h6>サンクション<br />(経済制裁)</h6></div>
-  </div>
-</div>
 
 <div id="page-info">
   <h3>BDS 運動とは</h3>
