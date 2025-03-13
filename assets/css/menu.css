@@ -20,6 +20,10 @@
   color: #f1f1f1;
 }
 
+.side-nav li>a>i.material-icons {
+  margin: 0 8px 0 0
+}
+
 
 /* Add an active class to the active dropdown button */
 .active {

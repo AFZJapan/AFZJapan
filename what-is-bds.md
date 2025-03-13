@@ -2,6 +2,9 @@
 layout: page
 css: ["index.css"]
 ---
+<div class="page">
+
+<img src="/assets/img/handala.png" style="float:right; width: 200px; padding-right: 10px" />
 
 <div>
   <div style="display: table-row;">
@@ -16,9 +19,12 @@ css: ["index.css"]
   </div>
 </div>
 
+
 <div id="page-info">
   <h3>BDS 運動とは</h3>
 </div>
-<p>BDS 運動はパレスチナ人の呼びかけによって始まった運動です。パレスチナの呼びかけに対する直接<br />的、非暴力的な応答として、パレスチナと連帯する上<br />で重要な運動です。</p>
+<p>BDS 運動はパレスチナ人の呼びかけによって始まった運動です。パレスチナの呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯する上で重要な運動です。</p>
 
 <a href="/what-is-afz">▶︎ AFZとは</a>
+
+</div>
