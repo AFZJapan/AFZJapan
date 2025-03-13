@@ -6,7 +6,7 @@ css: ["index.css"]
 
 <div class="page">
 
-<img src="{{site.baseurl}}/assets/img/AlAqsa.webp" style="width: 600px" />
+<img src="{{site.baseurl}}/assets/img/AlAqsa.webp" style="max-width:100%;" />
 
 <p>
 パレスチナは、地中海に面した温暖な気候をもつ国で、オリーブやオレンジ、デーツなどの栽培が盛んです。特にオリーブは象徴的なシンボルで、多くの家庭が世代を

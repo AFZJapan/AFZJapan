@@ -5,7 +5,7 @@ css: ["index.css"]
 ---
 <div class="page">
 
-<img src="{{site.baseurl}}/assets/img/apartheid.jpg" style="float:left; width: 400px; padding-right: 10px">
+<img src="{{site.baseurl}}/assets/img/apartheid.jpg" style="float:left; max-width:70%; padding-right: 10px">
 
 <p>アパルトヘイトとは、その人の人種によって同じ権利が与えられていない制度や社会を指します。白人以外の権利が制限されていた1948年〜1994年の南アフリカや、パレスチナ人に同等の権利が与えられていないイスラエルを指して使われます。人種隔離政策とも呼ばれています。</p>
 <p>パレスチナ人に対するアパルトヘイト政策は複数のレイヤーに分かれています。</p>
