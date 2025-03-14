@@ -5,6 +5,6 @@ css: ["contact.css"]
 ---
 <div class="col s12">
   <div class="icontain">
-    afz.japan@proton.me
+    <img src="/assets/afz.japan@proton.me.png" height=20px />
   </div>
 </div>
