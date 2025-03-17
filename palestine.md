@@ -19,12 +19,14 @@ css: ["index.css"]
 </p>
 
 <p>
-<strong>スイカ</strong>
+<h5>スイカ</h5>
 
-  <img src="{{site.baseurl}}/assets/img/suika.png" style="float:left; width: 370px; padding-right: 10px" />
+  <img src="{{site.baseurl}}/assets/img/suika.png" style="float:left; width: 200px; padding-right: 10px" />
 
   <p>イスラエルが違法占領地でパレスチナの国旗の表示を禁止した際に、パレスチナの旗と同じ赤、黑、白、緑の色を使ったスイカが抵抗のシンボルとして使われました。</p>
 </p>
+
+<br />
 
 <a href="/nakba">▶︎ ナクバについて</a>
 
