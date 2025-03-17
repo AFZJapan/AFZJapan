@@ -1,4 +1,5 @@
 #legend li {
+  display: inline;
   list-style-type: none;
   padding-right: 16px;
 }

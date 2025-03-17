@@ -24,14 +24,14 @@ css: ["index.css", "afz.css"]
 </p>
 
 <ul id="legend">
-  <li><img src="/assets/icons/social.png" height="20" width="20" /><span>ソーシャル・社交の場</span></li>
-  <li><img src="/assets/icons/cultural.png" height="20" width="20" /><span>文化的な場所</span></li>
-  <li><img src="/assets/icons/cafe.png" height="20" width="20" /><span>飲食店</span></li>
-  <li><img src="/assets/icons/shop.png" height="20" width="20" /><span>お店・地元企業</span></li>
-  <li><img src="/assets/icons/place.png" height="20" width="20" /><span>公的機関</span></li>
+  <li><img src="/assets/icons/social.png" height="30" width="30" /></li>
+  <li><img src="/assets/icons/cultural.png" height="30" width="30" /></li>
+  <li><img src="/assets/icons/cafe.png" height="30" width="30" /></li>
+  <li><img src="/assets/icons/shop.png" height="30" width="30" /></li>
+  <li><img src="/assets/icons/place.png" height="30" width="30" /></li>
 </ul>
 
-<a href="add-afz">AFZを登録する</a><br />
+<a href="add-afz">アパルトヘイトの壁を壊す、AFZを登録する</a><br />
 <a href="what-you-can-do">AFZとしてできること</a><br />
 <a href="guide">AFZのガイドライン</a><br />
 
