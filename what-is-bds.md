@@ -1,6 +1,6 @@
 ---
 layout: page
-css: ["index.css"]
+css: ["index.css", "linkpreview.css"]
 ---
 <div class="page">
 
@@ -33,7 +33,29 @@ css: ["index.css"]
 
 <p>[ BDS運動は様々なレベルでできるが、AFZは主に団体、組織、店舗などのレベルで行える行動のひとつ→　日本でもAFZを増やそう ]</p>
 
-<br /><br />
+<br />
+
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-wrapper-inner">
+    <div class="jekyll-linkpreview-content">
+      <div class="jekyll-linkpreview-image">
+        <a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank">
+          <img src="/assets/img/BDSIntro.webp" />
+        </a>
+      </div>
+
+      <div class="jekyll-linkpreview-body">
+        <h2 class="jekyll-linkpreview-title">
+          <a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank">パレスチナのためにできること～BDSムーブメント入門</a>
+        </h2>
+        <div class="jekyll-linkpreview-description">2021年6月18日に行ったウェビナーを公開しました。主催：BDS Japan Bulletin</div>
+      </div>
+    </div>
+    <div class="jekyll-linkpreview-footer">
+      <a href="//www.youtube.com/@bdsjapanbulletin8996" target="_blank">www.youtube.com/@bdsjapanbulletin8996</a>
+    </div>
+  </div>
+</div>
 
 <a href="/what-is-afz">▶︎ AFZとは</a>
 
