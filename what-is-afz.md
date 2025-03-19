@@ -23,12 +23,12 @@ css: ["index.css", "afz.css"]
 など、あらゆる「スペース」が対象です
 </p>
 
-<ul id="legend">
-  <li><img src="/assets/icons/social.png" height="30" width="30" /></li>
-  <li><img src="/assets/icons/cultural.png" height="30" width="30" /></li>
-  <li><img src="/assets/icons/cafe.png" height="30" width="30" /></li>
-  <li><img src="/assets/icons/shop.png" height="30" width="30" /></li>
-  <li><img src="/assets/icons/place.png" height="30" width="30" /></li>
+<ul id="legend" class="afzIcons">
+  <li><img src="/assets/icons/social.png" height="40" width="40" /></li>
+  <li><img src="/assets/icons/cultural.png" height="40" width="40" /></li>
+  <li><img src="/assets/icons/cafe.png" height="40" width="40" /></li>
+  <li><img src="/assets/icons/shop.png" height="40" width="40" /></li>
+  <li><img src="/assets/icons/place.png" height="40" width="40" /></li>
 </ul>
 
 <a href="add-afz">アパルトヘイトの壁を壊す、AFZを登録する</a><br />

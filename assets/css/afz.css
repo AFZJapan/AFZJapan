@@ -1,3 +1,10 @@
+@media (max-width: 599px) {
+  ul.afzIcons {
+    display: table;
+    margin: 0 auto;
+  }
+}
+
 #legend li {
   display: inline;
   list-style-type: none;
