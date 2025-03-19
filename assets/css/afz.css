@@ -2,13 +2,15 @@
   ul.afzIcons {
     display: table;
     margin: 0 auto;
+    padding-right: 40px;
   }
 }
 
 #legend li {
   display: inline;
   list-style-type: none;
-  padding-right: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 span {
