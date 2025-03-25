@@ -31,8 +31,8 @@ css: ["index.css", "afz.css"]
   <li><img src="/assets/icons/place.png" height="40" width="40" /></li>
 </ul>
 
-<a href="add-afz">アパルトヘイトの壁を壊す、AFZを登録する</a><br />
-<a href="what-you-can-do">AFZとしてできること</a><br />
+<a href="register">アパルトヘイトの壁を壊す、AFZを登録する</a><br />
+<!-- a href="what-you-can-do">AFZとしてできること</a><br / -->
 <a href="guide">AFZのガイドライン</a><br />
 
 </div>
