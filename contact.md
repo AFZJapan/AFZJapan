@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "AFZ追進チームについて"
+title: "AFZ推進チームについて"
 css: ["contact.css"]
 ---
 <!-- div class="col s12">
