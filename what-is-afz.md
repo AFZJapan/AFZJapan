@@ -36,6 +36,6 @@ css: ["index.css", "afz.css"]
 
 <a href="register">アパルトヘイトの壁を壊す、AFZに登録する</a><br />
 <!-- a href="what-you-can-do">AFZとしてできること</a><br / -->
-<a href="guide">AFZのガイドライン</a><br />
+<!-- a href="guide">AFZのガイドライン</a><br / -->
 
 </div>
