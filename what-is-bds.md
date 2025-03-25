@@ -6,14 +6,14 @@ css: ["index.css", "linkpreview.css"]
 
 <table style="max-width:100%;"><thead>
   <tr>
-    <td><div style="text-align: center; width:120px"><h4><strong>B</strong></h4></div></td>
-    <td><div style="text-align: center; width:120px"><h4><strong>D</strong></h4></div></td>
-    <td><div style="text-align: center; width:120px"><h4><strong>S</strong></h4></div></td>
+    <td><div style="text-align: center; width:114px"><h4><strong>B</strong></h4></div></td>
+    <td><div style="text-align: center; width:114px"><h4><strong>D</strong></h4></div></td>
+    <td><div style="text-align: center; width:114px"><h4><strong>S</strong></h4></div></td>
   </tr>
   <tr>
-    <td><div style="text-align: center; width:120px"><h6>ボイコット<br />(不買運動)</h6></div></td>
-    <td><div style="text-align: center; width:120px"><h6>ダイベスト<br />(資本の引き上げ)</h6></div></td>
-    <td><div style="text-align: center; width:120px"><h6>サンクション<br />(経済制裁)</h6></div></td>
+    <td><div style="text-align: center; width:114px">ボイコット<br />(不買運動)</div></td>
+    <td><div style="text-align: center; width:114px">ダイベスト<br />(資本の引き上げ)</div></td>
+    <td><div style="text-align: center; width:114px">サンクション<br />(経済制裁)</div></td>
   </tr></thead>
 </table>
 
