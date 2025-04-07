@@ -4,7 +4,7 @@ css: ["index.css", "linkpreview.css"]
 ---
 <div class="page">
 
-<table style="width:100%">
+<table style="table-layout: fixed; width: 100%">
 <thead>
   <tr>
     <td><div style="text-align: center"><img src="/assets/img/b.png" height="70px" /></div></td>
