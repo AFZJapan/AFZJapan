@@ -1,11 +1,16 @@
 ---
 layout: page
-title: "ナクバについて"
-css: ["index.css", "linkpreview.css"]
+css: ["index.css", "linkpreview.css", "nakba.css"]
 ---
 <div class="page">
 
-<img src="{{site.baseurl}}/assets/img/nakba.jpg" style="max-width:100%;">
+<div class="imageContainer">
+  <img src="{{site.baseurl}}/assets/img/nakba.jpg" alt="Norway" style="width:100%;">
+  <div class="text-block">
+    <h3 style="font-weight: bold;">ナクバ</h3>
+    <h5>について</h5>
+  </div>
+</div>
 
 <p>1947年から1948年にかけ、武装したユダヤ人入植者らによって構成された民兵組織が、アラブ系の市民を追い出すことを目的として町村を破壊、虐殺を行い、パレスチナ人約75万人が家を追われました。多くの人は一時的な避難のつもりで家を離れましたが、その間にイスラエルは一方的に建国を宣言。イスラエルが主張する領土内に残されたパレスチナ人の家と資産はイスラエル政府が押収する法が制定されました。これをアラビア語で「ナクバ」と呼び、大惨事を意味します。ナクバに始まる大惨事、住民の強制移動や民族浄化は今でも続いています。<p>
 </p>ナクバによって家を追われた人たちが、かつて住んでいた旧パレスチナ領に帰る権利を「帰還権」と呼び、国連によってパレスチナ人の侵すことのできない権利として認められていますが、実現していません（<a href="https://ja.wikipedia.org/wiki/%E5%9B%BD%E9%9A%9B%E9%80%A3%E5%90%88%E7%B7%8F%E4%BC%9A%E6%B1%BA%E8%AD%B03236" target="_blank">国連総会決議3236</a>）。</p>
