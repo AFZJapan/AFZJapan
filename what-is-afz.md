@@ -26,13 +26,15 @@ css: ["index.css", "afz.css"]
 など、あらゆる「スペース」が対象です
 </p>
 
-<ul id="legend" class="afzIcons">
-  <li><img src="/assets/icons/social.png" height="40" width="40" /></li>
-  <li><img src="/assets/icons/cultural.png" height="40" width="40" /></li>
-  <li><img src="/assets/icons/cafe.png" height="40" width="40" /></li>
-  <li><img src="/assets/icons/shop.png" height="40" width="40" /></li>
-  <li><img src="/assets/icons/place.png" height="40" width="40" /></li>
-</ul>
+<table class="afzIcons">
+  <tr>
+    <td><div style="text-align: center"><img src="/assets/icons/social.png" height="40px" /></div></td>
+    <td><div style="text-align: center"><img src="/assets/icons/cultural.png" height="40px" /></div></td>
+    <td><div style="text-align: center"><img src="/assets/icons/cafe.png" height="40px" /></div></td>
+    <td><div style="text-align: center"><img src="/assets/icons/shop.png" height="40px" /></div></td>
+    <td><div style="text-align: center"><img src="/assets/icons/place.png" height="40px" /></div></td>
+  </tr>
+</table>
 
 <a href="register">アパルトヘイトの壁を壊す、AFZに登録する</a><br />
 <!-- a href="what-you-can-do">AFZとしてできること</a><br / -->

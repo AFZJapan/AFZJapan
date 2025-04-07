@@ -1,8 +1,12 @@
-@media (max-width: 599px) {
-  ul.afzIcons {
-    display: table;
-    margin: 0 auto;
-    padding-right: 40px;
+@media (min-width: 400px) {
+  table.afzIcons {
+    width: 340px
+  }
+}
+
+@media (max-width: 399px) {
+  table.afzIcons {
+    width: 100%
   }
 }
 
