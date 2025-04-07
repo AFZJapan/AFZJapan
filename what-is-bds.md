@@ -7,9 +7,9 @@ css: ["index.css", "linkpreview.css"]
 <table style="width:100%">
 <thead>
   <tr>
-    <td><div style="text-align: center"><h4><strong>B</strong></h4></div></td>
-    <td><div style="text-align: center"><h4><strong>D</strong></h4></div></td>
-    <td><div style="text-align: center"><h4><strong>S</strong></h4></div></td>
+    <td><div style="text-align: center"><img src="/assets/img/b.png" height="70px" /></div></td>
+    <td><div style="text-align: center"><img src="/assets/img/d.png" height="70px" /></div></td>
+    <td><div style="text-align: center"><img src="/assets/img/s.png" height="70px" /></div></td>
   </tr>
   <tr>
     <td><div style="text-align: center">ボイコット<br />(不買運動)</div></td>
