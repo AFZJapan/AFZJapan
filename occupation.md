@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "イスラエルの占領について"
-css: ["index.css"]
+css: ["index.css", "images.css"]
+js: ["images.js"]
 ---
 <div class="page">
 
@@ -17,7 +18,7 @@ css: ["index.css"]
 1993年のオスロ合意は、パレスチナとイスラエルの両国共存を目指す「二国家解決法」でしたが、すべての国境はイスラエルに管理され、その後もイスラエルは国際法に違反し、パレスチナ人の土地を奪い続けています。
 </p>
 
-<img src="{{site.baseurl}}/assets/img/nakba_2.jpg" style="max-width:60%;display: block; margin-left: auto; margin-right: auto;">
+<img src="{{site.baseurl}}/assets/img/nakba_2.jpg" style="max-width:60%;display: block; margin-left: auto; margin-right: auto;" class="enlarge" onclick="enlargeImg(this)">
 
 <br />
 

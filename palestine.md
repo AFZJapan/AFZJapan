@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "パレスチナについて学ぼう"
-css: ["index.css", "linkpreview.css"]
+css: ["index.css", "linkpreview.css", "images.css"]
+js: ["images.js"]
 ---
 
 <div class="page">
@@ -9,7 +10,7 @@ css: ["index.css", "linkpreview.css"]
 <img src="{{site.baseurl}}/assets/img/AlAqsa.webp" style="max-width:100%;" />
 
 <p>パレスチナは、地中海に面した温暖な気候をもつ国で、オリーブやオレンジ、デーツなどの栽培が盛んです。特にオリーブは象徴的なシンボルで、多くの家庭が世代を
- <img src="{{site.baseurl}}/assets/img/olive.jpg" style="float:right; width: 374px; padding-left: 10px" />
+<img src="{{site.baseurl}}/assets/img/olive.jpg" style="float:right; width: 374px; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)" />
 
 超えて守り育て、中には数千年にも及ぶオリーブの古樹もあります。<br /><br />
 春には、タイムやアクーブといった野草が採れ、手工芸品や香辛料とともに市場（スーク）に並びます。<br /><br />
