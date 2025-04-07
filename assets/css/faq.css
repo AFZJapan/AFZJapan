@@ -1,0 +1,11 @@
+a, a:link, a:visited {
+  color: #000000;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover, a:active {
+  color: #029455;
+  background-color: transparent;
+  text-decoration: underline;
+}
