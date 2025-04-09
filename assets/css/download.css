@@ -12,3 +12,7 @@
 .btnic:hover {
   background-color: #029455;
 }
+
+.btnic:focus {
+  background-color: #029455;
+}
