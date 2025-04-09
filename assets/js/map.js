@@ -36,10 +36,10 @@ var vectorLayer = [new OpenLayers.Layer.Vector(layerName[0], { styleMap: styleAr
 
 var j = 0;
 for (var i = 1; i < markers.length; i++) {
-    if (!layerName.includes(markers[i][3])) {
+    if (!layerName.includes(markers[i][2])) {
         j++;
         layerName.push(markers[i][2]);
-        styleArray.push(new OpenLayers.StyleMap({ externalGraphic: 'assets/icons/' + [markers[j][3]] + '.png', graphicWidth: 24, graphicHeight: 24, graphicYOffset: -24, title: '' + [markers[0][2]] }));
+        styleArray.push(new OpenLayers.StyleMap({ externalGraphic: 'assets/icons/' + [markers[i][3]] + '.png', graphicWidth: 24, graphicHeight: 24, graphicYOffset: -24, title: '' + [markers[j][2]] }));
         vectorLayer.push(new OpenLayers.Layer.Vector(layerName[j], { styleMap: styleArray[j] }));
     }
 }
