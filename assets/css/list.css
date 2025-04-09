@@ -37,3 +37,28 @@ td, th {
 td:last-child, th:last-child {
   border-right: 1px solid #ddd;
 }
+
+/* more css */
+/* Style buttons */
+.btnic {
+  background-color: #029455;
+  border: none;
+  color: white;
+  padding: 6px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btnic:hover {
+  background-color: #029455;
+}
+
+.btnic:focus {
+  background-color: #029455;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #029455;
+    box-shadow: 0 1px 0 0 #029455;
+}
