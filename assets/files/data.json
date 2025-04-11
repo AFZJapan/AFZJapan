@@ -6,7 +6,7 @@
   },
   {
     "name": "roastery 百塔珈琲 <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
-    "place": "東京都豊島区",
+    "place": "東京都",
     "sns": "<a href='http://shop.hyaqtoh.com/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/hyaqtoh'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/hyaqtohcoffee'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -16,27 +16,27 @@
   },
   {
     "name": "Naturalfoods DONGURI <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
-    "place": "京都府京都市左京区",
+    "place": "京都府",
     "sns": "<a href='https://instagram.com/naturalfoodsdonguri'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "毎日食堂・毎日ストア・毎日ブック <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
-    "place": "兵庫県南あわじ市",
+    "place": "兵庫県",
     "sns": "<a href='https://mainichishokudo.com/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/mainichi_shokudo'  width='20px' height='20px'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "TORTOISE BOOKS&GALLERY <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
-    "place": "東京都小金井市",
+    "place": "東京都",
     "sns": "<a href='https://tbandg.jp'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/tbag_jp'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/tbag_jp'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "アブイサーム <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
-    "place": "東京都新宿区",
+    "place": "東京都",
     "sns": "<a href='https://abuessam.jp/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
     "name": "SUBstore <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
-    "place": "東京都杉並区",
+    "place": "東京都",
     "sns": "<a href='https://substore.jimdofree.com/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/substore_tokyo'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/substore.tokyo'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "name": "erimaki <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
-    "place": "愛媛県松山市",
+    "place": "愛媛県",
     "sns": "<a href='https://x.com/@cat_erimaki'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/erimaki_cat'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
