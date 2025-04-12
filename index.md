@@ -6,7 +6,7 @@ js: ["map.js", "list.js"]
 <script src="//openlayers.org/api/2.13.1/OpenLayers.js"></script>
 <script>window.OpenLayers || document.write('<script src="{{site.baseurl}}/assets/js/OpenLayers.js">\x3C/script>')</script>
 
-<div class="row">
+<div class="row" style="padding-left: 10px; padding-right: 10px;">
 
 <h4>アパルトヘイト・フリー・ゾーン（AFZ）とは？</h4>
 アパルトヘイト・フリー・ゾーン（AFZ）キャンペーンへのご参加のお願い<br /><br />
