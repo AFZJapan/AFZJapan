@@ -1,5 +1,5 @@
 async function getData() {
-    let api = '/assets/files/data.json';
+    let api = '/data/list.json';
     let apiDataResponse = await fetch(api);
     let data = await apiDataResponse.json();
     return {
@@ -7,23 +7,24 @@ async function getData() {
     }
 }
 
-let displayData = () => {
+let displayList = () => {
     getData().then(result => {
         let rows = '';
         let tbody = document.getElementById('AFZTable');
         let afz = result.afzs;
         for (let i = 0; i < afz.length; i++) {
             rows += `<tr>
-                    <td>${afz[i].name}</td>
-                    <td>${afz[i].place}</td>
-                    <td>${afz[i].sns}</td></tr>`
+                       <td>${afz[i].name}</td>
+                       <td>${afz[i].place}</td>
+                       <td>${afz[i].sns}</td>
+                     </tr>`;
 
             tbody.innerHTML = rows;
         }
     })
 }
 
-displayData();
+displayList();
 
 let filterByPlace = () => {
     getData().then(result => {
@@ -35,9 +36,9 @@ let filterByPlace = () => {
         for (let i = 0; i < afz.length; i++) {
             if (afz[i].place.includes(val)) {
                 rows += `<tr>
-                            <td>${afz[i].name}</td>
-                            <td>${afz[i].place}</td>
-                            <td>${afz[i].sns}</td>
+                           <td>${afz[i].name}</td>
+                           <td>${afz[i].place}</td>
+                           <td>${afz[i].sns}</td>
                          </tr>`;
             }
         }
