@@ -8,7 +8,7 @@ js: ["images.js"]
 
 <p>
 
-<img src="{{site.baseurl}}/assets/img/palestine.jpg" style="max-width:100%;">
+<img src="{{site.baseurl}}/assets/img/palestine.png" style="max-width:100%;">
 
 
 シオニズム運動は、ユダヤ人の国を作るため、1897年にスイスで第1回シオニスト会議が開催され始まりました。<br /><br />
