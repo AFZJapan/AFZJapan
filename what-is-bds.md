@@ -19,7 +19,7 @@ css: ["index.css", "linkpreview.css"]
 </thead>
 </table>
 
-<img src="/assets/img/handala.png" style="float:right; width: 200px" />
+<img src="/assets/img/handala.jpg" style="float:right; width: 120px; margin: 20px" />
 
 <div id="page-info">
   <h3>BDS 運動とは</h3>
