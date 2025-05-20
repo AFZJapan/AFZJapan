@@ -22,6 +22,12 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
   <li><span class="bold">不買リストの活用</span>：BDSの公式リスト<a href="https://x.com/BDSjapan/status/1874683344350540175">（BDSJapanの投稿）</a>や信頼できる情報源を参照し、ボイコット対象商品を特定。</li>
   <li><span class="bold">代替商品の導入</span>：パレスチナ産品やフェアトレードの商品を積極的に取り扱う。</li>
 </ul>
+
+<a href="https://x.com/BDSjapan/status/1874683344350540175" target="_blank">
+<img src="/assets/img/BDSBoycotts.jpeg"
+     style="border-radius: 10px; display: block; margin-left: auto; margin-right: auto; width: 50%;" />
+</a>
+
 </div>
 
 <div>
