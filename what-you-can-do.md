@@ -11,7 +11,7 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
 アパルトヘイト・フリーゾーンとBDS運動の重要な目的は、イスラエルによる人権侵害や占領政策が普通のことだと考える社会認識を変えることです。イスラエルはさまざまな文化事業を通して、占領やアパルトヘイト体制を正当化しようとしています。そのため、ボイコットをすること同じくらい大切なのは、それを行なっていることとその理由を公にすることです。AFZに登録したら、宣誓文や資料を掲示したり、独自の声明を発表するなどして、スペースの利用者と連帯の輪を広げましょう。
 <ul>
   <li>AFZに登録し、マップに記載される（<a href="https://afzjapan.com/register">登録はこちらから</a> ）。</li>
-  <li>独自の声明を作成したり、<a href="https://www.cultureagainstapartheid.jp/" target="_blank" data-cke-saved-href="https://www.cultureagainstapartheid.jp/">＜アパルトヘイトに抗する『文化』/Culture Against Apartheid＞</a>のような既存の声明に署名する。</li>
+  <li>独自の声明を作成したり、<a href="https://www.cultureagainstapartheid.jp/" target="_blank" data-cke-saved-href="https://www.cultureagainstapartheid.jp/">＜アパルトヘイトに抗する『文化』/ Culture Against Apartheid＞</a>のような既存の声明に署名する。</li>
   <li>AFZであることを示す標識やステッカー、パンフレット、AFZのウェブサイトリンクをスペースの入り口やサイトに掲示する。</li> 
 </ul>
 
