@@ -32,7 +32,7 @@ js: ["collapse.js"]
 
 
 
-<button type="button" class="collapsible">できること：お店</button>
+<button type="button" class="collapsible">お店ができること</button>
 <div class="content">
   <p>
 
@@ -65,7 +65,7 @@ js: ["collapse.js"]
 
 
 
-<button type="button" class="collapsible">できること：学校や大学</button>
+<button type="button" class="collapsible">学校や大学などでできること</button>
 <div class="content">
   <p>
 
@@ -103,7 +103,7 @@ js: ["collapse.js"]
 
 
 
-<button type="button" class="collapsible">できること：文化施設</button>
+<button type="button" class="collapsible">文化施設ができること</button>
 <div class="content">
   <p>
 
@@ -134,7 +134,7 @@ js: ["collapse.js"]
 
 
 
-<button type="button" class="collapsible">できること：宗教施設</button>
+<button type="button" class="collapsible">宗教施設ができること</button>
 <div class="content">
   <p>
 
@@ -184,7 +184,7 @@ js: ["collapse.js"]
 
 
 
-<button type="button" class="collapsible">できること：行政 、自治体</button>
+<button type="button" class="collapsible">行政 、自治体ができること</button>
 <div class="content">
   <p>
 
