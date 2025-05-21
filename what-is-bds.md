@@ -30,7 +30,14 @@ css: ["index.css", "linkpreview.css"]
 <p>個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。</p>
 
 <p>アパルトヘイト・フリーゾーンはBDS運動の一環として、世界的な連帯のネットワークを構築することを求めています。</p>
-<br />
+
+<div class="jekyll-linkpreview-wrapper">
+  <div class="jekyll-linkpreview-wrapper-inner">
+    <div class="jekyll-linkpreview-description">
+ハンダラ(Handala)君は、パレスチナ人風刺画家ナジ・アル＝アリ（Naji Al-Ali）によって生み出されたキャラクターで、ナジ自身が故郷のパレスチナを追放された当時の年齢、１０歳の男の子の姿をしています。国際社会によってパレスチナ人に押し付けられた不正義を拒否するために、手を組んで後ろを向き、サボテン（パレスチナ人の抵抗のシンボル）のような針頭で抗議の意思を表しています。名前の由来は、パレスチナに生息し、切ったところからまた生え、深い根を張る「ハンダラ」という植物です。ハンダラ君はパレスチナに帰れる日まで10歳のまま成長しません。
+    </div>
+  </div>
+</div>
 
 <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
