@@ -8,10 +8,17 @@ js: ["map.js", "list.js"]
 
 <div class="row" style="padding-left: 10px; padding-right: 10px;">
 
+<table>
+  <tr>
+    <td style="border: 0px; background-color: #fff;">
 <h4>アパルトヘイト・フリー・ゾーン（AFZ）に登録しよう！</h4>
 
 AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。<br>
 <a href="https://afzjapan.com/register">AFZの登録はこちらから！</a>
+    </td>
+    <td style="border: 0px; background-color: #fff;"><img src="/assets/img/logo.jpg" style="width: 120px;" /></td>
+  </tr>
+</table>
 
 </div>
 
