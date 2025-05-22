@@ -8,8 +8,8 @@ description: "ナクバは、アラビア語で「大惨事」を意味します
 <div class="imageContainer">
   <img src="{{site.baseurl}}/assets/img/nakba.jpg" alt="Norway" style="width:100%;">
   <div class="text-block">
-    <h3 style="font-weight: bold;">ナクバ</h3>
-    <h5>について</h5>
+    <h2 style="font-weight: bold;">ナクバ</h2>
+    <h4>（大惨事）</h4>
   </div>
 </div>
 
