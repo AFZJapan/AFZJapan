@@ -2,52 +2,52 @@
   {
     "name": "LIGHTS foodtruck <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "移動式スペース",
-    "sns": "<a href='https://instagram.com/lights_foodtruck'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://instagram.com/lights_foodtruck' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "roastery 百塔珈琲 <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
-    "sns": "<a href='http://shop.hyaqtoh.com/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/hyaqtoh'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/hyaqtohcoffee'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='http://shop.hyaqtoh.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/hyaqtoh' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/hyaqtohcoffee' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "浅間温泉だらず荘 <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "長野県",
-    "sns": "<a href='https://www.instagram.com/maisondarazu/'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a><a href='https://x.com/@maisondarazu'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://www.instagram.com/maisondarazu/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a><a href='https://x.com/@maisondarazu' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   },
   {
     "name": "Naturalfoods DONGURI <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "京都府",
-    "sns": "<a href='https://instagram.com/naturalfoodsdonguri'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://instagram.com/naturalfoodsdonguri' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "毎日食堂・毎日ストア・毎日ブック <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "兵庫県",
-    "sns": "<a href='https://mainichishokudo.com/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/mainichi_shokudo'  width='20px' height='20px'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://mainichishokudo.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/mainichi_shokudo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "TORTOISE BOOKS&GALLERY <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "東京都",
-    "sns": "<a href='https://tbandg.jp'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/tbag_jp'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/tbag_jp'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://tbandg.jp' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/tbag_jp' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/tbag_jp' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "アブイサーム <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
-    "sns": "<a href='https://abuessam.jp/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://abuessam.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
     "name": "SUBstore <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
-    "sns": "<a href='https://substore.jimdofree.com/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/substore_tokyo'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/substore.tokyo'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://substore.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/substore_tokyo' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/substore.tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "WAIFU <img align='top' src='/assets/icons/cultural.png' width='20px' height='20px' />",
     "place": "イベント",
-    "sns": "<a href='https://waifu.stores.jp/'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@wife_WAIFU'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/waifu_party'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://waifu.stores.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@wife_WAIFU' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/waifu_party' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "erimaki <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "愛媛県",
-    "sns": "<a href='https://x.com/@cat_erimaki'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/erimaki_cat'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://x.com/@cat_erimaki' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/erimaki_cat' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "合同会社エクレシア <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
@@ -57,16 +57,16 @@
   {
     "name": "NAMNAM Space <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "東京都",
-    "sns": " <a href='https://instagram.com/namnam_space'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": " <a href='https://instagram.com/namnam_space' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "パレスチナ展＠名古屋 <img align='top' src='/assets/icons/cultural.png' width='20px' height='20px' />",
     "place": "愛知県",
-    "sns": "<a href='https://www.instagram.com/paresuchinaten'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://x.com/palestinaten_ng'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://www.instagram.com/paresuchinaten' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://x.com/palestinaten_ng' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   },
   {
     "name": "Guesthouse WIND VILLA",
     "place": "京都府",
-    "sns": "<a href='http://www.windvilla.blue/top.html'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@WindVilla'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/windvilla.kyoto'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": "<a href='http://www.windvilla.blue/top.html' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@WindVilla' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/windvilla.kyoto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
