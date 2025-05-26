@@ -62,6 +62,11 @@
   {
     "name": "パレスチナ展＠名古屋 <img align='top' src='/assets/icons/cultural.png' width='20px' height='20px' />",
     "place": "愛知県",
-    "sns": " <a href='https://www.instagram.com/paresuchinaten'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a><a href='https://x.com/palestinaten_ng'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://www.instagram.com/paresuchinaten'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://x.com/palestinaten_ng'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Guesthouse WIND VILLA",
+    "place": "京都府",
+    "sns": "<a href='http://www.windvilla.blue/top.html'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@WindVilla'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/windvilla.kyoto'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
