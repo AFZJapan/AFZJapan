@@ -12,7 +12,7 @@
   {
     "name": "浅間温泉だらず荘 <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "長野県",
-    "sns": "<a href='https://www.instagram.com/maisondarazu/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a><a href='https://x.com/@maisondarazu' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://x.com/@maisondarazu' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/maisondarazu/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "Naturalfoods DONGURI <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
@@ -62,11 +62,31 @@
   {
     "name": "パレスチナ展＠名古屋 <img align='top' src='/assets/icons/cultural.png' width='20px' height='20px' />",
     "place": "愛知県",
-    "sns": "<a href='https://www.instagram.com/paresuchinaten' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://x.com/palestinaten_ng' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+    "sns": "<a href='https://x.com/palestinaten_ng' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/paresuchinaten' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "Guesthouse WIND VILLA <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "京都府",
     "sns": "<a href='http://www.windvilla.blue/top.html' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@WindVilla' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/windvilla.kyoto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "The Velvet House",
+    "place": "兵庫県",
+    "sns": "<a href='https://www.instagram.com/the_velvet_house' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "リユースショップえまうす&エマど🍩（エマウスどーなつ）",
+    "place": "大阪市",
+    "sns": "<a href='https://x.com/@hana87emmaus' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/hahaha_y25' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "自家製酵母パン JiJi",
+    "place": "神奈川県",
+    "sns": "<a href='https://instagram.com/jiji.pan.chigasaki' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "あたたかい家",
+    "place": "東京都",
+    "sns": "<a href='https://sites.google.com/view/palestineourwarmhouse/home' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/our_warmhome' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/our_warmhome' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
