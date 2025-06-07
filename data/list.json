@@ -98,5 +98,10 @@
     "name": "よりまし堂 <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
     "sns": "<a href='https://yorimashido.stores.jp' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Think Eco Shop <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
+    "place": "東京都",
+    "sns": ""
   }
 ]
