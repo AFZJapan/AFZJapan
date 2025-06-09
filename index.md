@@ -1,22 +1,30 @@
 ---
 layout: page
-css: ["index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "x.css"]
-js: ["map.js", "list.js"]
+css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "x.css", "popup.css"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-layerswitcher@4.1.1/dist/ol-layerswitcher.js",  "list.js", "https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js", "map.js"]
 ---
 <script src="//openlayers.org/api/2.13.1/OpenLayers.js"></script>
 <script>window.OpenLayers || document.write('<script src="{{site.baseurl}}/assets/js/OpenLayers.js">\x3C/script>')</script>
 
-<div class="row" style="padding-left: 10px; padding-right: 10px;">
+<div class="imageContainer" style="background-image:url('{{site.baseurl}}/assets/img/top_bg.png'); padding: 0px; margin: 0px;">
+  <img src="{{site.baseurl}}/assets/img/top_banner.png" alt="top banner" style="width:100%; padding: 0px; ">
+</div>
 
-<img src="/assets/img/logo.jpg" style="float: right; width: 120px;" />
-<h4>アパルトヘイト・フリー・ゾーン（AFZ）に登録しよう！</h4>
+<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34">
 
-AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。<br>
-<a href="https://afzjapan.com/register" style="font-weight: bold; color: green;">AFZの登録はこちらから！</a>
+<div style="color: #fff">
+<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 20px;" />
+<span style="font-weight: 700" >アパルトヘイトフリーゾーン (AFZ) に登録しましょう！</span><br/>AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。<br>
+<a href="https://afzjapan.com/register" style="color: #fff">▶︎ 登録はこちらから！</a>
+</div>
 
 </div>
 
-<div id="afz" style="height: 600px;"></div>
+<div id="afz" style="height: 540px;"></div>
+<div id="popup" class="ol-popup">
+  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+  <div id="popup-content"></div>
+</div>
 
 <ul id="legend">
   <li><img src="{{site.baseurl}}/assets/icons/social.png" height=20 width=20><span>ソーシャル・社交の場</span></li>
