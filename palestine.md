@@ -39,7 +39,7 @@ js: ["images.js"]
   <div class="jekyll-linkpreview-wrapper-inner">
     <div class="jekyll-linkpreview-body">
       <h2 class="jekyll-linkpreview-title">
-        <h6><span class="afz-heading-small-colored"><a href="https://note.com/palestine_key/n/n54d27b9a62da"  style="font-weight: bold; color: white;" target="_blank">「パレスチナを知るキーワード」フライヤー</a></span></h6>
+        <h6><span class="afz-heading-small-colored" style="line-height: 20pt;"><a href="https://note.com/palestine_key/n/n54d27b9a62da"  style="font-weight: bold; color: white;" target="_blank">「パレスチナを知るキーワード」フライヤー</a></span></h6>
       </h2>
       <div class="jekyll-linkpreview-description">「パレスチナを知るキーワード」フライヤーの最新版ページです。（作成　imomio） 現在最新は、2024年10月26日作成のものです。 パレスチナに関心を持ち続けてもらうために、ぜひ広げてください。 ダウンロード・配布は自由です。  ※ただし、本フライヤーに別の文言を入れたり別の団体名を入れたりするなどの改変はご遠慮ください。  1.画像データ      2．PDFデータでダウンロード（2024/10/26 更新） パレスチナを知るキーワードpdf 表面「2023年10月7日以降のジェノサイド」の死者数等を変更しました。</div>
     </div>

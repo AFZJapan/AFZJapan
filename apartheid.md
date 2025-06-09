@@ -21,13 +21,13 @@ js: ["images.js"]
 
 <img src="{{site.baseurl}}/assets/img/apartheid2.jpg" style="float:right; max-width:60%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
 
-<h6><span class="afz-heading-small-colored">ユダヤ系イスラエル市民</span></h6>
+<h6><span class="afz-heading-small-colored" style="line-height: 20pt;">ユダヤ系イスラエル市民</span></h6>
 <p>&nbsp;</p>
 
 <span class="afz-heading-small-colored" style="line-height: 20pt;">イスラエル国籍を持つパレスチナ人（アラブ系イスラエル市民）</span>
 <p>同じ国籍を持つものの、人種によって差別を行うための制度が多く存在する。例としてイスラエルの約半数の自治体には、居住民を審査する「受け入れ委員会」が設置され、アラブ系イスラエル市民がその自治体に住むことを拒否している</p>
 
-<span class="afz-heading-small-colored">東エルサレムパレスチナ人</span>
+<span class="afz-heading-small-colored" style="line-height: 20pt;">東エルサレムパレスチナ人</span>
 <p> イスラエル国籍を持たないが、イスラエル内の移動が許される特殊な証明書を与えられる。エルサレムの外に住むと失効する可能性がある。</p>
 
 
@@ -37,18 +37,18 @@ js: ["images.js"]
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/westbank.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    <span class="afz-heading-small-colored">ヨルダン川西岸地区のパレスチナ人</span><br><br>国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、
+    <span class="afz-heading-small-colored" style="line-height: 20pt;">ヨルダン川西岸地区のパレスチナ人</span><br><br>国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、
 ユダヤ人専用の道路が敷かれるなど、アパルトヘイト政策が最もわかりやすく存在する。パレスチナ人にのみ、イスラエル国内法ではなく、軍法が適用される。</td>
   </tr>
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/gaza.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    <span class="afz-heading-small-colored">ガザ地区のパレスチナ人</span><br><br>2007年からガザから出ることが許されていない。</td>
+    <span class="afz-heading-small-colored" style="line-height: 20pt;">ガザ地区のパレスチナ人</span><br><br>2007年からガザから出ることが許されていない。</td>
   </tr>
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/exile.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    <span class="afz-heading-small-colored">パレスチナIDを持たないパレスチナ難民</span><br><br>ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</td>
+    <span class="afz-heading-small-colored" style="line-height: 20pt;">パレスチナIDを持たないパレスチナ難民</span><br><br>ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</td>
   </tr>
 </tbody>
 </table>
