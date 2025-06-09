@@ -4,6 +4,13 @@ title: "アパルトヘイトについて"
 css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---
+
+<table class="afzIcons" style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top.png'); width: 100%; max-width: 640px; height: 80px;">
+  <tr>
+    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">アパルトヘイト（人種隔離）</span></h5></div></td>
+  </tr>
+</table>
+
 <div class="page">
 
 <img src="{{site.baseurl}}/assets/img/apartheid.jpg" style="float:left; max-width:70%; padding-right: 10px">
@@ -14,13 +21,13 @@ js: ["images.js"]
 
 <img src="{{site.baseurl}}/assets/img/apartheid2.jpg" style="float:right; max-width:60%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
 
-<p>【ユダヤ系イスラエル市民】</p>
+<h6><span class="afz-heading-small-colored">ユダヤ系イスラエル市民</span></h6>
 <p>&nbsp;</p>
 
-<p>【イスラエル国籍を持つパレスチナ人（アラブ系イスラエル市民）】</p>
+<span class="afz-heading-small-colored" style="line-height: 20pt;">イスラエル国籍を持つパレスチナ人（アラブ系イスラエル市民）</span>
 <p>同じ国籍を持つものの、人種によって差別を行うための制度が多く存在する。例としてイスラエルの約半数の自治体には、居住民を審査する「受け入れ委員会」が設置され、アラブ系イスラエル市民がその自治体に住むことを拒否している</p>
 
-<p>【東エルサレムパレスチナ人】</p>
+<span class="afz-heading-small-colored">東エルサレムパレスチナ人</span>
 <p> イスラエル国籍を持たないが、イスラエル内の移動が許される特殊な証明書を与えられる。エルサレムの外に住むと失効する可能性がある。</p>
 
 
@@ -30,18 +37,18 @@ js: ["images.js"]
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/westbank.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    【ヨルダン川西岸地区のパレスチナ人】<br>国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、
+    <span class="afz-heading-small-colored">ヨルダン川西岸地区のパレスチナ人</span><br><br>国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、
 ユダヤ人専用の道路が敷かれるなど、アパルトヘイト政策が最もわかりやすく存在する。パレスチナ人にのみ、イスラエル国内法ではなく、軍法が適用される。</td>
   </tr>
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/gaza.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    【ガザ地区のパレスチナ人】<br>2007年からガザから出ることが許されていない。</td>
+    <span class="afz-heading-small-colored">ガザ地区のパレスチナ人</span><br><br>2007年からガザから出ることが許されていない。</td>
   </tr>
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/exile.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    【パレスチナIDを持たないパレスチナ難民】<br>ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</td>
+    <span class="afz-heading-small-colored">パレスチナIDを持たないパレスチナ難民</span><br><br>ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</td>
   </tr>
 </tbody>
 </table>
@@ -59,8 +66,7 @@ js: ["images.js"]
 
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <a href="https://www.amnesty.or.jp/news/2022/0322_9505.html" target="_blank">イスラエル/被占
-領パレスチナ地域/パレスチナ：イスラエルによるパレスチナ人へのアパルトヘイト　残虐な支配体制と人道に対>する罪 : アムネスティ日本 AMNESTY</a>
+          <h6><span class="afz-heading-small-colored" style="line-height: 20pt;">アムネスティ日本</span> <a href="https://www.amnesty.or.jp/news/2022/0322_9505.html" target="_blank" style="font-weight: 700;">イスラエルによるパレスチナ人へのアパルトヘイト　残虐な支配体制と人道に対する罪</a></h6>
         </h2>
         <div class="jekyll-linkpreview-description">イスラエル当局は、パレスチナ人に対するアパルトヘイ
 トの罪で責任を問われなければならない。</div>
@@ -72,13 +78,12 @@ js: ["images.js"]
   </div>
 </div>
 
-
 <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
     <div class="jekyll-linkpreview-content">
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <a href="https://www.hrw.org/ja/news/2021/04/27/abusive-israeli-policies-constitute-crimes-apartheid-persecution" target="_blank">イスラエル政府の人権侵害政策、アパルトヘイトと迫害の罪に該当</a>
+          <h6><span class="afz-heading-small-colored" style="line-height: 20pt;">Human Rights Watch</span> <a href="https://www.hrw.org/ja/news/2021/04/27/abusive-israeli-policies-constitute-crimes-apartheid-persecution" target="_blank" style="font-weight: 700;">イスラエル政府の人権侵害政策、アパルトヘイトと迫害の罪に該当</a></h6>
         </h2>
         <div class="jekyll-linkpreview-description">（エルサレム）イスラエル政府は、アパルトヘイトと迫
 害に該当する人道に対する罪を犯していると、ヒューマン・ライツ・ウォッチは本日発表した報告書で述べた。こ

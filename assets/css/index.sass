@@ -1,13 +1,29 @@
 ---
 ---
+body
+  margin: 0 !important
+  padding: 0 !important
+
+header
+  margin: 0 !important
+  padding: 0 !important
+
 main
+  .container
+    .row
+      margin-left: 0px
+      margin-right: 0px
   div
     .row
-      margin-top: 20px
+      margin-top: 0px
+      margin-bottom: 0px
+
     .page
       max-width: 600px
       text-align: justify
       text-justify: inter-word
+      margin-left: 20px
+      margin-right: 20px
 
   ul
     &:not(.browser-default)
@@ -32,8 +48,43 @@ main
     margin-right: 10px
 
 #post-content
-  margin-top: 5px
+  margin-top: 0px
 
 .bold
   font-weight: 700
 
+.afz-heading-colored
+  display: inline
+  background: #a32a34
+  color: #ffffff
+  font-weight: 700
+  padding: 6px 10px 3px 10px
+  border-radius: 10px
+
+.afz-heading-white-bg
+  display: inline
+  background: #ffffff
+  color: #a32a34
+  font-weight: 700
+  padding: 6px 10px 3px 10px
+  border-radius: 10px
+
+.afz-heading-small-colored
+  display: inline
+  background: #a32a34
+  color: #ffffff
+  font-weight: 700
+  padding: 6px 10px 3px 10px
+
+td.container > div
+  width: 100%
+  height: 100%
+  overflow:hidden
+
+td.bds-bottom
+  padding-top: 0px
+  padding-bottom: 10px
+
+td.bds-top
+  padding-top: 10px
+  padding-bottom: 0px

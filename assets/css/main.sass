@@ -7,7 +7,8 @@ body
   flex-direction: column
 
 a
-  color: #bdbdbd
+  color: #a32a34
+  font-weight: 700
 
 a:hover
   text-decoration: underline
@@ -24,11 +25,11 @@ footer
   padding-left: 300px
 
 .container
-  width: 90%
+  width: 100%
 
 // Header
 header
-  height: 80px
+  height: 0px
 
   a:hover
     text-decoration: none
@@ -64,6 +65,8 @@ nav
 // Footer
 footer.page-footer
   padding-top: 5px
+  padding-left: 320px
+  padding-right: 20px
 
 // Misc
 blockquote
@@ -82,12 +85,28 @@ main
   main,
   footer
     padding-left: 0
+  footer.page-footer
+    padding-left: 20px
 
   nav 
     .nav-wrapper
       text-align: center
 
+// hide top-nav on desktop (max-width: 992)
+@media screen and (min-width: 993px)
+  header
+    height: 0px
+    .afz-head
+      margin-left: 300px
+
+  .hide-on-desktop
+    visibility: hidden
+    max-height: 0
+
 @media only screen and (max-width: 600px)
   nav
     .page-title
       font-size: 20px
+
+i.afz-menu-icon
+  color: #a32a34

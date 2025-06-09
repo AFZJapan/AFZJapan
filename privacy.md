@@ -1,3 +1,18 @@
+---
+layout: page
+css: ["index.css"]
+---
+
+<table class="afzIcons" style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top.png'); width: 100%; max-width: 640px; height: 80px;">
+  <tr>
+    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">個人情報保護方針</span></h5></div></td>
+  </tr>
+</table>
+
+<div style="padding-left: 20px; padding-right: 20px">
+
+<br>
+
 <p><strong>＜AFZ推進チーム＞</strong>は、本ウェブサイト上で提供するサービス（以下、「本サービス」といいます。）における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます。）を定めます。</p>
 <p>&nbsp;</p>
 <h5>個人情報</h5>
@@ -61,3 +76,5 @@
 <p>本ポリシーに関するお問い合わせは、下記の窓口までお願いいたします。</p>
 <p> Eメールアドレス：<a href="mailto:AFZ.japan@proton.me" data-cke-saved-href="mailto:AFZ.japan@proton.me">AFZ.japan@proton.me</a></p>
 <p>以上</p>
+
+</div>

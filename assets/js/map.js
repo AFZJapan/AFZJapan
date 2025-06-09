@@ -1,95 +1,145 @@
-epsg4326 = new OpenLayers.Projection("EPSG:4326")
-var options = {
-        projection: new OpenLayers.Projection("EPSG:900913"),
-        displayProjection: epsg4326,
-        units: "m",
-        numZoomLevels: 19,
-        maxResolution: 156543.0339,
-        maxExtent: new OpenLayers.Bounds(-0.13011, -0.13011, 51.51039, 51.51039)
-    };
+const container = document.getElementById('popup');
+const content = document.getElementById('popup-content');
+const closer = document.getElementById('popup-closer');
 
-map = new OpenLayers.Map("afz", options);
-map.addLayer(new OpenLayers.Layer.OSM("AFZ",
-    ["https://tile.openstreetmap.jp/${z}/${x}/${y}.png"], {
-        attribution: "&copy; <a href='https://www.openstreetmap.org/'>AFZ日本</a> ",
-        "tileOptions": { "crossOriginKeyword": null }
-    }));
-
-map.addControls([
-    new OpenLayers.Control.DragPan(),
-    new OpenLayers.Control.ScaleLine(),
-    new OpenLayers.Control.LayerSwitcher(),
-    new OpenLayers.Control.Permalink({ anchor: true })
-]);
-
-projectTo = map.getProjectionObject();
-var lonLat = new OpenLayers.LonLat(139.839478, 35.652832).transform(epsg4326, projectTo);
-var zoom = 5;
-if (!map.getCenter()) {
-    map.setCenter(lonLat, zoom);
-}
-
-var iconSize = new OpenLayers.Size(24, 24);
-var iconOffset = new OpenLayers.Pixel(-(iconSize.w / 2), -iconSize.h);
-var zoom, center, currentPopup, map;
-var layers = [];
-var popupClass = OpenLayers.Class(OpenLayers.Popup.FramedCloud, {
-    "autoSize": true,
-    "minSize": new OpenLayers.Size(200, 50),
-    "maxSize": new OpenLayers.Size(400, 300),
-    "keepInMap": true
+/**
+ * Create an overlay to anchor the popup to the map.
+ */
+const overlay = new ol.Overlay({
+  element: container,
+  autoPan: {
+    animation: {
+      duration: 250,
+    },
+  },
 });
-var bounds = new OpenLayers.Bounds();
-var icons = [];
-const categories = {
-    social: "ソーシャル・社交の場",
-    cultural: "文化的な場所",
-    cafe: "飲食店",
-    shop: "お店・地元企業",
-    public: "公的機関"
+
+/**
+ * Add a click handler to hide the popup.
+ * @return {boolean} Don't follow the href.
+ */
+closer.onclick = function() {
+  overlay.setPosition(undefined);
+  closer.blur();
+  return false;
 };
-var i = 0;
-for (var key in categories) {
-    icons.push(new OpenLayers.Icon("assets/icons/" + key + ".png", iconSize, iconOffset));
-    layers.push(new OpenLayers.Layer.Markers(categories[key]));
-    map.addLayer(layers[i]);
-    i++;
-}
 
-function addMarker(lon, lat, icon, info) {
-    var pt = new OpenLayers.LonLat(lon, lat).transform(epsg4326, projectTo);
-    bounds.extend(pt);
-    var index = Object.keys(categories).indexOf(icon);
-    var feature = new OpenLayers.Feature(layers[index], pt);
-    feature.closeBox = true;
-    feature.popupClass = popupClass;
-    feature.data.popupContentHTML = info;
-    feature.data.overflow = "auto";
-    var marker = new OpenLayers.Marker(pt, icons[index].clone());
-    var markerClick = function(evt) {
-        if (currentPopup != null && currentPopup.visible()) {
-            currentPopup.hide();
-        }
-        if (this.popup == null) {
-            this.popup = this.createPopup(this.closeBox);
-            map.addPopup(this.popup);
-            this.popup.show();
-        } else {
-            this.popup.toggle();
-        }
-        currentPopup = this.popup;
-        OpenLayers.Event.stop(evt);
-    };
-    marker.events.register("mousedown", feature, markerClick);
-    layers[index].addMarker(marker);
-}
 
+
+const attribution = new ol.control.Attribution({
+  collapsible: true,
+  setCollapsed: true
+});
+
+const map = new ol.Map({
+  target: 'afz',
+  controls: ol.control.defaults.defaults({attribution: false}).extend([attribution]),
+  layers: [
+    new ol.layer.Tile({
+      source: new ol.source.OSM({
+        url: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png'
+      })
+    })
+  ],
+  overlays: [overlay],
+  view: new ol.View({ center: ol.proj.fromLonLat([139.839478, 35.652832]), zoom: 5 }),
+});
+
+// Interactions
+map.getInteractions().forEach((interaction) => {
+    if (interaction instanceof ol.interaction.DragPan || interaction instanceof ol.interaction.MouseWheelZoom) {
+        interaction.setActive(false);
+    }
+});
+
+// Strg+MouseWheel Zoom
+map.addInteraction(new ol.interaction.MouseWheelZoom({ condition: e => e.originalEvent.ctrlKey }));
+
+// desktop: normal; mobile: 2-finger pan to start
+map.addInteraction(new ol.interaction.DragPan({
+  condition: function(e) {
+    return ol.events.condition.noModifierKeys(e) && (!/Mobi|Android/i.test(navigator.userAgent) || this.targetPointers.length === 2)
+  }
+}));
+
+// the quick-changing holder of last touchmove y
+let lastTouchY = null
+
+const div = document.getElementById('afz')
+const scrollerBlades = document.scrollingElement || document.documentElement
+
+div.addEventListener('touchmove', function (e) {
+  e.preventDefault()
+  const touches = e.touches || e.changedTouches
+  // on 1-finger-touchmove, scroll and take note of prev y
+  if (touches.length === 1) {
+    if (lastTouchY !== null) {
+      const by = lastTouchY - touches[0].clientY
+      scrollerBlades.scrollTop += by
+    }
+    lastTouchY = touches[0].clientY
+  }
+})
+
+// on touchend, reset y
+div.addEventListener('touchend', e => { lastTouchY = null })
+
+// end interactions
+
+// get data from json
 fetch('/data/map.json')
     .then((response) => response.json())
     .then((json) => display(json));
 
+// Popup
+const features = [];
 function display(json) {
-    for (var i = 0; i < json.length; i++) {
-        addMarker(json[i][0], json[i][1], json[i][2], json[i][3]);
+const styles = {};
+
+  for (var i = 0; i < json.length; i++) {
+    const data =  json[i];
+
+    console.log(data[0]); // TODO del
+    const feature = new ol.Feature({
+      geometry: new ol.geom.Point(
+        ol.proj.fromLonLat([parseFloat(data[0]), parseFloat(data[1])])
+      ),
+      title: data[2],
+      description: data[3],
+    });
+    features.push(feature);
+
+    styles[data[2]] = new ol.style.Style({
+      image: new ol.style.Icon({
+        src: "assets/icons/" + data[2] + ".png",
+        scale: 0.4,
+        anchor: [0.5, 1]
+      })
+    });
+  }
+
+  const markers = new ol.layer.Vector({
+    source: new ol.source.Vector({
+      features: features,
+    }),
+    style: function (feature) {
+      return styles[feature.get("title")]; // TODO: icon, not title
     }
+  });
+
+  map.addLayer(markers);
+
+  map.on('click', function (evt) {
+    const feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
+      return feature;
+    });
+    if (feature) {
+      const coordinates = feature.getGeometry().getCoordinates();
+      content.innerHTML =
+        // '<p>Title:</p><code>' + feature.get('title') + '</code><br>' +
+        // TODO: icon, name, chip, website/sns
+        '<code>' + feature.get('description') + '</code>'
+      overlay.setPosition(coordinates);
+    }
+  });
 }
