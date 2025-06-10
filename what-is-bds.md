@@ -3,7 +3,7 @@ layout: page
 css: ["index.css", "linkpreview.css"]
 ---
 
-<table style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top_keep.png'); width: 100%; max-width: 640px;">
+<table style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top_bds.png'); width: 100%; max-width: 640px;">
   <tr >
     <td class="bds-top"><div style="text-align: center"><img src="/assets/img/b.png" height="100px" /></div></td>
     <td class="bds-top"><div style="text-align: center"><img src="/assets/img/d.png" height="100px" /></div></td>
@@ -51,7 +51,7 @@ css: ["index.css", "linkpreview.css"]
 
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <h6><span class="afz-heading-small-colored">BDSムーブメント入門</span> <a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: bold;">パレスチナのためにできること</a></h6>
+          <h6><span class="afz-heading-small-colored">BDSムーブメント入門</span></h6><a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: bold;">パレスチナのためにできること</a>
         </h2>
         <div class="jekyll-linkpreview-description">2021年6月18日に行ったウェビナーを公開しました。主催：BDS Japan Bulletin</div>
       </div>
