@@ -1,14 +1,19 @@
 ---
 layout: page
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "x.css", "popup.css"]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-layerswitcher@4.1.1/dist/ol-layerswitcher.js",  "list.js", "https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js", "map.js"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-layerswitcher@4.1.1/dist/ol-layerswitcher.js", "list.js", "https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js", "map.js"]
 ---
-<script src="//openlayers.org/api/2.13.1/OpenLayers.js"></script>
-<script>window.OpenLayers || document.write('<script src="{{site.baseurl}}/assets/js/OpenLayers.js">\x3C/script>')</script>
 
-<div class="imageContainer" style="background-image:url('{{site.baseurl}}/assets/img/top_bg.png'); padding: 0px; margin: 0px;">
-  <img src="{{site.baseurl}}/assets/img/top_banner.png" alt="top banner" style="width:100%; padding: 0px; ">
-</div>
+<table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
+  <tr style="padding: 0; margin:0">
+    <td class="example" style="padding: 0; margin:0; max-height:80px;">
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
+      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 40px;" class="image-mobile"/>
+      <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
+    </td>
+  </tr>
+</table>
 
 <div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34">
 
@@ -51,7 +56,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-
   </div>
 </div>
 
-<table class="table table-bordered">
+<table class="afz-table table-bordered">
  <thead>
    <tr>
      <th>名前</th>
