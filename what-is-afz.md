@@ -1,11 +1,17 @@
 ---
 layout: page
 css: ["index.css", "afz.css"]
-js: ["afz.js"]
 ---
-<div class="imageContainer" style="background-image:url('{{site.baseurl}}/assets/img/top_bg.png'); padding: 0px; margin: 0px;">
-  <img src="{{site.baseurl}}/assets/img/top_banner.png" style="width:100%;">
-</div>
+<table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
+  <tr style="padding: 0; margin:0">
+    <td class="example" style="padding: 0; margin:0; max-height:80px;">
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
+      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 40px;" class="image-mobile"/>
+      <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
+    </td>
+  </tr>
+</table>
 
 <div class="page">
 
@@ -13,7 +19,7 @@ js: ["afz.js"]
   <h4><span class="afz-heading-colored">AFZ とは</span></h4>
 </div>
 
-<img src="/assets/img/apartheidfree.png" style="float:right; width: 300px; padding-right: 10px" />
+<!-- img src="/assets/img/apartheidfree.png" style="float:right; width: 300px; padding-right: 10px" / -->
 
 <p>アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。</p>
 
@@ -40,7 +46,7 @@ js: ["afz.js"]
 
 </div>
 
-<table style="width: 100%; height: 30px;">
+<table style="width: 100%; height: 30px; min-width: 360px;">
   <tr><td>
     <table class="afzIcons">
       <tr>

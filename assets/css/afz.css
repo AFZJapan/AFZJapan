@@ -1,3 +1,19 @@
+.whats-afz-footer {
+  position: fixed;
+  left: 0;
+  bottom: 55px;
+  width: 100%;
+  background-image:url('/assets/img/top_bg.png');
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 993px) {
+  .whats-afz-footer {
+    left: 300px
+  }
+}
+
 @media (min-width: 400px) {
   table.afzIcons {
     width: 340px
