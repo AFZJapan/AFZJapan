@@ -1,6 +1,7 @@
 ---
 layout: page
 css: ["index.css", "afz.css"]
+js: ["afz.js"]
 ---
 <table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
   <tr style="padding: 0; margin:0">
@@ -16,10 +17,12 @@ css: ["index.css", "afz.css"]
 <div class="page">
 
 <div id="page-info">
-  <h4><span class="afz-heading-colored">AFZ とは</span></h4>
+  <h4><span class="afz-heading-white-bg">AFZ とは</span></h4>
 </div>
 
 <!-- img src="/assets/img/apartheidfree.png" style="float:right; width: 300px; padding-right: 10px" / -->
+
+<div style="color: #fff">
 
 <p>アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。</p>
 
@@ -40,7 +43,7 @@ css: ["index.css", "afz.css"]
 </p>
 
 
-<a href="register" style="font-weight: bold;">▶︎ <u>アパルトヘイトの壁を壊す、AFZに登録する</u></a><br />
+<a href="register" style="font-weight: bold; color: #fff;">▶︎ <u>アパルトヘイトの壁を壊す、AFZに登録する</u></a><br />
 
 <br/>
 
@@ -50,12 +53,14 @@ css: ["index.css", "afz.css"]
   <tr><td>
     <table class="afzIcons">
       <tr>
-        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/social.png" height="36px" /></div></td>
-        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/cultural.png" height="36px" /></div></td>
-        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/cafe.png" height="36px" /></div></td>
-        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/shop.png" height="36px" /></div></td>
-        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/place.png" height="36px" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/social.png" class="avatar" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/cultural.png" class="avatar" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/cafe.png" class="avatar" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/shop.png" class="avatar" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/place.png" class="avatar" /></div></td>
       </tr>
     </table>
   </td></tr>
 </table>
+
+</div>
