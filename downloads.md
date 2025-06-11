@@ -4,9 +4,14 @@ title: "資料、ダウンロード"
 css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 ---
 
-<table class="afzIcons" style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top.png'); width: 100%; max-width: 640px; height: 80px;">
+<table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 400px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
   <tr>
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">ダウンロード</span></h5></div></td>
+    <td style="padding: 0; margin:0; height:80px;">
+      <div style="margin-left: 40px; text-align: middle;display:block;"><h5><span class="afz-heading-colored">ダウンロード</span></h5></div>
+    </td>
+    <td style="padding: 0; margin:0; height:80px;">
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" />
+    </td>
   </tr>
 </table>
 
