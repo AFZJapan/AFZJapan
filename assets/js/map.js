@@ -42,7 +42,7 @@ const map = new ol.Map({
     })
   ],
   overlays: [overlay],
-  view: new ol.View({ center: ol.proj.fromLonLat([139.839478, 35.652832]), zoom: 5 }),
+  view: new ol.View({ center: ol.proj.fromLonLat([135.939478, 35.152832]), zoom: 4.7 }),
 });
 
 // Interactions
