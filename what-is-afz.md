@@ -49,7 +49,7 @@ js: ["afz.js"]
 
 </div>
 
-<table style="width: 100%; height: 30px; min-width: 360px;">
+<table style="width: 100%; height: 30px;">
   <tr><td>
     <table class="afzIcons">
       <tr>

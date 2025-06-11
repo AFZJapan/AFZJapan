@@ -1,6 +1,6 @@
 .avatar {
     width: 40px;
-    border: 5px solid white;
+    border: 2px solid white;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -22,13 +22,13 @@
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 361px) {
   table.afzIcons {
-    width: 340px
+    width: 320px
   }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 360px) {
   table.afzIcons {
     width: 100%
   }
