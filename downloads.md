@@ -14,10 +14,28 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
 
 <br>
 
+<p>
+
 <object data="/assets/afz.pdf#navpanes=0" type="application/pdf" width="100%" height="500px">
   <p>Unable to display PDF file. <a href="https://drive.google.com/file/d/1PT9eS5mkG6AiULxku66JCMEyWpMgzTt2/view">Download</a> instead.</p>
 </object>
 
-<button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1_dh4w8693WQ-HLaY0KsPxq_kVAVWYN7j/view?usp=sharing')"><i class="fa fa-download"></i> チラシをダウンロード</button>
+<button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1PT9eS5mkG6AiULxku66JCMEyWpMgzTt2/view')"><i class="fa fa-download"></i> チラシをダウンロード</button>
+
+</p>
+
+<br>
+
+<p>
+
+<object data="/assets/NoIsraeliProducts.pdf#navpanes=0" type="application/pdf" width="100%" height="500px">
+  <p>Unable to display PDF file. <a href="https://drive.google.com/file/d/1P-VdQHfjQB9Rnln0kFVdhP4tqkrq9ibD/view">Download</a> instead.</p>
+</object>
+
+<button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1P-VdQHfjQB9Rnln0kFVdhP4tqkrq9ibD/view')"><i class="fa fa-download"></i> チラシをダウンロード</button>
+
+</p>
+
+<br>
 
 </div>
