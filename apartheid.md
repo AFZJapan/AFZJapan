@@ -1,13 +1,13 @@
 ---
 layout: page
-title: "アパルトヘイトについて"
+title: "アパルトヘイト（人種隔離政策）について"
 css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---
 
 <table class="afzIcons" style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top.png'); width: 100%; max-width: 640px; height: 80px;">
   <tr>
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">アパルトヘイト（人種隔離政策）</span></h5></div></td>
+    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">アパルトヘイト</span></h5></div></td>
   </tr>
 </table>
 
