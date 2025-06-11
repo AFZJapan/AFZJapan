@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "AFZとは"
 css: ["index.css", "afz.css"]
 js: ["afz.js"]
 ---

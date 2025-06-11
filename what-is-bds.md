@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "BDS運動とは"
 css: ["index.css", "linkpreview.css"]
 ---
 

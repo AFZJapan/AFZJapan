@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "ナクバ「大惨事」"
 css: ["index.css", "linkpreview.css", "nakba.css"]
 description: "ナクバは、アラビア語で「大惨事」を意味します。1948年にユダヤ人民兵によるパレスチナ人の大量追放と土地の剥奪を指す。"
 ---

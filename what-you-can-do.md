@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "AFZとしてできること"
 css: ["index.css", "collapse.css"]
 js: ["collapse.js"]
 ---

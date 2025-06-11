@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "個人情報保護方針"
 css: ["index.css"]
 ---
 
