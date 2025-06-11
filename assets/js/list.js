@@ -14,7 +14,12 @@ let displayList = () => {
         let afz = result.afzs;
         for (let i = 0; i < afz.length; i++) {
             rows += `<tr>
-                       <td>${afz[i].name}</td>
+                       <td style="vertical-align: bottom;">${afz[i].name} <br/>`;
+            for (const key in afz[i].tags) {
+            rows += `<div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">${afz[i].tags[key]}</div>`;
+            }
+            rows += `
+                       </td>
                        <td>${afz[i].place}</td>
                        <td>${afz[i].sns}</td>
                      </tr>`;

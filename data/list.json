@@ -17,11 +17,13 @@
   {
     "name": "Naturalfoods DONGURI <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "京都府",
+    "tags": ["自然栽培、有機栽培の野菜"],
     "sns": "<a href='https://instagram.com/naturalfoodsdonguri' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "毎日食堂・毎日ストア・毎日ブック <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "兵庫県",
+    "tags": ["ヴィーガン"],
     "sns": "<a href='https://mainichishokudo.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/mainichi_shokudo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -32,6 +34,7 @@
   {
     "name": "アブイサーム <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
+    "tags": ["ハラール"],
     "sns": "<a href='https://abuessam.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
@@ -82,6 +85,7 @@
   {
     "name": "自家製酵母パン JiJi <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "神奈川県",
+    "tags": ["自家製酵母パン"],
     "sns": "<a href='https://instagram.com/jiji.pan.chigasaki' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -92,6 +96,7 @@
   {
     "name": "Barbarian Farm <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "広島県",
+    "tags": ["オーガニック"],
     "sns": "<a href='https://www.barbarianfarm.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/barbarianfarm' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
