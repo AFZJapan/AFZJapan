@@ -9,7 +9,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-
     <td class="example" style="padding: 0; margin:0; max-height:80px;">
       <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
       <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 40px;" class="image-mobile"/>
+      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
       <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
     </td>
   </tr>
@@ -17,10 +17,10 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-
 
 <div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34">
 
-<div style="color: #fff">
-<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 20px;" />
-<span style="font-weight: 700" >アパルトヘイトフリーゾーン (AFZ) に登録しましょう！</span><br/>AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。<br>
-<a href="https://afzjapan.com/register" style="color: #fff">▶︎ 登録はこちらから！</a>
+<div style="color: #fff; text-align: justify">
+<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 10px;" />
+AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。<br><br>
+<a href="https://afzjapan.com/register" style="color: #fff">▶︎ アパルトヘイトフリーゾーン (AFZ) に登録しましょう！</a>
 </div>
 
 </div>

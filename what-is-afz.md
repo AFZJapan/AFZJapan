@@ -7,7 +7,7 @@ css: ["index.css", "afz.css"]
     <td class="example" style="padding: 0; margin:0; max-height:80px;">
       <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
       <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 40px;" class="image-mobile"/>
+      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
       <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
     </td>
   </tr>
