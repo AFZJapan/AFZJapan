@@ -11,18 +11,29 @@ js: ["images.js"]
 
 <div class="page">
 
+<table>
+<tr>
+  <td>
 <img src="{{site.baseurl}}/assets/img/nakba_book.png" style="float:right; width: 200px; padding-left: 0px; padding-right: 0px" class="enlarge" onclick="enlargeImg(this)" />
 
-<p>パレスチナは、地中海に面した温暖な気候をもつ国で、オリーブやオレンジ、デーツなどの栽培が盛んです。特にオリーブは象徴的なシンボルで、多くの家庭が世代を超えて守り育て、中には数千年にも及ぶオリーブの古樹もあります。<br /><br />
-春には、タイムやアクーブといった野草が採れ、手工芸品や香辛料とともに市場（スーク）に並びます。<br /><br /><br />
+<p style="text-align: justify; text-justify: inter-word; padding: 0; margin: 0">
+パレスチナは、地中海に面した温暖な気候をもつ国で、オリーブやオレンジ、デーツなどの栽培が盛んです。特にオリーブは象徴的なシンボルで、多くの家庭が世代を超えて守り育て、中には数千年にも及ぶオリーブの古樹もあります。</p>
+<p style="text-align: justify; text-justify: inter-word">
+春には、タイムやアクーブといった野草が採れ、手工芸品や香辛料とともに市場（スーク）に並びます。</p>
+  </td>
+</tr>
 
+<tr>
+  <td>
 <img src="{{site.baseurl}}/assets/img/olive.jpg" style="float:left; width: 274px; padding-right: 10px" class="enlarge" onclick="enlargeImg(this)" />
 
-パレスチナでは、古代からイスラム教徒、ユダヤ教徒、キリスト教徒らが一つの社会の中で共存してきました。よって、パレスチナ全土には歴史のある宗教建築物が多く存在しています。
-</p>
-<br>
-<br>
-<br>
+<p style="text-align: justify; text-justify: inter-word; padding: 0; margin: 0">
+パレスチナでは、古代からイスラム教徒、ユダヤ教徒、キリスト教徒らが一つの社会の中で共存してきました。よって、パレスチナ全土には歴史のある宗教建築物が多く存在しています。</p>
+  </td>
+</tr>
+
+<tr>
+  <td>
 
 <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
@@ -51,7 +62,8 @@ js: ["images.js"]
 
 <a href="/nakba">▶︎ ナクバについて</a>
 
-<br/>
-<br/>
+  </td>
+</tr>
+</table>
 
 </div>
