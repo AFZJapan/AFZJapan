@@ -73,7 +73,7 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ_Japan-textlogo-whitebg.png">
+    <a target="_blank" href="/assets/downloads/AFZ_Japan_text_logo_whitebg.png">
       <img src="/assets/downloads/AFZ_Japan_text_logo_whitebg.png" alt="AFZ-Japan-文字ロゴ-白背
 景" height="200px">
     </a>
