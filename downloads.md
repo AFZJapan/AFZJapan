@@ -45,8 +45,8 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ-Japan_ロゴ_透明背景.png">
-      <img src="/assets/downloads/AFZ-Japan_ロゴ_透明背景.png" alt="AFZ-Japan_ロゴ_透明背景"
+    <a target="_blank" href="/assets/downloads/AFZ_Japan_logo_nobg.png">
+      <img src="/assets/downloads/AFZ_Japan_logo_nobg.png" alt="AFZ-Japan_ロゴ_透明背景"
 height="200px">
     </a>
     <div class="desc">AFZ-Japan_ロゴ_透明背景</div>
@@ -55,8 +55,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ-Japan_ロゴ_白背景.png">
-      <img src="/assets/downloads/AFZ-Japan_ロゴ_白背景.png" alt="AFZ-Japan_ロゴ_白背景" height="200px">
+    <a target="_blank" href="/assets/downloads/AFZ_Japan_logo_whitebg.png">
+      <img src="/assets/downloads/AFZ_Japan_logo_whitebg.png" alt="AFZ-Japan_ロゴ_白背景" height="200px">
     </a>
     <div class="desc">AFZ-Japan_ロゴ_白背景</div>
   </div>
@@ -64,8 +64,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ-Japan-文字ロゴ-透明背景.png">
-      <img src="/assets/downloads/AFZ-Japan-文字ロゴ-透明背景.png" alt="AFZ-Japan-文字ロゴ-透明背景" height="200px">
+    <a target="_blank" href="/assets/downloads/AFZ_Japan_text_logo_nobg.png">
+      <img src="/assets/downloads/AFZ_Japan_text_logo_nobg.png" alt="AFZ-Japan-文字ロゴ-透明背景" height="200px">
     </a>
     <div class="desc">AFZ-Japan-文字ロゴ-透明背景</div>
   </div>
@@ -73,8 +73,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ-Japan-文字ロゴ-白背景.png">
-      <img src="/assets/downloads/AFZ-Japan-文字ロゴ-白背景.png" alt="AFZ-Japan-文字ロゴ-白背
+    <a target="_blank" href="/assets/downloads/AFZ_Japan-textlogo-whitebg.png">
+      <img src="/assets/downloads/AFZ_Japan_text_logo_whitebg.png" alt="AFZ-Japan-文字ロゴ-白背
 景" height="200px">
     </a>
     <div class="desc">AFZ-Japan-文字ロゴ-白背景</div>
@@ -83,8 +83,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ_国際ロゴ_カラー_透明背景.png">
-      <img src="/assets/downloads/AFZ_国際ロゴ_カラー_透明背景.png" alt="AFZ_国際ロゴ_カラー _透明背景" height="200px">
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_color_nobg.png">
+      <img src="/assets/downloads/AFZ_int_logo_color_nobg.png" alt="AFZ_国際ロゴ_カラー _透明背景" height="200px">
     </a>
     <div class="desc">AFZ_国際ロゴ_カラー_透明背景</div>
   </div>
@@ -92,8 +92,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ_国際ロゴ_カラー_白背景.png">
-      <img src="/assets/downloads/AFZ_国際ロゴ_カラー_白背景.png" alt="AFZ_国際ロゴ_カラー_白背景" height="200px">
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_color_whitebg.png">
+      <img src="/assets/downloads/AFZ_int_logo_color_whitebg.png" alt="AFZ_国際ロゴ_カラー_白背景" height="200px">
     </a>
     <div class="desc">AFZ_国際ロゴ_カラー_白背景</div>
   </div>
@@ -101,8 +101,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery" style="background-color: #eee">
-    <a target="_blank" href="/assets/downloads/AFZ_国際ロゴ_白_透明背景.png">
-      <img src="/assets/downloads/AFZ_国際ロゴ_白_透明背景.png" alt="AFZ_国際ロゴ_白_透明背景" height="200px">
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_white_nobg.png">
+      <img src="/assets/downloads/AFZ_int_logo_white_nobg.png" alt="AFZ_国際ロゴ_白_透明背景" height="200px">
     </a>
     <div class="desc">AFZ_国際ロゴ_白_透明背景</div>
   </div>
@@ -110,8 +110,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ_国際ロゴ_白黒_透明背景.png">
-      <img src="/assets/downloads/AFZ_国際ロゴ_白黒_透明背景.png" alt="AFZ_国際ロゴ_白黒_透明
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_bw_nobg.png">
+      <img src="/assets/downloads/AFZ_int_logo_bw_nobg.png" alt="AFZ_国際ロゴ_白黒_透明
 背景" height="200px">
     </a>
     <div class="desc">AFZ_国際ロゴ_白黒_透明背景</div>
@@ -120,8 +120,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ_国際ロゴ_白黒_白背景.png">
-      <img src="/assets/downloads/AFZ_国際ロゴ_白黒_白背景.png" alt="AFZ_国際ロゴ_白黒_白背景
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_bw_whitebg.png">
+      <img src="/assets/downloads/AFZ_int_logo_bw_whitebg.png" alt="AFZ_国際ロゴ_白黒_白背景
 " height="200px">
     </a>
     <div class="desc">AFZ_国際ロゴ_白黒_白背景</div>
@@ -130,8 +130,8 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/BDS_ロゴ.png">
-      <img src="/assets/downloads/BDS_ロゴ.png" alt="BDS_ロゴ" height="100px">
+    <a target="_blank" href="/assets/downloads/BDS_logo.png">
+      <img src="/assets/downloads/BDS_logo.png" alt="BDS_ロゴ" height="100px">
     </a>
     <div class="desc">BDS_ロゴ</div>
   </div>
