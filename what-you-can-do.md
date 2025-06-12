@@ -31,7 +31,7 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
   <li><span class="bold">代替商品の導入</span>：パレスチナ産品やフェアトレードの商品を積極的に取り扱う。</li>
 </ul>
 
-<a href="https://x.com/BDSjapan/status/1874683344350540175" target="_blank">
+<a href="https://bdsjapanbulletin.wordpress.com/2024/01/27/%e3%81%a4%e3%81%aa%e3%81%8c%e3%82%8b%e6%8a%80%e8%a1%93/" target="_blank">
 <img src="/assets/img/BDSBoycotts.jpeg"
      style="border-radius: 10px; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px; width: 50%;" />
 </a>
