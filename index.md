@@ -1,7 +1,7 @@
 ---
 layout: page
-css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "x.css", "popup.css"]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "https://unpkg.com/ol-layerswitcher@4.1.1/dist/ol-layerswitcher.js", "list.js", "https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js", "map.js"]
+css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.js", "list.js"]
 ---
 
 <table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
