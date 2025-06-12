@@ -45,10 +45,17 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
   <div class="col">
     <input class="form-control" type="text" id="place" list="places" placeholder="場所でフィルター" onkeyup="filterWithDelay()">
     <datalist id="places">
+      <option value="北海道">北海道</option>
       <option value="東京都">東京都</option>
+      <option value="神奈川県">神奈川県</option>
+      <option value="長野県">長野県</option>
+      <option value="愛知県">愛知県</option>
       <option value="京都府">京都府</option>
+      <option value="大阪市">大阪市</option>
       <option value="兵庫県">兵庫県</option>
+      <option value="広島県">広島県</option>
       <option value="愛媛県">愛媛県</option>
+      <option value="沖縄県">沖縄県</option>
     </datalist>
   </div>
   <div class="col">
