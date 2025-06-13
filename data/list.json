@@ -129,5 +129,10 @@
     "place": "沖縄県",
     "tags": ["ヴィーガン"],
     "sns": "<a href='https://x.com/dechibica' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/dechibica/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "GOLDEN STRIKE <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
+    "place": "大阪市",
+    "sns": "<a href='https://13goldenstrike.com' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/13goldenstrike' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
