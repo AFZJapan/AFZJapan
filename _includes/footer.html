@@ -3,6 +3,14 @@
       <div class="footer-copyright">
         <div class="container">
           <img src="/assets/afz_team.png" height=20px>
+
+          {% if page.lang == "en" %}
+          <a class="grey-text text-lighten-4 right" style="font-size: 11px; text-align: center; margin-left: 5px; margin-right: 0px; margin-top: 0px" href="/"><img src="/assets/icons/lang.png" height=20px style="margin-left: 5px; margin-right: 5px; margin-top: 2px" /></a>
+          {% elsif page.lang == "ja" %}
+          <a class="grey-text text-lighten-4 right" style="font-size: 11px; text-align: center; margin-left: 5px; margin-right: 0px; margin-top: 0px" href="/en"><img src="/assets/icons/lang.png" height=20px style="margin-left: 5px; margin-right: 5px; margin-top: 2px" /></a>
+          {% else %}
+          {% endif %}
+
           <a class="grey-text text-lighten-4 right" style="font-size: 11px; text-align: center; margin-left: 5px; margin-right: 0px; margin-top: 4px" href="/about">
             About
           </a>
