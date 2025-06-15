@@ -24,8 +24,9 @@ closer.onclick = function() {
   return false;
 };
 
-
-
+/**
+ * Attribution
+ */
 const attribution = new ol.control.Attribution({
   collapsible: true,
   setCollapsed: true
@@ -99,7 +100,6 @@ const styles = {};
   for (var i = 0; i < json.length; i++) {
     const data =  json[i];
 
-    console.log(data[0]); // TODO del
     const feature = new ol.Feature({
       geometry: new ol.geom.Point(
         ol.proj.fromLonLat([parseFloat(data[0]), parseFloat(data[1])])

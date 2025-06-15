@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>位置を特定する</title>
+
+    <link rel="stylesheet" href="https://cdn.skypack.dev/ol/ol.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/index.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/map.css" type="text/css">
+    <link rel="stylesheet" href="/assets/css/popup.css" type="text/css">
+    <style>
+    .locate {
+      top: 4em;
+      left: .5em;
+    }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js"></script>
+
+  </head>
+  <body>
+
+    <div id="afz" style="height: 100%;"></div>
+    <div id="popup" class="ol-popup">
+      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+      <div id="popup-content"></div>
+    </div>
+
+    <script src="/assets/js/map.js"></script>
+    <script src="/assets/js/nearby.js"></script>
+
+</body>
+</html>

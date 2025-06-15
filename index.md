@@ -40,6 +40,13 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
   <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>公的機関</span></li>
 </ul>
 
+<!-- nearby -->
+<div class="row no-gutters" style="float: left;">
+  <form action="/nearby" method="get" target="_blank">
+  <button class="btnic" style="width: 40px; margin-left: 16px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 2px"><img src="{{site.baseurl}}/assets/img/nearby.png" height=20 width=20 style="margin-left: 0; margin-right: 0" /></button>
+  </form>
+</div>
+
 <div>
 
 <div class="row no-gutters" style="float: right;">
