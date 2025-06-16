@@ -1,7 +1,7 @@
 ---
 layout: page
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.js", "list.js"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "list.js"]
 lang: "ja"
 ---
 
@@ -39,13 +39,6 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
   <li><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>お店・地元企業</span></li>
   <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>公的機関</span></li>
 </ul>
-
-<!-- nearby -->
-<div class="row no-gutters" style="float: left;">
-  <form action="/nearby" method="get" target="_blank">
-  <button class="btnic" style="width: 40px; margin-left: 16px; padding-left: 8px; padding-right: 8px; padding-top: 8px; padding-bottom: 2px"><img src="{{site.baseurl}}/assets/img/nearby.png" height=20 width=20 style="margin-left: 0; margin-right: 0" /></button>
-  </form>
-</div>
 
 <div>
 
