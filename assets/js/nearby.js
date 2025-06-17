@@ -1,8 +1,17 @@
 navigator.permissions.query({ name: "geolocation" }).then((result) => {
 
   const onLocationFetchSuccess = (position) => {
-    centerNearbyMap(position);
-    zoom(0);
+
+    if (position.coords.longitude > 122 &&
+        position.coords.longitude < 154 &&
+        position.coords.latitude > 20 &&
+        position.coords.latitude < 46) {
+      addControl();
+      centerNearbyMap(position);
+      zoom(0);
+    } else {
+      console.log("position may be outside Japan");
+    }
   };
 
   const onLocationFetchFailure = (error = {}) => {
@@ -45,18 +54,20 @@ function centerNearbyMap(pos) {
   ]);
 }
 
-const locate = document.createElement('div');
-locate.className = 'ol-control ol-unselectable locate';
-locate.innerHTML = '<button title="位置を特定する">◎</button>';
-locate.addEventListener('click', function () {
-  zoom(500);
-});
+function addControl() {
+  const locate = document.createElement('div');
+  locate.className = 'ol-control ol-unselectable locate';
+  locate.innerHTML = '<button title="位置を特定する">◎</button>';
+  locate.addEventListener('click', function () {
+    zoom(500);
+  });
 
-map.addControl(
-  new ol.control.Control({
-    element: locate,
-  }),
-);
+  map.addControl(
+    new ol.control.Control({
+      element: locate,
+    }),
+  );
+}
 
 const zoomedIn = map.on('loadend', function () {
   setTimeout(function () {
