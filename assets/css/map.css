@@ -10,3 +10,8 @@ span {
   margin-top: 0px;
   margin-left: 5px;
 }
+
+.nearby-map {
+  top: 10px;
+  right: .5em;
+}
