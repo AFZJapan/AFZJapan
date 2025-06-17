@@ -1,7 +1,7 @@
 ---
 layout: page
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.js", "list.js"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "list.js"]
 lang: "en"
 ---
 
@@ -42,9 +42,9 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
 
 <div>
 
-<div class="row no-gutters" style="float: right;">
-  <div class="col">
-    <input class="form-control" type="text" id="place" list="places" placeholder="場所でフィルター" onkeyup="filterWithDelay()">
+<div class="row no-gutters" style="float: right; padding: 0; margin: 0">
+  <div class="col" style="padding: 0 0 0 10px; margin: 0">
+    <input class="form-control" style="padding: 0 0 0 4px; margin: 0 0 8px" type="text" id="place" list="places" placeholder="場所でフィルター" onkeyup="filterWithDelay()">
     <datalist id="places">
       <option value="北海道">北海道</option>
       <option value="東京都">東京都</option>
@@ -59,8 +59,8 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
       <option value="沖縄県">沖縄県</option>
     </datalist>
   </div>
-  <div class="col">
-    <button type="button" class="btnic" name="button" onclick="filterByPlace()"><i class="fa fa-search"></i></button>
+  <div class="col" style="padding: 0px; margin: 0 6px 8px 12px;">
+    <button type="button" class="btnic" style="padding: 6px 30px; margin: 0" name="button" onclick="filterByPlace()"><i class="fa fa-search"></i></button>
   </div>
 </div>
 
