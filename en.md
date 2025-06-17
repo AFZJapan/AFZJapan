@@ -1,5 +1,7 @@
 ---
 layout: page
+title: "Apartheid Free Zones (AFZ) in Japan"
+description: "The global Apartheid Free Zones (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. This site is dedicated to localizing and promoting AFZ in Japan."
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "list.js"]
 lang: "en"
