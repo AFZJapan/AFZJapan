@@ -1,0 +1,29 @@
+<html>
+<body>
+
+<div id="pamphlet" style="display: none;">
+<object data="/assets/afz.pdf#navpanes=0" type="application/pdf" width="100%" height="90%">
+  <p>Unable to display PDF file. <a href="https://drive.google.com/file/d/1PT9eS5mkG6AiULxku66JCMEyWpMgzTt2/view">Download</a> instead.</p>
+</object>
+</div>
+
+<div id="no_isr" style="display: none;">
+  <object data="/assets/NoIsraeliProducts.pdf#navpanes=0" type="application/pdf" width="100%" height="90%">
+    <p>Unable to display PDF file. <a href="https://drive.google.com/file/d/1P-VdQHfjQB9Rnln0kFVdhP4tqkrq9ibD/view">Download</a> instead.</p>
+  </object>
+</div>
+
+</body>
+</html>
+
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const download = urlParams.get('preview');
+console.log(download);
+  if (download === "pamphlet") {
+    document.getElementById("pamphlet").style.display = "block";
+  } else if (download === "no_isr") {
+    document.getElementById("no_isr").style.display = "block";
+  }
+</script>
