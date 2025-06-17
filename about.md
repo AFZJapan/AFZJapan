@@ -16,6 +16,6 @@ css: ["index.css", "contact.css"]
 <p>BDS運動については、BDS Bulletin Japanをご覧ください。<a class="anchor_af404b anchorUnderlineOnHover_af404b" tabindex="0" title="https://bdsjapanbulletin.wordpress.com/" href="https://bdsjapanbulletin.wordpress.com/" target="_blank" rel="noreferrer noopener">https://bdsjapanbulletin.wordpress.com/</a></p>
 <p>さらに詳しい情報は、英語版のBDSのウェブサイトでご覧になれます。<a class="anchor_af404b anchorUnderlineOnHover_af404b" tabindex="0" title="https://bdsmovement.net/" href="https://bdsmovement.net/" target="_blank" rel="noreferrer noopener">https://bdsmovement.net/</a></p>
 <p>お問い合わせ先： <a href="mailto:afz.japan@proton.me ">afz.japan@proton.me </a></p>
-<p>AFZ Japan Logo: Base designed by cdh-design</p>
+<p>AFZ Japan Logo: Base designed by cdh-design (CC BY-ND)</p>
 
 </div>
