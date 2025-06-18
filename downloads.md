@@ -24,11 +24,10 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="/preview_download?preview=pamphlet">
-      <img src="/assets/img/afz_scr_pamphlet.png" alt="AFZ-Japan_チラシ"
-height="200px">
+      <img src="/assets/img/afz_scr_pamphlet.png" alt="AFZ-Japan_チラシ" height="200px">
     </a>
     <div class="desc">
-      <button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1PT9eS5mkG6AiULxku66JCMEyWpMgzTt2/view')"><i class="fa fa-download"></i> チラシをダウンロード</button>
+      <button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1PT9eS5mkG6AiULxku66JCMEyWpMgzTt2/view')"><span style="font-size: 0.875em;"><i class="fa fa-download"></i> チラシをダウンロード</span></button>
     </div>
   </div>
 </div>
@@ -36,10 +35,10 @@ height="200px">
 <div class="responsive">
   <div class="gallery">
     <a target="_blank" href="/preview_download?preview=no_isr">
-      <img src="/assets/downloads/no_israeli_products_thumbnail.jpg" alt="AFZ-No_israeli_products_poster"
-height="200px">
+      <img src="/assets/downloads/no_israeli_products_thumbnail.jpg" alt="AFZ-No_israeli_products_poster" height="200px">
     </a>
-    <div class="desc"><button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1P-VdQHfjQB9Rnln0kFVdhP4tqkrq9ibD/view')"><i class="fa fa-download"></i> ポスターをダウンロード</button></div>
+    <div class="desc"><button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1P-VdQHfjQB9Rnln0kFVdhP4tqkrq9ibD/view')"><span style="font-size: 0.875em;"><i class="fa fa-download"></i> ポスターをダウンロード</span></button>
+    </div>
   </div>
 </div>
 
