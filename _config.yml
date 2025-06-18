@@ -16,10 +16,12 @@
 title: アパルトヘイト・フリー・ゾーン（AFZ）
 description: > # this means to ignore newlines until "baseurl:"
   アパルトヘイト・フリーゾーンはBDS運動の一環です。世界各地のお店や文化施設、自治体などの空間がパレスチナの人々と連帯し、イスラエルによるアパルトヘイト（人種隔離）政策に反対であることを宣言します。ヨーロッパやラテンアメリカを中心に、世界中でたくさんの学校やビジネスが AFZ に名乗りをあげています。
-
 baseurl: ""
-url: ""
+url: "https://afzjapan.com"
 locale: "ja-JP"
+image: "https://afzjapan.com/assets/img/afz.png"
+twitter_username: "afzjapan"
+author: "AFZ推進チーム"
 
 # Build settings
 markdown: kramdown

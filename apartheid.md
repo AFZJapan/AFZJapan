@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "アパルトヘイト（人種隔離政策）について"
+description: "アパルトヘイトとは、人種によって同じ権利が与えられていない制度や社会を指します。白人以外の権利が制限されていた1948年〜1994年の南アフリカや、パレスチナ人に同等の権利が与えられていないイスラエルを指して使われます。人種隔離政策とも呼ばれ、私たちが当たり前のように享受している基本的な人権さえ、パレスチナ人には保証されていません。"
+image: "https://afzjapan.com/assets/img/apartheid.jpg"
 css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "AFZ推進チームについて"
+description: "推進チームは、パレスチナの市民社会による呼びかけであるBDS運動の一環として、アパルトヘイト>・フリーゾーン・キャンペーンを日本で推進しています。"
+image: "https://afzjapan.com/assets/img/afz.png"
 css: ["index.css", "contact.css"]
 ---
 

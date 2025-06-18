@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "AFZとしてできること"
+description: "AFZは、それぞれの参加スペースがそれぞれパレスチナのためにできることを考え、多くの人と繋がり、真に深い連帯の文化が築ける空間を目指しています。ここに書かれていることは、その可能性のごく一部..."
+image: "https://afzjapan.com/assets/img/what-can-be-done.png"
 css: ["index.css", "collapse.css"]
 js: ["collapse.js"]
 ---

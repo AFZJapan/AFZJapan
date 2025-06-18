@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "FAQ"
+description: "AFZsって何？BDS運動って何？"
+image: "https://afzjapan.com/assets/img/afz.png"
 css: ["index.css"]
 ---
 

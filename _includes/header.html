@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +36,16 @@
     <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
     {% seo title=false %}
+
+    <meta name="twitter:site" content="@afzjapan">
+    <meta name="twitter:creator" content="@afzjapan" />
+
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description | escape }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description | escape }}">
+    {% endif %}
+
   </head>
   <body>
     <header>
