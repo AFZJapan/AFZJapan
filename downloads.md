@@ -6,10 +6,10 @@ image: "https://afzjapan.com/assets/downloads/afz_scr_pamphlet.jpg"
 css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 ---
 
-<table style="table-layout: fixed; padding: 0; margin: 0; width: 100%; min-width: 400px; height: 80px; max-height: 80px; background-image: url('/assets/img/top_bg.png')">
+<table style="table-layout: fixed; padding: 0; margin: 0; width: 100%; min-width: 360px; height: 80px; max-height: 80px; background-image: url('/assets/img/top_bg.png')">
   <tr>
     <td style="padding: 0; margin: 0; height: 80px;">
-      <div style="margin-left: 50px; text-align: middle; display:block;"><h5><span class="afz-heading-colored">ダウンロード</span></h5></div>
+      <div style="margin-left: 50px; text-align: middle; display:block;"><h6><span class="afz-heading-colored">ダウンロード</span></h6></div>
     </td>
     <td style="padding: 0; margin: 0; height: 80px;">
       <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" />

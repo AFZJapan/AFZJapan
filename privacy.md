@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "個人情報保護方針"
+image: "https://afzjapan.com/assets/img/afz.png"
 css: ["index.css"]
 ---
 
