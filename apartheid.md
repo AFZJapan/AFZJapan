@@ -21,7 +21,7 @@ js: ["images.js"]
 <p>アパルトヘイトとは、人種によって同じ権利が与えられていない制度や社会を指します。白人以外の権利が制限されていた1948年〜1994年の南アフリカや、パレスチナ人に同等の権利が与えられていないイスラエルを指して使われます。人種隔離政策とも呼ばれ、私たちが当たり前のように享受している基本的な人権さえ、パレスチナ人には保証されていません。</p>
 <p>パレスチナ人には自分たちの故郷に帰る権利、自分の国の中を自由に移動する権利、先祖代々の土地を所有し守っていく権利などがないばかりでなく、出身エリアが違う場合は好きな人と結婚し家族に自由に会う権利や、通勤・通学・通院が制限されるケースも多々あります。</p>
 
-<img src="{{site.baseurl}}/assets/img/apartheid2.jpg" style="float:right; max-width:60%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
+<img src="{{site.baseurl}}/assets/img/apartheid_pyramid.jpg" style="float:right; max-width:60%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
 
 <h6><span class="afz-heading-small-colored" style="line-height: 20pt;">ユダヤ系イスラエル市民</span></h6>
 <p>&nbsp;</p>
