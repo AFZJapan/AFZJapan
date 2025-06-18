@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "ナクバ「大惨事」"
+description: "ナクバの日（アラビア語: ذكرى النكبة、ラテン文字表記: Dhikra an-Nakba、大惨事の記憶の意、英語: Nakba Day）は、1948年前後にパレスチナの社会と祖国が破壊され、パレスチナの人々の大多数が永続的に強制退去を余儀なくされた、パレスチナの大厄災としても知られるナクバを記念する日である。"
+image: "https://afzjapan.com/assets/img/nakba.jpg"
 css: ["index.css", "linkpreview.css", "nakba.css"]
 description: "ナクバは、アラビア語で「大惨事」を意味します。1948年にユダヤ人民兵によるパレスチナ人の大量追放と土地の剥奪を指す。"
 ---

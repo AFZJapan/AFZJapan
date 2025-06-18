@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "FAQ"
+description: "AFZsって何？BDS運動って何？"
 css: ["index.css"]
 ---
 
