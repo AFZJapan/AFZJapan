@@ -2,7 +2,7 @@
 layout: page
 title: "BDS運動とは"
 description: "BDS運動はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。"
-image: "https://afzjapan.com/assets/downloads/BDS_logo.png"
+image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
 css: ["index.css", "linkpreview.css"]
 ---
 

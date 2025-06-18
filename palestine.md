@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "パレスチナについて学ぼう"
+description: "パレスチナは、地中海に面した温暖な気候をもつ国で、オリーブやオレンジ、デーツなどの栽培が盛んです。特にオリーブは象徴的なシンボルで、多くの家庭が世代を超えて守り育て、中には数千年にも及ぶオリーブの古樹もあります。"
+image: "https://afzjapan.com/assets/img/afz_scr_Palestine.png"
 css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---

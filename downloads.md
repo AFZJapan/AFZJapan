@@ -2,7 +2,7 @@
 layout: page
 title: "資料、ダウンロード"
 description: "AFZのチラシ、ポスター、ステッカーなどダウンロードできます"
-image: "https://afzjapan.com/assets/downloads/afz_scr_pamphlet.jpg"
+image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
 css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
 ---
 
