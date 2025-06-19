@@ -39,18 +39,17 @@ js: ["images.js"]
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/westbank.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    <span class="afz-heading-small-colored" style="line-height: 20pt;">ヨルダン川西岸地区のパレスチナ人</span><br><br>国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、
-ユダヤ人専用の道路が敷かれるなど、アパルトヘイト政策が最もわかりやすく存在する。パレスチナ人にのみ、イスラエル国内法ではなく、軍法が適用される。</td>
+    <span class="afz-heading-small-colored" style="line-height: 20pt;">ヨルダン川西岸地区のパレスチナ人</span><p style="text-align: justify; text-justify: inter-word;">国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、ユダヤ人専用の道路が敷かれるなど、アパルトヘイト政策が最もわかりやすく存在する。パレスチナ人にのみ、イスラエル国内法ではなく、軍法が適用される。</p></td>
   </tr>
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/gaza.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    <span class="afz-heading-small-colored" style="line-height: 20pt;">ガザ地区のパレスチナ人</span><br><br>2007年からガザから出ることが許されていない。</td>
+    <span class="afz-heading-small-colored" style="line-height: 20pt;">ガザ地区のパレスチナ人</span><p style="text-align: justify; text-justify: inter-word;">2007年からガザから出ることが許されていない。</p></td>
   </tr>
   <tr>
     <td style="vertical-align:top">
     <img src="{{site.baseurl}}/assets/img/exile.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
-    <span class="afz-heading-small-colored" style="line-height: 20pt;">パレスチナIDを持たないパレスチナ難民</span><br><br>ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</td>
+    <span class="afz-heading-small-colored" style="line-height: 20pt;">パレスチナIDを持たないパレスチナ難民</span><p style="text-align: justify; text-justify: inter-word; ">ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</p></td>
   </tr>
 </tbody>
 </table>
