@@ -8,18 +8,23 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
 
 <table style="table-layout: fixed; padding: 0; margin: 0; width: 100%; min-width: 360px; height: 80px; max-height: 80px; background-image: url('/assets/img/top_bg.png')">
   <tr>
-    <td style="padding: 0; margin: 0; height: 80px;">
-      <div style="margin-left: 50px; text-align: middle; display:block;"><h6><span class="afz-heading-colored">ダウンロード</span></h6></div>
-    </td>
-    <td style="padding: 0; margin: 0; height: 80px;">
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" />
+    <td class="example" style="padding: 0; margin:0; max-height: 80px;">
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
+      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
+      <img src="/assets/img/top-image-download.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
+      <img src="/assets/img/top-image-download.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
     </td>
   </tr>
 </table>
 
-<div style="padding-left: 20px; padding-right: 20px">
+<div style="padding: 10px">
+ご自由に、印刷もデジタルもどこでも使って下さい<br>
+（販売は遠慮）
+</div>
 
-<p>
+<table class="afzDownloads">
+  <tr>
+    <td style="padding-top: 0px; padding-bottom: 0px">
 
 <div class="responsive">
   <div class="gallery">
@@ -41,10 +46,6 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
     </div>
   </div>
 </div>
-
-</p>
-
-<p>
 
 <div class="responsive">
   <div class="gallery">
@@ -142,8 +143,8 @@ height="200px">
 
 <div class="clearfix"></div>
 
-</p>
+    </td>
+  </tr>
+</table>
 
 <br />
-
-</div>

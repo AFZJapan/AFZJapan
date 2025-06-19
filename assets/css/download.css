@@ -43,11 +43,22 @@ div.desc {
 
 .responsive {
   padding-top: 6px;
-  width: 320px;
 }
 
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+
+@media (min-width: 400px) {
+  table.afzDownloads {
+    width: 400px
+  }
+}
+
+@media (max-width: 399px) {
+  table.afzDownloads {
+    width: 100%
+  }
 }
