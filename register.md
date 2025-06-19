@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "アパルトヘイトフリーゾーン (AFZ) に登録フォーム"
-description: "AFZコミュニティへようこそ！国際的なAFZネットワークに参加されるスペース（グループ、団体、お店、企業、学校、自治体など）についてお教えください。AFZについての詳しい情報はウェブサイトをご覧ください。"
+description: "AFZ Japan | 日本からパレスチナの人々に連帯し、アパルトヘイトのない空間 (Apartheid Free Zones) を目指すキャンペーン。BDS運動賛同店・スペース募集中！賛同頂けるスペースはHPリンクから登録申請をお願いします。みんなで増やそうAFZ！🇵🇸✌️ #ApartheidFreeZone"
 image: "https://afzjapan.com/assets/img/afz_register.png"
 css: ["index.css", "register.css"]
 ---
