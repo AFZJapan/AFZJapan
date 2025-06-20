@@ -36,3 +36,7 @@ dialog[open] {
     transform: scale(1);
   }
 }
+
+table.grad {
+  background-image: linear-gradient(to right, white , #efefef, #dddddd, #efefef, white);
+}

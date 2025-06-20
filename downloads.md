@@ -3,24 +3,19 @@ layout: page
 title: "資料、ダウンロード"
 description: "AFZのチラシ、ポスター、ステッカーなどダウンロードできます"
 image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
-css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"]
+css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "images.css"]
 ---
 
-<table style="table-layout: fixed; padding: 0; margin: 0; width: 100%; min-width: 360px; height: 80px; max-height: 80px; background-image: url('/assets/img/top_bg.png')">
-  <tr>
-    <td class="example" style="padding: 0; margin:0; max-height: 80px;">
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-download.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
-      <img src="/assets/img/top-image-download.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
+<table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
+  <tr style="padding: 0; margin:0; max-height: 80px;">
+    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">ダウンロード</span></h5></div>
     </td>
   </tr>
 </table>
 
-<div style="padding: 10px">
+<div style="padding: 20px">
 ご自由に、印刷もデジタルもどこでも使って下さい<br>
 （販売は遠慮）
-</div>
 
 <table class="afzDownloads">
   <tr>
@@ -147,4 +142,4 @@ height="200px">
   </tr>
 </table>
 
-<br />
+</div>

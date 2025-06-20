@@ -7,9 +7,10 @@ css: ["index.css", "images.css"]
 js: ["images.js"]
 ---
 
-<table class="afzIcons" style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top.png'); width: 100%; max-width: 640px; height: 80px;">
-  <tr>
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">イスラエルの占領について</span></h5></div></td>
+<table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
+  <tr style="padding: 0; margin:0; max-height: 80px;">
+    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">イスラエルの占領について</span></h5></div>
+    </td>
   </tr>
 </table>
 

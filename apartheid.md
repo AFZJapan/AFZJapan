@@ -7,9 +7,10 @@ css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---
 
-<table class="afzIcons" style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top.png'); width: 100%; max-width: 640px; height: 80px;">
+<table style="table-layout: fixed; width: 100%; height: 80px;" class="grad">
   <tr>
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">アパルトヘイト</span></h5></div></td>
+    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">アパルトヘイト</span></h5></div>
+    </td>
   </tr>
 </table>
 

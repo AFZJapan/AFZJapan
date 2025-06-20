@@ -42,7 +42,7 @@ div.desc {
 }
 
 .responsive {
-  padding-top: 6px;
+  padding-top: 20px;
 }
 
 .clearfix:after {
@@ -51,9 +51,13 @@ div.desc {
   clear: both;
 }
 
+table.afzDownloads td {
+  padding: 0px;
+}
+
 @media (min-width: 400px) {
   table.afzDownloads {
-    width: 400px
+    width: 360px
   }
 }
 
