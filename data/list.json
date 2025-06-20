@@ -150,5 +150,10 @@
     "name": "MAP Cafe  <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "大阪府",
     "sns": "<a href='https://www.facebook.com/share/1ApJipNQ3w/?mibextid=wwXIfr' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@MAPCafe1' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/mapcafe1' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name", "IRREGULAR RHYTHM ASYLUM <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
+    "place": "東京都",
+    "sns": "<a href='https://ira.tokyo/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/@ira.tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
