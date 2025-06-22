@@ -32,13 +32,18 @@ const attribution = new ol.control.Attribution({
   setCollapsed: true
 });
 
+var tileUrl = "https://tile.openstreetmap.jp/{z}/{x}/{y}.png";
+if (window.location.pathname === "/en") {
+  tileUrl = "https://tile.openstreetmap.jp/styles/osm-bright/{z}/{x}/{y}.png";
+}
+
 const map = new ol.Map({
   target: 'afz',
   controls: ol.control.defaults.defaults({attribution: false}).extend([attribution]),
   layers: [
     new ol.layer.Tile({
       source: new ol.source.OSM({
-        url: 'https://tile.openstreetmap.jp/{z}/{x}/{y}.png'
+        url: tileUrl
       })
     })
   ],
