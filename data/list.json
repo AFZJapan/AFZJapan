@@ -180,5 +180,16 @@
     "name": "River Coffee & Gallery <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
     "sns": "<a href='https://rivercag.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/rivercag' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/rivercoffeeandgallery/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Blake <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
+    "place": "東京都",
+    "tags": ["ヴィーガン"],
+    "sns": "<a href='https://blake-sharekitchen.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@Blake_FAfree' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/blake_bakedgoods/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "麺屋どうげんぼうず <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
+    "place": "東京都",
+    "sns": "<a href='https://dgbz.shop/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/nabeyokoDGBZ' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/nabeyokoDGBZ/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
