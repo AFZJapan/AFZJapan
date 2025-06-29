@@ -196,5 +196,10 @@
     "name": "Hands of Ummah <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "東京都",
     "sns": "<a href='https://instagram.com/hands.of.ummah' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "パレスチナハウス <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
+    "place": "福岡市",
+    "sns": ""
   }
 ]
