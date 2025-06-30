@@ -201,5 +201,10 @@
     "name": "パレスチナハウス <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "福岡市",
     "sns": ""
+  },
+  {
+    "name": "和食 キンペイ <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
+    "place": "東京都",
+    "sns": ""
   }
 ]
