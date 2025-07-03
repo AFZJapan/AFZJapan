@@ -211,5 +211,10 @@
     "name": "フレンズ・オブ・パレスチナ神戸　ギャラリー <img align='top' src='/assets/icons/social.png' width='20px' height='20px' />",
     "place": "神戸市",
     "sns": "<a href='https://instagram.com/friends_of_palestine_kobe' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "堺町画廊　Sakaimachi gallery <img align='top' src='/assets/icons/cultural.png' width='20px' height='20px' />",
+    "place": "京都市",
+    "sns": "<a href='https://sakaimachi-garow.com' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
