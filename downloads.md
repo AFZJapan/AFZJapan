@@ -136,6 +136,24 @@ height="200px">
   </div>
 </div>
 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/assets/downloads/afzbug_01.png">
+      <img src="/assets/downloads/afzbug_01.png" alt="afzbug_01" height="100px">
+    </a>
+    <div class="desc">Designed by: <a href="https://www.instagram.com/momoenarazaki/" target="_blank">Momoe Narazaki</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/assets/downloads/afzbug_02.png">
+      <img src="/assets/downloads/afzbug_02.png" alt="afzbug_02" height="100px">
+    </a>
+    <div class="desc">Designed by: <a href="https://www.instagram.com/momoenarazaki/" target="_blank">Momoe Narazaki</a></div>
+  </div>
+</div>
+
 <div class="clearfix"></div>
 
     </td>
