@@ -231,5 +231,10 @@
     "name": "ROCKETIIDA <img align='top' src='/assets/icons/cafe.png' width='20px' height='20px' />",
     "place": "東京都",
     "sns": "<a href='https://x.com/minton_rt' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/minton_tachibana' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "book cafe 火星の庭 <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
+    "place": "宮城県",
+    "sns": "<a href='http://kaseinoniwa.com' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/kaseinoniwa' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kaseinoniwa' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
