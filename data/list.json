@@ -236,5 +236,10 @@
     "name": "book cafe 火星の庭 <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
     "place": "宮城県",
     "sns": "<a href='http://kaseinoniwa.com' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/kaseinoniwa' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kaseinoniwa' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "楽天堂 <img align='top' src='/assets/icons/shop.png' width='20px' height='20px' />",
+    "place": "京都市",
+    "sns": "<a href='https://www.rakutendo.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/chiakitakashima' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/rakutendo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
