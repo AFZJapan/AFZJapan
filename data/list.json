@@ -314,5 +314,11 @@
     "icon": "social",
     "place": "東京都",
     "sns": "<a href='http://instagram.com/sawasawahouse' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "NEVER STOP THINKING",
+    "icon": "shop",
+    "place": "京都府",
+    "sns": "<a href='https://nsthinking.official.ec/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='http://instagram.com/nsthinking' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
