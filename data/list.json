@@ -338,5 +338,17 @@
     "icon": "cultural",
     "place": "東京都",
     "sns": "<a href='http://portolibre.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Another World Infoshop",
+    "icon": "social",
+    "place": "愛知県",
+    "sns": "<a href='http://instagram.com/awi_nagoya' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "名古屋学院大学　金城美幸研究室",
+    "icon": "cultural",
+    "place": "愛知県",
+    "sns": ""
   }
 ]
