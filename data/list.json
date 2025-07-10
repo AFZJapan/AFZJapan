@@ -332,5 +332,11 @@
     "icon": "cultural",
     "place": "東京都",
     "sns": "<a href='http://instagram.com/mokoo.kemuri' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "ポルトリブレ デ・ノーヴォ",
+    "icon": "cultural",
+    "place": "東京都",
+    "sns": "<a href='http://portolibre.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
