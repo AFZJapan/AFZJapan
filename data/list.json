@@ -350,5 +350,17 @@
     "icon": "cultural",
     "place": "愛知県",
     "sns": ""
+  },
+  {
+    "name": "PWBF",
+    "icon": "social",
+    "place": "東京都",
+    "sns": "<a href='https://palestinewillbefree.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/pwbfree' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/pwbefree' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "喫茶ホルン",
+    "icon": "cafe",
+    "place": "宮城県",
+    "sns": "<a href='https://x.com/kissahorn' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kissahorn' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
