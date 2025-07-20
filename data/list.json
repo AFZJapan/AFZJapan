@@ -314,12 +314,14 @@
     "icon": "social",
     "place": "東京都",
     "sns": "<a href='http://instagram.com/sawasawahouse' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "tags": ["Palestine cafe"],["Info library"]
   },
   {
     "name": "NEVER STOP THINKING",
     "icon": "shop",
     "place": "京都府",
     "sns": "<a href='https://nsthinking.official.ec/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='http://instagram.com/nsthinking' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+     "tags": ["books & items for thoughts"]
   },
   {
     "name": "穂積繊維/月山緞通ラグストア",
@@ -332,12 +334,14 @@
     "icon": "cultural",
     "place": "東京都",
     "sns": "<a href='http://instagram.com/mokoo.kemuri' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "tags": ["Multimedia event"],
   },
   {
     "name": "ポルトリブレ デ・ノーヴォ",
     "icon": "cultural",
     "place": "東京都",
     "sns": "<a href='http://portolibre.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+    "tags": ["Art space"],
   },
   {
     "name": "Another World Infoshop",
@@ -356,6 +360,7 @@
     "icon": "social",
     "place": "東京都",
     "sns": "<a href='https://palestinewillbefree.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/pwbfree' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/pwbefree' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "tags": ["Online store"],
   },
   {
     "name": "喫茶ホルン",
@@ -381,18 +386,21 @@
     "icon": "social",
     "place": "滋賀県",
     "sns": "<a href='https://www.npo-hcc.org' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+    "tags": ["Fairtrade"],
   },
   {
     "name": "Sloth life Nakatsugawa",
     "icon": "social",
     "place": "京都府",
     "sns": "<a href='https://www.facebook.com/SlothLifeNakatsugawa/' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>"
+    "tags": ["Shared house"],
   },
   {
     "name": "アマントレーディング株式会社 Aman Trading",
     "icon": "shop",
     "place": "愛知県",
     "sns": "<a href='https://amantradingcompany.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+    "tags": ["Tire shop"],
   },
   {
     "name": "Cafeわかば",
