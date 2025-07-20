@@ -294,7 +294,7 @@
     "name": "madcoffee_house",
     "icon": "cafe",
     "place": "三重県",
-    "tags": ["pop-up cafe"]
+    "tags": ["pop-up cafe"],
     "sns": "<a href='https://www.instagram.com/madcoffee_house' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
