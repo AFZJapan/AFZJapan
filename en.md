@@ -38,8 +38,9 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
 <ul id="legend">
   <li><img src="{{site.baseurl}}/assets/icons/social.png" height=20 width=20><span>social</span></li>
   <li><img src="{{site.baseurl}}/assets/icons/cultural.png" height=20 width=20><span>cultural</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/cafe.png" height=20 width=20><span>cafe</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>shop</span></li>
+  <li><img src="{{site.baseurl}}/assets/icons/hospitality.png" height=20 width=20><span>hospitality</span></li>
+  <li><img src="{{site.baseurl}}/assets/icons/union.png" height=20 width=20><span>union</span></li>
+  <li><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>local business</span></li>
   <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>public space</span></li>
 </ul>
 
