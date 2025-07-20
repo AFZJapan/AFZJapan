@@ -53,7 +53,8 @@ js: ["afz.js"]
       <tr>
         <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/social.png" class="avatar" /></div></td>
         <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/cultural.png" class="avatar" /></div></td>
-        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/cafe.png" class="avatar" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/hospitality.png" class="avatar" /></div></td>
+        <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/union.png" class="avatar" /></div></td>
         <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/shop.png" class="avatar" /></div></td>
         <td style="padding-top: 0px; padding-bottom: 0px"><div style="text-align: center"><img src="/assets/icons/place.png" class="avatar" /></div></td>
       </tr>
