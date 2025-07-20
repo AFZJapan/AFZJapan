@@ -314,14 +314,14 @@
     "name": "さわさわ Sawa Sawa",
     "icon": "social",
     "place": "東京都",
-    "tags": ["Palestine cafe", "Info library"]
+    "tags": ["Palestine cafe", "Info library"],
     "sns": "<a href='http://instagram.com/sawasawahouse' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "NEVER STOP THINKING",
     "icon": "shop",
     "place": "京都府",
-    "tags": ["books & items for thoughts"]
+    "tags": ["books & items for thoughts"],
     "sns": "<a href='https://nsthinking.official.ec/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='http://instagram.com/nsthinking' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -372,8 +372,8 @@
   {
     "name": "Harat Al-Yasmina (The Jasmine Street)",
     "icon": "shop",
-    "tags": ["Palestinian-owned"],
     "place": "東京都",
+    "tags": ["Palestinian-owned"],
     "sns": "<a href='https://www.instagram.com/tatianarika' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/intifada_habibti' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
