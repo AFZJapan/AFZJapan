@@ -1,19 +1,19 @@
 [
   {
     "name": "LIGHTS foodtruck",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "移動式スペース",
     "sns": "<a href='https://instagram.com/lights_foodtruck' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "roastery 百塔珈琲",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='http://shop.hyaqtoh.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/hyaqtoh' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/hyaqtohcoffee' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "浅間温泉だらず荘",
-    "icon": "social",
+    "icon": "hospitality",
     "place": "長野県",
     "sns": "<a href='https://x.com/@maisondarazu' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/maisondarazu/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -39,14 +39,14 @@
   },
   {
     "name": "アブイサーム Abu Essam",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "tags": ["ハラール/Halal", "Arabic cafe & deli"],
     "sns": "<a href='https://abuessam.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
     "name": "SUBstore",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://substore.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/substore_tokyo' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/substore.tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -82,13 +82,13 @@
   },
   {
     "name": "Guesthouse WIND VILLA",
-    "icon": "social",
+    "icon": "hospitality",
     "place": "京都府",
     "sns": "<a href='http://www.windvilla.blue/top.html' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@WindVilla' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/windvilla.kyoto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "The Velvet House",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "兵庫県",
     "sns": "<a href='https://www.instagram.com/the_velvet_house' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -120,7 +120,7 @@
   },
   {
     "name": "よりまし堂",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://yorimashido.stores.jp' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
@@ -144,13 +144,13 @@
   },
   {
     "name": "Bagel cafe nico.",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "神奈川県",
     "sns": "<a href='https://bagelcafenico.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@bagelcafe_nico' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/bagelcafenico' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "dechibica",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "沖縄県",
     "tags": ["ヴィーガン/vegan"],
     "sns": "<a href='https://x.com/dechibica' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/dechibica/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
@@ -169,14 +169,14 @@
   },
   {
     "name": "アッサラーム Assalaam",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "島根県",
     "tags": ["ハラール/Halal"],
     "sns": "<a href='https://instagram.com/assalaam_yasugi' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
-    "name": "MAP Cafe ",
-    "icon": "social",
+    "name": "MAP Cafe",
+    "icon": "hospitality",
     "place": "大阪府",
     "sns": "<a href='https://www.facebook.com/share/1ApJipNQ3w/?mibextid=wwXIfr' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@MAPCafe1' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/mapcafe1' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -194,7 +194,7 @@
   },
   {
     "name": "南インド食堂　Hanaco",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "千葉県",
     "sns": "<a href='https://curry-hanaco.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/curry_hanaco' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -212,20 +212,20 @@
   },
   {
     "name": "River Coffee & Gallery",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://rivercag.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/rivercag' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/rivercoffeeandgallery/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "Blake",
-    "icon": "cafe",
+    "icon": "shop",
     "place": "東京都",
     "tags": ["ヴィーガン/vegan"],
     "sns": "<a href='https://blake-sharekitchen.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@Blake_FAfree' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/blake_bakedgoods/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "麺屋どうげんぼうず",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://dgbz.shop/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/nabeyokoDGBZ' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/nabeyokoDGBZ/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -243,7 +243,7 @@
   },
   {
     "name": "和食 キンペイ",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": ""
   },
@@ -261,7 +261,7 @@
   },
   {
     "name": "キッチン ハリーナ Kitchen Halina",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "京都府",
     "tags": ["Fair Trade"],
     "sns": "<a href='https://kitchen-halina.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/kitchenhalina' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/explore/locations/404876655/kitchinharina-kitchen-halina/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
@@ -274,7 +274,7 @@
   },
   {
     "name": "ROCKETIIDA",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://x.com/minton_rt' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/minton_tachibana' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -292,14 +292,14 @@
   },
   {
     "name": "madcoffee_house",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "三重県",
     "tags": ["pop-up cafe"],
     "sns": "<a href='https://www.instagram.com/madcoffee_house' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "Madina Halal Restaurant ＆ Foods",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "愛知県",
     "tags": ["ハラール/Halal"],
     "sns": "<a href='https://madinajp.company.site/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/madina_halal_restaurant' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
@@ -365,7 +365,7 @@
   },
   {
     "name": "喫茶ホルン",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "宮城県",
     "sns": "<a href='https://x.com/kissahorn' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kissahorn' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
@@ -405,13 +405,13 @@
   },
   {
     "name": "Cafeわかば",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "京都府",
     "sns": "<a href='https://cafe-wakaba.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/cafewakaba' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/cafewakaba' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "BEER&CAFE BERG 新宿ベルク",
-    "icon": "cafe",
+    "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://www.berg.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/BERG_SHINJUKU' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/berg_shinjuku_tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
