@@ -56,43 +56,63 @@ fetch('/data/map.json')
     .then((response) => response.json())
     .then((json) => display(json));
 
-// Popup
+// Pins
 const features = [];
-function display(json) {
 const styles = {};
 
+function addFeatureAt(data) {
+  const r = map.getView().getResolution() * 10;
+  const f = new ol.Feature({
+    geometry: new ol.geom.Point(
+      ol.proj.fromLonLat([parseFloat(data[0]), parseFloat(data[1])])
+    ),
+    title: data[2],
+    description: data[3],
+    id: data[2]
+  });
+  vector.getSource().addFeature(f);
+  vector.animateFeature (f, [
+    new ol.featureAnimation["Show"] ({
+      speed: Number(0.5),
+      duration: Number(1000-0.5*50),
+      side: $("#side").prop('checked')
+    })
+  ]);
+}
+
+function display(json) {
   for (var i = 0; i < json.length; i++) {
     const data =  json[i];
 
-    const feature = new ol.Feature({
-      geometry: new ol.geom.Point(
-        ol.proj.fromLonLat([parseFloat(data[0]), parseFloat(data[1])])
-      ),
-      title: data[2],
-      description: data[3],
-    });
-    features.push(feature);
-
-    styles[data[2]] = new ol.style.Style({
-      image: new ol.style.Icon({
-        src: "assets/icons/" + data[2] + ".png",
-        scale: 0.4,
-        anchor: [0.5, 1]
+    styles[data[2]] = [
+      //new ol.style.Style({
+      //  image: new ol.style.Shadow({
+      //    radius: 15,
+      //  }),
+      //  stroke: new ol.style.Stroke({
+      //    color: [0,0,0,0.3],
+      //    width: 2
+      //  }),
+      //  fill: new ol.style.Fill({
+      //    color: [0,0,0,0.3]
+      //    }),
+      //  zIndex: -1
+      //}),
+      new ol.style.Style({
+        image: new ol.style.Icon({
+          src: "assets/icons/" + data[2] + ".png",
+          scale: 0.4,
+          anchor: [0.5, 1]
+        })
       })
-    });
+    ];
+
+    setTimeout(function() {
+      addFeatureAt(data)
+    }, 100*i);
   }
 
-  const markers = new ol.layer.Vector({
-    source: new ol.source.Vector({
-      features: features,
-    }),
-    style: function (feature) {
-      return styles[feature.get("title")]; // TODO: icon, not title
-    }
-  });
-
-  map.addLayer(markers);
-
+  // Popup
   map.on('click', function (evt) {
     const feature = map.forEachFeatureAtPixel(evt.pixel, function (feature) {
       return feature;
@@ -107,3 +127,14 @@ const styles = {};
     }
   });
 }
+
+const vector = new ol.layer.Vector({
+  source: new ol.source.Vector({
+    features: features,
+  }),
+  style: function (feature) {
+     return styles[feature.get("title")]; // TODO: icon, not title
+  }
+});
+
+map.addLayer(vector);
