@@ -439,5 +439,11 @@
     "icon": "social",
     "place": "大阪府",
     "sns": ""
+  },
+  {
+    "name": "Social Kitchen",
+    "icon": "social",
+    "place": "京都府",
+    "sns": "<a href='https://hanareproject.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
