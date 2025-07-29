@@ -451,5 +451,11 @@
     "icon": "shop",
     "place": "京都府",
     "sns": ""
+  },
+  {
+    "name": "Social Book Cafeハチドリ舎",
+    "icon": "shop",
+    "place": "広島県",
+    "sns": "<a href='https://hachidorisha.com' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/hachidorisha' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
