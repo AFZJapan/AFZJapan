@@ -425,7 +425,7 @@
     "name": "Halal Kombini Plus",
     "icon": "shop",
     "place": "愛知県",
-    "tags": ["ハラール"],
+    "tags": ["ハラール/Halal"],
     "sns": "<a href='http://tomonesia.blogspot.com' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/halalkombiniplus' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -468,6 +468,7 @@
     "name": "メル 海と芸術の家",
     "icon": "hospitality",
     "place": "東京都",
+    "tags": ["植物由来🌱", "オーガニック"],
     "sns": "<a href='https://www.instagram.com/mer_art73' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"    
   }
 ]
