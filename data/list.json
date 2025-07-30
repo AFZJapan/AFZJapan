@@ -470,5 +470,11 @@
     "place": "東京都",
     "tags": ["植物由来🌱", "オーガニック"],
     "sns": "<a href='https://www.instagram.com/mer_art73' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"    
+  },
+  {
+    "name": "雪月風花　福智院",
+    "icon": "hospitality",
+    "place": "広島県",
+    "sns": "<a href='https://www.fukuchiin-imakouya.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/fukuchiin' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/fukuchiin.imakouya' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
