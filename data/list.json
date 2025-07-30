@@ -463,5 +463,11 @@
     "icon": "social",
     "place": "京都府",
     "sns": "<a href='https://www.instagram.com/lantern_collective_' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "メル 海と芸術の家",
+    "icon": "hospitality",
+    "place": "東京都",
+    "sns": "<a href='https://www.instagram.com/mer_art73' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"    
   }
 ]
