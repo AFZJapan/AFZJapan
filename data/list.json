@@ -239,7 +239,7 @@
     "name": "パレスチナハウス",
     "icon": "shop",
     "place": "福岡県",
-　  "tags": ["Gaza Cola販売中！"],
+　  "tags": ["Gaza Cola販売中"]
     "sns": ""
   },
   {
@@ -271,7 +271,7 @@
     "name": "ふりつづみ天鼓堂",
     "icon": "shop",
     "place": "京都府",
-    "tags": ["シェア型書店"],
+    "tags": ["シェア型書店"]
     "sns": "<a href='https://x.com/hina13f' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/tenko_dou' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -290,7 +290,7 @@
     "name": "楽天堂",
     "icon": "shop",
     "place": "京都府",
-    "tags": ["オーガニック", "豆・スパイス", "ゲストハウス", "小さな仕事塾"],
+    "tags": ["オーガニック", "豆・スパイス", "ゲストハウス", "小さな仕事塾"]
     "sns": "<a href='https://www.rakutendo.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/chiakitakashima' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/rakutendo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
