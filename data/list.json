@@ -534,5 +534,11 @@
     "icon": "social",
     "place": "大阪府",
     "sns": "<a href='https://hiratkatasiminnokai.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/HirakataHeiwa' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "れいわ新選組　大石あきこ事務所",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": "<a href='https://www.oishiakiko.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
