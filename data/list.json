@@ -528,5 +528,11 @@
     "icon": "social",
     "place": "兵庫県",
     "sns": "<a href='https://heiwafukushi.blog.fc2.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "平和で豊かな枚方を市民みんなでつくる会",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": "<a href='https://hiratkatasiminnokai.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/HirakataHeiwa' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   }
 ]
