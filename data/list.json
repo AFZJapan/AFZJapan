@@ -546,5 +546,11 @@
     "icon": "shop",
     "place": "大阪府",
     "sns": "<a href='https://matomo-shobo.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/nemo_yokaism' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/matomoshobo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Cafe Cajjo",
+    "icon": "hospitality",
+    "place": "大阪府",
+    "sns": "<a href='https://cajjo.seesaa.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
