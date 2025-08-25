@@ -564,5 +564,11 @@
     "icon": "cultural",
     "place": "徳島県",
     "sns": "<a href='https://www.instagram.com/tokushima.palestine' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "平和と市民自治のまち大津をともにつくる会",
+    "icon": "union",
+    "place": "滋賀県",
+    "sns": "<a href='https://heiwa-otsu.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
