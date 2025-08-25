@@ -63,6 +63,7 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
       <option value="兵庫県">兵庫県</option>
       <option value="岡山県">岡山県</option>
       <option value="広島県">広島県</option>
+      <option value="徳島県">徳島県</option>
       <option value="愛媛県">愛媛県</option>
       <option value="福岡県">福岡県</option>
       <option value="沖縄県">沖縄県</option>
