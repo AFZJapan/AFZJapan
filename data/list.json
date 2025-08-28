@@ -609,7 +609,13 @@
   },
   {
     "name": "福賢寺",
-    "icon": "place",
+    "icon": "social",
+    "place": "滋賀県",
+    "sns": ""
+  },
+  {
+    "name": "常慶寺",
+    "icon": "social",
     "place": "滋賀県",
     "sns": ""
   }
