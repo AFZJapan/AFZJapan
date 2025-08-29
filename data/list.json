@@ -636,5 +636,11 @@
     "icon": "place",
     "place": "京都府",
     "sns": "<a href='https://x.com/TeamKANDA_SEIKA' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "中京大学　教養教育研究院　今野泰三研究室",
+    "icon": "cultural",
+    "place": "愛知県",
+    "sns": "<a href='https://www.chukyo-u.ac.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
