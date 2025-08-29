@@ -624,5 +624,11 @@
     "icon": "social",
     "place": "大阪府",
     "sns": ""
+  },
+  {
+    "name": "脱原発・滋賀☆アクション",
+    "icon": "union",
+    "place": "滋賀県",
+    "sns": "<a href='https://nonukesiga.exblog.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
