@@ -39,7 +39,7 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
   <li><img src="{{site.baseurl}}/assets/icons/hospitality.png" height=20 width=20><span>飲食・宿泊業</span></li>
   <li><img src="{{site.baseurl}}/assets/icons/union.png" height=20 width=20><span>組合・団体</span></li>
   <li><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>お店・地元企業</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>公的機関</span></li>
+  <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>公的機関・自治体</span></li>
 </ul>
 
 <div>
