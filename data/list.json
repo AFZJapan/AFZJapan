@@ -537,7 +537,7 @@
   },
   {
     "name": "れいわ新選組　大石あきこ事務所",
-    "icon": "union",
+    "icon": "place",
     "place": "大阪府",
     "sns": "<a href='https://www.oishiakiko.net/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
@@ -630,5 +630,11 @@
     "icon": "union",
     "place": "滋賀県",
     "sns": "<a href='https://nonukesiga.exblog.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "神田たかひろ 事務所",
+    "icon": "place",
+    "place": "京都府",
+    "sns": "<a href='https://x.com/TeamKANDA_SEIKA' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   }
 ]
