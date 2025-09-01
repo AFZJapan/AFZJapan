@@ -654,5 +654,11 @@
     "icon": "social",
     "place": "愛知県",
     "sns": "<a href='https://www.instagram.com/hashinoshitacenter' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://www.facebook.com/share/1B3u2AKTeV/?mibextid=wwXIfr' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "山科みんなの家",
+    "icon": "social",
+    "place": "京都府",
+    "sns": ""
   }
 ]
