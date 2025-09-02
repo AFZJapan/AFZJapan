@@ -660,5 +660,17 @@
     "icon": "social",
     "place": "京都府",
     "sns": ""
+  },
+  {
+    "name": "ZENKO（平和と民主主義をめざす全国交歓会）・広島",
+    "icon": "union",
+    "place": "広島県",
+    "sns": "<a href='https://x.com/zenkohiroshima' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "すいかのたね文庫",
+    "icon": "shop",
+    "place": "大阪府",
+    "sns": "<a href='https://www.instagram.com/seeds_of_watermelon' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
