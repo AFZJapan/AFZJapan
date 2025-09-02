@@ -672,5 +672,11 @@
     "icon": "shop",
     "place": "大阪府",
     "sns": "<a href='https://www.instagram.com/seeds_of_watermelon' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Hana Braids Tokyo",
+    "icon": "cultural",
+    "place": "東京都",
+    "sns": "<a href='https://www.instagram.com/hana.braids.tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
