@@ -684,5 +684,11 @@
     "icon": "social",
     "place": "広島県",
     "sns": "<a href='http://aki-saizenji.or.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "平和と民主主義をともにつくる会・大阪",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": "<a href='https://yamakawa-yoshiyasu.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
