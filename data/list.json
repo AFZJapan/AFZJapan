@@ -690,5 +690,11 @@
     "icon": "union",
     "place": "大阪府",
     "sns": "<a href='https://yamakawa-yoshiyasu.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "SJP MGU (Meiji Gakuin University)",
+    "icon": "social",
+    "place": "神奈川県",
+    "sns": "<a href='https://www.instagram.com/Sjpmgu' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
