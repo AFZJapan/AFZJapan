@@ -678,5 +678,11 @@
     "icon": "cultural",
     "place": "東京都",
     "sns": "<a href='https://www.instagram.com/hana.braids.tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "浄土真宗本願寺派　西善寺",
+    "icon": "social",
+    "place": "広島県",
+    "sns": "<a href='http://aki-saizenji.or.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
