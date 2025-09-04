@@ -702,5 +702,11 @@
     "icon": "social",
     "place": "岡山県",
     "sns": ""
+  },
+  {
+    "name": "高知からガザ・沖縄連帯実行委員会",
+    "icon": "social",
+    "place": "高知県",
+    "sns": "<a href='https://www.instagram.com/kochi_peace4p' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
