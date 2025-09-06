@@ -745,5 +745,11 @@
     "icon": "social",
     "place": "東京都",
     "sns": "<a href='https://x.com/Ok30iynW2TGatKe' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/hitujiniku' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "この海の向こうに―パレスチナ・ウクライナを思う展覧会",
+    "icon": "social",
+    "place": "神奈川県",
+    "sns": "<a href='https://sites.google.com/view/palestineourwarmhouse/pal_ukr' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/declaration_for_the_end' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
