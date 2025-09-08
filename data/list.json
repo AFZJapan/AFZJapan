@@ -757,5 +757,17 @@
     "icon": "shop",
     "place": "滋賀県",
     "sns": ""
+  },
+  {
+    "name": "たねと暮らす",
+    "icon": "social",
+    "place": "京都府",
+    "sns": "<a href='https://www.instagram.com/tanenotoshukan' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "ZENKO関電前ﾌﾟﾛｼﾞｪｸﾄ住吉",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": ""
   }
 ]
