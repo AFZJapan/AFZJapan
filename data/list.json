@@ -775,5 +775,23 @@
     "icon": "shop",
     "place": "滋賀県",
     "sns": ""
+  },
+  {
+    "name": "報正寺",
+    "icon": "social",
+    "place": "広島県",
+    "sns": ""
+  },
+  {
+    "name": "千野田中農園",
+    "icon": "social",
+    "place": "滋賀県",
+    "sns": ""
+  },
+  {
+    "name": "（株）広島聖文舎",
+    "icon": "shop",
+    "place": "広島県",
+    "sns": "<a href='http://hseibunsha.info/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
