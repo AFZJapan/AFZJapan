@@ -805,5 +805,11 @@
     "icon": "shop",
     "place": "大阪府",
     "sns": ""
+  },
+  {
+    "name": "なかまユニオン",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": "<a href='https://www.nakama-union.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/nakama_union' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/nakamaunion' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
