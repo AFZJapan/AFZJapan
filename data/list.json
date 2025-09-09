@@ -793,5 +793,17 @@
     "icon": "shop",
     "place": "広島県",
     "sns": "<a href='http://hseibunsha.info/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "フェアコープ関東",
+    "icon": "shop",
+    "place": "東京都",
+    "sns": "<a href='https://faircoop.myportfolio.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "スモッティー野江店",
+    "icon": "shop",
+    "place": "大阪府",
+    "sns": ""
   }
 ]
