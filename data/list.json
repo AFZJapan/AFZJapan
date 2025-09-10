@@ -823,5 +823,11 @@
     "icon": "union",
     "place": "大阪府",
     "sns": "<a href='https://x.com/neyajiti' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "中津川アクション",
+    "icon": "social",
+    "place": "岐阜県",
+    "sns": "<a href='https://x.com/nktgw_action' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   }
 ]
