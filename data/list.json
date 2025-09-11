@@ -834,12 +834,12 @@
     "name": "BOOKS&FARM ちいさな庭",
     "icon": "social",
     "place": "岐阜県",
-    "sns": ""
+    "sns": "<a href='https://chiisana-niwa.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/chiisananiwa_' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "金曜日読者会　草津",
     "icon": "union",
     "place": "滋賀県",
-    "sns": "<a href='https://chiisana-niwa.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/chiisananiwa_' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+    "sns": ""
   }
 ]
