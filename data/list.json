@@ -841,5 +841,17 @@
     "icon": "union",
     "place": "滋賀県",
     "sns": ""
+  },
+  {
+    "name": "耕文社",
+    "icon": "shop",
+    "place": "大阪府",
+    "sns": "<a href='http://www.kobunsha.co.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/kobunshainfo' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "子どもの居場所ピノッキオ",
+    "icon": "social",
+    "place": "東京都",
+    "sns": "<a href='https://pinocchio.studio.site/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/pinocch_io_2020' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
