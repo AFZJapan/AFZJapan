@@ -901,5 +901,17 @@
     "icon": "social",
     "place": "奈良県",
     "sns": ""
+  },
+  {
+    "name": "専光寺",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
+  },
+  {
+    "name": "MDS（民主主義的社会主義運動）",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": "<a href='http://www.mdsweb.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/mds_japan' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/mds.japan' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
