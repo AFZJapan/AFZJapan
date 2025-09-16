@@ -913,5 +913,17 @@
     "icon": "union",
     "place": "大阪府",
     "sns": "<a href='http://www.mdsweb.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/mds_japan' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/mds.japan' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "本屋うゆらら",
+    "icon": "shop",
+    "place": "大阪府",
+    "sns": "<a href='http://www.uyulala.jp' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/uyulala0716' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/uyulala.books' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "マヌケ出版社",
+    "icon": "cultural",
+    "place": "大阪府",
+    "sns": "<a href='https://www.manuke-publisher.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/manuke2025' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/manuke.publisher' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
