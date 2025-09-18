@@ -931,5 +931,11 @@
     "icon": "union",
     "place": "広島県",
     "sns": "<a href='http://www.no-nukes-hiroshima.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "おふくろ弁当食堂",
+    "icon": "hospitality",
+    "place": "滋賀県",
+    "sns": ""
   }
 ]
