@@ -159,7 +159,7 @@ height="200px">
     <a target="_blank" href="/assets/downloads/nekobookmark.jpg">
       <img src="/assets/downloads/nekobookmark.jpg" alt="nekobookmark" height="100px">
     </a>
-    <div class="desc">Designed by: Akari Kuwahara<!-- a href="https://www.instagram.com//" target="_blank">リンクあとで</a --></div>
+    <div class="desc">Designed by: <a href="https://x.com/aruakari" target="_blank">Akari Kuwahara</a></div>
   </div>
 </div>
 
