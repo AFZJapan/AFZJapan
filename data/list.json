@@ -943,5 +943,11 @@
     "icon": "union",
     "place": "大阪府",
     "sns": ""
+  },
+  {
+    "name": "Tahrir",
+    "icon": "social",
+    "place": "長野県",
+    "sns": ""
   }
 ]
