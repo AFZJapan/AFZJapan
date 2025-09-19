@@ -15,7 +15,7 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
 
 <div style="padding: 20px">
 印刷でもデジタルでも、AFZを広めるためにご自由にお使い下さい<br>
-（販売は遠慮）
+（販売に使う場合は、AFZ Japanまでご相談ください）
 
 <table class="afzDownloads">
   <tr>
