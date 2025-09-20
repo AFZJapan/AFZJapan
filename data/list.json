@@ -949,5 +949,35 @@
     "icon": "social",
     "place": "長野県",
     "sns": ""
+  },
+  {
+    "name": "nim.",
+    "icon": "hospitality",
+    "place": "大阪府",
+    "sns": "<a href='https://www.instagram.com/nim.nim.nim.nim.nim' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "京橋フードパントリー",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
+  },
+  {
+    "name": "RAWAと連帯する会",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": "<a href='https://afgan-rawa.blogspot.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "平和と民主主義をともにつくる会・かながわ",
+    "icon": "union",
+    "place": "神奈川県",
+    "sns": "<a href='https://tomonitsukuru.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "全東リなかまユニオン",
+    "icon": "union",
+    "place": "兵庫県",
+    "sns": ""
   }
 ]
