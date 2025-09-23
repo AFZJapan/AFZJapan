@@ -1021,5 +1021,11 @@
     "icon": "place",
     "place": "千葉県",
     "sns": ""
+  },
+  {
+    "name": "イラク平和テレビ局 in Japan",
+    "icon": "union",
+    "place": "大阪府",
+    "sns": "<a href='https://peacetv.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
