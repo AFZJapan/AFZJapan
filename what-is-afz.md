@@ -27,9 +27,13 @@ js: ["afz.js"]
 
 <p>アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。</p>
 
-<img src="/assets/img/AFZ_logo_white.png" style="float:right; width: 200px; padding: 10px" />
-
 <p>AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。</p>
+
+<iframe width="600" height="450"
+src="https://www.youtube.com/embed/8AAjFKlrflA">
+</iframe>
+
+<img src="/assets/img/AFZ_logo_white.png" style="float:right; width: 180px; padding: 10px" />
 
 <p>
   <p>対象となる「スペース」の例</p>
