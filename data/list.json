@@ -1046,5 +1046,11 @@
     "place": "東京都",
     "tags": ["pop-up cafe"],
     "sns": "<a href='https://www.instagram.com/cafefalastin_japan' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "「月桃の花」歌舞団関東稽古場",
+    "icon": "social",
+    "place": "神奈川県",
+    "sns": "<a href='https://www.instagram.com/kabudan_kanto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
