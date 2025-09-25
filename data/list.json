@@ -29,6 +29,7 @@
     "icon": "shop",
     "place": "兵庫県",
     "tags": ["ヴィーガン/Vegan"],
+    "cinema": "1",
     "sns": "<a href='https://mainichishokudo.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://instagram.com/mainichi_shokudo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -48,6 +49,7 @@
     "name": "SUBstore",
     "icon": "hospitality",
     "place": "東京都",
+    "cinema": "1",
     "sns": "<a href='https://substore.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/substore_tokyo' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/substore.tokyo' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -96,6 +98,7 @@
     "name": "リユースショップえまうす&エマど🍩（エマウスどーなつ）",
     "icon": "shop",
     "place": "大阪府",
+    "cinema": "1",
     "sns": "<a href='https://x.com/@hana87emmaus' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/hahaha_y25' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -103,6 +106,7 @@
     "icon": "shop",
     "place": "神奈川県",
     "tags": ["自家製酵母パン"],
+    "cinema": "1",
     "sns": "<a href='https://instagram.com/jiji.pan.chigasaki' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -122,6 +126,7 @@
     "name": "よりまし堂",
     "icon": "hospitality",
     "place": "東京都",
+    "cinema": "1",
     "sns": "<a href='https://yorimashido.stores.jp' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
@@ -146,6 +151,7 @@
     "name": "Bagel cafe nico.",
     "icon": "hospitality",
     "place": "神奈川県",
+    "cinema": "1",
     "sns": "<a href='https://bagelcafenico.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@bagelcafe_nico' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/bagelcafenico' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -178,6 +184,7 @@
     "name": "MAP Cafe",
     "icon": "hospitality",
     "place": "大阪府",
+    "cinema": "1",
     "sns": "<a href='https://www.facebook.com/share/1ApJipNQ3w/?mibextid=wwXIfr' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/@MAPCafe1' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://instagram.com/mapcafe1' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -252,6 +259,7 @@
     "name": "フレンズ・オブ・パレスチナ神戸　ギャラリー Friends of Palestine Kobe",
     "icon": "social",
     "place": "兵庫県",
+    "cinema": "1",
     "sns": "<a href='https://instagram.com/friends_of_palestine_kobe' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -311,6 +319,7 @@
     "name": "パレスチナと仙台を結ぶ会",
     "icon": "social",
     "place": "宮城県",
+    "cinema": "1",
     "sns": "<a href='https://musubukai.tonkotsu.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
@@ -318,6 +327,7 @@
     "icon": "social",
     "place": "東京都",
     "tags": ["Palestine cafe", "Info library"],
+    "cinema": "1",
     "sns": "<a href='http://instagram.com/sawasawahouse' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -345,6 +355,7 @@
     "icon": "cultural",
     "place": "東京都",
     "tags": ["Art space"],
+    "cinema": "1",
     "sns": "<a href='http://portolibre.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
@@ -390,6 +401,7 @@
     "icon": "social",
     "place": "滋賀県",
     "tags": ["Fairtrade"],
+    "cinema": "1",
     "sns": "<a href='https://www.npo-hcc.org' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
@@ -484,6 +496,7 @@
     "name": "YMCAせとうち",
     "icon": "social",
     "place": "岡山県",
+    "cinema": "1",
     "sns": "<a href='https://setohime-ymca.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   },
   {
@@ -502,6 +515,7 @@
     "name": "キノコヤ",
     "icon": "hospitality",
     "place": "東京都",
+    "cinema": "1",
     "sns": "<a href='https://x.com/kinokoya2' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kinokoya96' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -514,6 +528,7 @@
     "name": "フェアコープ・関西",
     "icon": "shop",
     "place": "大阪府",
+    "cinema": "1",
     "sns": ""
   },
   {
@@ -557,12 +572,14 @@
     "name": "おばさんち",
     "icon": "social",
     "place": "神奈川県",
+    "cinema": "1",
     "sns": "<a href='https://www.instagram.com/obasanch' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "ガザ写真展 in 徳島",
     "icon": "cultural",
     "place": "徳島県",
+    "cinema": "1",
     "sns": "<a href='https://www.instagram.com/tokushima.palestine' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -575,12 +592,14 @@
     "name": "NPO法人つむぎの家",
     "icon": "union",
     "place": "兵庫県",
+    "cinema": "1",
     "sns": ""
   },
   {
     "name": "ZENKO（平和と民主主義をめざす全国交歓会）",
     "icon": "union",
     "place": "大阪府",
+    "cinema": "1",
     "sns": "<a href='https://zenko-peace.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/zenkoofficial' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   },
   {
@@ -593,12 +612,14 @@
     "name": "JAALA美術家会議",
     "icon": "cultural",
     "place": "東京都",
+    "cinema": "1",
     "sns": "<a href='https://jaala2015.jimdofree.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/jaala_artist_association' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
     "name": "フォトジャーナリズム展三重",
     "icon": "cultural",
     "place": "三重県",
+    "cinema": "1",
     "sns": "<a href='https://www.facebook.com/share/p/19TNj6WXmr/?mibextid=wwXIfr' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>"
   },
   {
@@ -623,6 +644,7 @@
     "name": "憲法いかそう茨木市民の会",
     "icon": "social",
     "place": "大阪府",
+    "cinema": "1",
     "sns": ""
   },
   {
@@ -665,6 +687,7 @@
     "name": "ZENKO（平和と民主主義をめざす全国交歓会）・広島",
     "icon": "union",
     "place": "広島県",
+    "cinema": "1",
     "sns": "<a href='https://x.com/zenkohiroshima' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
   },
   {
@@ -707,6 +730,7 @@
     "name": "高知からガザ・沖縄連帯実行委員会",
     "icon": "social",
     "place": "高知県",
+    "cinema": "1",
     "sns": "<a href='https://www.instagram.com/kochi_peace4p' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
   {
@@ -738,6 +762,7 @@
     "name": "ZENKO（平和と民主主義をめざす全国交歓会）・京都",
     "icon": "union",
     "place": "京都府",
+    "cinema": "1",
     "sns": ""
   },
   {
@@ -816,6 +841,7 @@
     "name": "ひろがれ！ピース・ミュージアムいたばし",
     "icon": "union",
     "place": "東京都",
+    "cinema": "1",
     "sns": "<a href='https://www.facebook.com/PeaceMuseumItabashi.Campaign/' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>"
   },
   {
@@ -858,6 +884,7 @@
     "name": "ピースネット平野",
     "icon": "social",
     "place": "大阪府",
+    "cinema": "1",
     "sns": ""
   },
   {
