@@ -1039,5 +1039,12 @@
     "icon": "union",
     "place": "兵庫県",
     "sns": ""
+  },
+  {
+    "name": "Cafe Falastin",
+    "icon": "hospitality",
+    "place": "東京都",
+    "tags": ["pop-up cafe"],
+    "sns": "<a href='https://www.instagram.com/cafefalastin_japan' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
