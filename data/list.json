@@ -1079,5 +1079,17 @@
     "icon": "social",
     "place": "神奈川県",
     "sns": "<a href='https://www.instagram.com/kabudan_kanto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "希望をつむぐ本屋さん",
+    "icon": "shop",
+    "place": "大阪府",
+    "sns": "<a href='https://x.com/thousand_book' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/thousand_bi_books' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "The Itchy Olive",
+    "icon": "social",
+    "place": "東京都",
+    "sns": "<a href='https://theitchyolive.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/theitchyolive' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/theitchyolive' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
