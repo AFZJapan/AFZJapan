@@ -1121,5 +1121,12 @@
     "icon": "cultural",
     "place": "長野県",
     "sns": "<a href='https://tataradio.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/yousai_to_tanoshimi_tata' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "Sahara Moon",
+    "icon": "hospitality",
+    "place": "京都府",
+    "tags": ["シリア・アラブ料理のレストラン🍽️"],
+    "sns": "<a href='https://a-and-j-trading.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/saharamoon20' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
