@@ -1134,5 +1134,17 @@
     "icon": "social",
     "place": "神奈川県",
     "sns": "<a href='https://sites.google.com/site/nposlkizuna/home' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "lily hall",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
+  },
+  {
+    "name": "足立区議会議員土屋のりこ事務所",
+    "icon": "social",
+    "place": "東京都",
+    "sns": ""
   }
 ]
