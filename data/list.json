@@ -1146,5 +1146,11 @@
     "icon": "social",
     "place": "東京都",
     "sns": ""
+  },
+  {
+    "name": "社民党滋賀県連合",
+    "icon": "union",
+    "place": "滋賀県",
+    "sns": ""
   }
 ]
