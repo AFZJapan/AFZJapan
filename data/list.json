@@ -1170,5 +1170,11 @@
     "icon": "cultural",
     "place": "茨城県",
     "sns": "<a href='https://www.instagram.com/palestine_day_tsukuba' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "有限会社ケーワイケー介護サービス",
+    "icon": "shop"
+    "place": "大阪府",
+    "sns": ""
   }
 ]
