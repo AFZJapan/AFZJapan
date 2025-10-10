@@ -1179,7 +1179,7 @@
   },
   {
     "name": "FM797京都三条ラジオカフェ",
-    "icon": "social"
+    "icon": "social",
     "place": "京都府",
     "sns": "<a href='https://radiocafe.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/fm797radiocafe' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/fm79.7radiocafe' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   },
