@@ -29,9 +29,11 @@ js: ["afz.js"]
 
 <p>AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。</p>
 
+<div class="video-container">
 <iframe width="600" height="450"
 src="https://www.youtube.com/embed/8AAjFKlrflA">
 </iframe>
+</div>
 
 <img src="/assets/img/AFZ_logo_white.png" style="float:right; width: 180px; padding: 10px" />
 
