@@ -1200,5 +1200,11 @@
     "icon": "shop",
     "place": "神奈川県",
     "sns": "<a href='https://www.porvenir-bookstore.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://x.com/porvenir_books1' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "カフェ・メーテルリンク",
+    "icon": "hospitality",
+    "place": "京都府",
+    "sns": ""
   }
 ]
