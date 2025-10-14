@@ -168,7 +168,7 @@ height="200px">
     <a target="_blank" href="https://drive.google.com/drive/folders/1_-QT3XyHxl8NGwnu_ChxSOk49k481XHM">
       <img src="/assets/downloads/パレスチナプラカ各種.png" alt="nekobookmark" height="100px">
     </a>
-    <div class="desc"><a href="https://drive.google.com/drive/folders/1_-QT3XyHxl8NGwnu_ChxSOk49k481XHM" target="_blank">ダウンロード</a><br>(designed by <a target="_blank" href="https://www.instagram.com/senryaku_tohyo/">パレスチナに涙を。さっぽろ</a>)</div>
+    <div class="desc"><a href="https://drive.google.com/drive/folders/1_-QT3XyHxl8NGwnu_ChxSOk49k481XHM" target="_blank">ダウンロード</a><br>(designed by <a target="_blank" href="https://www.instagram.com/tearsforpalestine_sapporo1202/">パレスチナに涙を。さっぽろ</a>)</div>
   </div>
 </div>
 
