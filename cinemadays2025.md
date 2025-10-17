@@ -28,7 +28,7 @@ lang: "ja"
 <a href="#when-i-saw-you">2．When I Saw You ぼくの見えた道</a><br/>
 <a href="#jenin-jenin">3．Jenin Jenin ジェニン、ジェニン</a><br/>
 <a href="#upshot">4．Upshot</a><br/>
-<a href="#locations">上映会場</a><br/>
+<a href="#locations">上映会場はこちら</a><br/>
 </p>
 </div>
 
