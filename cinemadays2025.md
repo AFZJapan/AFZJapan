@@ -1,7 +1,7 @@
 ---
 layout: page
 image: "https://afzjapan.com/assets/cinema2025/1.png"
-css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
+css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "cinemadays2025.css"]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.cinema.js", "map.main.js", "list.cinema.js", "ol-ext.js"]
 lang: "ja"
 ---
@@ -14,79 +14,6 @@ lang: "ja"
   <a href="#" id="popup-closer" class="ol-popup-closer"></a>
   <div id="popup-content"></div>
 </div -->
-
-<style>
-  html {
-    scroll-padding-top: 32px;
-  }
-  .movie {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    max-width: 1000px;
-    height: auto;
-    margin: 0 32px 128px;
-    padding-top: 8px;
-    column-gap: 32px;
-    row-gap: 16px;
-    border-top: 3px solid #33477d;
-  }
-  .movie-keyvisual {
-    flex: 4;
-    margin: 0;
-  }
-  .movie-keyvisual img {
-    max-width: 100%;
-    max-height: 400px;
-  }
-  .movie-info {
-    flex: 6;
-    font-size: 1.1em;
-  }
-  .movie-info h3 {
-    margin: 0;
-    font-size: 1.9em;
-  }
-  .movie-info h3 span {
-    margin-bottom: 2px;
-    margin-left: 0;
-    padding: 4px 8px;
-    font-weight: bold;
-    background-color: #a4ffb0;
-    color: #33477d;
-  }
-  .year-length {
-    font-size: 1.2em;
-    margin-top: 0.2em
-  }
-  .description {
-    line-height: 1.7;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .movie {
-      flex-direction: column;
-      margin: 0 16px;
-      align-items: initial;
-    }
-    .movie-keyvisual {
-      flex: 1;
-    }
-    .movie-keyvisual img {
-      max-width: 50%;
-      height: auto;
-    }
-    .movie-info {
-      flex: 1;
-    }
-    .movie-info h3 {
-      font-size: 1.5em;
-    }
-    .year-length {
-      font-size: 0.9em;
-    }
-  }
-</style>
 
 <div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
   <img src="{{site.baseurl}}/assets/cinema2025/1.png" style="width:100%; padding:0; margin:0;">
