@@ -66,6 +66,7 @@ lang: "ja"
  <thead>
    <tr>
      <th>上映会場</th>
+     <th>都道府県</th>
    </tr>
  </thead>
  <tbody id="CinemaTable">

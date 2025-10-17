@@ -17,6 +17,7 @@ let displayList = () => {
                        <td style="vertical-align: bottom;">${afz[i][3]} <br/>`;
             rows += `
                        </td>
+                       <td>${afz[i][2]}</td>
                      </tr>`;
 
             tbody.innerHTML = rows;
