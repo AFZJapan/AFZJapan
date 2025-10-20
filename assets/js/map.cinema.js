@@ -87,7 +87,7 @@ function display(json) {
     styles[data[2]] = [
       new ol.style.Style({
         image: new ol.style.Icon({
-          src: "assets/icons/cinema_small.png",
+          src: "assets/icons/cinema_small_map.png",
           scale: 0.4,
           anchor: [0.5, 1]
         })
