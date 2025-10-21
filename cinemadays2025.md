@@ -106,6 +106,7 @@ lang: "ja"
  <thead>
    <tr>
      <th>上映会場</th>
+     <th>Link</th>
      <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
    </tr>
  </thead>

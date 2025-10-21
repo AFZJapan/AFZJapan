@@ -15,6 +15,10 @@ let displayList = () => {
         for (let i = 0; i < afz.length; i++) {
             rows += `<tr>
                        <td style="vertical-align: bottom;">${afz[i][3]}`;
+            if (afz[i][5]) {
+                rows += ` <img src="/assets/icons/afz.png" width="16" height="16"></a>`;
+            }
+            rows += `</td><td style="text-align:center;">`
             if (afz[i][4]) {
                 rows += ` <a href="${afz[i][4]}" target="_blank"><img src="/assets/icons/website.png" width="16" height="16"></a>`;
             }
