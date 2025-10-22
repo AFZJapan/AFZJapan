@@ -68,6 +68,7 @@ function addFeatureAt(data) {
     ),
     title: data[2],
     description: data[3],
+    link: data[4],
     id: data[2]
   });
   vector.getSource().addFeature(f);
@@ -106,8 +107,12 @@ function display(json) {
     });
     if (feature) {
       const coordinates = feature.getGeometry().getCoordinates();
-      content.innerHTML =
-        '<code>' + feature.get('description') + '</code>'
+      content.innerHTML = '<code>' + feature.get('description') + '</code>';
+      if (feature.get('link')) {
+        content.innerHTML +=
+        '<br>' +
+        '<code> <a href=' + feature.get('link') + ' target="_blank">link</a></code>';
+      }
       overlay.setPosition(coordinates);
     }
   });
