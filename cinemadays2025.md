@@ -21,7 +21,7 @@ lang: "ja"
 
 <div class="page">
 <p>
-・上映日は基本的に20025年11月2日です（会場の都合により、11月1日～4日の間に開催される場所もあります）。<br>
+・上映日は基本的に2025年11月2日です（会場の都合により、11月1日～4日の間に開催される場所もあります）。<br>
 ・上映時間は各会場によって異なりますので、直接会場にお問い合わせください。<br>
 ・会場情報が見つからない場合はAFZ Japan推進チームへお問い合わせください。<br><br>
 <h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
@@ -29,7 +29,7 @@ lang: "ja"
 <a href="#when-i-saw-you">2．When I Saw You ぼくの見えた道</a><br/>
 <a href="#jenin-jenin">3．Jenin Jenin ジェニン、ジェニン</a><br/>
 <a href="#upshot">4．Upshot</a><br/><br/>
-<a href="#locations">上映会場はこちら »</a><br/>
+<a href="#locations">上映会場はこちら &#9661;</a><br/>
 
 </p>
 </div>
