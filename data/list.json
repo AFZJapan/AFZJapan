@@ -1218,5 +1218,11 @@
     "icon": "cultural",
     "place": "神奈川県",
     "sns": "<a href='https://espoir2023.sakura.ne.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "オセアニア精油市場",
+    "icon": "shop",
+    "place": "東京都",
+    "sns": "<a href='https://aroma-australia.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
   }
 ]
