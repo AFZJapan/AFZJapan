@@ -25,7 +25,7 @@ lang: "ja"
   <div class="callout">
     <ul>
       <li>上映時間や上映作品は各会場によって異なりますので、直接会場にお問い合わせください。</li>
-      <li>会場情報が見つからない場合は<a href="/about/">AFZ Japan推進チーム</a>へお問い合わせください。</li>
+      <li>会場情報が見つからない場合は<a href="/about">AFZ Japan推進チーム</a>へお問い合わせください。</li>
     </ul>
   </div>
 </div>
