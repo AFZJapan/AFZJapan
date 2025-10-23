@@ -16,7 +16,7 @@ lang: "ja"
 </div -->
 
 <div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
-  <img src="{{site.baseurl}}/assets/cinema2025/1.png" style="width:100%; padding:0; margin:0;">
+  <img src="{{site.baseurl}}/assets/cinema2025/1.png" style="width:100%; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！日本の上映会場、60+！すべての会場で入場無料／共催：日本各地の上映会場、AFZ Japan推進チーム">
 </div>
 
 <div class="page">
