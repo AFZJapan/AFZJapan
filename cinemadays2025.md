@@ -19,36 +19,40 @@ lang: "ja"
   <img src="{{site.baseurl}}/assets/cinema2025/1.png" style="width:100%; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！日本の上映会場、60+！すべての会場で入場無料／共催：日本各地の上映会場、AFZ Japan推進チーム">
 </div>
 
-<div class="page">
+<div class="cinemaday-heading">
 
-<div class="callout">
-<ul>
-  <li>上映時間や上映作品は各会場によって異なりますので、直接会場にお問い合わせください。</li>
-  <li>会場情報が見つからない場合は<a href="/about/">AFZ Japan推進チーム</a>へお問い合わせください。</li>
-</ul>
+<div class="cinemaday-heading-notice">
+  <div class="callout">
+    <ul>
+      <li>上映時間や上映作品は各会場によって異なりますので、直接会場にお問い合わせください。</li>
+      <li>会場情報が見つからない場合は<a href="/about/">AFZ Japan推進チーム</a>へお問い合わせください。</li>
+    </ul>
+  </div>
 </div>
 
+<div class="cinemaday-heading-info">
+  <h6><span class="afz-heading-small-colored">上映日</span></h6>
+  <p>
+    <span style="font-size: 1.3em;">2025年11月2日</span><br>
+    <span style="font-size: 1.0em">※会場の都合により、11月1日～4日の間に開催される場所もあります。</span>
+  </p>
+  <br/>
 
-<h6><span class="afz-heading-small-colored">上映日</span></h6>
-<p>
-  <span style="font-size: 1.3em;">2025年11月2日</span><br>
-  <span style="font-size: 1.0em">※会場の都合により、11月1日～4日の間に開催される場所もあります。</span>
-</p>
-<br/>
+  <h6><span class="afz-heading-small-colored">上映会場</span></h6>
+  <p>
+    <a href="#locations" class="link-locations">上映会場の一覧はこちら &#9661;</a>
+  </p>
+  <br/>
 
-<h6><span class="afz-heading-small-colored">上映会場</span></h6>
-<p>
-  <a href="#locations" class="link-locations">上映会場の一覧はこちら &#9661;</a>
-</p>
-<br/>
+  <h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
+  <p>
+  1. <a href="#the-dupes" class="link-movies">The Dupes 太陽の男たち</a><br/>
+  2. <a href="#when-i-saw-you" class="link-movies">When I Saw You ぼくの見えた道</a><br/>
+  3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin ジェニン、ジェニン</a><br/>
+  4. <a href="#upshot" class="link-movies">Upshot</a><br/><br/>
+  </p>
+</div>
 
-<h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
-<p>
-1. <a href="#the-dupes" class="link-movies">The Dupes 太陽の男たち</a><br/>
-2. <a href="#when-i-saw-you" class="link-movies">When I Saw You ぼくの見えた道</a><br/>
-3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin ジェニン、ジェニン</a><br/>
-4. <a href="#upshot" class="link-movies">Upshot</a><br/><br/>
-</p>
 </div>
 
 <a id="the-dupes" />

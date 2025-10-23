@@ -1,24 +1,38 @@
 html {
   scroll-padding-top: 32px;
 }
-.callout {
+.cinemaday-heading {
+  display: flex;;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin-top: 32px;
+  padding: 0px 24px;
+  gap: 32px;
+}
+.cinemaday-heading-info {
+  flex: 1;
+}
+.cinemaday-heading-notice {
+  flex: 1;
+}
+.cinemaday-heading-notice .callout {
+  display: inline-block;
   background-color: #f1f1f1;
   border-radius: 16px;
   border: 1px solid #d8d8d8;
-  margin: 24px 0px;
   padding: 12px 40px 12px 8px;
 }
-.callout ul {
+.cinemaday-heading-notice .callout ul {
   font-size: 1.1em;
   line-height: 1.7;
 }
-.callout ul li {
+.cinemaday-heading-notice .callout ul li {
   margin-bottom: 0.5em;
 }
 .link-locations {
   display: inline-block;
   font-size: 1.3em;
-  font-weight: normal;
+  font-weight: bold;
   color: #33477d;
   text-decoration: underline;
   text-underline-offset: 6px;
@@ -29,6 +43,7 @@ html {
 .link-movies {
   font-size: 1.3em;
   color: #33477d;
+  font-weight: normal;
   text-decoration: underline;
   text-underline-offset: 6px;
   line-height: 1.8em;
@@ -79,7 +94,11 @@ html {
 .description {
   line-height: 1.7;
 }
-
+@media only screen and (max-width: 992px) {
+  .cinemaday-heading {
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 600px) {
   .callout {
     padding: 8px 20px 8px 0px;
