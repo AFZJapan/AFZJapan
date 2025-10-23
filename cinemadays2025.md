@@ -20,17 +20,34 @@ lang: "ja"
 </div>
 
 <div class="page">
-<p>
-・上映日は基本的に2025年11月2日です（会場の都合により、11月1日～4日の間に開催される場所もあります）。<br>
-・上映時間は各会場によって異なりますので、直接会場にお問い合わせください。<br>
-・会場情報が見つからない場合はAFZ Japan推進チームへお問い合わせください。<br><br>
-<h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
-<a href="#the-dupes">1．The Dupes 太陽の男たち</a><br/>
-<a href="#when-i-saw-you">2．When I Saw You ぼくの見えた道</a><br/>
-<a href="#jenin-jenin">3．Jenin Jenin ジェニン、ジェニン</a><br/>
-<a href="#upshot">4．Upshot</a><br/><br/>
-<a href="#locations">上映会場はこちら &#9661;</a><br/>
 
+<div class="callout">
+<ul>
+  <li>上映時間や上映作品は各会場によって異なりますので、直接会場にお問い合わせください。</li>
+  <li>会場情報が見つからない場合は<a href="/about/">AFZ Japan推進チーム</a>へお問い合わせください。</li>
+</ul>
+</div>
+
+
+<h6><span class="afz-heading-small-colored">上映日</span></h6>
+<p>
+  <span style="font-size: 1.3em;">2025年11月2日</span><br>
+  <span style="font-size: 1.0em">※会場の都合により、11月1日～4日の間に開催される場所もあります。</span>
+</p>
+<br/>
+
+<h6><span class="afz-heading-small-colored">上映会場</span></h6>
+<p>
+  <a href="#locations" class="link-locations">上映会場の一覧はこちら &#9661;</a>
+</p>
+<br/>
+
+<h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
+<p>
+1. <a href="#the-dupes" class="link-movies">The Dupes 太陽の男たち</a><br/>
+2. <a href="#when-i-saw-you" class="link-movies">When I Saw You ぼくの見えた道</a><br/>
+3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin ジェニン、ジェニン</a><br/>
+4. <a href="#upshot" class="link-movies">Upshot</a><br/><br/>
 </p>
 </div>
 

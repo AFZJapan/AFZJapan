@@ -1,6 +1,41 @@
 html {
   scroll-padding-top: 32px;
 }
+.callout {
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  border: 1px solid #d8d8d8;
+  margin: 24px 0px;
+  padding: 12px 40px 12px 8px;
+}
+.callout ul {
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+.callout ul li {
+  margin-bottom: 0.5em;
+}
+.link-locations {
+  display: inline-block;
+  font-size: 1.3em;
+  font-weight: normal;
+  color: #33477d;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+.link-locations:hover {
+  color: #a32a34;
+}
+.link-movies {
+  font-size: 1.3em;
+  color: #33477d;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  line-height: 1.8em;
+}
+.link-movies:hover {
+  color: #a32a34;
+}
 .movie {
   display: flex;
   flex-direction: row;
@@ -46,6 +81,12 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
+  .callout {
+    padding: 8px 20px 8px 0px;
+  }
+  .callout ul {
+    font-size: 1.0em;
+  }
   .movie {
     flex-direction: column;
     margin: 0 16px;
