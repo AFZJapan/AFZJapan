@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "パレスチナ映画祭"
-description: "パレスチナ映画祭"
+title: "パレスチナ映画祭2025"
+description: "パレスチナ映画祭: バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！2025年11月2日(日曜日)に世界中で同時開催！日本にも60以上の上映会場！すべての会場で入場無料！"
 image: "https://afzjapan.com/assets/cinema2025/1.png"
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "cinemadays2025.css"]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.cinema.js", "map.main.js", "list.cinema.js", "ol-ext.js"]
