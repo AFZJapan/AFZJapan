@@ -48,10 +48,10 @@ lang: "ja"
 
   <h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
   <p>
-  1. <a href="#the-dupes" class="link-movies">The Dupes 太陽の男たち</a><br/>
-  2. <a href="#when-i-saw-you" class="link-movies">When I Saw You ぼくの見えた道</a><br/>
-  3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin ジェニン、ジェニン</a><br/>
-  4. <a href="#upshot" class="link-movies">Upshot</a><br/><br/>
+  1. <a href="#the-dupes" class="link-movies">The Dupes｜太陽の男たち</a><br/>
+  2. <a href="#when-i-saw-you" class="link-movies">When I Saw You｜ぼくの見えた道</a><br/>
+  3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin｜ジェニン、ジェニン</a><br/>
+  4. <a href="#upshot" class="link-movies">Upshot｜爪痕</a><br/><br/>
   </p>
 </div>
 
@@ -102,6 +102,11 @@ lang: "ja"
     </h3>
     <p class="year-length">2002年／54分</p>
     <p class="description">イスラエルで上映禁止になった「ジェニンの戦い」を題材にしたドキュメンタリー。2002年のイスラエルによる軍事作戦中、ジェニン難民キャンプへのジャーナリストや人権団体の立ち入りは禁止され、パレスチナ側のナラティブは届かない。パレスチナ系イスラエル人、モハンマド・バクリ監督がカメラを手にジェニンで拾う、パレスチナ人の生の声。</p>
+    <div class="description-callout">
+      <p>＊追記 <small>（2025年10月26日）</small></p>
+      <p>バクリ監督について、こちらに「パレスチナ系イスラエル人」と表記しましたが、<strong>「1948年領（現在のイスラエル領）に住むパレスチナ人、モハンマド・バクリ監督」</strong>と改めさせて頂きます。</p>
+      <p>「48年領」すなわち現在の「イスラエル」に住み、イスラエル国籍を持っているパレスチナ人は、本人の意思に関わらずそうしなければ故郷に留まることができない状況にあります。特に10月7日以降のジェノサイド後は、自らを決して「イスラエル人」とは呼ばないパレスチナ人も多いそうです。この問題を明らかにするため、原文は上記にそのまま残し、イスラエル国籍を持たざるを得ないパレスチナ人のみなさまにお詫びして訂正いたします。</p>
+    </div>
   </div>
 </div>
 
@@ -112,7 +117,10 @@ lang: "ja"
     <img src="{{site.baseurl}}/assets/cinema2025/5-kv.jpg">
   </figure>
   <div class="movie-info">
-    <h3><span>Upshot</span></h3>
+    <h3>
+      <span>Upshot</span><br>
+      <span>爪痕</span>
+    </h3>
     <p class="year-length">2024年／34分</p>
     <p class="description">田舎で動物や植物を育て、隠居生活を送るパレスチナ人老夫婦。5人の子供たちの現状や将来について、二人の意見はいつもぶつかり合う。ある時そんな二人の日常につらい過去を思い出させる来客がある。凄惨な爪痕と共に生きることを強いられた、ガザの人々の30年後の姿を映し出す短編ドラマ。</p>
   </div>
