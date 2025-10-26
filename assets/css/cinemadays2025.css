@@ -94,6 +94,22 @@ html {
 .description {
   line-height: 1.7;
 }
+.description-callout {
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  padding: 16px;
+  font-size: 0.9em;
+  color: #5a5a5a;
+  margin-bottom: 32px;
+}
+.description-callout strong {
+  font-weight: bold;
+}
+.description-callout p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 @media only screen and (max-width: 992px) {
   .cinemaday-heading {
     flex-direction: column;
