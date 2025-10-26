@@ -48,10 +48,10 @@ lang: "ja"
 
   <h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
   <p>
-  1. <a href="#the-dupes" class="link-movies">The Dupes 太陽の男たち</a><br/>
-  2. <a href="#when-i-saw-you" class="link-movies">When I Saw You ぼくの見えた道</a><br/>
-  3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin ジェニン、ジェニン</a><br/>
-  4. <a href="#upshot" class="link-movies">Upshot</a><br/><br/>
+  1. <a href="#the-dupes" class="link-movies">The Dupes｜太陽の男たち</a><br/>
+  2. <a href="#when-i-saw-you" class="link-movies">When I Saw You｜ぼくの見えた道</a><br/>
+  3. <a href="#jenin-jenin" class="link-movies">Jenin Jenin｜ジェニン、ジェニン</a><br/>
+  4. <a href="#upshot" class="link-movies">Upshot｜爪痕</a><br/><br/>
   </p>
 </div>
 
@@ -112,7 +112,10 @@ lang: "ja"
     <img src="{{site.baseurl}}/assets/cinema2025/5-kv.jpg">
   </figure>
   <div class="movie-info">
-    <h3><span>Upshot</span></h3>
+    <h3>
+      <span>Upshot</span><br>
+      <span>爪痕</span>
+    </h3>
     <p class="year-length">2024年／34分</p>
     <p class="description">田舎で動物や植物を育て、隠居生活を送るパレスチナ人老夫婦。5人の子供たちの現状や将来について、二人の意見はいつもぶつかり合う。ある時そんな二人の日常につらい過去を思い出させる来客がある。凄惨な爪痕と共に生きることを強いられた、ガザの人々の30年後の姿を映し出す短編ドラマ。</p>
   </div>
