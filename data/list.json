@@ -1242,5 +1242,12 @@
     "icon": "hospitality",
     "place": "東京都",
     "sns": "<a href='https://www.instagram.com/sirotoaoto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "veganレストランcafuu",
+    "icon": "hospitality",
+    "place": "兵庫県",
+    "tags": ["ヴィーガン/vegan"],
+    "sns": "<a href='https://cafuuvegan.jugem.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/momomayu321' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
