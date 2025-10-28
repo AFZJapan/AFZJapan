@@ -1236,5 +1236,11 @@
     "icon": "hospitality",
     "place": "愛知県",
     "sns": ""
+  },
+  {
+    "name": "sirotoaoto",
+    "icon": "hospitality",
+    "place": "東京都",
+    "sns": "<a href='https://www.instagram.com/sirotoaoto' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
