@@ -138,7 +138,7 @@ lang: "ja"
 <table class="afz-table table-bordered">
  <thead>
    <tr>
-     <th>上映会場</th>
+     <th>上映会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> このマークはAFZ登録スペースです 】</th>
      <th>Link</th>
      <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
    </tr>
