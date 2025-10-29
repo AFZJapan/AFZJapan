@@ -1249,5 +1249,11 @@
     "place": "兵庫県",
     "tags": ["ヴィーガン/vegan", "動物＆添加物&白砂糖フリー", "小麦フリー"],
     "sns": "<a href='https://cafuuvegan.jugem.jp/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/momomayu321' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "あしたの森と海のがっこう",
+    "icon": "shop",
+    "place": "福岡県",
+    "sns": ""
   }
 ]
