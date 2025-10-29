@@ -1255,5 +1255,11 @@
     "icon": "shop",
     "place": "福岡県",
     "sns": ""
+  },
+  {
+    "name": "Palestine in Ehime",
+    "icon": "social",
+    "place": "愛媛県",
+    "sns": "<a href='https://www.instagram.com/mursyida.nf' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
