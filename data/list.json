@@ -1267,5 +1267,29 @@
     "icon": "hospitality",
     "place": "大阪府",
     "sns": "<a href='https://www.instagram.com/yim_coffeeandcrafts' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "戦争あかん！ロックアクション",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
+  },
+  {
+    "name": "関西ガザ緊急アクション",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
+  },
+  {
+    "name": "朝鮮学校とともに歩む会",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
+  },
+  {
+    "name": "朝鮮高級学校の無償化を求める連絡会・大阪",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
   }
 ]
