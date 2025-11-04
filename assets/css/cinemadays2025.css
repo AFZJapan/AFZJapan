@@ -109,7 +109,58 @@ html {
   margin-top: 8px;
   margin-bottom: 8px;
 }
+.cinemaday-appendix h6 {
+  margin: 80px auto 24px;
+}
+.news-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 16px 60px;
+}
+.news-item a {
+  font-weight: normal;
+  max-width: 640px;
+  padding: 20px 24px;
+  border: 2px solid #d8d8d8;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  color: #5a5a5a;
+  text-decoration: none;
 
+}
+.news-item a:hover {
+  border: 2px solid #333;
+  text-decoration: none;
+}
+.news-item .info .media {
+  font-size: 0.86em;
+  margin-bottom: 4px;
+}
+.news-item .info .media img {
+  vertical-align: middle;
+  position: relative;
+  top: -0.1em;
+}
+.news-item .info .media strong {
+  font-weight: bold;
+}
+.news-item .info .title {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #33477d;
+}
+.news-item .info .description {
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #5a5a5a;
+}
+.news-item .thumbnail img {
+  width: 160px;
+}
 @media only screen and (max-width: 992px) {
   .cinemaday-heading {
     flex-direction: column;
@@ -142,5 +193,9 @@ html {
   }
   .year-length {
     font-size: 0.9em;
+  }
+  .news-item .thumbnail img {
+    display: none;
+    width: 80px;
   }
 }
