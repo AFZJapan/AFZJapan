@@ -147,5 +147,90 @@ lang: "ja"
 
  </tbody>
 </table>
+</div>
+
+<div class="cinemaday-appendix">
+  <h6><span class="afz-heading-small-colored">メディアでの紹介</span></h6>
+
+  <div class="news-items">
+    <div class="news-item">
+      <a href="https://www.huffingtonpost.jp/entry/palestine-cinema-days-2025_jp_68f20953e4b0ee732e2491e2" target="_blank">
+        <div class="info">
+          <div class="media">
+            <img src="https://www.huffingtonpost.jp/favicon-new.ico" width="20px">
+            <strong>ハフポスト</strong> — 2025年10月23日
+          </div>
+          <div class="title">「パレスチナ映画祭」が11月2日に開催。4作品を無料で上映。日本の会場は？</div>
+          <div class="description">パレスチナの地を巡る争いの原因となった「バルフォア宣言」が出された11月2日に、パレスチナとの連帯を示す映画祭が開かれます。</div>
+        </div>
+        <div class="thumbnail">
+          <img src="/assets/cinema2025/news-huffpost-1.webp" alt="ハフポストのニュース記事のサムネイル画像">
+        </div>
+      </a>
+    </div>
+
+    <div class="news-item">
+      <a href="https://www.kanaloco.jp/news/life/article-1219346.html" target="_blank">
+        <div class="info">
+          <div class="media">
+            <img src="https://www.kanaloco.jp/common/favicon/apple-touch-icon.png" width="20px">
+            <strong>神奈川新聞 カナロコ</strong> — 2025年10月29日
+          </div>
+          <div class="title">茅ケ崎　パレスチナ題材の映画2作品を上映　11月2日、参加無料で </div>
+          <div class="description">パレスチナを題材とした映画を上映する「パレスチナシネマデイズインチガサキ」が１１月２日、茅ケ崎市勤労市民会館（同市新栄町）で開かれる。上映されるのは、パレスチナを代表する作家ガッサーン・カナファーニーの小説を映画化した「太陽の男たち」と、…</div>
+        </div>
+        <div class="thumbnail">
+          <img src="/assets/cinema2025/news-kanaloco-1.jpg" alt="神奈川新聞カナロコのニュース記事のサムネイル画像">
+        </div>
+      </a>
+    </div>
+
+    <div class="news-item">
+      <a href="https://www.yomiuri.co.jp/local/hyogo/news/20251029-OYTNT50046/" target="_blank">
+        <div class="info">
+          <div class="media">
+            <img src="https://www.yomiuri.co.jp/apple-touch-icon-precomposed.png" width="20px">
+            <strong>読売新聞</strong> — 2025年10月29日
+          </div>
+          <div class="title">パレスチナ　知る映画</div>
+          <div class="description">【読売新聞】パレスチナ問題を知るための映画２本の上映会が、１１月２日、川西市栄町のアステ川西６階の市民プラザマルチスペース１で開かれる。 英国がユダヤ人国家建設を支持し、「バルフォア宣言」を出したのが、１９１７年１１月２日。パレスチ…</div>
+        </div>
+        <div class="thumbnail">
+        </div>
+      </a>
+    </div>
+
+  <div class="news-item">
+      <a href="https://mainichi.jp/articles/20251029/k00/00m/040/144000c" target="_blank">
+        <div class="info">
+          <div class="media">
+            <img src="https://cdn.mainichi.jp/vol1/images/icon/mainichi/apple-touch.png" width="20px">
+            <strong>毎日新聞</strong> — 2025年10月31日
+          </div>
+          <div class="title">11月2日に世界同時開催の「パレスチナ映画祭」　日本でも</div>
+          <div class="description">イスラエルによる占領と抑圧が続くパレスチナに連帯しようと11月2日、世界70カ国以上でパレスチナ映画を同時上映する「パレスチナ映画祭」が開かれる。2014年から毎年パレスチナで開かれてきたが23年10月、イスラエルによるガザ地区への大規模侵攻開始後は、全世界で映画上映を呼びかけるスタイルになった。</div>
+        </div>
+        <div class="thumbnail">
+          <img src="/assets/cinema2025/news-mainichi-1.jpg" alt="毎日新聞のニュース記事のサムネイル画像。映画『太陽の男たち』のワンシーンの画像。">
+        </div>
+      </a>
+    </div>
+
+    <div class="news-item">
+      <a href="https://news.web.nhk/newsweb/na/nb-2000098173" target="_blank">
+        <div class="info">
+          <div class="media">
+            <img src="https://news.web.nhk/apple-touch-icon.png" width="20px">
+            <strong>NHKニュース（関西）</strong> — 2025年11月3日
+          </div>
+          <div class="title">中東 パレスチナ問題 映画通じて考える 関西各地で上映会</div>
+          <div class="description">今も続く中東のパレスチナ問題について、映画を通じて考えてもらおうという催しが全国各地で開かれ、関西地方でも多くの人が訪れました。</div>
+        </div>
+        <div class="thumbnail">
+          <img src="/assets/cinema2025/news-nhk-1.jpg" alt="NHK NEWS WEBのニュース記事のサムネイル画像">
+        </div>
+      </a>
+    </div>
+  </div>
 
 </div>
