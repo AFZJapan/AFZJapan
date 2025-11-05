@@ -1304,5 +1304,11 @@
     "place": "高知県",
     "tags": ["Catering", "Organic Vegan Chef"],
     "sns": "<a href='https://www.roku-berlin.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/roku_berlin' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "ごはんカフェ MARE HALAL",
+    "icon": "hospitality",
+    "place": "東京都",
+    "sns": "<a href='https://www.instagram.com/maremomocafe' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
