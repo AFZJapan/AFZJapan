@@ -1,0 +1,57 @@
+.link-appendix {
+  margin: 80px auto 24px;
+}
+.link-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 16px 60px;
+}
+.link-item a {
+  font-weight: normal;
+  max-width: 640px;
+  padding: 20px 24px;
+  border: 2px solid #d8d8d8;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  color: #5a5a5a;
+  text-decoration: none;
+}
+.link-item a:hover {
+  border: 2px solid #333;
+  text-decoration: none;
+}
+.link-item .info .media {
+  font-size: 0.86em;
+  margin-bottom: 4px;
+}
+.link-item .info .media img {
+  vertical-align: middle;
+  position: relative;
+  top: -0.1em;
+}
+.link-item .info .media strong {
+  font-weight: bold;
+}
+.link-item .info .title {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  color: #33477d;
+}
+.link-item .info .description {
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: #5a5a5a;
+}
+.link-item .thumbnail img {
+  width: 160px;
+}
+@media only screen and (max-width: 600px) {
+  .link-item .thumbnail img {
+    display: none;
+    width: 80px;
+  }
+}
