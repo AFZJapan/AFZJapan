@@ -14,7 +14,7 @@ let displayLinks = () => {
         let links = result.links;
         for (let i = 0; i < links.length; i++) {
             rows += `
-    <div class="news-item">
+    <div class="link-item">
       <a href="${links[i].link}" target="_blank">
         <div class="info">
           <div class="media">`;
