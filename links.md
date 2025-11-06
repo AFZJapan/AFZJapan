@@ -3,7 +3,7 @@ layout: page
 title: "links"
 description: "パレスチナ関連リンク集"
 image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
-css: ["index.css", "cinemadays2025.css"]
+css: ["index.css", "cinemadays2025.css", "images.css"]
 js: ["links.js"]
 ---
 
@@ -14,7 +14,7 @@ js: ["links.js"]
   </tr>
 </table>
 
-<div class="cinemaday-appendix">
+<div class="cinemaday-appendix" style="margin-top: 16px">
 
   <div class="news-items" id="LinksTable">
 
