@@ -1316,5 +1316,11 @@
     "icon": "hospitality",
     "place": "北海道",
     "sns": "<a href='https://www.mintaru.com/2011/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "": "みちばたプリント",
+    "icon": "cultural",
+    "place": "東京都",
+    "sns": "<a href='https://www.instagram.com/michibataprint' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
