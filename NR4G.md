@@ -1,0 +1,4 @@
+---
+redirect:   /noroom
+layout:     redirect
+---
