@@ -1340,6 +1340,12 @@
     "name": "エコライフ不動産",
     "icon": "shop",
     "place": "神奈川県",
-    "sns": "<a href='https://papa-e.com/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> "
+    "sns": "<a href='https://papa-e.com/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "パパラギ住まいのサポートセンター",
+    "icon": "union",
+    "place": "神奈川県",
+    "sns": ""
   }
 ]
