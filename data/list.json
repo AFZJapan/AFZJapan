@@ -1323,5 +1323,23 @@
     "place": "東京都",
     "tags": ["Print for Palestine", "silkscreen", "Kufiyeh spray paint"],
     "sns": "<a href='https://www.instagram.com/michibataprint' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "エコストアパパラギ",
+    "icon": "shop",
+    "place": "神奈川県",
+    "sns": "<a href='https://ecostorepapalagi.com/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/ecostore_papalagi' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "NPO法人気候危機対策ネットワーク",
+    "icon": "union",
+    "place": "神奈川県",
+    "sns": "<a href='https://kikoukiki.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kikoukiki_taisaku_nw' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "エコライフ不動産",
+    "icon": "shop",
+    "place": "神奈川県",
+    "sns": "<a href='https://papa-e.com/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> "
   }
 ]
