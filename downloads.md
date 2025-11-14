@@ -44,6 +44,16 @@ css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-
 
 <div class="responsive">
   <div class="gallery">
+    <a target="_blank" href="/preview_download?preview=paper_reg">
+      <img src="/assets/downloads/AFZ_register.png" alt="AFZ_register_paper_form" height="200px">
+    </a>
+    <div class="desc"><button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1BeyA-C04Epv8xVA6mZUl2CVup4Xs1teK/view')"><span style="font-size: 0.875em;"><i class="fa fa-download"></i> 紙登録フォーム</span></button>
+    </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="/assets/downloads/AFZ_Japan_logo_nobg.png">
       <img src="/assets/downloads/AFZ_Japan_logo_nobg.png" alt="AFZ-Japan_ロゴ_透明背景"
 height="200px">
