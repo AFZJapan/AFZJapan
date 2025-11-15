@@ -1,53 +1,53 @@
 [
   {
-    "link": "https://bdsjapanbulletin.wordpress.com/",
+    "url": "https://bdsjapanbulletin.wordpress.com/",
     "thumbnail": "/assets/img/bjb_ico.jpg",
     "title": "BDS Japan Bulletin",
     "description": "BDS運動とは、イスラエルのアパルトヘイト政策を終わらせるためにパレスチナの市民から呼びかけられた、イスラエルに対するボイコット、資本の引揚げ、制裁を行うよう求める国際キャンペーン。BDS Japan Bulletinは、日本でBDSやパレスチナに関する情報を発信する掲示板です。"
   },
   {
-    "link": "https://olivejournal.com/",
+    "url": "https://olivejournal.com/",
     "thumbnail": "http://olivejournal.com/wp-content/uploads/2025/08/s-1600x992_v-fms_webp_e4a8ad3c-e544-4998-b0ef-141b3a4c95f1_middle-1.webp",
     "title": "Olive Journal | 市民がつくるパレスチナ情報サイト",
     "description": "パレスチナ情勢、ガザの最新情報、BDS運動、日本からの支援、パレスチナ-イスラエル問題の背景や歴史、市民によるアクションの方法を網羅。署名・デモ・ボイコット・文化発信などの情報を掲載した市民メディア Olive Journal（オリーブジャーナル）。"
   },
   {
-    "link": "https://bdsmovement.net/",
+    "url": "https://bdsmovement.net/",
+    "thumbnail": "https://bdsmovement.net/sites/default/files/styles/twitter_image/public/2025-02/832e4e3f-0274-4dcf-8618-9f72bb5c8b7b.jpg?itok=-vSihCrX",
     "title": "BDS MOVEMENT",
-    "description": "The Boycott, Divestment, Sanctions (BDS) movement works to end international support for Israel's oppression of Palestinians.",
-    "thumbnail": "https://bdsmovement.net/sites/default/files/styles/twitter_image/public/2025-02/832e4e3f-0274-4dcf-8618-9f72bb5c8b7b.jpg?itok=-vSihCrX"
+    "description": "The Boycott, Divestment, Sanctions (BDS) movement works to end international support for Israel's oppression of Palestinians."
   },
   {
-    "link": "https://bdsmovement.net/apartheid-free-zones",
+    "url": "https://bdsmovement.net/apartheid-free-zones",
     "thumbnail": "https://bdsmovement.net/sites/default/files/styles/og_image/public/2025-02/Untitled%20design-4.jpg?itok=kfWJmLy_",
     "title": "The Apartheid Free Zone (AFZ)",
     "description": "The Apartheid Free Zone (AFZ) campaign, as part of the BDS movement, seeks to foster the creation of progressive, intersectional spaces across the world that are free of Israel’s genocide, apartheid, and settler colonialism, and which bring together multiple struggles for justice and equality."
   },
   {
-    "link": "https://note.com/palestine_key",
+    "url": "https://note.com/palestine_key",
     "thumbnail": "/assets/img/keywords.webp",
     "title": "パレスチナを知るキーワード｜note",
     "description": "「パレスチナを知るキーワード」フライヤーのページです。関心を持っていただき、ありがとうございます。フライヤーの作成者はimomio、送付しているのは疋田（ひきた）香澄です。ボランティア2名による個人的な活動なので、ご寄付は受け付けておりません。ぜひフライヤーを広げてください。"
   },
   {
-    "link": "https://docs.google.com/document/d/1-_qQyQRXU64jdZdgHT5idBfBz2xjf0fZQITbmmXWFOo/",
+    "url": "https://docs.google.com/document/d/1-_qQyQRXU64jdZdgHT5idBfBz2xjf0fZQITbmmXWFOo/",
     "title": "【植民地主義に抗い民衆と連帯するアクションリスト】",
     "description": "🔥植民地主義に抗い🔥 🔥民衆と連帯するアクションリスト🔥"
   },
   {
-    "link": "https://www.cultureagainstapartheid.jp/",
+    "url": "https://www.cultureagainstapartheid.jp/",
     "title": "Culture Against Apartheid 　アパルトヘイトに抗する文化",
     "description": "〈Culture Against Apartheid アパルトヘイトに抗する文化〉は、私たちひとりひとりが、パレスチナでの大量虐殺と民族浄化を止める事を早急の課題とし、この問題の根幹にある占領や、アパルトヘイト体制、「日本」をふくむ世界中の、あらゆる抑圧に抗う『文化...",
     "thumbnail" : "https://images.squarespace-cdn.com/content/6588c79d7a98c4222d30f865/d2a95eec-e837-4d3a-9427-42ce0814d36d/Screenshot+2023-12-25+at+9.09.46+PM.jpg?format=1500w&content-type=image%2Fjpeg"
   },
   {
-    "link": "https://decolonizepalestine.com/",
+    "url": "https://decolonizepalestine.com/",
     "title": "Decolonize Palestine",
     "description": "Welcome to Decolonize Palestine, a collection of resources for anyone who wants to learn more about Palestine.",
     "thumbnail": "https://decolonizepalestine.com/wp-content/uploads/2021/04/Hero-Pagetest_mobile.jpg"
   },
   {
-    "link": "https://decolonizepalestine.com/rainbow-washing/",
+    "url": "https://decolonizepalestine.com/rainbow-washing/",
     "title": "Rainbow washing | Decolonize Palestine",
     "description": "Welcome to the Decolonize Palestine rainbow washing section. Here you can learn about the myriad ways in which Israel seeks to improve its dismal world image.",
     "thumbnail": "https://decolonizepalestine.com/wp-content/uploads/2021/04/Rainbowwashing_doubleback-1.jpg"
