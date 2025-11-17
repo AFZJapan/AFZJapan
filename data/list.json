@@ -1359,5 +1359,11 @@
     "icon": "hospitality",
     "place": "神奈川県",
     "sns": "<a href='https://www.instagram.com/caffetamuro' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "bani_alsalam x SHIRORU パレスチナ写真展",
+    "icon": "social",
+    "place": "京都府",
+    "sns": "<a href='https://www.instagram.com/bani_alsalam' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/shiroru____' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
   }
 ]
