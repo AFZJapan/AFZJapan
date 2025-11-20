@@ -1372,5 +1372,11 @@
     "place": "東京都",
     "tags": ["#NoTechForApartheid"],
     "sns": "<a href='https://eidantoei.org/' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a> <a href='https://www.instagram.com/kssk' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>"
+  },
+  {
+    "name": "ＯＰＥＮ〈平和と平等を拓く女たちの絆〉",
+    "icon": "social",
+    "place": "大阪府",
+    "sns": ""
   }
 ]
