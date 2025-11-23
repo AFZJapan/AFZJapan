@@ -51,11 +51,6 @@ const map = new ol.Map({
   view: new ol.View({ center: ol.proj.fromLonLat([135.939478, 35.152832]), zoom: 4.7 }),
 });
 
-// get data from json
-fetch('/data/map.json')
-    .then((response) => response.json())
-    .then((json) => display(json));
-
 // Pins
 const features = [];
 const styles = {};
@@ -64,11 +59,11 @@ function addFeatureAt(data) {
   const r = map.getView().getResolution() * 10;
   const f = new ol.Feature({
     geometry: new ol.geom.Point(
-      ol.proj.fromLonLat([parseFloat(data[0]), parseFloat(data[1])])
+      ol.proj.fromLonLat([data.geo.lon, data.geo.lat])
     ),
-    title: data[2],
-    description: data[3],
-    id: data[2]
+    title: data.name,
+    description: data.name,
+    id: data.type
   });
   vector.getSource().addFeature(f);
   vector.animateFeature (f, [
@@ -84,7 +79,7 @@ function display(json) {
   for (var i = 0; i < json.length; i++) {
     const data =  json[i];
 
-    styles[data[2]] = [
+    styles[data.name] = [
       //new ol.style.Style({
       //  image: new ol.style.Shadow({
       //    radius: 15,
@@ -100,7 +95,7 @@ function display(json) {
       //}),
       new ol.style.Style({
         image: new ol.style.Icon({
-          src: "assets/icons/" + data[2] + ".png",
+          src: "assets/icons/" + types[data.type].type + ".png",
           scale: 0.4,
           anchor: [0.5, 1]
         })
@@ -138,3 +133,5 @@ const vector = new ol.layer.Vector({
 });
 
 map.addLayer(vector);
+
+display(json);

@@ -4,7 +4,7 @@ title: "Apartheid Free Zones (AFZ) in Japan"
 description: "The global Apartheid Free Zones (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. This site is dedicated to localizing and promoting AFZ in Japan."
 image: "https://afzjapan.com/assets/img/afz_scr_en.png"
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "list.js", "ol-ext.js"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "ol-ext.js"]
 lang: "en"
 ---
 
@@ -35,18 +35,16 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
   <div id="popup-content"></div>
 </div>
 
+{% assign types = site.data.types %}
 <ul id="legend">
-  <li><img src="{{site.baseurl}}/assets/icons/social.png" height=20 width=20><span>social</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/cultural.png" height=20 width=20><span>cultural</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/hospitality.png" height=20 width=20><span>hospitality</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/union.png" height=20 width=20><span>union</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>local business</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>public space</span></li>
+  {% for type in types %}
+  <li><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span>{{ type.en }}</span></li>
+  {% endfor %}
 </ul>
 
 <div>
 
-<div class="row no-gutters" style="float: right; padding: 0; margin: 0">
+<!-- div class="row no-gutters" style="float: right; padding: 0; margin: 0">
   <div class="col" style="padding: 0 0 0 10px; margin: 0">
     <input class="form-control" style="padding: 0 0 0 4px; margin: 0 0 8px" type="text" id="place" list="places" placeholder="場所でフィルター" onkeyup="filterWithDelay()">
     <datalist id="places">
@@ -66,7 +64,7 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
   <div class="col" style="padding: 0px; margin: 0 6px 8px 12px;">
     <button type="button" class="btnic" style="padding: 6px 30px; margin: 0" name="button" onclick="filterByPlace()"><i class="fa fa-search"></i></button>
   </div>
-</div>
+</div -->
 
 <table class="afz-table table-bordered">
  <thead>
@@ -78,7 +76,42 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
  </thead>
  <tbody id="AFZTable">
 
+  {% assign pref = site.data.prefectures %}
+  {% assign list = site.data.list %}
+  {% for afz in list %}
+  <tr>
+    <td style="vertical-align: bottom;">{{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} <br/>
+    {% for tag in afz.tags %}
+      <div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">{{ tag }}</div>
+    {% endfor %}
+    </td>
+    <td>{{ pref[afz.pref].en }}</td>
+    <td>
+    {% for link in afz.links %}
+      {% if link[0] == "twitter" %}
+        <a href='https://x.com/{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>
+      {% elsif link[0] == "insta" %}
+        <a href='https://www.instagram.com/{{ link[1] }}/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>
+      {% elsif link[0] == "insta2" %}
+        <a href='https://www.instagram.com/{{ link[1] }}/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>
+      {% elsif link[0] == "fb" %}
+        <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>
+      {% else %}
+        <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>
+      {% endif %}
+    {% endfor %}
+    </td>
+  </tr>
+
+  {% endfor %}
+
  </tbody>
 </table>
+
+<script>
+var types = {{ site.data.types | jsonify }};
+var json = {{ list | jsonify }}.filter(geo);
+function geo(j) { return j.geo != null }
+</script>
 
 </div>
