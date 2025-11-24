@@ -63,6 +63,7 @@ function addFeatureAt(data) {
     ),
     title: data.name,
     description: data.name,
+    links: data.links,
     id: data.type
   });
   vector.getSource().addFeature(f);
@@ -114,10 +115,20 @@ function display(json) {
     });
     if (feature) {
       const coordinates = feature.getGeometry().getCoordinates();
-      content.innerHTML =
-        // '<p>Title:</p><code>' + feature.get('title') + '</code><br>' +
-        // TODO: icon, name, chip, website/sns
-        '<code>' + feature.get('description') + '</code>'
+      content.innerHTML = '<code>' + feature.get('description') + '</code>'
+      if (feature.get('links')) {
+        rows = ``;
+        if (feature.get('links').web) {
+          rows += `<a href="${feature.get('links').web}" target="_blank"><img align='top' src='/assets/icons/website.png' width='20px' height='20px' /></a> `;
+        }
+        if (feature.get('links').insta) {
+          rows += `<a href="https://www.instagram.com/${feature.get('links').insta}" target="_blank"><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px' /></a> `;
+        }
+        if (feature.get('links').twitter) {
+          rows += `<a href="https://x.com/${feature.get('links').twitter}" target="_blank"><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px' /></a> `;
+        }
+        content.innerHTML += '<br>' + '<code>' + rows + '</code>';
+      }
       overlay.setPosition(coordinates);
     }
   });
