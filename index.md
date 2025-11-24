@@ -115,7 +115,7 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
 </table>
 
 <script>
-var types = {{ site.data.types | jsonify }};
+var types = {{ types | jsonify }};
 var json = {{ list | jsonify }}.filter(geo);
 function geo(j) { return j.geo != null }
 </script>

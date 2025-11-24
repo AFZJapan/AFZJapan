@@ -79,6 +79,7 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
   {% assign pref = site.data.prefectures %}
   {% assign list = site.data.list %}
   {% for afz in list %}
+
   <tr>
     <td style="vertical-align: bottom;">{{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} <br/>
     {% for tag in afz.tags %}
@@ -109,7 +110,7 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
 </table>
 
 <script>
-var types = {{ site.data.types | jsonify }};
+var types = {{ types | jsonify }};
 var json = {{ list | jsonify }}.filter(geo);
 function geo(j) { return j.geo != null }
 </script>
