@@ -431,7 +431,7 @@
     "type": 0,
     "pref": 13,
     "tags": ["Palestinian-owned"],
-    "links": {"insta":"intifada_habibti"}
+    "links": {"insta": "tatianarika", "insta2": "intifada_habibti"}
   },
   {
     "name": "451BOOKS",
@@ -819,7 +819,7 @@
     "type": 0,
     "pref": 13,
     "tags": ["Designed in Gaza", "Online store"],
-    "links": {"web":"https://fekra-japan.com/", "insta":"fekra.global"}
+    "links": {"web":"https://fekra-japan.com/", "insta":"fekra_japan", "insta2":"fekra.global"}
   },
   {
     "name": "辺野古ストップ滋賀",
@@ -1471,7 +1471,7 @@
     "name": "bani_alsalam x SHIRORU パレスチナ写真展",
     "type": 1,
     "pref": 26,
-    "links": {"insta":"shiroru____"}
+    "links": {"insta":"bani_alsalam", "insta2":"shiroru____"}
   },
   {
     "name": "Eidantoei",
