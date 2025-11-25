@@ -116,6 +116,7 @@
     "name": "自家製酵母パン JiJi",
     "type": 0,
     "pref": 14,
+    "geo": {"lat": 35.34355248384452, "lon": 139.40781490741023},
     "tags": ["自家製酵母パン"],
     "links": {"insta":"jiji.pan.chigasaki"},
     "c2025": 1
@@ -288,6 +289,7 @@
     "name": "フレンズ・オブ・パレスチナ神戸　ギャラリー Friends of Palestine Kobe",
     "type": 1,
     "pref": 28,
+    "geo": {"lat": 34.698510012762256, "lon": 135.18792871757285},
     "links": {"insta":"friends_of_palestine_kobe"},
     "c2025": 1
   },
@@ -302,6 +304,7 @@
     "name": "キッチン ハリーナ Kitchen Halina",
     "type": 2,
     "pref": 26,
+    "geo": {"lat": 35.02937568395893, "lon": 135.78654351875446},
     "tags": ["Fair Trade"],
     "links": {"web":"https://kitchen-halina.jimdofree.com/", "twitter":"kitchenhalina", "insta":"explore/locations/404876655/kitchinharina-kitchen-halina/"}
   },
@@ -379,6 +382,7 @@
     "name": "穂積繊維/月山緞通ラグストア Gassan Dantsu Rugstore",
     "type": 0,
     "pref": 6,
+    "geo": {"lat": 38.330383663784936, "lon": 140.25648439612962},
     "links": {"web":"https://rugstore.co.jp/", "twitter":"rugstore", "insta":"rugst0re"}
   },
   {
@@ -1036,6 +1040,7 @@
     "name": "本屋うゆらら",
     "type": 0,
     "pref": 27,
+    "geo": {"lat": 135.51475616715467, "lon": 34.76252825264639},
     "links": {"web":"http://www.uyulala.jp", "twitter":"uyulala0716", "insta":"uyulala.books"}
   },
   {
@@ -1315,6 +1320,7 @@
     "name": "inco堂植物園",
     "type": 0,
     "pref": 27,
+    "geo": {"lat": 34.49787658951056, "lon": 135.57191276714482},
     "links": {"insta":"inco_asami"}
   },
   {
@@ -1433,8 +1439,10 @@
   },
   {
     "name": "エコストアパパラギ",
+    "name_on_map": "エコストアパパラギ,<br>NPO法人気候危機対策ネットワーク,<br>エコライフ不動産,<br>パパラギ住まいのサポートセンター",
     "type": 0,
     "pref": 14,
+    "geo": {"lat": 35.336744795715155, "lon": 139.4890372825202},
     "links": {"web":"https://ecostorepapalagi.com/", "insta":"ecostore_papalagi"}
   },
   {
