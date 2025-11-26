@@ -1,0 +1,8 @@
+[
+  {"type":"shop", "name":"お店・地元企業", "en":"Shop"},
+  {"type":"social", "name":"ソーシャル・社交の場", "en": "Social"},
+  {"type":"hospitality", "name":"飲食・宿泊業", "en": "Hospitality"},
+  {"type":"cultural", "name":"文化・学術的な場所", "en": "Cultural"},
+  {"type":"union", "name":"組合・団体", "en": "Union"},
+  {"type":"place", "name":"公的機関・自治体", "en": "Public Space"}
+]
