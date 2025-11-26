@@ -1439,17 +1439,17 @@
   },
   {
     "name": "エコストアパパラギ",
-    "name_on_map": "エコストアパパラギ,<br>NPO法人気候危機対策ネットワーク,<br>エコライフ不動産,<br>パパラギ住まいのサポートセンター",
     "type": 0,
     "pref": 14,
-    "geo": {"lat": 35.336744795715155, "lon": 139.4890372825202},
     "links": {"web":"https://ecostorepapalagi.com/", "insta":"ecostore_papalagi"}
   },
   {
     "name": "NPO法人気候危機対策ネットワーク",
+    "name_on_map": "エコストアパパラギ,<br>NPO法人気候危機対策ネットワーク,<br>エコライフ不動産,<br>パパラギ住まいのサポートセンター",
     "type": 4,
     "pref": 14,
-    "links": {"web":"https://kikoukiki.org/", "insta":"kikoukiki_taisaku_nw"}
+    "links": {"web":"https://kikoukiki.org/", "insta":"kikoukiki_taisaku_nw"},
+    "geo": {"lat": 35.336744795715155, "lon": 139.4890372825202}
   },
   {
     "name": "エコライフ不動産",
@@ -1491,6 +1491,7 @@
   {
     "name": "ＯＰＥＮ〈平和と平等を拓く女たちの絆〉",
     "type": 1,
-    "pref": 27
+    "pref": 27,
+    "geo": {"lat": 34.81890058002504, "lon": 135.58350505418997}
   }
 ]
