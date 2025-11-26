@@ -29,7 +29,7 @@ js: ["afz.js"]
 
 <p>AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。</p>
 
-<p>さらに詳しくはこの記事をご覧ください：<a href="https://bdsjapanbulletin.wordpress.com/2025/09/30/afz" style="font-weight: bold; color: #fff;">AFZ（アパルトヘイト・フリーゾーン） 入門ウェビナー ＜近所から始めるBDS運動＞</a>
+<p>さらに詳しくはこの記事をご覧ください：<a href="https://bdsjapanbulletin.wordpress.com/2025/09/30/afz" style="font-weight: bold; color: #fff;">AFZ（アパルトヘイト・フリーゾーン） 入門ウェビナー ＜近所から始めるBDS運動＞</a></p>
 
 <div class="video-container">
 <iframe width="600" height="450"
