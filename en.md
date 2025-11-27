@@ -81,7 +81,7 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
   {% for afz in list %}
 
   <tr>
-    <td style="vertical-align: bottom;">{{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} <br/>
+    <td style="vertical-align: bottom;">{% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} <br/>
     {% for tag in afz.tags %}
       <div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">{{ tag }}</div>
     {% endfor %}

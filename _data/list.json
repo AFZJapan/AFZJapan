@@ -7,6 +7,7 @@
   },
   {
     "name": "roastery 百塔珈琲",
+    "en": "Hyaqtoh's Specialty Coffee",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.73898748822561, "lon": 139.74590332445408},
@@ -14,6 +15,7 @@
   },
   {
     "name": "浅間温泉だらず荘",
+    "en": "Asama Onsen Darazu",
     "type": 2,
     "pref": 20,
     "links": {"twitter":"@maisondarazu", "insta":"maisondarazu/"}
@@ -28,6 +30,7 @@
   },
   {
     "name": "毎日食堂・毎日ストア・毎日ブック",
+    "en": "Mainichi Shokudo, Mainichi Store, Mainichi Books",
     "type": 0,
     "pref": 28,
     "geo": {"lat": 34.336122136273445, "lon": 134.74649203721995},
@@ -44,6 +47,7 @@
   },
   {
     "name": "アブイサーム Abu Essam",
+    "en": "Abu Essam",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.70422686480873, "lon": 139.73252432225615},
@@ -73,6 +77,7 @@
   },
   {
     "name": "合同会社エクレシア",
+    "en": "Ecclesia LLC",
     "type": 1,
     "pref": 1,
     "geo": {"lat": 43.04903947510028, "lon": 141.31954732309313}
@@ -86,6 +91,7 @@
   },
   {
     "name": "パレスチナ展＠名古屋",
+    "en": "Palestine Exhibition @ Nagoya",
     "type": 3,
     "pref": 23,
     "links": {"twitter":"palestinaten_ng", "insta":"paresuchinaten"}
@@ -106,6 +112,7 @@
   },
   {
     "name": "リユースショップえまうす&エマど🍩（エマウスどーなつ）",
+    "en": "Reuse Shop Emaus & Emado🍩 (Emau's Donuts)",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.648903617898206, "lon": 135.48449235831814},
@@ -114,6 +121,7 @@
   },
   {
     "name": "自家製酵母パン JiJi",
+    "en": "JiJi bread",
     "type": 0,
     "pref": 14,
     "geo": {"lat": 35.34355248384452, "lon": 139.40781490741023},
@@ -123,6 +131,7 @@
   },
   {
     "name": "あたたかい家",
+    "en": "Palestine, Our Warm House",
     "type": 3,
     "pref": 13,
     "links": {"web":"https://sites.google.com/view/palestineourwarmhouse/home", "twitter":"our_warmhome", "insta":"our_warmhome"}
@@ -137,6 +146,7 @@
   },
   {
     "name": "よりまし堂",
+    "en": "Yorimashi-do Cafe Bookshop",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.65431722678904, "lon": 139.3930470211556},
@@ -152,6 +162,7 @@
   },
   {
     "name": "大安吉日治療店",
+    "en": "Taian Kichijitsu Therapy Clinic",
     "type": 0,
     "pref": 13,
     "geo": {"lat": 35.70423201774405, "lon": 139.60328816719002},
@@ -159,6 +170,7 @@
   },
   {
     "name": "gallery魔法の生活",
+    "en": "Gallery Magical Life",
     "type": 3,
     "pref": 27,
     "geo": {"lat": 34.68420459740749, "lon": 135.45467061688902},
@@ -196,6 +208,7 @@
   },
   {
     "name": "アッサラーム Assalaam",
+    "en": "Assalaam",
     "type": 2,
     "pref": 32,
     "tags": ["ハラール/Halal"],
@@ -218,6 +231,7 @@
   },
   {
     "name": "本屋lighthouse（Bookstore-lighthouse）",
+    "en": "Bookstore-lighthouse",
     "type": 0,
     "pref": 12,
     "geo": {"lat": 35.65801718091226, "lon": 140.05476321641513},
@@ -225,6 +239,7 @@
   },
   {
     "name": "南インド食堂　Hanaco",
+    "en": "South Indian Restaurant Hanaco",
     "type": 2,
     "pref": 12,
     "geo": {"lat": 35.68417285945017, "lon": 140.04555215034497},
@@ -239,6 +254,7 @@
   },
   {
     "name": "エトセトラブックスBOOKSHOP",
+    "en": "Etcetera Books BOOKSHOP",
     "type": 0,
     "pref": 13,
     "geo": {"lat": 35.6625134406982, "lon": 139.6600515481394},
@@ -261,6 +277,7 @@
   },
   {
     "name": "麺屋どうげんぼうず",
+    "en": "Ramen Dogenbozu",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.696060856659315, "lon": 139.67048229787804},
@@ -274,6 +291,7 @@
   },
   {
     "name": "パレスチナハウス",
+    "en": "Palestine House",
     "type": 0,
     "pref": 40,
     "geo": {"lat": 33.574428597163674, "lon": 130.37819524951672},
@@ -281,12 +299,14 @@
   },
   {
     "name": "和食 キンペイ",
+    "en": "Japanese Cuisine Kinpei",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.65950736400398, "lon": 139.667780942057}
   },
   {
     "name": "フレンズ・オブ・パレスチナ神戸　ギャラリー Friends of Palestine Kobe",
+    "en": "Friends of Palestine Kobe",
     "type": 1,
     "pref": 28,
     "geo": {"lat": 34.698510012762256, "lon": 135.18792871757285},
@@ -295,6 +315,7 @@
   },
   {
     "name": "堺町画廊　Sakaimachi gallery",
+    "en": "Sakaimachi Gallery",
     "type": 3,
     "pref": 26,
     "geo": {"lat": 35.01055645067515, "lon": 135.76547436373608},
@@ -302,6 +323,7 @@
   },
   {
     "name": "キッチン ハリーナ Kitchen Halina",
+    "en": "Kitchen Halina",
     "type": 2,
     "pref": 26,
     "geo": {"lat": 35.02937568395893, "lon": 135.78654351875446},
@@ -310,6 +332,7 @@
   },
   {
     "name": "ふりつづみ天鼓堂",
+    "en": "Furitsuzumi Tenkodo shared bookshop",
     "type": 0,
     "pref": 26,
     "geo": {"lat": 35.0416407139269, "lon": 135.7858498476226},
@@ -325,6 +348,7 @@
   },
   {
     "name": "book cafe 火星の庭",
+    "en": "book cafe Kasei no niwa",
     "type": 0,
     "pref": 4,
     "geo": {"lat": 38.26747901285351, "lon": 140.87859311517613},
@@ -332,6 +356,7 @@
   },
   {
     "name": "楽天堂",
+    "en": "Rakuten-do",
     "type": 0,
     "pref": 26,
     "geo": {"lat": 35.0203627000941, "lon": 135.73741766609947},
@@ -355,6 +380,7 @@
   },
   {
     "name": "パレスチナと仙台を結ぶ会",
+    "en": "Palestine Sendai musubukai (solidarity group)",
     "type": 1,
     "pref": 4,
     "geo": {"lat": 38.29856156976377, "lon": 140.90049046781752},
@@ -363,6 +389,7 @@
   },
   {
     "name": "さわさわ Sawa Sawa",
+    "en": "Sawa Sawa community cafe",
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.7254403578841, "lon": 139.77784906420234},
@@ -372,6 +399,7 @@
   },
   {
     "name": "NEVER STOP THINKING",
+    "en": "NEVER STOP THINKING bookshop",
     "type": 0,
     "pref": 26,
     "geo": {"lat": 34.992889677530954, "lon": 135.72702764550755},
@@ -380,6 +408,7 @@
   },
   {
     "name": "穂積繊維/月山緞通ラグストア Gassan Dantsu Rugstore",
+    "en": "Gassan Dantsu Rugstore",
     "type": 0,
     "pref": 6,
     "geo": {"lat": 38.330383663784936, "lon": 140.25648439612962},
@@ -387,6 +416,7 @@
   },
   {
     "name": "もく",
+    "en": "MOKOO",
     "type": 3,
     "pref": 13,
     "tags": ["Multimedia event"],
@@ -394,6 +424,7 @@
   },
   {
     "name": "ポルトリブレ デ・ノーヴォ",
+    "en": "Portolibre Art Space",
     "type": 3,
     "pref": 13,
     "geo": {"lat": 35.701334198912065, "lon": 139.64587513835383},
@@ -410,6 +441,7 @@
   },
   {
     "name": "名古屋学院大学　金城美幸研究室",
+    "en": "Nagoya Gakuin University, Miyuki Kinjo Laboratory",
     "type": 3,
     "pref": 23,
     "geo": {"lat": 35.128550667342274, "lon": 136.8993428922996},
@@ -417,6 +449,7 @@
   },
   {
     "name": "PWBF",
+    "en": "PWBF online store",
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.71462429552318, "lon": 139.69659619379684},
@@ -425,6 +458,7 @@
   },
   {
     "name": "喫茶ホルン",
+    "en": "Kissa Horn",
     "type": 2,
     "pref": 4,
     "geo": {"lat": 38.26489064826522, "lon": 140.86580350961884},
@@ -435,7 +469,7 @@
     "type": 0,
     "pref": 13,
     "tags": ["Palestinian-owned"],
-    "links": {"insta": "tatianarika", "insta2": "intifada_habibti"}
+    "links": {"insta":"tatianarika", "insta2":"intifada_habibti"}
   },
   {
     "name": "451BOOKS",
@@ -446,6 +480,7 @@
   },
   {
     "name": "フェアトレードショップねこのひたい",
+    "en": "Fair Trade Shop Neko no Hitai",
     "type": 1,
     "pref": 25,
     "geo": {"lat": 35.012485653276556, "lon": 135.86283919652504},
@@ -462,6 +497,7 @@
   },
   {
     "name": "アマントレーディング株式会社 Aman Trading",
+    "en": "Aman Trading",
     "type": 0,
     "pref": 23,
     "geo": {"lat": 35.022194674231244, "lon": 136.93537803007683},
@@ -470,6 +506,7 @@
   },
   {
     "name": "Cafeわかば",
+    "en": "Cafe Wakaba",
     "type": 2,
     "pref": 26,
     "geo": {"lat": 35.16481754329463, "lon": 135.50834549600572},
@@ -477,6 +514,7 @@
   },
   {
     "name": "BEER&CAFE BERG 新宿ベルク",
+    "en": "BEER&CAFE BERG Shinjuku",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.69192452217211, "lon": 139.70142287882896},
@@ -484,6 +522,7 @@
   },
   {
     "name": "ソムードの集い",
+    "en": "Somoud Japan",
     "type": 1,
     "pref": 14,
     "links": {"web":"https://note.com/somoudjapan/n/n2ba6d58ab3da", "twitter":"SomoudJapan", "insta":"somoudjapan"}
@@ -498,6 +537,7 @@
   },
   {
     "name": "タリィカフェ",
+    "en": "Tary Cafe",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.643701649414055, "lon": 139.66932757299853},
@@ -524,6 +564,7 @@
   },
   {
     "name": "Social Book Cafeハチドリ舎",
+    "en": "Social Book Cafe Hachidorisha",
     "type": 0,
     "pref": 34,
     "geo": {"lat": 34.39394590499505, "lon": 132.45046342191043},
@@ -537,6 +578,7 @@
   },
   {
     "name": "メル 海と芸術の家",
+    "en": "Mer Dining Bar",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.69056111005902, "lon": 139.7130938574024},
@@ -545,6 +587,7 @@
   },
   {
     "name": "雪月風花　福智院",
+    "en": "Setsugetsufuka Fukuchiin",
     "type": 2,
     "pref": 34,
     "geo": {"lat": 34.58361047034153, "lon": 133.06005225180377},
@@ -552,6 +595,7 @@
   },
   {
     "name": "YMCAせとうち",
+    "en": "YMCA Setouchi",
     "type": 1,
     "pref": 33,
     "geo": {"lat": 34.66440391441541, "lon": 133.92809415685963},
@@ -560,6 +604,7 @@
   },
   {
     "name": "レティシア書房",
+    "en": "Laetitia Books",
     "type": 0,
     "pref": 26,
     "geo": {"lat": 35.013187199173906, "lon": 135.76361339547506},
@@ -567,6 +612,7 @@
   },
   {
     "name": "カレーショップ　フェンネル",
+    "en": "Curry Shop Fennel",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.70193818520807, "lon": 139.60031235132058},
@@ -574,6 +620,7 @@
   },
   {
     "name": "キノコヤ",
+    "en": "Kinokoya",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.6478349935602, "lon": 139.4471755076633},
@@ -582,6 +629,7 @@
   },
   {
     "name": "ガザ緊急アクションなごや",
+    "en": "Gaza Emergency Action Nagoya",
     "type": 1,
     "pref": 23,
     "geo": {"lat": 35.173826909418686, "lon": 136.8911284388589},
@@ -589,6 +637,7 @@
   },
   {
     "name": "フェアコープ・関西",
+    "en": "Faircoop Kansai",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.69827430737774, "lon": 135.53787046900422},
@@ -596,6 +645,7 @@
   },
   {
     "name": "アラブ料理専門店 七つの丘～Seven Hills",
+    "en": "Arabic Cuisine Specialty Restaurant Seven Hills",
     "type": 2,
     "pref": 27,
     "geo": {"lat": 34.69831403137409, "lon": 135.50726048249655},
@@ -604,6 +654,7 @@
   },
   {
     "name": "平和と福祉のまち西宮をつくる会",
+    "en": "Association for Creating a City of Peace and Welfare, Nishinomiya",
     "type": 1,
     "pref": 28,
     "geo": {"lat": 34.73519109559365, "lon": 135.34409156767867},
@@ -611,6 +662,7 @@
   },
   {
     "name": "平和で豊かな枚方を市民みんなでつくる会",
+    "en": "Association for creating a peaceful and prosperous Hirakata together with all citizens",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.814246165447535, "lon": 135.65259274826778},
@@ -618,6 +670,7 @@
   },
   {
     "name": "れいわ新選組　大石あきこ事務所",
+    "en": "Reiwa Shinsengumi Akiko Oishi Office",
     "type": 5,
     "pref": 27,
     "geo": {"lat": 34.73007644416817, "lon": 135.49811839651466},
@@ -625,6 +678,7 @@
   },
   {
     "name": "まとも書房",
+    "en": "Matomo Shobo",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.81254385441462, "lon": 135.64217807879572},
@@ -639,6 +693,7 @@
   },
   {
     "name": "おばさんち",
+    "en": "Obasanchi",
     "type": 1,
     "pref": 14,
     "geo": {"lat": 35.33373646126025, "lon": 139.43429887209572},
@@ -647,6 +702,7 @@
   },
   {
     "name": "ガザ写真展 in 徳島",
+    "en": "tokushima.palestine",
     "type": 3,
     "pref": 36,
     "links": {"insta":"tokushima.palestine"},
@@ -654,6 +710,7 @@
   },
   {
     "name": "平和と市民自治のまち大津をともにつくる会",
+    "en": "Association for creating a city of peace and citizen autonomy, Otsu",
     "type": 4,
     "pref": 25,
     "geo": {"lat": 35.00378247665304, "lon": 135.87190374758936},
@@ -661,6 +718,7 @@
   },
   {
     "name": "NPO法人つむぎの家",
+    "en": "NPO Tsumugi House",
     "type": 4,
     "pref": 28,
     "geo": {"lat": 34.83121592579761, "lon": 135.59700997694412},
@@ -668,6 +726,7 @@
   },
   {
     "name": "ZENKO（平和と民主主義をめざす全国交歓会）",
+    "en": "ZENKO (National Assembly for Peace and Democracy)",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.69827176726712, "lon": 135.53786646606355},
@@ -676,12 +735,14 @@
   },
   {
     "name": "なかまユニオン滋賀分会",
+    "en": "Nakama Union Shiga Branch",
     "type": 4,
     "pref": 25,
     "geo": {"lat": 35.052097837231614, "lon": 135.86149771583186}
   },
   {
     "name": "JAALA美術家会議",
+    "en": "JAALA (Japan Asian African Latin-American Artist Association)",
     "type": 3,
     "pref": 13,
     "geo": {"lat": 35.60966178738797, "lon": 139.386863951955},
@@ -690,6 +751,7 @@
   },
   {
     "name": "フォトジャーナリズム展三重",
+    "en": "Photojournalism Exhibition Mie",
     "type": 3,
     "pref": 24,
     "geo": {"lat": 34.73297483289161, "lon": 136.5115184830228},
@@ -698,24 +760,28 @@
   },
   {
     "name": "ZENKO滋賀",
+    "en": "ZENKO Shiga",
     "type": 4,
     "pref": 25,
     "geo": {"lat": 35.00941049885949, "lon": 135.86024538118085}
   },
   {
     "name": "福賢寺",
+    "en": "Fukkenji Temple",
     "type": 1,
     "pref": 25,
     "geo": {"lat": 35.00681429842415, "lon": 135.86993906128612}
   },
   {
     "name": "常慶寺",
+    "en": "Jokeiji Temple",
     "type": 1,
     "pref": 25,
     "geo": {"lat": 35.19797168894709, "lon": 136.21580148832163}
   },
   {
     "name": "憲法いかそう茨木市民の会",
+    "en": "Ibaraki Citizens' Association for the Promotion of the Constitution",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.81911190331174, "lon": 135.56678914069812},
@@ -723,6 +789,7 @@
   },
   {
     "name": "脱原発・滋賀☆アクション",
+    "en": "No Nukes from Shiga",
     "type": 4,
     "pref": 25,
     "geo": {"lat": 35.004718243540786, "lon": 135.88472215949136},
@@ -730,6 +797,7 @@
   },
   {
     "name": "神田たかひろ 事務所",
+    "en": "Takahiro Kanda Office",
     "type": 5,
     "pref": 26,
     "geo": {"lat": 34.74661572791857, "lon": 135.75394653884305},
@@ -737,6 +805,7 @@
   },
   {
     "name": "中京大学　教養教育研究院　今野泰三研究室",
+    "en": "Chukyo University, Faculty of Liberal Arts and Sciences, Taizo Imano Laboratory",
     "type": 3,
     "pref": 23,
     "geo": {"lat": 35.13854519312176, "lon": 136.96676269229985},
@@ -744,6 +813,7 @@
   },
   {
     "name": "杉谷さんとともにまちを創る会",
+    "en": "Building a Town with Sugitani-san",
     "type": 5,
     "pref": 26,
     "geo": {"lat": 34.937198464708814, "lon": 135.70214786768628},
@@ -751,6 +821,7 @@
   },
   {
     "name": "橋ノ下舎",
+    "en": "Under the Bridge Culture Center",
     "type": 1,
     "pref": 23,
     "geo": {"lat": 35.08534338102685, "lon": 137.15660427695357},
@@ -758,12 +829,14 @@
   },
   {
     "name": "山科みんなの家",
+    "en": "Yamashina Minna no Ie",
     "type": 1,
     "pref": 26,
     "geo": {"lat": 34.97100129782045, "lon": 135.8114693383263}
   },
   {
     "name": "ZENKO（平和と民主主義をめざす全国交歓会）・広島",
+    "en": "ZENKO (National Assembly for Peace and Democracy) Hiroshima",
     "type": 4,
     "pref": 34,
     "geo": {"lat": 34.36564762067371, "lon": 132.3689955830093},
@@ -772,6 +845,7 @@
   },
   {
     "name": "すいかのたね文庫",
+    "en": "Seeds of Watermelon Library",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.72455584201541, "lon": 135.5545362118586},
@@ -785,6 +859,7 @@
   },
   {
     "name": "浄土真宗本願寺派　西善寺",
+    "en": "Jodo Shinshu Honganji Temple, Saizenji Temple",
     "type": 1,
     "pref": 34,
     "geo": {"lat": 34.4526586215806, "lon": 132.53880829241075},
@@ -792,6 +867,7 @@
   },
   {
     "name": "平和と民主主義をともにつくる会・大阪",
+    "en": "Association for Creating Peace and Democracy Together, Osaka",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.713904433175664, "lon": 135.55026529651377},
@@ -799,6 +875,7 @@
   },
   {
     "name": "SJP MGU (Meiji Gakuin University)",
+    "en": "Students for Justice in Palestine, MGU (Meiji Gakuin University)",
     "type": 1,
     "pref": 14,
     "geo": {"lat": 35.38737874745633, "lon": 139.54660795613302},
@@ -806,12 +883,14 @@
   },
   {
     "name": "岡山スイカの会🍉",
+    "en": "Okayama Watermelon Club🍉",
     "type": 1,
     "pref": 33,
     "geo": {"lat": 34.66479637945917, "lon": 133.916075321299}
   },
   {
     "name": "高知からガザ・沖縄連帯実行委員会",
+    "en": "From Kochi, Gaza-Okinawa Solidarity Executive Committee",
     "type": 1,
     "pref": 39,
     "geo": {"lat": 33.54954134800211, "lon": 133.435573067758},
@@ -820,6 +899,7 @@
   },
   {
     "name": "Fekra（フィクラ）",
+    "en": "Fekra",
     "type": 0,
     "pref": 13,
     "tags": ["Designed in Gaza", "Online store"],
@@ -827,6 +907,7 @@
   },
   {
     "name": "辺野古ストップ滋賀",
+    "en": "Stop Henoko, Shiga",
     "type": 1,
     "pref": 25,
     "links": {"insta":"chiomutucoco"}
@@ -839,12 +920,14 @@
   },
   {
     "name": "ZENKO南大阪",
+    "en": "ZENKO South Osaka",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.490584745588286, "lon": 135.5710627523253}
   },
   {
     "name": "ZENKO（平和と民主主義をめざす全国交歓会）・京都",
+    "en": "ZENKO (National Assembly for Peace and Democracy), Kyoto",
     "type": 4,
     "pref": 26,
     "geo": {"lat": 34.93764797307956, "lon": 135.76681088303042},
@@ -852,12 +935,14 @@
   },
   {
     "name": "シャドーディール自主上映",
+    "en": "Shadow Deal - Screening",
     "type": 1,
     "pref": 13,
     "links": {"twitter":"Ok30iynW2TGatKe", "insta":"hitujiniku88"}
   },
   {
     "name": "この海の向こうに―パレスチナ・ウクライナを思う展覧会",
+    "en": "Across the Sea: An Exhibition Remembering Palestine and Ukraine",
     "type": 1,
     "pref": 14,
     "geo": {"lat": 35.53241287829936, "lon": 139.69932877274073},
@@ -865,12 +950,14 @@
   },
   {
     "name": "百町市場",
+    "en": "Hyakucho Market",
     "type": 0,
     "pref": 25,
     "geo": {"lat": 35.00866510675374, "lon": 135.86334111900962}
   },
   {
     "name": "たねと暮らす",
+    "en": "Living with Seeds",
     "type": 1,
     "pref": 26,
     "geo": {"lat": 34.771285612326864, "lon": 135.99731881186034},
@@ -878,30 +965,35 @@
   },
   {
     "name": "ZENKO関電前ﾌﾟﾛｼﾞｪｸﾄ住吉",
+    "en": "ZENKO Kanden-mae Project Sumiyoshi",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.614468798044214, "lon": 135.51007251000203}
   },
   {
     "name": "㈲みどりや写真商会",
+    "en": "Midoriya Photography Co., Ltd.",
     "type": 0,
     "pref": 25,
     "geo": {"lat": 35.00698943150607, "lon": 135.8659345690161}
   },
   {
     "name": "報正寺",
+    "en": "Hoshoji Temple",
     "type": 1,
     "pref": 34,
     "geo": {"lat": 34.55742968954614, "lon": 132.24254735365528}
   },
   {
     "name": "千野田中農園",
+    "en": "Chino Tanaka Farm",
     "type": 1,
     "pref": 25,
     "geo": {"lat": 35.08997926601009, "lon": 135.88242662536402}
   },
   {
     "name": "（株）広島聖文舎",
+    "en": "Hiroshima Seibunsha Co., Ltd.",
     "type": 0,
     "pref": 34,
     "geo": {"lat": 34.388818247026485, "lon": 132.4445709401572},
@@ -909,6 +1001,7 @@
   },
   {
     "name": "フェアコープ関東",
+    "en": "Faircoop Kanto",
     "type": 0,
     "pref": 13,
     "geo": {"lat": 35.56930645513257, "lon": 139.71385343887408},
@@ -916,12 +1009,14 @@
   },
   {
     "name": "スモッティー野江店",
+    "en": "Smotty Noe store",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.70698188107802, "lon": 135.54419693474722}
   },
   {
     "name": "なかまユニオン",
+    "en": "Nakama Union",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.69830603958882, "lon": 135.530579732759},
@@ -929,6 +1024,7 @@
   },
   {
     "name": "ひろがれ！ピース・ミュージアムいたばし",
+    "en": "Peace Museum Itabashi",
     "type": 4,
     "pref": 13,
     "links": {"fb":"https://www.facebook.com/PeaceMuseumItabashi.Campaign/"},
@@ -936,6 +1032,7 @@
   },
   {
     "name": "寝屋川　平和と市民自治の会",
+    "en": "Neyagawa Peace and Autonomy Association",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.76318939110629, "lon": 135.62115843058615},
@@ -943,12 +1040,14 @@
   },
   {
     "name": "中津川アクション",
+    "en": "Nakatsugawa Action",
     "type": 1,
     "pref": 21,
     "links": {"twitter":"nktgw_action", "insta":"nakatsugawa.action"}
   },
   {
     "name": "BOOKS&FARM ちいさな庭",
+    "en": "BOOKS&FARM Small Garden",
     "type": 1,
     "pref": 21,
     "geo": {"lat": 35.34675373304002, "lon": 137.39314367511122},
@@ -956,12 +1055,14 @@
   },
   {
     "name": "金曜日読者会　草津",
+    "en": "Friday Readers' Group Kusatsu",
     "type": 4,
     "pref": 25,
     "geo": {"lat": 35.01966290691471, "lon": 135.94928289652538}
   },
   {
     "name": "耕文社",
+    "en": "Kobunsha",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.69769372826099, "lon": 135.53797838595733},
@@ -969,6 +1070,7 @@
   },
   {
     "name": "子どもの居場所ピノッキオ",
+    "en": "Pinocchio, a place for children",
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.75139160790763, "lon": 139.729696474981},
@@ -976,6 +1078,7 @@
   },
   {
     "name": "ピースネット平野",
+    "en": "Peace Net Hirano",
     "type": 1,
     "pref": 27,
     "c2025": 1
@@ -989,30 +1092,35 @@
   },
   {
     "name": "婦人服GEN",
+    "en": "Women's clothing GEN",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.71139814232335, "lon": 135.54733544995608}
   },
   {
     "name": "ヤマキ",
+    "en": "Yamaki",
     "type": 0,
     "pref": 25,
     "geo": {"lat": 35.03133965175309, "lon": 135.91130835833874}
   },
   {
     "name": "ラボソ - Ravoso",
+    "en": "Ravoso",
     "type": 0,
     "pref": 13,
     "links": {"web":"https://ravoso.com/", "insta":"ravoso_jp"}
   },
   {
-    "name": "肉球west ",
+    "name": "肉球west",
+    "en": "Nikukyū west",
     "type": 1,
     "pref": 27,
     "links": {"twitter":"cat_pad299west"}
   },
   {
     "name": "はやし小児科",
+    "en": "Hayashi Pediatrics",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.68181509267109, "lon": 135.55756812615087},
@@ -1020,17 +1128,20 @@
   },
   {
     "name": "入江診療所",
+    "en": "Irie Clinic",
     "type": 1,
     "pref": 29,
     "geo": {"lat": 34.69855837244848, "lon": 135.78287060577537}
   },
   {
     "name": "専光寺",
+    "en": "Senkoji Temple",
     "type": 1,
     "pref": 27
   },
   {
     "name": "MDS（民主主義的社会主義運動）",
+    "en": "MDS (Movement for Democratic Socialism)",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.69847128203023, "lon": 135.53830665935115},
@@ -1038,6 +1149,7 @@
   },
   {
     "name": "本屋うゆらら",
+    "en": "Bookstore Uyulala",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 135.51475616715467, "lon": 34.76252825264639},
@@ -1045,12 +1157,14 @@
   },
   {
     "name": "マヌケ出版社",
+    "en": "Manuke Publishing",
     "type": 3,
     "pref": 27,
     "links": {"web":"https://www.manuke-publisher.com/", "twitter":"manuke2025", "insta":"manuke.publisher"}
   },
   {
     "name": "原発はごめんだヒロシマ市民の会／No Nukes Hiroshima",
+    "en": "No Nukes Hiroshima",
     "type": 4,
     "pref": 34,
     "geo": {"lat": 34.362673228219975, "lon": 132.36098611184525},
@@ -1058,12 +1172,14 @@
   },
   {
     "name": "おふくろ弁当食堂",
+    "en": "Ofukuro Bento Restaurant",
     "type": 2,
     "pref": 25,
     "geo": {"lat": 35.20408023392115, "lon": 136.22512359070078}
   },
   {
     "name": "特定非営利活動法人長居公園元気ネット",
+    "en": "NPO Nagai Park Genki Network",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.61797787841655, "lon": 135.52287155418253}
@@ -1082,18 +1198,21 @@
   },
   {
     "name": "京橋フードパントリー",
+    "en": "Kyobashi Food Pantry",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.69849781426756, "lon": 135.53836032297193}
   },
   {
     "name": "RAWAと連帯する会",
+    "en": "Revolutionary Association of the Women of Afghanistan",
     "type": 4,
     "pref": 27,
     "links": {"web":"https://afgan-rawa.blogspot.com/"}
   },
   {
     "name": "平和と民主主義をともにつくる会・かながわ",
+    "en": "Kanagawa Association for Building Peace and Democracy Together",
     "type": 4,
     "pref": 14,
     "geo": {"lat": 35.512446525350136, "lon": 139.6764452530756},
@@ -1101,24 +1220,28 @@
   },
   {
     "name": "全東リなかまユニオン",
+    "en": "All Toli Nakama Union",
     "type": 4,
     "pref": 28,
     "geo": {"lat": 34.778236254659504, "lon": 135.38783638302465}
   },
   {
     "name": "なかまユニオン京都支部",
+    "en": "Nakama Union Kyoto Branch",
     "type": 4,
     "pref": 26,
     "geo": {"lat": 34.93764817307907, "lon": 135.76740691134145}
   },
   {
     "name": "ウチコストア",
+    "en": "Uchiko Store",
     "type": 0,
     "pref": 23,
     "links": {"web":"https://suzuri.jp/uchikomaro", "insta":"uchikomaro"}
   },
   {
     "name": "なかまユニオン学校教職員支部",
+    "en": "Nakama Union School Teachers Branch",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.69857978588332, "lon": 135.53021664823683},
@@ -1126,28 +1249,33 @@
   },
   {
     "name": "木曜行動・高槻",
+    "en": "Thursday Action - Takatsuki",
     "type": 1,
     "pref": 27
   },
   {
     "name": "ボランティア　南河内チーム",
+    "en": "Volunteer Minamikawachi Team",
     "type": 1,
     "pref": 27
   },
   {
     "name": "膳所無農薬野菜をつくる会",
+    "en": "Zeze Pesticide-Free Vegetable Association",
     "type": 1,
     "pref": 25,
     "geo": {"lat": 34.987914880061986, "lon": 135.8904548965242}
   },
   {
     "name": "社民党市川総支部",
+    "en": "Social Democratic Party Ichikawa General Branch",
     "type": 5,
     "pref": 12,
     "geo": {"lat": 35.72201394082541, "lon": 139.92916003887973}
   },
   {
     "name": "イラク平和テレビ局 in Japan",
+    "en": "Iraq Peace Television in Japan",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.698480102841174, "lon": 135.53856415141647},
@@ -1155,6 +1283,7 @@
   },
   {
     "name": "キリスト友会東京月会",
+    "en": "Japan Quaker/Tokyo Gekkai",
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.642455981813676, "lon": 139.73888735624854},
@@ -1162,6 +1291,7 @@
   },
   {
     "name": "フィリピンAKAYプロジェクトをともに創る会",
+    "en": "Philippine AKAY Project Japan",
     "type": 4,
     "pref": 28,
     "geo": {"lat": 34.73563676189777, "lon": 135.33985789651476}
@@ -1175,6 +1305,7 @@
   },
   {
     "name": "「月桃の花」歌舞団関東稽古場",
+    "en": "'Gettoh no Hana' Dance Troupe Kanto Training Studio",
     "type": 1,
     "pref": 14,
     "geo": {"lat": 35.564280597512415, "lon": 139.67249422651938},
@@ -1182,6 +1313,7 @@
   },
   {
     "name": "希望をつむぐ本屋さん",
+    "en": "thousand_books",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.72444156171278, "lon": 135.55480243276006},
@@ -1195,6 +1327,7 @@
   },
   {
     "name": "東大校友会同窓会パレスチナ友の会",
+    "en": "The University of Tokyo Alumni Association Palestine Friendship Association",
     "type": 3,
     "pref": 13,
     "geo": {"lat": 35.71201926300998, "lon": 139.76155683131483},
@@ -1202,12 +1335,14 @@
   },
   {
     "name": "辻司法書士事務所",
+    "en": "Tsuji Judicial Scrivener Office",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.70741151250862, "lon": 135.54087423536387}
   },
   {
     "name": "「月桃の花」歌舞団 十三スタジオ",
+    "en": "'Gettoh no Hana' Dance Troupe Juso Studio",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.72635341201334, "lon": 135.4866736541866},
@@ -1215,6 +1350,7 @@
   },
   {
     "name": "特定非営利活動法人コスモス",
+    "en": "NPO Cosmos",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.659558252663075, "lon": 135.55734707653727},
@@ -1222,6 +1358,7 @@
   },
   {
     "name": "洋裁と愉しみ 多多",
+    "en": "Dressmaking and joy Tata",
     "type": 3,
     "pref": 20,
     "geo": {"lat": 36.24117802355606, "lon": 137.96563929975136},
@@ -1237,6 +1374,7 @@
   },
   {
     "name": "湘南ライフサポート・きずな",
+    "en": "Shonan Life Support Kizuna",
     "type": 1,
     "pref": 14,
     "geo": {"lat": 35.33674061736735, "lon": 139.4878210325396},
@@ -1250,18 +1388,21 @@
   },
   {
     "name": "足立区議会議員土屋のりこ事務所",
+    "en": "Adachi Ward Council Member Noriko Tsuchiya's Office",
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.77177788398293, "lon": 139.81116553888165}
   },
   {
     "name": "社民党滋賀県連合",
+    "en": "Social Democratic Party Shiga Prefecture Federation",
     "type": 4,
     "pref": 25,
     "geo": {"lat": 34.969887, "lon": 136.86069}
   },
   {
     "name": "アフリカ雑貨店　ボゴランマーケット",
+    "en": "African goods store Bogolan Market",
     "type": 0,
     "pref": 13,
     "geo": {"lat": 35.68882, "lon": 139.692526},
@@ -1269,6 +1410,7 @@
   },
   {
     "name": "吉田謙受堂",
+    "en": "Yoshida Kenjudo Bookstore",
     "type": 0,
     "pref": 11,
     "geo": {"lat": 35.91368, "lon": 139.48177}
@@ -1281,11 +1423,13 @@
   },
   {
     "name": "有限会社ケーワイケー介護サービス",
+    "en": "KYK Care Service Ltd.",
     "type": 0,
     "pref": 27
   },
   {
     "name": "FM797京都三条ラジオカフェ",
+    "en": "FM797 Kyoto Sanjo Radio Cafe",
     "type": 1,
     "pref": 26,
     "geo": {"lat": 35.008747238584085, "lon": 135.76749611319636},
@@ -1293,18 +1437,21 @@
   },
   {
     "name": "なかまユニオン介護医療福祉支部",
+    "en": "Nakama Union Nursing Care, Medical and Welfare Branch",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.698544502676384, "lon": 135.53023810590892}
   },
   {
     "name": "丸天酒店",
+    "en": "Maruten Liquor Store",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.84383183110304, "lon": 135.66782554017405}
   },
   {
     "name": "ポルベニールブックストア",
+    "en": "Porvenir Bookstore",
     "type": 0,
     "pref": 14,
     "geo": {"lat": 35.35013380295467, "lon": 139.53421089733985},
@@ -1312,12 +1459,14 @@
   },
   {
     "name": "カフェ・メーテルリンク",
+    "en": "Cafe Maeterlinck",
     "type": 2,
     "pref": 26,
     "geo": {"lat": 34.93919024018622, "lon": 135.76505011001413}
   },
   {
     "name": "inco堂植物園",
+    "en": "incodo botanical garden",
     "type": 0,
     "pref": 27,
     "geo": {"lat": 34.49787658951056, "lon": 135.57191276714482},
@@ -1325,6 +1474,7 @@
   },
   {
     "name": "Gallery Espoir",
+    "en": "Gallery Espoir",
     "type": 3,
     "pref": 14,
     "geo": {"lat": 35.31768066388278, "lon": 139.49504866865308},
@@ -1332,18 +1482,21 @@
   },
   {
     "name": "オセアニア精油市場",
+    "en": "Oceania essential oil market",
     "type": 0,
     "pref": 13,
     "links": {"web":"https://aroma-australia.jp/"}
   },
   {
     "name": "京都大学文学部校舎613",
+    "en": "Kyoto University Faculty of Letters Building 613",
     "type": 3,
     "pref": 26,
     "geo": {"lat": 35.02756920000958, "lon": 135.781369870188}
   },
   {
     "name": "居酒屋　楽人",
+    "en": "Izakaya Rakujin",
     "type": 2,
     "pref": 23,
     "geo": {"lat": 35.190286936262666, "lon": 136.9827407343523}
@@ -1357,6 +1510,7 @@
   },
   {
     "name": "veganレストランcafuu",
+    "en": "Vegan restaurant cafuu",
     "type": 2,
     "pref": 28,
     "geo": {"lat": 34.846378278414434, "lon": 134.68192412482972},
@@ -1365,6 +1519,7 @@
   },
   {
     "name": "あしたの森と海のがっこう",
+    "en": "Tomorrow's Forest and Sea School",
     "type": 0,
     "pref": 40,
     "geo": {"lat": 33.927940850355746, "lon": 130.68541644328272}
@@ -1384,21 +1539,25 @@
   },
   {
     "name": "戦争あかん！ロックアクション",
+    "en": "War is bad! Rock Action",
     "type": 1,
     "pref": 27
   },
   {
     "name": "関西ガザ緊急アクション",
+    "en": "Kansai Gaza Emergency Action",
     "type": 1,
     "pref": 27
   },
   {
     "name": "朝鮮学校とともに歩む会",
+    "en": "Association for Working with Korean Schools",
     "type": 1,
     "pref": 27
   },
   {
     "name": "朝鮮高級学校の無償化を求める連絡会・大阪",
+    "en": "Liaison Committee for Free Education at Korean High Schools, Osaka",
     "type": 1,
     "pref": 27
   },
@@ -1418,6 +1577,7 @@
   },
   {
     "name": "ごはんカフェ MARE HALAL",
+    "en": "Cafe MARE HALAL",
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.72792667244222, "lon": 139.7273052518467},
@@ -1425,6 +1585,7 @@
   },
   {
     "name": "フェアトレード雑貨＆レストラン「みんたる」",
+    "en": "Fair trade goods and restaurant 'Mintaru'",
     "type": 2,
     "pref": 1,
     "geo": {"lat": 43.07816355662054, "lon": 141.34886392517092},
@@ -1432,6 +1593,7 @@
   },
   {
     "name": "みちばたプリント",
+    "en": "michibataprint",
     "type": 3,
     "pref": 13,
     "tags": ["Print for Palestine", "silkscreen", "Kufiyeh spray paint"],
@@ -1439,31 +1601,36 @@
   },
   {
     "name": "エコストアパパラギ",
+    "en": "Eco Store Papalagi",
     "type": 0,
     "pref": 14,
     "links": {"web":"https://ecostorepapalagi.com/", "insta":"ecostore_papalagi"}
   },
   {
     "name": "NPO法人気候危機対策ネットワーク",
+    "en": "NPO Climate Crisis Action Network",
     "name_on_map": "エコストアパパラギ,<br>NPO法人気候危機対策ネットワーク,<br>エコライフ不動産,<br>パパラギ住まいのサポートセンター",
     "type": 4,
     "pref": 14,
-    "links": {"web":"https://kikoukiki.org/", "insta":"kikoukiki_taisaku_nw"},
-    "geo": {"lat": 35.336744795715155, "lon": 139.4890372825202}
+    "geo": {"lat": 35.336744795715155, "lon": 139.4890372825202},
+    "links": {"web":"https://kikoukiki.org/", "insta":"kikoukiki_taisaku_nw"}
   },
   {
     "name": "エコライフ不動産",
+    "en": "Eco Life Real Estate",
     "type": 0,
     "pref": 14,
     "links": {"web":"https://papa-e.com/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/"}
   },
   {
     "name": "パパラギ住まいのサポートセンター",
+    "en": "Papalagi Housing Support Center",
     "type": 4,
     "pref": 14
   },
   {
     "name": "フレンド工房",
+    "en": "Friend Workshop",
     "type": 4,
     "pref": 27,
     "geo": {"lat": 34.623588677666945, "lon": 135.4819285806412},
@@ -1471,12 +1638,14 @@
   },
   {
     "name": "屯たむろ",
+    "en": "caffetamuro",
     "type": 2,
     "pref": 14,
     "links": {"insta":"caffetamuro"}
   },
   {
     "name": "bani_alsalam x SHIRORU パレスチナ写真展",
+    "en": "bani_alsalam x SHIRORU Palestine Photo Exhibition",
     "type": 1,
     "pref": 26,
     "links": {"insta":"bani_alsalam", "insta2":"shiroru____"}
@@ -1490,6 +1659,7 @@
   },
   {
     "name": "ＯＰＥＮ〈平和と平等を拓く女たちの絆〉",
+    "en": "ＯＰＥＮ〈Women's Bonds for Peace and Equality〉",
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.81890058002504, "lon": 135.58350505418997}
