@@ -51,11 +51,6 @@ const map = new ol.Map({
   view: new ol.View({ center: ol.proj.fromLonLat([135.999478, 35.692832]), zoom: 4.7 }),
 });
 
-// get data from json
-fetch('/data/cinema.json')
-    .then((response) => response.json())
-    .then((json) => display(json));
-
 // Pins
 const features = [];
 const styles = {};
@@ -64,12 +59,12 @@ function addFeatureAt(data) {
   const r = map.getView().getResolution() * 10;
   const f = new ol.Feature({
     geometry: new ol.geom.Point(
-      ol.proj.fromLonLat([parseFloat(data[0]), parseFloat(data[1])])
+      ol.proj.fromLonLat([data.geo.lon, data.geo.lat])
     ),
-    title: data[2],
-    description: data[3],
-    link: data[4],
-    id: data[2]
+    title: data.name,
+    description: data.name,
+    link: data.link,
+    id: data.type
   });
   vector.getSource().addFeature(f);
   vector.animateFeature (f, [
@@ -85,7 +80,7 @@ function display(json) {
   for (var i = 0; i < json.length; i++) {
     const data =  json[i];
 
-    styles[data[2]] = [
+    styles[data.name] = [
       new ol.style.Style({
         image: new ol.style.Icon({
           src: "assets/icons/cinema_small_map.png",
@@ -111,7 +106,7 @@ function display(json) {
       if (feature.get('link')) {
         content.innerHTML +=
         '<br>' +
-        '<code> <a href=' + feature.get('link') + ' target="_blank">link</a></code>';
+        '<code> <a href=' + feature.get('link') + ' target="_blank"><img src="/assets/icons/website.png" width="16" height="16"></a></code>';
       }
       overlay.setPosition(coordinates);
     }
@@ -128,3 +123,5 @@ const vector = new ol.layer.Vector({
 });
 
 map.addLayer(vector);
+
+display(json);
