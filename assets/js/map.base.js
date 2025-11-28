@@ -62,7 +62,7 @@ function addFeatureAt(data) {
       ol.proj.fromLonLat([data.geo.lon, data.geo.lat])
     ),
     title: data.name,
-    description: data.name_on_map ? data.name_on_map : data.name,
+    description: (window.location.pathname === "/en" ? (data.en ? data.en : data.name) : (data.name_on_map ? data.name_on_map : data.name)),
     links: data.links,
     id: data.type
   });
