@@ -162,6 +162,10 @@ lang: "ja"
 </table>
 </div>
 
+<script>
+var json = {{ list | jsonify }};
+</script>
+
 <div class="cinemaday-appendix">
   <h6><span class="afz-heading-small-colored">メディアでの紹介</span></h6>
 
