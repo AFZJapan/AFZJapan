@@ -4,7 +4,7 @@ title: "パレスチナ映画祭2025"
 description: "パレスチナ映画祭: バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！2025年11月2日(日曜日)に世界中で同時開催！日本にも60以上の上映会場！すべての会場で入場無料！"
 image: "https://afzjapan.com/assets/cinema2025/1.png"
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "cinemadays2025.css"]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.cinema.js", "map.main.js", "list.cinema.js", "ol-ext.js"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.cinema.js", "map.main.js", "ol-ext.js"]
 lang: "ja"
 ---
 <!-- div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
@@ -136,16 +136,29 @@ lang: "ja"
 <div>
 
 <table class="afz-table table-bordered">
- <thead>
-   <tr>
-     <th>上映会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> このマークはAFZ登録スペースです 】</th>
-     <th>Link</th>
-     <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
-   </tr>
- </thead>
- <tbody id="CinemaTable">
+  <thead>
+    <tr>
+      <th>上映会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> このマークはAFZ登録スペースです 】</th>
+      <th>Link</th>
+      <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
+    </tr>
+  </thead>
+  <tbody id="CinemaTable">
 
- </tbody>
+  {% assign pref = site.data.prefectures %}
+  {% assign list = site.data.cinema2025 %}
+  {% for c in list %}
+  <tr>
+    <td style="vertical-align: bottom;">{{ c.name }}{% if c.afz %} <img src="/assets/icons/afz.png" width="16" height="16">{% endif %}
+    </td>
+    <td style="text-align:center;">
+    {% if c.link %}<a href="{{ c.link }}" target="_blank"><img src="/assets/icons/website.png" width="16" height="16"></a>{% endif %}
+    </td>
+    <td style="word-break: keep-all;">{{ pref[c.pref].name }}</td>
+  </tr>
+  {% endfor %}
+
+  </tbody>
 </table>
 </div>
 
