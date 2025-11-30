@@ -1663,5 +1663,13 @@
     "type": 1,
     "pref": 27,
     "geo": {"lat": 34.81890058002504, "lon": 135.58350505418997}
+  },
+  {
+    "name": "ZEROWASTE川田商店",
+    "en": "ZEROWASTE Kawada Shoten",
+    "type": 1,
+    "pref": 14,
+    "geo": {"lat": 35.311603566746086, "lon": 139.49869618227822},
+    "links": {"insta":"zerowaste.kawada"}
   }
 ]
