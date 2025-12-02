@@ -116,19 +116,7 @@ function display(json) {
     if (feature) {
       const coordinates = feature.getGeometry().getCoordinates();
       content.innerHTML = '<code>' + feature.get('description') + '</code>'
-      if (feature.get('links')) {
-        rows = ``;
-        if (feature.get('links').web) {
-          rows += `<a href="${feature.get('links').web}" target="_blank"><img align='top' src='/assets/icons/website.png' width='20px' height='20px' /></a> `;
-        }
-        if (feature.get('links').insta) {
-          rows += `<a href="https://www.instagram.com/${feature.get('links').insta}" target="_blank"><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px' /></a> `;
-        }
-        if (feature.get('links').twitter) {
-          rows += `<a href="https://x.com/${feature.get('links').twitter}" target="_blank"><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px' /></a> `;
-        }
-        content.innerHTML += '<br>' + '<code>' + rows + '</code>';
-      }
+      addlinks(feature.get('links'));
       overlay.setPosition(coordinates);
     }
   });
@@ -146,3 +134,29 @@ const vector = new ol.layer.Vector({
 map.addLayer(vector);
 
 display(json);
+
+function popup(index) {
+  const element = document.getElementById("afz");
+  const y = element.getBoundingClientRect().top + window.scrollY;
+  scrollTo({ top: y, behavior: 'smooth' });
+  const pos = ol.proj.fromLonLat([json[index].geo.lon, json[index].geo.lat]);
+  content.innerHTML = '<code>' + json[index].name + '</code>'; // make popup
+  addlinks(json[index].links);
+  overlay.setPosition(pos);
+}
+
+function addlinks(links) {
+  if (links) {
+    rows = ``;
+    if (links.web) {
+      rows += `<a href="` + links.web + `" target="_blank"><img align='top' src='/assets/icons/website.png' width='20px' height='20px' /></a> `;
+    }
+    if (links.insta) {
+      rows += `<a href="https://www.instagram.com/` + links.insta + `" target="_blank"><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px' /></a> `;
+    }
+    if (links.twitter) {
+      rows += `<a href="https://x.com/` + links.twitter + `" target="_blank"><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px' /></a> `;
+    }
+    content.innerHTML += '<br>' + '<code>' + rows + '</code>';
+  }
+}

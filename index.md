@@ -82,11 +82,12 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
  </thead>
  <tbody id="AFZTable">
   {% assign pref = site.data.prefectures %}
+  {% assign index = 0 %}
   {% assign list = site.data.list %}
   {% for afz in list %}
 
   <tr>
-    <td style="vertical-align: bottom;">{{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} <br/>
+    <td style="vertical-align: bottom;"> {{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment index %});"><img align='top' src='/assets/icons/afz_map.png' width='20px' height='20px' /></a> {% endif %} <br>
     {% for tag in afz.tags %}
       <div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">{{ tag }}</div>
     {% endfor %}
