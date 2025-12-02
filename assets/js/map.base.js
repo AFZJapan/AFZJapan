@@ -146,3 +146,27 @@ const vector = new ol.layer.Vector({
 map.addLayer(vector);
 
 display(json);
+
+function popup(index) {
+  const element = document.getElementById("afz");
+  const y = element.getBoundingClientRect().top + window.scrollY;
+  scrollTo({ top: y, behavior: 'smooth' });
+  const pos = ol.proj.fromLonLat([json[index].geo.lon, json[index].geo.lat]);
+  content.innerHTML = '<code>' + json[index].name + '</code>'; // make popup
+
+  if (json[index].links) {
+    rows = ``;
+    if (json[index].links.web) {
+      rows += `<a href="` + json[index].links.web + `" target="_blank"><img align='top' src='/assets/icons/website.png' width='20px' height='20px' /></a> `;
+    }
+    if (json[index].links.insta) {
+      rows += `<a href="https://www.instagram.com/` + json[index].links.insta + `" target="_blank"><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px' /></a> `;
+    }
+    if (json[index].links.twitter) {
+      rows += `<a href="https://x.com/` + json[index].links.twitter + `" target="_blank"><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px' /></a> `;
+    }
+    content.innerHTML += '<br>' + '<code>' + rows + '</code>';
+  }
+
+  overlay.setPosition(pos);
+}
