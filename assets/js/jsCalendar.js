@@ -77,9 +77,9 @@ var jsCalendar = (function(){
         // Default English language
         en : {
             // Months Names
-            months : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+            months : ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'],
             // Days Names
-            days : ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+            days : ['日曜日', '月曜日', '火曜日', '水曜日', '木曜日', '金曜日', '土曜日'],
             // Default handlers
             _dateStringParser : function(key, date) {return JsCalendar._defaultDateStringParser(key, date, this);},
             _dayStringParser : function(key, date) {return JsCalendar._defaultDayStringParser(key, date, this);}
@@ -722,7 +722,7 @@ var jsCalendar = (function(){
         // Save data
         this._active = month.days.slice();
         // Update month name
-        this._elements.month.textContent = month.name;
+        this._elements.month.textContent = month.name + this._date.getFullYear() + "年";
 
         // Check zeros filling
         var prefix = (this._options.zeroFill) ? '0' : '';

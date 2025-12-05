@@ -3,7 +3,8 @@ layout: page
 title: "ニュース"
 description: "AFZニュース"
 image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
-css: ["index.css", "links.css", "images.css"]
+css: ["index.css", "links.css", "images.css", "jsCalendar.css", "eventsCal.css"]
+js: ["jsCalendar.js", "eventsCal.js"]
 ---
 <table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
   <tr style="padding: 0; margin:0; max-height: 80px;">
@@ -13,6 +14,16 @@ css: ["index.css", "links.css", "images.css"]
 </table>
 
 <div class="page" style="max-width: 630px;">
+
+  <div id="wrapper">
+    <!-- Calendar element -->
+    <div id="events-calendar"></div>
+    <!-- Events -->
+    <div id="events"></div>
+    <!-- Clear -->
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
 
 <div class="link-appendix" style="margin-top: 16px">
 
