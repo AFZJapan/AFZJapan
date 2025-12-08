@@ -1671,5 +1671,11 @@
     "pref": 14,
     "geo": {"lat": 35.311603566746086, "lon": 139.49869618227822},
     "links": {"insta":"zerowaste.kawada"}
+  },
+  {
+    "name": "Featherheart Books",
+    "type": 0,
+    "pref": 13,
+    "links": {"web":"https://featherheartbooks.com/", "insta":"featherheartbooks"}
   }
 ]
