@@ -22,7 +22,7 @@ locale: "ja-JP"
 image: "https://afzjapan.com/assets/img/afz.png"
 twitter_username: "afzjapan"
 author: "AFZ推進チーム"
-permalink: /:path/:basename
+permalink: /:categories/:year/:month/:day/:title
 
 # Build settings
 markdown: kramdown
