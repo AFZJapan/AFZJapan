@@ -1677,5 +1677,12 @@
     "type": 0,
     "pref": 13,
     "links": {"web":"https://featherheartbooks.com/", "insta":"featherheartbooks"}
+  },
+  {
+    "name": "The Message from Gaza ガザ 希望のメッセージ",
+    "type": 1,
+    "pref": 13,
+    "geo": {"lat": 35.703623506740826, "lon": 139.70015119973084},
+    "links": {"web":"https://readers-without-borders.org/"}
   }
 ]
