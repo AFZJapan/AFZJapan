@@ -1,0 +1,17 @@
+---
+layout: default
+css: ["index.css", "page.css"]
+---
+<div class="page">
+{% if page.image %}
+<div class="imageContainer">
+  <img src="{{page.image}}" alt="top banner" style="width:100%; max-width: 640px;">
+</div>
+{% endif %}
+
+<h5><span class="afz-heading-colored">{{ page.title }}</span></h5>
+
+{{ content }}
+
+{% include share-buttons.html %}
+</div>
