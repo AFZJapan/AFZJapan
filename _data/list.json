@@ -1684,5 +1684,11 @@
     "pref": 13,
     "geo": {"lat": 35.703623506740826, "lon": 139.70015119973084},
     "links": {"web":"https://readers-without-borders.org/"}
+  },
+  { 
+    "name": "小泉さよ個展『KURONEKO』",
+    "type": 3,
+    "pref": 13,
+    "links": {"web":"https://sayokoizumi.com/", "twitter":"sayokoizumi", "insta":"sayokoizumi"}
   }
 ]
