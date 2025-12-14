@@ -81,30 +81,30 @@
           </ul>
         </li>
 
-        <li style="margin-left: 4px"><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>ホーム</a></li>
-        <li style="padding-left: 6px"><a class="waves-effect" href="{{site.baseurl}}/what-is-bds"><img src="{{site.baseurl}}/assets/menu/handala.png" height="30" style="vertical-align:middle" />&nbsp;&nbsp;&nbsp;BDS運動とは</a>
-          <li><a class="waves-effect" href="{{site.baseurl}}/what-is-afz"><img src="{{site.baseurl}}/assets/menu/pin.png" height="30" style="vertical-align:middle" />&nbsp;AFZとは</a></li>
+        <li style="margin-left: 4px"><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>{% if page.lang == "ja" %}ホーム{% else %}Home{% endif %}</a></li>
+        <li style="padding-left: 6px"><a class="waves-effect" href="{{site.baseurl}}/what-is-bds"><img src="{{site.baseurl}}/assets/menu/handala.png" height="30" style="vertical-align:middle" />&nbsp;&nbsp;&nbsp;{% if page.lang == "ja" %}BDS運動とは{% else %}What is the BDS Movement?{% endif %}</a>
+          <li><a class="waves-effect" href="{{site.baseurl}}/what-is-afz"><img src="{{site.baseurl}}/assets/menu/pin.png" height="30" style="vertical-align:middle" />&nbsp;{% if page.lang == "ja" %}AFZとは{% else %}What is AFZ?{% endif %}</a></li>
           <ul >
-            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/what-you-can-do"><i class="material-icons">list</i>AFZとしてできること</a></li>
-            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/register "><i class="material-icons">add_circle</i>AFZを登録する</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/what-you-can-do"><i class="material-icons">list</i>{% if page.lang == "ja" %}AFZとしてできること{% else %}What AFZs can do{% endif %}</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/register "><i class="material-icons">add_circle</i>{% if page.lang == "ja" %}AFZを登録する{% else %}Register as AFZ{% endif %}</a></li>
           </ul>
         </li>
 
-        <li style="margin-left: 0px"><a class="waves-effect" href="{{site.baseurl}}/news"><i class="material-icons">newspaper</i>ニュース</a></li>
+        <li style="margin-left: 0px"><a class="waves-effect" href="{{site.baseurl}}/news"><i class="material-icons">newspaper</i>{% if page.lang == "ja" %}ニュース{% else %}News{% endif %}</a></li>
 
-        <li style="padding-left: 6px"><a class="waves-effect" href="{{site.baseurl}}/palestine"><img src="{{site.baseurl}}/assets/menu/map.png" height="32" style="vertical-align:middle" />&nbsp;&nbsp;&nbsp;&nbsp;パレスチナについて学ぼう</a>
+        <li style="padding-left: 6px"><a class="waves-effect" href="{{site.baseurl}}/palestine"><img src="{{site.baseurl}}/assets/menu/map.png" height="32" style="vertical-align:middle" />&nbsp;&nbsp;&nbsp;&nbsp;{% if page.lang == "ja" %}パレスチナについて学ぼう{% else %}Learn about Palestine{% endif %}</a>
           <ul>
-            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/nakba"><i class="material-icons">key</i>ナクバについて</a></li>
-            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/occupation"><i class="material-icons">do_not_touch</i>イスラエルの占領について</a></li>
-            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/apartheid"><i class="material-icons">map</i>アパルトヘイトについて</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/nakba"><i class="material-icons">key</i>{% if page.lang == "ja" %}ナクバについて{% else %}Nakba{% endif %}</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/occupation"><i class="material-icons">do_not_touch</i>{% if page.lang == "ja" %}イスラエルの占領について{% else %}What's Zionism{% endif %}</a></li>
+            <li style="padding-left: 30px"><a class="waves-effect" href="{{site.baseurl}}/apartheid"><i class="material-icons">map</i>{% if page.lang == "ja" %}アパルトヘイトについて{% else %}Apartheid{% endif %}</a></li>
             <li><div class="divider"></div></li>
           </ul>
         </li>
-        <li style="margin-left: 0px"><a class="waves-effect" href="{{site.baseurl}}/cinemadays2025"><i class="material-icons">movie</i>パレスチナ映画祭2025</a></li>
+        <li style="margin-left: 0px"><a class="waves-effect" href="{{site.baseurl}}/cinemadays2025"><i class="material-icons">movie</i>{% if page.lang == "ja" %}パレスチナ映画祭2025{% else %}Cinema Days 2025{% endif %}</a></li>
         </li>
         <li><a class="waves-effect" href="{{site.baseurl}}/faq"><i class="material-icons">question_answer</i>FAQ</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/links"><i class="material-icons">link</i>パレスチナ関連リンク集</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/downloads"><i class="material-icons">file_download</i>資料、ダウンロード</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/links"><i class="material-icons">link</i>{% if page.lang == "ja" %}パレスチナ関連リンク集{% else %}Related links{% endif %}</a></li>
+        <li><a class="waves-effect" href="{{site.baseurl}}/downloads"><i class="material-icons">file_download</i>{% if page.lang == "ja" %}資料、ダウンロード{% else %}Downloads{% endif %}</a></li>
       </ul>
     </header>
     <main>
