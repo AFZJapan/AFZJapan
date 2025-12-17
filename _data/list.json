@@ -1687,8 +1687,17 @@
   },
   { 
     "name": "小泉さよ個展『KURONEKO』",
+    "en": "Sayo Koizumi solo exhibition「KURONEKO」",
     "type": 3,
     "pref": 13,
     "links": {"web":"https://sayokoizumi.com/", "twitter":"sayokoizumi", "insta":"sayokoizumi"}
+  },
+  {
+    "name": "ふるほんや日日書房",
+    "en": "Nichinichi Shobo bookstore",
+    "type": 0,
+    "pref": 20,
+    "geo": {"lat": 35.8407348028327, "lon": 137.9646631592606},
+    "links": {"web": "https://nichinichi-shobo.com/", "insta": "nichinichishobo"}
   }
 ]
