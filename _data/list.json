@@ -1720,5 +1720,12 @@
     "pref": 10,
     "geo": {"lat": 36.448932594309845, "lon": 138.97997740902144},
     "links": {"web": "https://noucafe-6.shopinfo.jp/"}
+  },
+  {
+    "name": "カフェ・れら",
+    "type": 2,
+    "pref": 20,
+    "geo": {"lat": 36.2429728384244, "lon": 137.96506084816173},
+    "links": {"web": "https://www.cafe-rera.com/"}
   }
 ]
