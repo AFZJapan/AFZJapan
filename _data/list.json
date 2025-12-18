@@ -1706,5 +1706,19 @@
     "pref": 19,
     "geo": {"lat": 35.8356369236999, "lon": 138.29571952539237},
     "links": {"web": "https://musikusa.stores.jp/", "twitter":"musikusa", "insta": "akihiko6493"}
+  },
+  {
+    "name": "脊振の森のデザイン工房ちにた",
+    "type": 0,
+    "pref": 41,
+    "geo": {"lat": 33.370099974639274, "lon": 130.29872828430047},
+    "links": {"web":"https://sefuri.jp/", "insta":"atelier.tinita"}
+  },
+  {
+    "name": "はるな山麓 農Cafe",
+    "type": 2,
+    "pref": 10,
+    "geo": {"lat": 36.448932594309845, "lon": 138.97997740902144},
+    "links": {"web": "https://noucafe-6.shopinfo.jp/"}
   }
 ]
