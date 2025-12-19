@@ -1727,5 +1727,13 @@
     "pref": 20,
     "geo": {"lat": 36.2429728384244, "lon": 137.96506084816173},
     "links": {"web": "https://www.cafe-rera.com/"}
+  },
+  {
+    "name": "みさと屋・野菜食堂",
+    "en": "Yasai Shokudo Misato",
+    "type": 0,
+    "pref": 13,
+    "geo": {"lat": 35.65391133094587, "lon": 139.5471174356975},
+    "links": {"web": "https://misatoya.jp/"}
   }
 ]
