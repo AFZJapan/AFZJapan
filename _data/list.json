@@ -1740,5 +1740,12 @@
     "name": "春宵亭",
     "type": 0,
     "pref": 44
+  },
+  {
+    "name": "東京聖テモテ教会",
+    "type": 1,
+    "pref": 13,
+    "geo": {"lat" : 35.719256, "lon": 139.759261},
+    "links": {"web": "https://www.nskk.org/tokyo/church/timothy/index.html", "insta": "st.timothy.tokyo"}
   }
 ]
