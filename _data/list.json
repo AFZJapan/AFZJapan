@@ -1747,5 +1747,11 @@
     "pref": 13,
     "geo": {"lat" : 35.719256, "lon": 139.759261},
     "links": {"web": "https://www.nskk.org/tokyo/church/timothy/index.html", "insta": "st.timothy.tokyo"}
+  },
+  {
+    "name": "Tenas Oasis モロッコ雑貨販売",
+    "type": 1,
+    "pref": 14,
+    "links": {"web": "https://tenas.official.ec/", "insta": "tenas_oasis"}
   }
 ]
