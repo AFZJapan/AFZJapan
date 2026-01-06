@@ -1753,5 +1753,11 @@
     "type": 1,
     "pref": 14,
     "links": {"web": "https://tenas.official.ec/", "insta": "tenas_oasis"}
+  },
+  {
+    "name": "オシテルヤ就労支援センター",
+    "type": 4,
+    "pref": 27,
+    "geo": {"lat" : 34.61797787841655, "lon": 135.5228500965104}
   }
 ]
