@@ -1780,5 +1780,24 @@
     "pref": 22,
     "geo": {"lat": 34.900196255942596, "lon": 137.9858631457331},
     "links": {"web": "https://nishimuki.com/", "insta": "nishi.muki"}
+  },
+  {
+    "name": "一般社団法人日本ジャンナ女性センター",
+    "type": 1,
+    "pref": 33,
+    "links": {"web": "https://jannah4woman-jj.studio.site/"}
+  },
+  {
+    "name": "Direct Impact Music",
+    "type": 3,
+    "pref": 11,
+    "links": {"insta": "directimpactjahvaneeze", "fb": "https://www.facebook.com/officialdirectimpactmusic"}
+  },
+  {
+    "name": "Masjid Indonesia Nagoya",
+    "type": 1,
+    "pref": 23,
+    "geo": {"lat": 35.19311330253209, "lon": 136.89939193225229},
+    "links": {"web": "https://s.id/masjidindonesianagoya", "insta": "masjidindonesianagoya"}
   }
 ]
