@@ -1799,5 +1799,12 @@
     "pref": 23,
     "geo": {"lat": 35.19311330253209, "lon": 136.89939193225229},
     "links": {"web": "https://s.id/masjidindonesianagoya", "insta": "masjidindonesianagoya"}
+  },
+  {
+    "name": "愛知県立大学　山本かほり研究室",
+    "en": "Aichi Prefectural University, Kaori Yamamoto's Laboratory",
+    "type": 3,
+    "pref": 23,
+    "geo": {"lat": 35.18359525394871, "lon": 137.09363837272045}
   }
 ]
