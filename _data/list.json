@@ -1812,5 +1812,12 @@
     "type": 3,
     "pref": 23,
     "links": {"insta": "hamachi_nagoya"}
+  },
+  {
+    "name": "これからや",
+    "type": 0,
+    "pref": 1,
+    "geo": {"lat": 43.05950341109286, "lon": 141.37191188290248}
+    "links": {"web": "https://korekaraya.com/"}
   }
 ]
