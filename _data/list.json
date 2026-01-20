@@ -1819,5 +1819,11 @@
     "pref": 1,
     "geo": {"lat": 43.05950341109286, "lon": 141.37191188290248},
     "links": {"web": "https://korekaraya.com/"}
+  },
+  {
+    "name": "暮らしでつながるパレスチナ逗子葉山",
+    "type": 4,
+    "pref": 14,
+    "links": {"insta": "kurastinazushihayama"}
   }
 ]
