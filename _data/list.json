@@ -1825,5 +1825,12 @@
     "type": 4,
     "pref": 14,
     "links": {"insta": "kurastinazushihayama"}
+  },
+  {
+    "name": "京都大学中東問題を考える有志学習会",
+    "en": "Kyoto University volunteer study group on ME Issues",
+    "type": 3,
+    "pref": 26,
+    "links": {"web": "https://ku-midwest-study.jimdosite.com/", "twitter": "ku_mestudy_2025", "fb": "https://www.facebook.com/kumestudy2025/"}
   }
 ]
