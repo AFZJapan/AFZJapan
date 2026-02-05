@@ -1842,5 +1842,12 @@
     "type": 3,
     "pref": 23,
     "geo": {"lat": 35.104660996127954, "lon": 136.9102943830367}
+  },
+  {
+    "name": "吉田寮自治会",
+    "type": 4,
+    "pref": 26,
+    "geo": {"lat": 35.02256670932769, "lon": 135.77990940763965},
+    "links": {"web": "https://yoshidaryo.org/", "twitter": "yoshidaryo_koho", "insta": "yoshidaryokohoshitsu"}
   }
 ]
