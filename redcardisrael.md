@@ -18,7 +18,7 @@ css: ["index.css", "download.css"]
 
 <br>
 
-<div style="text-align: center; width: 400px; margin: 0 auto;">署名：<a href="https://action.eko.org/a/uefa-ban-israel" style="color: red;">https://action.eko.org/a/uefa-ban-israel</a></div>
+<div style="text-align: center; max-width: 400px; margin: 0 auto; border: 1px">署名：<a href="https://action.eko.org/a/uefa-ban-israel" style="color: red;">https://action.eko.org/a/uefa-ban-israel</a></div>
 
 <br>
 
