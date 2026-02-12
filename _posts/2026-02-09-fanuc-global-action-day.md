@@ -16,3 +16,13 @@ css: ["download.css"]
 日本ではBDS Japan Bulletin、ZENKO、パレスチナの子どもたちを想う名古屋のママの会などが中心になって呼びかけている他、アイルランドのMaynooth BDS、米国のEngineers Against Apartheid、イギリスのPunks Against Apartheidなどが抗議アクションを呼びかけています。
 
 あなたも日本各地のファナック工場・事務所前での抗議、電話やメール、SNSで声を上げるなど、2/12の一斉行動でアクションを取りましょう！
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/preview_download?preview=fanuc_global_action_day">
+      <img src="/assets/downloads/fanuc-global-action-day.png" alt="fanuc-global-action-days_poster" height="200px">
+    </a>
+    <div class="desc"><button class="btnic" type="submit" onclick="window.open('https://drive.google.com/file/d/1peGCHm9ZBkVDocNLOdGL-3xkSjYT9k6U/view')"><span style="font-size: 0.875em;"><i class="fa fa-download"></i> ポスターをダウンロード</span></button>
+    </div>
+  </div>
+</div>
