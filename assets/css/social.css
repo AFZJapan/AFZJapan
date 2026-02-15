@@ -3,12 +3,24 @@ ul.profile-social-link {
   display: flex;
   flex-direction: row;
   /* Below sets up your display method, ex: flex-start|flex-end|space-between|space-around */
-  justify-content: space-between;
+  justify-content: center;
   /* Below removes bullets and cleans white-space */
   list-style: none;
   padding: 0;
   /* Bonus: forces no word-wrap */
   white-space: nowrap;
+}
+
+ul.profile-social-link li {
+  flex: 1 1 auto;
+}
+
+ul.profile-social-link li > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .side-nav .logo {
