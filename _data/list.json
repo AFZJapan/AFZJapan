@@ -1850,5 +1850,13 @@
     "pref": 26,
     "geo": {"lat": 35.02256670932769, "lon": 135.77990940763965},
     "links": {"web": "https://yoshidaryo.org/", "twitter": "yoshidaryo_koho", "insta": "yoshidaryokohoshitsu"}
+  },
+  {
+    "name": "アクティブ・ミュージアム「女たちの戦争と平和資料館」（wam）",
+    "en": "Women's Active Museum on War and Peace",
+    "type": 5,
+    "pref": 13,
+    "geo": {"lat": 35.70835342159521, "lon": 139.71739575132082},
+    "links": {"web": "https://wam-peace.org/"}
   }
 ]
