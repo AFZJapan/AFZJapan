@@ -12,6 +12,7 @@ const overlay = new ol.Overlay({
       duration: 250,
     },
   },
+  offset: [1, -25],
 });
 
 /**
