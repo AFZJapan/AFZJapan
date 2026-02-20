@@ -16,8 +16,9 @@ css: ["index.css", "register.css"]
   </tr>
 </table>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTS0WQFTLTrm8DZnVao76Mxbf-l3nCU5ZYkPtQw7pYZc5ssA/viewform?embedded=true" 
-    width="100%" height="600"
-    frameborder="0" marginheight="0" marginwidth="0">
-    Loading…
-</iframe>
+<div class="page">
+
+<iframe data-tally-src="https://tally.so/embed/ob2aqM?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="2498" frameborder="0" marginheight="0" marginwidth="0" title="AFZ Japan — 登録フォーム"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+
+</div>
