@@ -1858,5 +1858,18 @@
     "pref": 13,
     "geo": {"lat": 35.70835342159521, "lon": 139.71739575132082},
     "links": {"web": "https://wam-peace.org/"}
+  },
+  {
+    "name": "Groove Den",
+    "type": 2,
+    "pref": 13,
+    "geo": {"lat": 35.660450664549494, "lon": 139.6660172034338}
+  },
+  {
+    "name": "FOOD CONCEPT SHOP MOMINOKI HOUSE",
+    "type": 2,
+    "pref": 13,
+    "geo": {"lat": 35.673005367500465, "lon": 139.709957454222},
+    "links": {"web": "https://www.mominoki-house.net/", "insta": "mominokihouse_jp"}
   }
 ]
