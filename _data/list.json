@@ -1871,5 +1871,12 @@
     "pref": 13,
     "geo": {"lat": 35.673005367500465, "lon": 139.709957454222},
     "links": {"web": "https://www.mominoki-house.net/", "insta": "mominokihouse_jp"}
+  },
+  {
+    "name": "ジャパンダアワセンター",
+    "type": 1,
+    "pref": 27,
+    "geo": {"lat": 34.59352417082502, "lon": 135.50268022534573},
+    "links": {"web": "https://japandawah.com/", "insta": "japan.dawah.centre"}
   }
 ]
