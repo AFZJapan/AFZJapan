@@ -5,6 +5,7 @@ description: "AFZは、それぞれの参加スペースがそれぞれパレス
 image: "https://afzjapan.com/assets/img/what-can-be-done.png"
 css: ["index.css", "collapse.css"]
 js: ["collapse.js"]
+lang: "ja"
 ---
 <div class="imageContainer">
   <img src="{{site.baseurl}}/assets/img/what-can-be-done.png" style="width:100%; max-width: 640px;">
