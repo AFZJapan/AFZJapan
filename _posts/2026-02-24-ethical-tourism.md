@@ -2,7 +2,7 @@
 layout: post
 title: "「ジェノサイドに居場所はない」"
 excerpt_separator: <!--more-->
-date: 2026-02-24 00:00:01 +0900
+date: 2026-02-24 09:00:01 +0900
 categories: news
 image: "/assets/img/2026-02-24-ethical-tourism.png"
 css: ["download.css"]
