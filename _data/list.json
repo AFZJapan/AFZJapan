@@ -1878,5 +1878,12 @@
     "pref": 27,
     "geo": {"lat": 34.59352417082502, "lon": 135.50268022534573},
     "links": {"web": "https://japandawah.com/", "insta": "japan.dawah.centre"}
+  },
+  {
+    "name": "Readin' Writin' BOOK STORE",
+    "type": 0,
+    "pref": 13,
+    "geo": {"lat": 35.70928319498694, "lon": 139.79026186348545},
+    "links": {"web": "http://readinwritin.net/", "twitter": "ochimira"}
   }
 ]
