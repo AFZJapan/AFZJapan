@@ -1885,5 +1885,18 @@
     "pref": 13,
     "geo": {"lat": 35.70928319498694, "lon": 139.79026186348545},
     "links": {"web": "http://readinwritin.net/", "twitter": "ochimira"}
+  },
+  {
+    "name": "ハックルベリーブックス",
+    "type": 0,
+    "pref": 12,
+    "geo": {"lat": 35.86028568561257, "lon": 139.97719237831043},
+    "links": {"web": "http://www.huckleberrybooks.jp/", "twitter": "Huckbooks"}
+  },
+  {
+    "name": "かなやまFREE SHOP",
+    "type": 0,
+    "pref": 23,
+    "links": {"web": "http://kfree.blog131.fc2.com/"}
   }
 ]
