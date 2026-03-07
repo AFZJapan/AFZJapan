@@ -1,11 +1,24 @@
+#legend {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
 #legend li {
   display: inline;
   list-style-type: none;
-  padding-right: 16px;
+}
+
+#legend li a {
+  color: #000000;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
 span {
-  display: inline-block;
   vertical-align: top;
   margin-top: 0px;
   margin-left: 5px;

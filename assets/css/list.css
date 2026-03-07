@@ -2,6 +2,7 @@ table.afz-table {
   width: 100%;
   border-collapse: collapse;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 table.afz-table th, td {
@@ -16,11 +17,22 @@ table.afz-table th {
   font-weight: bold;
 }
 
+table.afz-table th .contain-filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-width: 0px;
+}
+
 table.afz-table td {
   background-color: #f9f9f9;
 }
 
-table.afz-table tr:nth-child(even) td {
+table.afz-table tr.hidden {
+  display: none;
+}
+
+table.afz-table tr:nth-child(even of :not(.hidden)) td {
   background-color: #f1f1f1;
 }
 
@@ -35,6 +47,17 @@ table.afz-table td, th {
 
 table.afz-table td:last-child, th:last-child {
   border-right: 1px solid #ddd;
+}
+
+.afz-table-fallback {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.afz-table-fallback.hidden {
+  display: none;
 }
 
 /* more css */
@@ -63,4 +86,27 @@ input:not([type]), input[type=text]:not(.browser-default), input[type=password]:
     margin: 0 0 8px 0;
     height: 2.7rem;
 
+}
+
+.btn-flat.pref-dropdown-trigger {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+#pref-dropdown {
+  background-color: #ffffff;
+  padding-left: 0;
+}
+
+#pref-dropdown li {
+  list-style-type: none;
+}
+
+#pref-dropdown li a {
+  font-weight: normal;
+  color: #000000;
+}
+
+#pref-dropdown li a:hover {
+  text-decoration: none;
 }
