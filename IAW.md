@@ -1,9 +1,8 @@
 ---
 layout: page
 title: "Israeli Apartheid Week (IAW) 2026"
-description: ""
-
-image: "https://afzjapan.com/assets/cinema2025/1.png"
+description: "今年のイスラエル・アパルトヘイト・ウィーク（IAW）は3月21日から28日まで全世界で開催されます。国際法においてアパルトヘイトは人道に対する罪の一つとして位置づけられ、「一つの人種的集団がほかの人種的集団を抑圧・支配する制度化された体制が存在する中で、その体制を維持する意図をもって非人道的な行為を行うこと」とされています（ステファニー・クープ著『国際法からとらえるパレスチナQ＆A　イスラエルの犯罪を止めるために』より）。まさにイスラエルがパレスチナ人に対して行っていることであり、人権団体や識者からもイスラエルの政策はアパルトヘイトだと指摘されています。イスラエルのアパルトヘイトを世に知らせ、パレスチナ人の解放闘争を他の闘争と結びつけ、BDS運動への支持を拡大することを目的に出発したIAW。パレスチナ人に対するジェノサイド、違法な占領、入植者植民地主義を前に、原点となるこうした目的は重要さを増しています。また、「力こそが正義」という動きが世界を席巻しつつある今、あらゆる形態での抑圧、レイシズム、植民地主義、そしてアパルトヘイトに抵抗することは必要不可欠です。"
+image: "https://afzjapan.com/assets/img/BDS_IAW_header.webp"
 css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "cinemadays2025.css"]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.iaw.js", "map.main.js", "ol-ext.js"]
 lang: "ja"
