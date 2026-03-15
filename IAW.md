@@ -83,12 +83,17 @@ BDS民族評議会による呼びかけ↓<br/>
 
   {% assign pref = site.data.prefectures %}
   {% assign list = site.data.iaw2026 %}
-  {% for c in list %}
-  <tr data-pref="{{ c.pref }}" data-type="{{ types[c.type].type }}">
-    <td style="vertical-align: bottom;">{{ c.name }}</td>
-    <td style="word-break: keep-all;">{{ pref[c.pref].name }}</td>
+  {% for iaw in list %}
+  <tr data-pref="{{ iaw.pref }}" data-type="{{ types[iaw.type].type }}">
+    <td style="vertical-align: bottom;"> {{iaw.name}} <img align='top' src='{{site.baseurl}}/assets/icons/{{ types[iaw.type].type }}.png' width='20px' height='20px' /> <a href="#map" onclick="popup({% increment index %});"><img align='top' src='/assets/icons/afz_map.png' width='20px' height='20px' /></a> <br>
+    {% for tag in afz.tags %}
+      <div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">{{ tag }}</div>
+    {% endfor %}
+    </td>
+
+    <td style="word-break: keep-all;">{{ pref[iaw.pref].name }}</td>
     <td>
-    {% for link in c.links %}
+    {% for link in iaw.links %}
       {% if link[0] == "twitter" %}
         <a href='https://x.com/{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>
       {% elsif link[0] == "insta" %}
