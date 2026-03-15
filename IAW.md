@@ -20,7 +20,7 @@ lang: "ja"
   <h6><span class="afz-heading-small-colored">予告</span></h6>
   <p>
 
-今年のイスラエル・アパルトヘイト・ウィーク（IAW）は3月21日から28日まで全世界で開催されます。国際法においてアパルトヘイトは人道に対する罪の一つとして位置づけられ、「一つの人種的集団がほかの人種的集団を抑圧・支配する制度化された体制が存在する中で、その体制を維持する意図をもって非人道的な行為を行うこと」とされています（ステファニー・クープ著『国際法からとらえるパレスチナQ＆A　イスラエルの犯罪を止めるために』より）。まさにイスラエルがパレスチナ人に対して行っていることであり、人権団体や識者からもイスラエルの政策はアパルトヘイトだと指摘されています。イスラエルのアパルトヘイトを世に知らせ、パレスチナ人の解放闘争を他の闘争と結びつけ、BDS運動への支持を拡大することを目的に出発したIAW。パレスチナ人に対するジェノサイド、違法な占領、入植者植民地主義を前に、原点となるこうした目的は重要さを増しています。また、「力こそが正義」という動きが世界を席巻しつつある今、あらゆる形態での抑圧、レイシズム、植民地主義、そしてアパルトヘイトに抵抗することは必要不可欠です。<br/>
+今年のイスラエル・アパルトヘイト・ウィーク（IAW）は3月21日から28日まで全世界で開催されます。国際法においてアパルトヘイトは人道に対する罪の一つとして位置づけられ、「一つの人種的集団がほかの人種的集団を抑圧・支配する制度化された体制が存在する中で、その体制を維持する意図をもって非人道的な行為を行うこと」とされています（ステファニー・クープ著『国際法からとらえるパレスチナQ＆A　イスラエルの犯罪を止めるために』より）。まさにイスラエルがパレスチナ人に対して行っていることであり、人権団体や識者からもイスラエルの政策はアパルトヘイトだと指摘されています。イスラエルのアパルトヘイトを世に知らせ、パレスチナ人の解放闘争を他の闘争と結びつけ、BDS運動への支持を拡大することを目的に出発したIAW。パレスチナ人に対するジェノサイド、違法な占領、入植者植民地主義を前に、原点となるこうした目的は重要さを増しています。また、「力こそが正義」という動きが世界を席巻しつつある今、あらゆる形態での抑圧、レイシズム、植民地主義、そしてアパルトヘイトに抵抗することは必要不可欠です。<br/><br/>
 21年前にトロント大学でのイベントから始まったIAW。今年は原点に立ち戻り、キャンパスを中心としたキャンペーンが呼びかけられています。BJB、AFZもキャンペーンを企画中です。
 詳細は準備ができ次第投稿しますので、ぜひご参加ください。<br/>
 BDS民族評議会による呼びかけ↓<br/>
@@ -42,9 +42,11 @@ BDS民族評議会による呼びかけ↓<br/>
 
 {% assign types = site.data.types %}
 <ul id="legend">
-  {% for type in types %}
-  <li><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span>{{ type.name }}</span></li>
-  {% endfor %}
+  <li><a href="javascript:;" data-type="shop"><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>お店・地元企業</span></a></li>
+  <li><a href="javascript:;" data-type="social"><img src="{{site.baseurl}}/assets/icons/social.png" height=20 width=20><span>ソーシャル・社交の場</span></a></li>
+  <li><a href="javascript:;" data-type="hospitality"><img src="{{site.baseurl}}/assets/icons/hospitality.png" height=20 width=20><span>飲食・宿泊業</span></a></li>
+  <li><a href="javascript:;" data-type="cultural"><img src="{{site.baseurl}}/assets/icons/cultural.png" height=20 width=20><span>文化・学術的な場所</span></a></li>
+  <li><a href="javascript:;" data-type="" class="type-show-all" style="display:none;"><span>× 絞り込みを解除</span></a></li>
 </ul>
 
 <div>
@@ -53,18 +55,38 @@ BDS民族評議会による呼びかけ↓<br/>
   <thead>
     <tr>
       <th>AFZ</th>
-      <th>Link</th>
-      <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
+
+<th class="column-pref">
+        <div class="contain-filter">
+          <span>所在地</span>
+          <span>
+            <a class="pref-dropdown-trigger btn-flat" href="javascript:;" data-activates="pref-dropdown">
+              <i class="material-icons">filter_list</i>
+            </a>
+            <ul id="pref-dropdown" class="dropdown-content">
+              <li><a href="javascript:;" data-pref-id="">すべて表示</a></li>
+              <li class="divider"></li>
+              {% assign prefectures = site.data.prefectures %}
+              {% for pref in prefectures %}
+                {% if pref.id > 0 %}
+                  <li><a href="javascript:;" data-pref-id="{{ pref.id }}">{{ pref.name }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </span>
+        </div>
+      </th>
+      <th><img align='top' src='/assets/icons/wifi.png' width='20px' height='20px' /></th>
     </tr>
   </thead>
-  <tbody id="CinemaTable">
+  <tbody id="AFZTable">
 
   {% assign pref = site.data.prefectures %}
   {% assign list = site.data.iaw2026 %}
   {% for c in list %}
-  <tr>
-    <td style="vertical-align: bottom;">{{ c.name }}
-    </td>
+  <tr data-pref="{{ c.pref }}" data-type="{{ types[c.type].type }}">
+    <td style="vertical-align: bottom;">{{ c.name }}</td>
+    <td style="word-break: keep-all;">{{ pref[c.pref].name }}</td>
     <td>
     {% for link in c.links %}
       {% if link[0] == "twitter" %}
@@ -79,14 +101,17 @@ BDS民族評議会による呼びかけ↓<br/>
         <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>
       {% endif %}
     {% endfor %}
-
     </td>
-    <td style="word-break: keep-all;">{{ pref[c.pref].name }}</td>
   </tr>
   {% endfor %}
 
   </tbody>
 </table>
+<div class="afz-table-fallback hidden">
+  <div>
+    No results..
+  </div>
+</div>
 </div>
 
 <script>
