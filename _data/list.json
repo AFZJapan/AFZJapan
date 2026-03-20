@@ -1909,5 +1909,12 @@
     "name": "のらねこハウスよろず相談室",
     "type": 1,
     "pref": 13
+  },
+  {
+    "name": "紡衣",
+    "type": 2,
+    "pref": 25,
+    "geo": {"lat": 35.009040599733765, "lon": 135.8607423922949},
+    "links": {"web": "https://tsumugi-otsu.com/", "insta": "tsumugi_otsu"}
   }
 ]
