@@ -44,10 +44,9 @@ BDS民族評議会による呼びかけ↓<br>
 
 {% assign types = site.data.types %}
 <ul id="legend">
-  <li><a href="javascript:;" data-type="shop"><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>お店・地元企業</span></a></li>
-  <li><a href="javascript:;" data-type="social"><img src="{{site.baseurl}}/assets/icons/social.png" height=20 width=20><span>ソーシャル・社交の場</span></a></li>
-  <li><a href="javascript:;" data-type="hospitality"><img src="{{site.baseurl}}/assets/icons/hospitality.png" height=20 width=20><span>飲食・宿泊業</span></a></li>
-  <li><a href="javascript:;" data-type="cultural"><img src="{{site.baseurl}}/assets/icons/cultural.png" height=20 width=20><span>文化・学術的な場所</span></a></li>
+  {% for type in types %}
+  <li><a href="javascript:;" data-type="{{ type.type }}"><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span>{{ type.name }}</span></a></li>
+  {% endfor %}
   <li><a href="javascript:;" data-type="" class="type-show-all" style="display:none;"><span>× 絞り込みを解除</span></a></li>
 </ul>
 
