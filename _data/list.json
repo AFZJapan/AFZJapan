@@ -1916,5 +1916,12 @@
     "pref": 25,
     "geo": {"lat": 35.009040599733765, "lon": 135.8607423922949},
     "links": {"web": "https://tsumugi-otsu.com/", "insta": "tsumugi_otsu"}
+  },
+  {
+    "name": "ギャラリーヒルゲート",
+    "type": 3,
+    "pref": 26,
+    "geo": {"lat": 35.00953908609977, "lon": 135.76788021875356},
+    "links": {"web": "https://hillgate.jp/", "insta": "galleryhillgate"}
   }
 ]
