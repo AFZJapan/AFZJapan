@@ -77,6 +77,54 @@ function addFeatureAt(data) {
   ]);
 }
 
+function updateMapType(filter) {
+  vector.getSource().clear();
+  if (filter == '') {
+    display(json);
+    return;
+  }
+
+  for (var i = 0; i < json.length; i++) {
+    if (types[json[i].type].type == filter) {
+      const data = json[i];
+      styles[data.name] = [
+        new ol.style.Style({
+          image: new ol.style.Icon({
+            src: "assets/icons/" + types[data.type].type + ".png",
+            scale: 0.4,
+            anchor: [0.5, 1]
+          })
+        })
+      ];
+      addFeatureAt(data)
+    }
+  }
+}
+
+function updateMapPref(filter) {
+  vector.getSource().clear();
+  if (filter == '') {
+    display(json);
+    return;
+  }
+
+  for (var i = 0; i < json.length; i++) {
+    if (json[i].pref == filter) {
+      const data = json[i];
+      styles[data.name] = [
+        new ol.style.Style({
+          image: new ol.style.Icon({
+            src: "assets/icons/" + types[data.type].type + ".png",
+            scale: 0.4,
+            anchor: [0.5, 1]
+          })
+        })
+      ];
+      addFeatureAt(data)
+    }
+  }
+}
+
 function display(json) {
   for (var i = 0; i < json.length; i++) {
     const data =  json[i];

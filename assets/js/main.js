@@ -41,6 +41,8 @@ $( document ).ready(function() {
     link.addEventListener('click', function(e) {
       e.preventDefault();
       const clickedType = this.getAttribute('data-type');
+      // update map
+      updateMapType(clickedType);
       
       tableRows.forEach(row => {
         row.classList.add('hidden');
@@ -67,6 +69,8 @@ $( document ).ready(function() {
       e.preventDefault();
       const selectedPref = this.getAttribute('data-pref-id');
       let tableIsEmpty = true;
+      // update map
+      updateMapPref(selectedPref);
 
       resetLink.style.display = 'none';
 
