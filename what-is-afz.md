@@ -5,6 +5,7 @@ description: "アパルトヘイト・フリー・ゾーンは、イスラエル
 image: "https://afzjapan.com/assets/img/afz_scr_whatsafz.png"
 css: ["index.css", "afz.css"]
 js: ["afz.js"]
+lang: "ja"
 ---
 <table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
   <tr style="padding: 0; margin:0">

@@ -34,7 +34,7 @@ const attribution = new ol.control.Attribution({
 });
 
 var tileUrl = "https://tile.openstreetmap.jp/{z}/{x}/{y}.png";
-if (window.location.pathname === "/en") {
+if (window.location.pathname === "/en/") {
   tileUrl = "https://tile.openstreetmap.jp/styles/osm-bright/{z}/{x}/{y}.png";
 }
 
@@ -63,7 +63,7 @@ function addFeatureAt(data) {
       ol.proj.fromLonLat([data.geo.lon, data.geo.lat])
     ),
     title: data.name,
-    description: (window.location.pathname === "/en" ? (data.en ? data.en : data.name) : (data.name_on_map ? data.name_on_map : data.name)),
+    description: (window.location.pathname === "/en/" ? (data.en ? data.en : data.name) : (data.name_on_map ? data.name_on_map : data.name)),
     links: data.links,
     id: data.type
   });
@@ -145,7 +145,7 @@ function display(json) {
       //}),
       new ol.style.Style({
         image: new ol.style.Icon({
-          src: "assets/icons/" + types[data.type].type + ".png",
+          src: "/assets/icons/" + types[data.type].type + ".png",
           scale: 0.4,
           anchor: [0.5, 1]
         })

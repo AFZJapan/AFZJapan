@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "BDS運動とは"
-description: "BDS運動はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。"
+title: "What is BDS"
+description: "The BDS movement began at the call of Palestinians. As a direct, nonviolent response to the calls of Palestinian citizens, it is a highly effective movement for showing solidarity with Palestine and applying concrete pressure on Israel. It applies pressure to Israel through boycotts at the individual and group level (B), withdrawal of capital at the investment group, company, and university level (D), and sanctions at the national level (S)."
 image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
 css: ["index.css", "linkpreview.css"]
-lang: "ja"
+lang: "en"
 ---
 
 <table style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top_bds.png'); width: 100%; max-width: 640px;">
@@ -14,9 +14,9 @@ lang: "ja"
     <td class="bds-top"><div style="text-align: center"><img src="/assets/img/s.png" height="100px" /></div></td>
   </tr>
   <tr>
-    <td class="bds-bottom"><div style="font-weight: 700; text-align: center;">ボイコット<br />(不買運動)</div></td>
-    <td class="bds-bottom"><div style="font-weight: 700; text-align: center">ダイベストメント<br />(資本の引き上げ)</div></td>
-    <td class="bds-bottom"><div style="font-weight: 700; text-align: center">サンクション<br />(経済制裁)</div></td>
+    <td class="bds-bottom"><div style="font-weight: 700; text-align: center;">Boycott</div></td>
+    <td class="bds-bottom"><div style="font-weight: 700; text-align: center">Divestment</div></td>
+    <td class="bds-bottom"><div style="font-weight: 700; text-align: center">Sanctions</div></td>
   </tr>
 </table>
 
@@ -25,43 +25,21 @@ lang: "ja"
 <p>
 
 <div id="page-info">
-  <h4><span class="afz-heading-colored">BDS 運動とは</span></h4>
+  <h4><span class="afz-heading-colored">What is BDS</span></h4>
 </div>
 
-<a href="https://bdsmovement.net" target="_blank">BDS運動</a>はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。</p>
+<a href="https://bdsmovement.net" target="_blank">BDS </a>was initiated by Palestinian civil society, which issued a call for a campaign, and is emerging as a non-violent movement in response to this call. This is the embodiment of our solidarity with Palestinians and is an effective strategy to urge Israel to comply with international law and Palestinian rights.</p>
 
-<p>個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。</p>
+<p>Boycotts at the individual and group levels (B), Divestment by financial institutions, business associations, Companies, and Universities (D), and Sanctions by states or governments (S) are a systematic program that realistically puts pressure on Israel.</p>
 
-<p>アパルトヘイト・フリーゾーンはBDS運動の一環として、世界的な連帯のネットワークを構築することを求めています。</p>
+<p>Apartheid Free Zone plays a part in this BDS and calls for a worldwide movement.</p>
 
 <img src="/assets/img/handala.png" style="float:right; width: 240px; margin: 20px" />
 
 <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
     <div class="jekyll-linkpreview-description">
-ハンダラ(Handala)君は、パレスチナ人風刺画家ナジ・アル＝アリ（Naji Al-Ali）によって生み出されたキャラクターで、ナジ自身が故郷のパレスチナを追放された当時の年齢、１０歳の男の子の姿をしています。国際社会によってパレスチナ人に押し付けられた不正義を拒否するために、手を組んで後ろを向き、サボテン（パレスチナ人の抵抗のシンボル）のような針頭で抗議の意思を表しています。名前の由来は、パレスチナに生息し、切ったところからまた生え、深い根を張る「ハンダラ」という植物です。ハンダラ君はパレスチナに帰れる日まで10歳のまま成長しません。
-    </div>
-  </div>
-</div>
-
-<div class="jekyll-linkpreview-wrapper">
-  <div class="jekyll-linkpreview-wrapper-inner">
-    <div class="jekyll-linkpreview-content">
-      <div class="jekyll-linkpreview-image">
-        <a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank">
-          <img src="/assets/img/BDSIntro.webp" />
-        </a>
-      </div>
-
-      <div class="jekyll-linkpreview-body">
-        <h2 class="jekyll-linkpreview-title">
-          <h6><span class="afz-heading-small-colored">BDSムーブメント入門</span></h6><a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: bold;">パレスチナのためにできること</a>
-        </h2>
-        <div class="jekyll-linkpreview-description">2021年6月18日に行ったウェビナーを公開しました。主催：BDS Japan Bulletin</div>
-      </div>
-    </div>
-    <div class="jekyll-linkpreview-footer">
-      <a href="//www.youtube.com/@bdsjapanbulletin8996" target="_blank">www.youtube.com/@bdsjapanbulletin8996</a>
+Handala is a character created by Palestinian cartoonist Naji Al-Ali, depicting him as a 10-year-old boy, the same age Naji was when he was exiled from his homeland of Palestine. To reject the injustice imposed on Palestinians by the international community, he stands with his hands clasped, facing away from the camera, and expresses his protest with a pinhead resembling a cactus (a symbol of Palestinian resistance). His name comes from the Handala plant, which grows in Palestine, regrows when cut, and develops deep roots. Handala will remain 10 years old and will not grow up until he can return to Palestine.
     </div>
   </div>
 </div>
@@ -71,7 +49,7 @@ lang: "ja"
   <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
-<a href="/what-is-afz">▶︎ AFZとは</a>
+<a href="/en/what-is-afz">▶︎ What is AFZ</a>
 <br/>
 <br/>
 </div>
