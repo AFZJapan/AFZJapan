@@ -2,7 +2,7 @@ table.afz-table {
   width: 100%;
   border-collapse: collapse;
   overflow: hidden;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 table.afz-table th, td {

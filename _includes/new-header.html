@@ -97,7 +97,7 @@
                 <li class="nav-item dropdown d-inline">
                   <a href="#" data-toggle="dropdown" class="has-dropdown font-weight-600" aria-expanded="false"><img src="{{site.baseurl}}/assets/icons/language.png" height=24px style="vertical-align: middle; margin-left: 5px; margin-right: 5px;" /></a>
                   <ul class="dropdown-menu">
-                    <li class="dropdown-item {% if page.url contains "/en" %}{% else %}active{% endif %}"><a href="/" class="nav-link">日本語</a></li>
+                    <li class="dropdown-item {% if page.lang != "en" %}active{% endif %}"><a href="/" class="nav-link">日本語</a></li>
                     <li class="dropdown-item {% if page.lang == "en" %}active{% endif %}"><a href="/en/" class="nav-link">English</a></li>
                   </ul>
                 </li>
@@ -109,7 +109,7 @@
               </div>
             </td>
 
-            <td style="padding-left: 20px; margin-left: 40px"><img id="bds_logo" src="{{site.baseurl}}/assets/downloads/BDS_logo.png" style="float: right; width: 100px; margin-right: 10px;" /></td>
+            <td style="padding: 0px; padding-left: 20px; margin-left: 40px"><img id="bds_logo" src="{{site.baseurl}}/assets/downloads/BDS_logo.png" style="float: right; width: 100px; margin-right: 10px;" /></td>
           </tr>
         </table>
 

@@ -19,7 +19,9 @@ class LetsMakeMap extends ol.control.Control {
     if (window.location.pathname === "/en/") {
       img = "/assets/img/letsmakeJapanAFZ_w.png"
     }
-    button.innerHTML = '<img src=' + img + ' height=130 width=260 />';
+    if (window.location.pathname === "/en/" || window.location.pathname === "/") {
+      button.innerHTML = '<img src=' + img + ' height=130 width=260 />';
+    }
     const element = document.createElement('div');
     element.className = 'lets-make-map ol-unselectable ol-control';
     element.appendChild(button);
