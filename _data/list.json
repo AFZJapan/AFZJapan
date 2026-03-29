@@ -1923,5 +1923,12 @@
     "pref": 26,
     "geo": {"lat": 35.00953908609977, "lon": 135.76788021875356},
     "links": {"web": "https://hillgate.jp/", "insta": "galleryhillgate"}
+  },
+  {
+    "name": "Heywa Industry",
+    "type": 3,
+    "pref": 40,
+    "geo": {"lat": 33.5940243852409, "lon": 130.40890777875146},
+    "links": {"insta": "heywa_industry"}
   }
 ]
