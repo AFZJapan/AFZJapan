@@ -1930,5 +1930,12 @@
     "pref": 40,
     "geo": {"lat": 33.5940243852409, "lon": 130.40890777875146},
     "links": {"insta": "heywa_industry"}
+  },
+  {
+    "name": "合同会社　阿蘇ジーザスフォレストリー",
+    "type": 0,
+    "pref": 43,
+    "geo": {"lat": 32.85274694259291, "lon": 131.14108983559015},
+    "links": {"web": "https://asojesusf.wixsite.com/jesus"}
   }
 ]
