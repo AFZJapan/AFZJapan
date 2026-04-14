@@ -70,5 +70,23 @@
     "data" : {
       "title": "イスラエル・アパルトヘイトウェーク/Israel Apartheid Week"
     }
+  },
+  {
+    "date": "30/03/2026",
+    "data": {
+      "title": "土地の日/Land Day"
+    }
+  },
+  {
+    "date": "17/04/2026",
+    "data": {
+      "title": "パレスチナ囚人の日/Palestinian Prisoners' Day"
+    }
+  },
+  {
+    "date": "15/05/2026",
+    "data": {
+      "title": "ナクバの日/Nakba Day"
+    }
   }
 ]
