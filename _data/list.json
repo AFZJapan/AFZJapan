@@ -1943,5 +1943,11 @@
     "type": 0,
     "pref": 13,
     "links": {"web": "https://deadkebab.theshop.jp/", "insta": "deadkebab"}
+  },
+  {
+    "name": "国際政治経済研究会",
+    "type": 3,
+    "pref": 7,
+    "geo": {"lat": 37.68878783688041, "lon": 140.4695558881691}
   }
 ]
