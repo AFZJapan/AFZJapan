@@ -1,7 +1,13 @@
 ---
-layout: default
+layout: new-page
 css: ["index.css", "page.css"]
 ---
+<div class="main-content">
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">ニュース</h2>
+    </div>
+
 <div class="page">
 {% if page.image %}
 <div class="imageContainer">
@@ -9,9 +15,14 @@ css: ["index.css", "page.css"]
 </div>
 {% endif %}
 
+<br>
+
 <h5><span class="afz-heading-colored">{{ page.title }}</span></h5>
 
 {{ content }}
 
 {% include share-buttons.html %}
+</div>
+
+  </section>
 </div>

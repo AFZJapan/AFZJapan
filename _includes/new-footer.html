@@ -1,0 +1,50 @@
+      <footer class="main-footer">
+        <div class="footer-right">
+          <a class="grey-text text-lighten-4 right" style="font-size: 11px; text-align: center;" href="/privacy">
+            個人情報保護方針
+          </a>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- General JS Scripts -->
+  <script src="{{site.baseurl}}/assets/modules/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/assets/modules/popper.js"></script>
+  <script src="{{site.baseurl}}/assets/modules/tooltip.js"></script>
+  <script src="{{site.baseurl}}/assets/modules/bootstrap/js/bootstrap.min.js"></script>
+  <script src="{{site.baseurl}}/assets/modules/nicescroll/jquery.nicescroll.min.js"></script>
+  <script src="{{site.baseurl}}/assets/modules/moment.min.js"></script>
+  <script src="{{site.baseurl}}/assets/js/new-stisla.js"></script>
+
+  <!-- JS Libraies -->
+  <script src="{{site.baseurl}}/assets/modules/sticky-kit.js"></script>
+
+  <!-- Page Specific JS File -->
+
+  <!-- Template JS File -->
+  <script src="{{site.baseurl}}/assets/js/new-scripts.js"></script>
+
+  {% for js in layout.js %}
+  {% if js contains "//" %}
+  <script src="{{js}}"></script>
+  {% else %}
+  <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
+  {% endif %}
+  {% endfor %}
+  {% for js in page.js %}
+  {% if js contains "//" %}
+  <script src="{{js}}"></script>
+  {% else %}
+  <script src="{{site.baseurl}}/assets/js/{{js}}"></script>
+  {% endif %}
+  {% endfor %}
+  <script src="{{site.baseurl}}/assets/js/main.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js"></script>
+  <script src="{{site.baseurl}}/assets/js/map.base.js"></script>
+  <script src="{{site.baseurl}}/assets/js/map.main.js"></script>
+  <script src="{{site.baseurl}}/assets/js/ol-ext.js"></script>
+
+</body>
+</html>
