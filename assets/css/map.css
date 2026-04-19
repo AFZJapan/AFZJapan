@@ -30,3 +30,11 @@ span {
   top: 10px;
   right: .5em;
 }
+
+.lets-make-map {
+  top: 10px;
+  left: 2.5em;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}

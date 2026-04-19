@@ -12,7 +12,21 @@ class NearbyMapControl extends ol.control.Control {
   }
 }
 
+class LetsMakeMap extends ol.control.Control {
+  constructor() {
+    const button = document.createElement('div');
+    button.innerHTML = '<img src="/assets/img/letsmakeJapanAFZ.png" height=130 width=260 />';
+    const element = document.createElement('div');
+    element.className = 'lets-make-map ol-unselectable ol-control';
+    element.appendChild(button);
+    super({
+      element: element
+    });
+  }
+}
+
 map.addControl(new NearbyMapControl());
+map.addControl(new LetsMakeMap());
 
 // Interactions
 map.getInteractions().forEach((interaction) => {
