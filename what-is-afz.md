@@ -1,36 +1,28 @@
 ---
-layout: page
+layout: new-page
 title: "AFZとは"
 description: "アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。"
 image: "https://afzjapan.com/assets/img/afz_scr_whatsafz.png"
 css: ["index.css", "afz.css"]
-js: ["afz.js"]
 lang: "ja"
 ---
-<table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
-  <tr style="padding: 0; margin:0">
-    <td class="example" style="padding: 0; margin:0; max-height:80px;">
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
-      <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
-    </td>
-  </tr>
-</table>
+
+<div class="main-content">
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">AFZ とは</h2>
+    </div>
+
+    <div class="main-content-inner">
 
 <div class="page">
-
-<div id="page-info">
-  <h4><span class="afz-heading-white-bg">AFZ とは</span></h4>
-</div>
-
-<div style="color: #fff">
 
 <p>アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。</p>
 
 <p>AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。</p>
 
-<p>さらに詳しくはこの記事をご覧ください：<a href="https://bdsjapanbulletin.wordpress.com/2025/09/30/afz" style="font-weight: bold; color: #fff;">AFZ（アパルトヘイト・フリーゾーン） 入門ウェビナー ＜近所から始めるBDS運動＞</a></p>
+<p>さらに詳しくはこの記事をご覧ください：<a href="https://bdsjapanbulletin.wordpress.com/2025/09/30/afz" style="font-weight: bold;">AFZ（アパルトヘイト・フリーゾーン） 入門ウェビナー ＜近所から始めるBDS運動＞</a></p>
 
 <div class="video-container">
 <iframe width="600" height="450"
@@ -38,7 +30,7 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
 </iframe>
 </div>
 
-<img src="/assets/img/AFZ_logo_white.png" style="float:right; width: 180px; padding: 10px" />
+<img src="/assets/img/AFZ_int_logo_bw_whitebg.png" style="float:right; width: 180px; padding: 10px" />
 
 <p>
   <p>対象となる「スペース」の例</p>
@@ -71,6 +63,10 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
   </td></tr>
 </table>
 
-<a href="register" style="font-weight: bold; color: #fff;">▶︎ <u>アパルトヘイトの壁を壊す、AFZに登録する</u></a><br /><br />
+<br>
+<a href="register" style="font-weight: bold;">▶︎ <u>アパルトヘイトの壁を壊す、AFZに登録する</u></a>
+
+    </div>
+  </section>
 
 </div>

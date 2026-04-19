@@ -1,17 +1,17 @@
 ---
-layout: page
+layout: new-page
 title: "links"
 description: "パレスチナ関連リンク集"
 image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
 css: ["index.css", "links.css", "images.css"]
 ---
 
-<table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
-  <tr style="padding: 0; margin:0; max-height: 80px;">
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">パレスチナ関連リンク集</span></h5></div>
-    </td>
-  </tr>
-</table>
+<div class="main-content">
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">パレスチナ関連リンク集</h2>
+    </div>
 
 <div class="link-appendix" style="margin-top: 16px">
 
@@ -37,5 +37,9 @@ css: ["index.css", "links.css", "images.css"]
   {% endfor %}
 
   </div>
+
+    </div>
+
+  </section>
 
 </div>

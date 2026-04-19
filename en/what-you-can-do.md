@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: new-page
 title: "What AFZs can do"
 description: "AFZ aims to be a space where each participating space can consider what they can do for Palestine, connect with many people, and build a truly deep culture of solidarity. What is written here is just a small part of that potential..."
 image: "https://afzjapan.com/assets/img/what-can-be-done.png"
@@ -7,12 +7,17 @@ css: ["index.css", "collapse.css"]
 js: ["collapse.js"]
 lang: "en"
 ---
+<div class="main-content">
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">Examples of what Apartheid Free Zones can do</h2>
+    </div>
+
 <div class="imageContainer">
   <img src="{{site.baseurl}}/assets/img/what-can-be-done.png" style="width:100%; max-width: 640px;">
 </div>
 
 <div class="page">
-<h5><strong><p style="font-weight: 700">Examples of what Apartheid Free Zones can do</p></strong></h5>
 Each Apartheid Free Zone are not just about individual consumer choice, but individuals can create their own way to dedicate themselves to the BDS campaign and to the Palestinian people. It seeks to cultivate spaces of genuine, profound ties with many others. These are only a part of many things that we can do.
 <br>
 
@@ -252,4 +257,7 @@ Example: Stop purchasing drinks from Coca-Cola (You can stop purchasing after th
 </div>
 
 
+</div>
+
+  </section>
 </div>

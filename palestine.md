@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: new-page
 title: "パレスチナについて学ぼう"
 description: "パレスチナは、地中海に面した温暖な気候をもつ国で、オリーブやオレンジ、デーツなどの栽培が盛んです。特にオリーブは象徴的なシンボルで、多くの家庭が世代を超えて守り育て、中には数千年にも及ぶオリーブの古樹もあります。"
 image: "https://afzjapan.com/assets/img/afz_scr_Palestine.png"
@@ -7,9 +7,14 @@ css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---
 
+<div class="main-content">
+
 <div class="imageContainer">
   <img src="{{site.baseurl}}/assets/img/flag.png" alt="top banner" style="width:100%; max-width: 640px;">
 </div>
+
+  <section class="section">
+    <div class="main-content-inner">
 
 <div class="page">
 
@@ -37,6 +42,7 @@ js: ["images.js"]
 <tr>
   <td>
 
+<br>
 <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
     <div class="jekyll-linkpreview-description">
@@ -68,4 +74,8 @@ js: ["images.js"]
 </tr>
 </table>
 
+</div>
+
+    </div>
+  </section>
 </div>

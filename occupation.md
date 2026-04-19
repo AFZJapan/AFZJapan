@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: new-page
 title: "イスラエルの占領について"
 description: "シオニズム運動は、ユダヤ人の国を作るため、1897年にスイスで第1回シオニスト会議が開催され始まりました。ユダヤ人の国を作るための候補地にパレスチナが選ばれ、当時イギリスの植民地支配を受けていたパレスチナに、シオニストが移住を始めます。そして1948年のナクバで多くのパレスチナ人を虐殺・追放し、奪った土地にイスラエルは「建国」されました。"
 image: "https://afzjapan.com/assets/img/palestine.png"
@@ -7,12 +7,14 @@ css: ["index.css", "images.css"]
 js: ["images.js"]
 ---
 
-<table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
-  <tr style="padding: 0; margin:0; max-height: 80px;">
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">イスラエルの占領について</span></h5></div>
-    </td>
-  </tr>
-</table>
+<div class="main-content">
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">イスラエルの占領について</h2>
+    </div>
+
+    <div class="main-content-inner">
 
 <div class="page">
 
@@ -29,5 +31,10 @@ js: ["images.js"]
 <p>
   <a href="/apartheid">▶︎ アパルトヘイトについて</a>
 </p>
+
+</div>
+
+    </div>
+  </section>
 
 </div>

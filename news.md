@@ -1,17 +1,19 @@
 ---
-layout: page
+layout: new-page
 title: "ニュース"
 description: "AFZニュース"
 image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
 css: ["index.css", "links.css", "images.css", "jsCalendar.css", "eventsCal.css"]
 js: ["jsCalendar.js", "eventsCal.js"]
 ---
-<table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
-  <tr style="padding: 0; margin:0; max-height: 80px;">
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">ニュース</span></h5></div>
-    </td>
-  </tr>
-</table>
+<div class="main-content">
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">ニュース</h2>
+    </div>
+
+    <div class="main-content-inner">
 
 <div class="page" style="max-width: 630px;">
 
@@ -55,4 +57,8 @@ js: ["jsCalendar.js", "eventsCal.js"]
 
 </div>
 
+</div>
+
+    </div>
+</section>
 </div>

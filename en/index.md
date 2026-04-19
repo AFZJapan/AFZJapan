@@ -10,30 +10,15 @@ lang: "en"
 
 <div class="main-content">
 
-<!-- table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
-  <tr style="padding: 0; margin:0">
-    <td class="example" style="padding: 0; margin:0; max-height:80px;">
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-left-en.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
-      <img src="/assets/img/top-image-left-en.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
-    </td>
-  </tr>
-</table -->
 
-<!-- div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34" -->
-
-<!-- div style="color: #fff; text-align: justify">
-<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 10px;" / -->
 
 <div class="main-content-inner">
-The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. Many schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. For infomation in English, please check the <a href="https://www.bdsmovement.net/apartheid-free-zones" style="color: #fff">BDS Movement's AFZ website</a>.<br><br>
+The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. Many schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. For infomation in English, please check the <a href="https://www.bdsmovement.net/apartheid-free-zones" style="">BDS Movement's AFZ website</a>.<br><br>
 <a href="https://afzjapan.com/register" style="">▶︎ Join the AFZ Japan community！(form is available in English)</a>
 </div>
 
-<!-- /div -->
 
-<div id="afz" style="height: 540px;"></div>
+<div id="afz" style="height: 540px; margin-bottom:10px;"></div>
 <div id="popup" class="ol-popup">
   <a href="#" id="popup-closer" class="ol-popup-closer"></a>
   <div id="popup-content"></div>
@@ -42,52 +27,51 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
 {% assign types = site.data.types %}
 <ul id="legend">
   {% for type in types %}
-  <li><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span>{{ type.en }}</span></li>
+  <li><a href="javascript:;" data-type="{{ type.type }}"><div class="badge badge-light"><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span style="margin-left: 5px;">{{ type.en }}</span></div></a></li>
   {% endfor %}
+  <li><a onclick="filterAll();" data-type="" class="type-show-all" style="display:none;"><div class="badge badge-light"><span>✖︎ 絞り込みを解除</span></div></a></li>
 </ul>
+
+
 
 <div>
 
-<!-- div class="row no-gutters" style="float: right; padding: 0; margin: 0">
-  <div class="col" style="padding: 0 0 0 10px; margin: 0">
-    <input class="form-control" style="padding: 0 0 0 4px; margin: 0 0 8px" type="text" id="place" list="places" placeholder="場所でフィルター" onkeyup="filterWithDelay()">
-    <datalist id="places">
-      <option value="北海道">北海道</option>
-      <option value="東京都">東京都</option>
-      <option value="神奈川県">神奈川県</option>
-      <option value="長野県">長野県</option>
-      <option value="愛知県">愛知県</option>
-      <option value="京都府">京都府</option>
-      <option value="大阪市">大阪市</option>
-      <option value="兵庫県">兵庫県</option>
-      <option value="広島県">広島県</option>
-      <option value="愛媛県">愛媛県</option>
-      <option value="沖縄県">沖縄県</option>
-    </datalist>
-  </div>
-  <div class="col" style="padding: 0px; margin: 0 6px 8px 12px;">
-    <button type="button" class="btnic" style="padding: 6px 30px; margin: 0" name="button" onclick="filterByPlace()"><i class="fa fa-search"></i></button>
-  </div>
-</div -->
+{% assign pref = site.data.prefectures %}
 
 <table class="afz-table table-bordered">
- <thead>
-   <tr>
-     <th>名前</th>
-     <th><img align='top' src='/assets/icons/location.png' width='20px' height='20px' /></th>
-     <th><img align='top' src='/assets/icons/wifi.png' width='20px' height='20px' /></th>
-   </tr>
- </thead>
- <tbody id="AFZTable">
-
-  {% assign pref = site.data.prefectures %}
+  <thead>
+    <tr>
+      <th>名前</th>
+      <th class="column-pref">
+        <div class="contain-filter">
+          所在地
+          <li class="dropdown d-inline">
+            <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
+            <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
+              <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
+              <li class="nav-item"><hr class="m-0"></li>
+              {% for p in pref %}
+                {% if p.id > 0 %}
+              <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        </div>
+      </th>
+      <th><i class="fas fa-rss"></i></th>
+    </tr>
+  </thead>
+  <tbody id="AFZTable">
+  {% assign x = 0 %}
   {% assign list = site.data.list %}
   {% for afz in list %}
 
-  <tr>
-    <td style="vertical-align: bottom;">{% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} <br/>
+  <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
+    <td style="vertical-align: bottom;"> {% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
     {% for tag in afz.tags %}
-      <div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">{{ tag }}</div>
+
+      <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>
     {% endfor %}
     </td>
     <td>{{ pref[afz.pref].en }}</td>
@@ -112,6 +96,11 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
 
  </tbody>
 </table>
+<div class="afz-table-fallback hidden">
+  <div>
+    No results..
+  </div>
+</div>
 
 <script>
 var types = {{ types | jsonify }};

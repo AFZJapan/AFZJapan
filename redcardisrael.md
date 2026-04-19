@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: new-page
 css: ["index.css", "download.css"]
 ---
+<div class="main-content">
+
 <div class="imageContainer">
   <img src="{{site.baseurl}}/assets/img/redcardisrael_back.png" style="width:100%; max-width:640px">
 </div>
 
+<section class="section">
 <div class="page">
 
 <div style="text-align: center;"><h2>スポーツと抵抗</h2></div>
@@ -37,4 +40,7 @@ css: ["index.css", "download.css"]
 
 <br>
 
+</div>
+
+</section>
 </div>

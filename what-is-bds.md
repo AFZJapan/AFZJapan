@@ -1,11 +1,17 @@
 ---
-layout: page
+layout: new-page
 title: "BDS運動とは"
 description: "BDS運動はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。"
 image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
 css: ["index.css", "linkpreview.css"]
 lang: "ja"
 ---
+
+<div class="main-content">
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">BDS 運動とは</h2>
+    </div>
 
 <table style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top_bds.png'); width: 100%; max-width: 640px;">
   <tr >
@@ -20,13 +26,11 @@ lang: "ja"
   </tr>
 </table>
 
+    <div class="main-content-inner">
+
 <div class="page">
 
 <p>
-
-<div id="page-info">
-  <h4><span class="afz-heading-colored">BDS 運動とは</span></h4>
-</div>
 
 <a href="https://bdsmovement.net" target="_blank">BDS運動</a>はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。</p>
 
@@ -74,4 +78,9 @@ lang: "ja"
 <a href="/what-is-afz">▶︎ AFZとは</a>
 <br/>
 <br/>
+
+</div>
+
+    </div>
+  </section>
 </div>

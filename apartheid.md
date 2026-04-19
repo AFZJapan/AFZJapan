@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: new-page
 title: "アパルトヘイト（人種隔離政策）について"
 description: "アパルトヘイトとは、人種によって同じ権利が与えられていない制度や社会を指します。白人以外の権利が制限されていた1948年〜1994年の南アフリカや、パレスチナ人に同等の権利が与えられていないイスラエルを指して使われます。人種隔離政策とも呼ばれ、私たちが当たり前のように享受している基本的な人権さえ、パレスチナ人には保証されていません。"
 image: "https://afzjapan.com/assets/img/apartheid.jpg"
@@ -7,12 +7,14 @@ css: ["index.css", "linkpreview.css", "images.css"]
 js: ["images.js"]
 ---
 
-<table style="table-layout: fixed; width: 100%; height: 80px;" class="grad">
-  <tr>
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">アパルトヘイト</span></h5></div>
-    </td>
-  </tr>
-</table>
+<div class="main-content">
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">アパルトヘイト</h2>
+    </div>
+
+    <div class="main-content-inner">
 
 <div class="page">
 
@@ -35,20 +37,20 @@ js: ["images.js"]
 
 
 
-<table>
+<table style="padding: 0;">
 <tbody>
   <tr>
-    <td style="vertical-align:top">
+    <td style="vertical-align:top; padding: 0;">
     <img src="{{site.baseurl}}/assets/img/westbank.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
     <span class="afz-heading-small-colored" style="line-height: 20pt;">ヨルダン川西岸地区のパレスチナ人</span><p style="text-align: justify; text-justify: inter-word;">国際法的にはパレスチナの自治領と規定される西岸地区だが、大部分がイスラエルによる軍事占領下に置かれている (Area C)。イスラエル政府とユダヤ系入植者により、多くの検問が敷かれ、ユダヤ人専用の道路が敷かれるなど、アパルトヘイト政策が最もわかりやすく存在する。パレスチナ人にのみ、イスラエル国内法ではなく、軍法が適用される。</p></td>
   </tr>
   <tr>
-    <td style="vertical-align:top">
+    <td style="vertical-align:top; padding: 0;">
     <img src="{{site.baseurl}}/assets/img/gaza.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
     <span class="afz-heading-small-colored" style="line-height: 20pt;">ガザ地区のパレスチナ人</span><p style="text-align: justify; text-justify: inter-word;">2007年からガザから出ることが許されていない。</p></td>
   </tr>
   <tr>
-    <td style="vertical-align:top">
+    <td style="vertical-align:top; padding: 20px 0px 20px 0px;">
     <img src="{{site.baseurl}}/assets/img/exile.jpg" style="float:right; max-width:50%; padding-left: 10px" class="enlarge" onclick="enlargeImg(this)">
     <span class="afz-heading-small-colored" style="line-height: 20pt;">パレスチナIDを持たないパレスチナ難民</span><p style="text-align: justify; text-justify: inter-word; ">ディアスポラに住むパレスチナ人。「イスラエル」の建国に伴うナクバで難民となった人々の多くは、避難先からの帰還を求めている（帰還権）が認められていない。</p></td>
   </tr>
@@ -68,14 +70,13 @@ js: ["images.js"]
 
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <h6><span class="afz-heading-small-colored" style="line-height: 20pt;">アムネスティ日本</span> <a href="https://www.amnesty.or.jp/news/2022/0322_9505.html" target="_blank" style="font-weight: 700;">イスラエルによるパレスチナ人へのアパルトヘイト　残虐な支配体制と人道に対する罪</a></h6>
+          <a href="https://www.amnesty.or.jp/news/2022/0322_9505.html" target="_blank" style="font-weight: 700;">イスラエルによるパレスチナ人へのアパルトヘイト　残虐な支配体制と人道に対する罪</a>
         </h2>
-        <div class="jekyll-linkpreview-description">イスラエル当局は、パレスチナ人に対するアパルトヘイ
-トの罪で責任を問われなければならない。</div>
+        <div class="jekyll-linkpreview-description">イスラエル当局は、パレスチナ人に対するアパルトヘイトの罪で責任を問われなければならない。</div>
       </div>
     </div>
     <div class="jekyll-linkpreview-footer">
-      <a href="//www.amnesty.or.jp" target="_blank">www.amnesty.or.jp</a>
+      <span class="afz-heading-small-colored" style="line-height: 20pt;">アムネスティ日本 ｜ <a href="//www.amnesty.or.jp" target="_blank" style="color: #fff">www.amnesty.or.jp</a></span>
     </div>
   </div>
 </div>
@@ -85,18 +86,20 @@ js: ["images.js"]
     <div class="jekyll-linkpreview-content">
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <h6><span class="afz-heading-small-colored" style="line-height: 20pt;">Human Rights Watch</span> <a href="https://www.hrw.org/ja/news/2021/04/27/abusive-israeli-policies-constitute-crimes-apartheid-persecution" target="_blank" style="font-weight: 700;">イスラエル政府の人権侵害政策、アパルトヘイトと迫害の罪に該当</a></h6>
+          <a href="https://www.hrw.org/ja/news/2021/04/27/abusive-israeli-policies-constitute-crimes-apartheid-persecution" target="_blank" style="font-weight: 700;">イスラエル政府の人権侵害政策、アパルトヘイトと迫害の罪に該当</a>
         </h2>
-        <div class="jekyll-linkpreview-description">（エルサレム）イスラエル政府は、アパルトヘイトと迫
-害に該当する人道に対する罪を犯していると、ヒューマン・ライツ・ウォッチは本日発表した報告書で述べた。こ
-の認定は、ユダヤ系イスラエル人によるパレスチナ人支配の維持というイスラエル政府の包括的政策及び東エルサ
-レムを含む被占領地に住むパレスチナ人への重大な人権侵害行為に基づいて行われた。</div>
+        <div class="jekyll-linkpreview-description">（エルサレム）イスラエル政府は、アパルトヘイトと迫害に該当する人道に対する罪を犯していると、ヒューマン・ライツ・ウォッチは本日発表した報告書で述べた。この認定は、ユダヤ系イスラエル人によるパレスチナ人支配の維持というイスラエル政府の包括的政策及び東エルサレムを含む被占領地に住むパレスチナ人への重大な人権侵害行為に基づいて行われた。</div>
       </div>
     </div>
     <div class="jekyll-linkpreview-footer">
-      <a href="//www.hrw.org" target="_blank">www.hrw.org</a>
+      <span class="afz-heading-small-colored" style="line-height: 20pt;">Human Rights Watch ｜ <a href="//www.hrw.org" target="_blank" style="color: #fff">www.hrw.org</a></span>
     </div>
   </div>
 </div>
+
+</div>
+
+    </div>
+  </section>
 
 </div>
