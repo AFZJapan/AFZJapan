@@ -42,7 +42,7 @@ $( document ).ready(function() {
       e.preventDefault();
       const clickedType = this.getAttribute('data-type');
       // update map
-      // updateMapType(clickedType);
+      updateMapType(clickedType);
       
       tableRows.forEach(row => {
         row.classList.add('hidden');
@@ -70,7 +70,7 @@ $( document ).ready(function() {
       const selectedPref = this.getAttribute('data-pref-id');
       let tableIsEmpty = true;
       // update map
-      // updateMapPref(selectedPref);
+      updateMapPref(selectedPref);
 
       resetLink.style.display = 'none';
 
