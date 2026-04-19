@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: new-page
 title: "パレスチナ映画祭2025"
 description: "パレスチナ映画祭: バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！2025年11月2日(日曜日)に世界中で同時開催！日本にも60以上の上映会場！すべての会場で入場無料！"
 image: "https://afzjapan.com/assets/cinema2025/1.png"
@@ -16,6 +16,8 @@ lang: "ja"
   <a href="#" id="popup-closer" class="ol-popup-closer"></a>
   <div id="popup-content"></div>
 </div -->
+
+<div class="main-content">
 
 <div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
   <img src="{{site.baseurl}}/assets/cinema2025/1.png" style="width:100%; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！日本の上映会場、60+！すべての会場で入場無料／共催：日本各地の上映会場、AFZ Japan推進チーム">
@@ -249,5 +251,7 @@ var json = {{ list | jsonify }};
       </a>
     </div>
   </div>
+
+</div>
 
 </div>

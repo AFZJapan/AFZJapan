@@ -1,19 +1,19 @@
 ---
-layout: page
+layout: new-page
 title: "資料、ダウンロード"
 description: "AFZのチラシ、ポスター、ステッカーなどダウンロードできます"
 image: "https://afzjapan.com/assets/img/afz_scr_pamphlet.png"
 css: ["index.css", "download.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "images.css"]
 ---
+<div class="main-content">
 
-<table style="table-layout: fixed; width: 100%; min-height: 80px" class="grad">
-  <tr style="padding: 0; margin:0; max-height: 80px;">
-    <td><div style="margin-left: 40px"><h5><span class="afz-heading-colored">ダウンロード</span></h5></div>
-    </td>
-  </tr>
-</table>
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">ダウンロード</h2>
+    </div>
 
 <div style="padding: 20px">
+
 印刷でもデジタルでも、AFZを広めるためにご自由にお使い下さい<br>
 （原則販売禁止。寄付などのために販売に使う場合は、AFZ Japanにご相談ください）
 
@@ -92,10 +92,19 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
-    <a target="_blank" href="/assets/downloads/AFZ_int_logo_color_nobg.png">
-      <img src="/assets/downloads/AFZ_int_logo_color_nobg.png" alt="AFZ_国際ロゴ_カラー _透明背景" height="200px">
+    <a target="_blank" href="/assets/downloads/afzbug_01.png">
+      <img src="/assets/downloads/afzbug_01.png" alt="afzbug_01" height="100px">
     </a>
-    <div class="desc">AFZ_国際ロゴ_カラー_透明背景</div>
+    <div class="desc">Designed by: <a href="https://www.instagram.com/momoenarazaki/" target="_blank">Momoe Narazaki</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="/assets/downloads/afzbug_02.png">
+      <img src="/assets/downloads/afzbug_02.png" alt="afzbug_02" height="100px">
+    </a>
+    <div class="desc">Designed by: <a href="https://www.instagram.com/momoenarazaki/" target="_blank">Momoe Narazaki</a></div>
   </div>
 </div>
 
@@ -105,15 +114,6 @@ height="200px">
       <img src="/assets/downloads/AFZ_int_logo_color_whitebg.png" alt="AFZ_国際ロゴ_カラー_白背景" height="200px">
     </a>
     <div class="desc">AFZ_国際ロゴ_カラー_白背景</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery" style="background-color: #eee">
-    <a target="_blank" href="/assets/downloads/AFZ_int_logo_white_nobg.png">
-      <img src="/assets/downloads/AFZ_int_logo_white_nobg.png" alt="AFZ_国際ロゴ_白_透明背景" height="200px">
-    </a>
-    <div class="desc">AFZ_国際ロゴ_白_透明背景</div>
   </div>
 </div>
 
@@ -139,28 +139,28 @@ height="200px">
 
 <div class="responsive">
   <div class="gallery">
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_color_nobg.png">
+      <img src="/assets/downloads/AFZ_int_logo_color_nobg.png" alt="AFZ_国際ロゴ_カラー _透明背景" height="200px">
+    </a>
+    <div class="desc">AFZ_国際ロゴ_カラー_透明背景</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery" style="background-color: #eee">
+    <a target="_blank" href="/assets/downloads/AFZ_int_logo_white_nobg.png">
+      <img src="/assets/downloads/AFZ_int_logo_white_nobg.png" alt="AFZ_国際ロゴ_白_透明背景" height="200px">
+    </a>
+    <div class="desc">AFZ_国際ロゴ_白_透明背景</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
     <a target="_blank" href="/assets/downloads/BDS_logo.png">
       <img src="/assets/downloads/BDS_logo.png" alt="BDS_ロゴ" height="100px">
     </a>
     <div class="desc">BDS_ロゴ</div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/assets/downloads/afzbug_01.png">
-      <img src="/assets/downloads/afzbug_01.png" alt="afzbug_01" height="100px">
-    </a>
-    <div class="desc">Designed by: <a href="https://www.instagram.com/momoenarazaki/" target="_blank">Momoe Narazaki</a></div>
-  </div>
-</div>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_blank" href="/assets/downloads/afzbug_02.png">
-      <img src="/assets/downloads/afzbug_02.png" alt="afzbug_02" height="100px">
-    </a>
-    <div class="desc">Designed by: <a href="https://www.instagram.com/momoenarazaki/" target="_blank">Momoe Narazaki</a></div>
   </div>
 </div>
 
@@ -187,5 +187,9 @@ height="200px">
     </td>
   </tr>
 </table>
+
+</div>
+
+  </section>
 
 </div>

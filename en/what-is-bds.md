@@ -1,11 +1,18 @@
 ---
-layout: page
+layout: new-page
 title: "What is BDS"
 description: "The BDS movement began at the call of Palestinians. As a direct, nonviolent response to the calls of Palestinian citizens, it is a highly effective movement for showing solidarity with Palestine and applying concrete pressure on Israel. It applies pressure to Israel through boycotts at the individual and group level (B), withdrawal of capital at the investment group, company, and university level (D), and sanctions at the national level (S)."
 image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
 css: ["index.css", "linkpreview.css"]
 lang: "en"
 ---
+
+<div class="main-content">
+
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">What is BDS</h2>
+    </div>
 
 <table style="table-layout: fixed; background-image: url('{{site.baseurl}}/assets/img/top_bds.png'); width: 100%; max-width: 640px;">
   <tr >
@@ -20,13 +27,10 @@ lang: "en"
   </tr>
 </table>
 
+    <div class="main-content-inner">
 <div class="page">
 
 <p>
-
-<div id="page-info">
-  <h4><span class="afz-heading-colored">What is BDS</span></h4>
-</div>
 
 <a href="https://bdsmovement.net" target="_blank">BDS </a>was initiated by Palestinian civil society, which issued a call for a campaign, and is emerging as a non-violent movement in response to this call. This is the embodiment of our solidarity with Palestinians and is an effective strategy to urge Israel to comply with international law and Palestinian rights.</p>
 
@@ -52,4 +56,8 @@ Handala is a character created by Palestinian cartoonist Naji Al-Ali, depicting 
 <a href="/en/what-is-afz">▶︎ What is AFZ</a>
 <br/>
 <br/>
+</div>
+
+    </div>
+  </section>
 </div>
