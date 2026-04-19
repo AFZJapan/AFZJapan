@@ -33,7 +33,7 @@ const attribution = new ol.control.Attribution({
   setCollapsed: true
 });
 
-var tileUrl = "https://tile.openstreetmap.jp/{z}/{x}/{y}.png";
+var tileUrl = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 if (window.location.pathname === "/en/") {
   tileUrl = "https://tile.openstreetmap.jp/styles/osm-bright/{z}/{x}/{y}.png";
 }
@@ -90,7 +90,7 @@ function updateMapType(filter) {
       styles[data.name] = [
         new ol.style.Style({
           image: new ol.style.Icon({
-            src: "assets/icons/" + types[data.type].type + ".png",
+            src: "/assets/icons/" + types[data.type].type + ".png",
             scale: 0.4,
             anchor: [0.5, 1]
           })
@@ -114,7 +114,7 @@ function updateMapPref(filter) {
       styles[data.name] = [
         new ol.style.Style({
           image: new ol.style.Icon({
-            src: "assets/icons/" + types[data.type].type + ".png",
+            src: "/assets/icons/" + types[data.type].type + ".png",
             scale: 0.4,
             anchor: [0.5, 1]
           })

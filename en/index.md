@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: new-page
 title: "Apartheid Free Zones (AFZ) in Japan"
 description: "The global Apartheid Free Zones (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. This site is dedicated to localizing and promoting AFZ in Japan."
 image: "https://afzjapan.com/assets/img/afz_scr_en.png"
@@ -8,7 +8,9 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.ma
 lang: "en"
 ---
 
-<table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
+<div class="main-content">
+
+<!-- table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
   <tr style="padding: 0; margin:0">
     <td class="example" style="padding: 0; margin:0; max-height:80px;">
       <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
@@ -17,17 +19,19 @@ lang: "en"
       <img src="/assets/img/top-image-left-en.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
     </td>
   </tr>
-</table>
+</table -->
 
-<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34">
+<!-- div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34" -->
 
-<div style="color: #fff; text-align: justify">
-<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 10px;" />
+<!-- div style="color: #fff; text-align: justify">
+<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 10px;" / -->
+
+<div class="main-content-inner">
 The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. Many schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. For infomation in English, please check the <a href="https://www.bdsmovement.net/apartheid-free-zones" style="color: #fff">BDS Movement's AFZ website</a>.<br><br>
-<a href="https://afzjapan.com/register" style="color: #fff">▶︎ Join the AFZ Japan community！(form is available in English)</a>
+<a href="https://afzjapan.com/register" style="">▶︎ Join the AFZ Japan community！(form is available in English)</a>
 </div>
 
-</div>
+<!-- /div -->
 
 <div id="afz" style="height: 540px;"></div>
 <div id="popup" class="ol-popup">
@@ -114,5 +118,7 @@ var types = {{ types | jsonify }};
 var json = {{ list | jsonify }}.filter(geo);
 function geo(j) { return j.geo != null }
 </script>
+
+</div>
 
 </div>

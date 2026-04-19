@@ -1,6 +1,6 @@
 /* Style the button that is used to open and close the collapsible content */
 
-.collapsible {
+.afz-collapsible {
   background-color: #029455;
   color: #fff;
   cursor: pointer;
@@ -13,20 +13,20 @@
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover, .collapsible:focus {
+.afz-active, .afz-collapsible:hover, .afz-collapsible:focus {
   background-color: #029455;
   color: #fff;
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.content {
+.afz-content {
   background-color: white;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
 
-.collapsible:after {
+.afz-collapsible:after {
   content: '\025BC';
   font-size: 14px;
   color: white;
@@ -34,6 +34,6 @@
   margin-left: 5px;
 }
 
-.active:after {
+.afz-active:after {
   content: "\25B2";
 }

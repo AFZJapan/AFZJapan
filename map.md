@@ -1,58 +1,101 @@
 ---
-layout: page
-css: ["index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "x.css"]
-js: ["map.js", "list.js"]
+layout: new-page
+image: "https://afzjapan.com/assets/img/afz.png"
+css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "top.css", "images.css"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "ol-ext.js"]
+lang: "ja"
 ---
-<script src="//openlayers.org/api/2.13.1/OpenLayers.js"></script>
-<script>window.OpenLayers || document.write('<script src="{{site.baseurl}}/assets/js/OpenLayers.js">\x3C/script>')</script>
 
-<div class="row" style="padding-left: 10px; padding-right: 10px;">
+<div class="main-content">
 
-<h4>アパルトヘイト・フリー・ゾーン（AFZ）とは？</h4>
-アパルトヘイト・フリー・ゾーン（AFZ）キャンペーンへのご参加のお願い<br /><br />
+  <div class="main-content-inner">
+  AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、BDS（ボイコット）運動を通して、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。AFZ宣言スペースは、パレスチナをはじめとし、あらゆる差別と抑圧、植民地主義に反対し、それをコミュニティや仕事の場で実践することを目指します。
+  </div>
 
-このキャンペーンは、世界各地のお店や文化施設、自治体などの空間がパレスチナの人々と連帯し、BDS（ボイコット）運動を通して、イスラエルによるアパルトヘイト（人種隔離）政策に反対であることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがアパルトヘイト・フリー・ゾーン（AFZ）に名乗りをあげています。AFZ宣言スペースは、パレスチナをはじめとし、あらゆる差別と抑圧、植民地主義に反対し、それをコミュニティや仕事の場で実践することを目指します。
+  <div id="afz" style="height: 540px; width: 100%; margin-bottom:10px;"></div>
+  <div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content"></div>
+  </div>
 
-</div>
-
-<div id="afz" style="height: 600px;"></div>
-
+{% assign types = site.data.types %}
 <ul id="legend">
-  <li><img src="{{site.baseurl}}/assets/icons/social.png" height=20 width=20><span>ソーシャル・社交の場</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/cultural.png" height=20 width=20><span>文化的な場所</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/cafe.png" height=20 width=20><span>飲食店</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/shop.png" height=20 width=20><span>お店・地元企業</span></li>
-  <li><img src="{{site.baseurl}}/assets/icons/place.png" height=20 width=20><span>公的機関</span></li>
+  {% for type in types %}
+  <li><a href="javascript:;" data-type="{{ type.type }}"><div class="badge badge-light"><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span style="margin-left: 5px;">{{ type.name }}</span></div></a></li>
+  {% endfor %}
+  <li><a onclick="filterAll();" data-type="" class="type-show-all" style="display:none;"><div class="badge badge-light"><span>✖︎ 絞り込みを解除</span></div></a></li>
 </ul>
 
-<div>
+{% assign pref = site.data.prefectures %}
 
-<div class="row no-gutters" style="float: right;">
-  <div class="col">
-    <input class="form-control" type="text" id="place" list="places" placeholder="場所でフィルター" onkeyup="filterWithDelay()">
-    <datalist id="places">
-      <option value="東京都">東京都</option>
-      <option value="京都府">京都府</option>
-      <option value="兵庫県">兵庫県</option>
-      <option value="愛媛県">愛媛県</option>
-    </datalist>
-  </div>
-  <div class="col">
-    <button type="button" class="btnic" name="button" onclick="filterByPlace()"><i class="fa fa-search"></i></button>
-  </div>
-</div>
-
-<table class="table table-bordered">
- <thead>
-   <tr>
-     <th>名前</th>
-     <th><img align='top' src='/assets/icons/location.png' width='20px' height='20px' /></th>
-     <th><img align='top' src='/assets/icons/wifi.png' width='20px' height='20px' /></th>
-   </tr>
+<table class="afz-table table-bordered">
+  <thead>
+    <tr>
+      <th>名前</th>
+      <th class="column-pref">
+        <div class="contain-filter">
+          所在地
+          <li class="dropdown d-inline">
+            <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
+            <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
+              <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
+              <li class="nav-item"><hr class="m-0"></li>
+              {% for p in pref %}
+                {% if p.id > 0 %}
+              <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        </div>
+      </th>
+      <th><i class="fas fa-rss"></i></th>
+    </tr>
  </thead>
  <tbody id="AFZTable">
+  {% assign x = 0 %}
+  {% assign list = site.data.list %}
+  {% for afz in list %}
+
+  <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
+    <td style="vertical-align: bottom;"> {{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
+    {% for tag in afz.tags %}
+
+      <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>
+    {% endfor %}
+    </td>
+    <td>{{ pref[afz.pref].name }}</td>
+    <td>
+    {% for link in afz.links %}
+      {% if link[0] == "twitter" %}
+        <a href='https://x.com/{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>
+      {% elsif link[0] == "insta" %}
+        <a href='https://www.instagram.com/{{ link[1] }}/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>
+      {% elsif link[0] == "insta2" %}
+        <a href='https://www.instagram.com/{{ link[1] }}/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>
+      {% elsif link[0] == "fb" %}
+        <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>
+      {% else %}
+        <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>
+      {% endif %}
+    {% endfor %}
+    </td>
+  </tr>
+
+  {% endfor %}
 
  </tbody>
 </table>
+<div class="afz-table-fallback hidden">
+  <div>
+    No results..
+  </div>
+</div>
+
+<script>
+var types = {{ types | jsonify }};
+var json = {{ list | jsonify }}.filter(geo);
+function geo(j) { return j.geo != null }
+</script>
 
 </div>

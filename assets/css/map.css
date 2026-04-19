@@ -12,16 +12,18 @@
   list-style-type: none;
 }
 
-#legend li a {
-  color: #000000;
-  font-weight: normal;
-  text-decoration: underline;
+#legend li a .badge {
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: middle; font-size: 11px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  color: #6c757d;
 }
 
 span {
   vertical-align: top;
   margin-top: 0px;
-  margin-left: 5px;
 }
 
 .nearby-map {
