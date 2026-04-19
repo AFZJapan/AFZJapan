@@ -1,48 +1,32 @@
 ---
-layout: page
+layout: new-page
 image: "https://afzjapan.com/assets/img/afz.png"
-css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
+css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "top.css", "images.css"]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "ol-ext.js"]
 lang: "ja"
 ---
 
-<table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
-  <tr style="padding: 0; margin:0">
-    <td class="example" style="padding: 0; margin:0; max-height:80px;">
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
-      <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
-    </td>
-  </tr>
-</table>
+<div class="main-content">
 
-<div class="row" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; background-color:#a32a34">
+  <div class="main-content-inner">
+  AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、BDS（ボイコット）運動を通して、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。AFZ宣言スペースは、パレスチナをはじめとし、あらゆる差別と抑圧、植民地主義に反対し、それをコミュニティや仕事の場で実践することを目指します。
+  </div>
 
-<div style="color: #fff; text-align: justify">
-<img src="/assets/img/logo.jpg" style="float: right; width: 120px; margin-left: 10px;" />
-AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、BDS（ボイコット）運動を通して、イスラエルによるアパルトヘイト（人種隔離）政策に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。AFZ宣言スペースは、パレスチナをはじめとし、あらゆる差別と抑圧、植民地主義に反対し、それをコミュニティや仕事の場で実践することを目指します。<br><br>
-<a href="https://afzjapan.com/register" style="color: #fff">▶︎ アパルトヘイトフリーゾーン (AFZ) に登録しましょう！</a>
-</div>
-
-</div>
-
-<div id="afz" style="height: 540px;"></div>
-<div id="popup" class="ol-popup">
-  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-  <div id="popup-content"></div>
-</div>
+  <div id="afz" style="height: 540px; width: 100%; margin-bottom:10px;"></div>
+  <div id="popup" class="ol-popup">
+    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+    <div id="popup-content"></div>
+  </div>
 
 {% assign types = site.data.types %}
 <ul id="legend">
   {% for type in types %}
-  <li><a href="javascript:;" data-type="{{ type.type }}"><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span>{{ type.name }}</span></a></li>
+  <li><a href="javascript:;" data-type="{{ type.type }}"><div class="badge badge-light"><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span style="margin-left: 5px;">{{ type.name }}</span></div></a></li>
   {% endfor %}
-  <li><a href="javascript:;" data-type="" class="type-show-all" style="display:none;"><span>× 絞り込みを解除</span></a></li>
+  <li><a onclick="filterAll();" data-type="" class="type-show-all" style="display:none;"><div class="badge badge-light"><span>✖︎ 絞り込みを解除</span></div></a></li>
 </ul>
 
-<div>
-
+{% assign pref = site.data.prefectures %}
 
 <table class="afz-table table-bordered">
   <thead>
@@ -50,37 +34,34 @@ AFZキャンペーンは、世界各地のお店や文化施設、自治体な�
       <th>名前</th>
       <th class="column-pref">
         <div class="contain-filter">
-          <span>所在地</span>
-          <span>
-            <a class="pref-dropdown-trigger btn-flat" href="javascript:;" data-activates="pref-dropdown">
-              <i class="material-icons">filter_list</i>
-            </a>
-            <ul id="pref-dropdown" class="dropdown-content">
-              <li><a href="javascript:;" data-pref-id="">すべて表示</a></li>
-              <li class="divider"></li>
-              {% assign prefectures = site.data.prefectures %}
-              {% for pref in prefectures %}
-                {% if pref.id > 0 %}
-                  <li><a href="javascript:;" data-pref-id="{{ pref.id }}">{{ pref.name }}</a></li>
+          所在地
+          <li class="dropdown d-inline">
+            <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
+            <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
+              <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
+              <li class="nav-item"><hr class="m-0"></li>
+              {% for p in pref %}
+                {% if p.id > 0 %}
+              <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>
-          </span>
+          </li>
         </div>
       </th>
-      <th><img align='top' src='/assets/icons/wifi.png' width='20px' height='20px' /></th>
+      <th><i class="fas fa-rss"></i></th>
     </tr>
  </thead>
  <tbody id="AFZTable">
-  {% assign pref = site.data.prefectures %}
-  {% assign index = 0 %}
+  {% assign x = 0 %}
   {% assign list = site.data.list %}
   {% for afz in list %}
 
   <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
-    <td style="vertical-align: bottom;"> {{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment index %});"><img align='top' src='/assets/icons/afz_map.png' width='20px' height='20px' /></a> {% endif %} <br>
+    <td style="vertical-align: bottom;"> {{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
     {% for tag in afz.tags %}
-      <div class="chip outlined" style="vertical-align: middle; font-size: 10px; height: 24px; line-height:24px; margin-bottom:0px">{{ tag }}</div>
+
+      <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>
     {% endfor %}
     </td>
     <td>{{ pref[afz.pref].name }}</td>
