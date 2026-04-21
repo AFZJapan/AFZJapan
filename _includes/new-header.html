@@ -152,9 +152,9 @@
 
             <li class="menu-header">AFZ・BDS</li>
             <li class="dropdown active">
-              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><img src="{{site.baseurl}}/assets/icons/pin.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>AFZ</span></a>
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><img src="{{site.baseurl}}/assets/icons/pin.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>AFZとは</span></a>
               <ul class="dropdown-menu">
-                <li {% if page.url contains '/what-is-afz' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-is-afz">{% if page.lang != "en" %}AFZとは{% else %}What's AFZ?{% endif %}</a></li>
+                <li {% if page.url contains '/what-is-afz' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-is-afz">{% if page.lang != "en" %}AFZについて{% else %}What's AFZ?{% endif %}</a></li>
                 <li {% if page.url contains '/what-you-can-do' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-you-can-do">{% if page.lang != "en" %}AFZとしてできること{% else %}What AFZs can do{% endif %}</a></li>
                 <li {% if page.url contains '/register' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}register">{% if page.lang != "en" %}AFZを登録する{% else %}Register as AFZ{% endif %}</a></li>
                 <!-- li {% if page.url contains '/get-involved' %}class="active"{% endif %}><a class="nav-link" href="/get-involved">一緒に広げる</a></li -->
@@ -164,7 +164,7 @@
 
             <li class="menu-header">PALESTNIE</li>
             <li class="dropdown {% if page.url contains "/palestine" or page.url contains "/nakba" or page.url contains "/occupation" or page.url contains "/apartheid" %}active{% endif %}">
-              <a href="#" class="nav-link has-dropdown"><img src="{{site.baseurl}}/assets/icons/map.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>{% if page.lang != "en" %}パレスチナ{% else %}Palestine{% endif %}</span></a>
+              <a href="#" class="nav-link has-dropdown"><img src="{{site.baseurl}}/assets/icons/map.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>{% if page.lang != "en" %}パレスチナについて{% else %}Palestine{% endif %}</span></a>
               <ul class="dropdown-menu">
                 <li {% if page.url contains '/palestine' %}class="active"{% endif %}><a class="nav-link" href="/palestine">{% if page.lang != "en" %}パレスチナについて学ぼう{% else %}Learn about Palestine{% endif %}</a></li>
                 <li {% if page.url contains '/nakba' %}class="active"{% endif %}><a class="nav-link" href="/nakba">{% if page.lang != "en" %}ナクバについて{% else %}Nakba{% endif %}</a></li>
