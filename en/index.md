@@ -10,12 +10,9 @@ lang: "en"
 
 <div class="main-content">
 
-
-
 <div class="main-content-inner">
-The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. Many schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. For infomation in English, please check the <a href="https://www.bdsmovement.net/apartheid-free-zones" style="">BDS Movement's AFZ website</a>. support them if you're in Japan. You can also get involved! drop us a line to see what you can do to help.
+The Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and reject Israel's apartheid policies, through the BDS movement. Thousands of schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. We now have more than 250 AFZs!
 </div>
-
 
 <div id="afz" style="height: 540px; margin-bottom:10px;"></div>
 <div id="popup" class="ol-popup">
