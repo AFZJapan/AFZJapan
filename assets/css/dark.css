@@ -83,3 +83,7 @@ table.afz-table td:last-child, th:last-child {
 .table-bordered {
   border: 0;
 }
+
+.header-graphic span:nth-child(1) {
+  background-image: linear-gradient(to right, #ec2e48 , #333333, #ccc, #029455);
+}
