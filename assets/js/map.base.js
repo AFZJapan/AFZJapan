@@ -35,7 +35,7 @@ const attribution = new ol.control.Attribution({
 
 var tileUrl = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 if (window.location.pathname === "/en/") {
-  tileUrl = "https://tile.openstreetmap.jp/styles/maptiler-basic-en/{z}/{x}/{y}.png";
+  tileUrl = "https://a.tile.opentopomap.org/{z}/{x}/{y}.png";
 }
 
 const map = new ol.Map({
