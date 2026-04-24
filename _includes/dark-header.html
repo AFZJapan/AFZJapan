@@ -158,15 +158,11 @@
               <ul class="dropdown-menu">
                 <li {% if page.url contains '/what-is-afz' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-is-afz">{% if page.lang != "en" %}AFZとは{% else %}What's AFZ?{% endif %}</a></li>
                 <li {% if page.url contains '/what-you-can-do' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-you-can-do">{% if page.lang != "en" %}AFZとしてできること{% else %}What AFZs can do{% endif %}</a></li>
-                <li {% if page.url contains '/register' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}register">{% if page.lang != "en" %}AFZを登録する{% else %}Register as AFZ{% endif %}</a></li>
                 <!-- li {% if page.url contains '/get-involved' %}class="active"{% endif %}><a class="nav-link" href="/get-involved">一緒に広げる</a></li -->
               </ul>
             </li>
             <li  {% if page.url contains '/what-is-bds' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-is-bds"><img src="{{site.baseurl}}/assets/menu/handala_white.png" height="20px" style="vertical-align: middle; margin-right: 12px;" /> <span>{% if page.lang != "en" %}BDS運動とは{% else %}What's BDS?{% endif %}</span></a></li>
-
             <li class="li-register-afz"><a class="btn btn-primary" style="background-color: #029455; color: #fff;" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}register"><span class="register-afz" style="text-align: center;">{% if page.lang != "en" %}AFZを登録する{% else %}Register as AFZ{% endif %}</span></a></li>
-
-
             <li class="menu-header">PALESTINE</li>
             <li class="dropdown {% if page.url contains "/palestine" or page.url contains "/nakba" or page.url contains "/occupation" or page.url contains "/apartheid" %}active{% endif %}">
               <a href="#" class="nav-link has-dropdown"><img src="{{site.baseurl}}/assets/icons/map.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>{% if page.lang != "en" %}パレスチナ{% else %}Palestine (日本語){% endif %}</span></a>
