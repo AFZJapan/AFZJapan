@@ -15,7 +15,11 @@ class NearbyMapControl extends ol.control.Control {
 class LetsMakeMap extends ol.control.Control {
   constructor() {
     const button = document.createElement('div');
-    button.innerHTML = '<img src="/assets/img/letsmakeJapanAFZ.png" height=130 width=260 />';
+    var img = "/assets/img/letsmakeJapanAFZ.png"
+    if (window.location.pathname === "/en/") {
+      img = "/assets/img/letsmakeJapanAFZ_w.png"
+    }
+    button.innerHTML = '<img src=' + img + ' height=130 width=260 />';
     const element = document.createElement('div');
     element.className = 'lets-make-map ol-unselectable ol-control';
     element.appendChild(button);

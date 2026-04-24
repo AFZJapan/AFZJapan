@@ -1,5 +1,5 @@
 ---
-layout: new-page
+layout: dark-page
 title: "Apartheid Free Zones (AFZ) in Japan"
 description: "The global Apartheid Free Zones (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. This site is dedicated to localizing and promoting AFZ in Japan."
 image: "https://afzjapan.com/assets/img/afz_scr_en.png"
@@ -10,13 +10,9 @@ lang: "en"
 
 <div class="main-content">
 
-
-
 <div class="main-content-inner">
-The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and their rejection of Israel's apartheid policy. Many schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. For infomation in English, please check the <a href="https://www.bdsmovement.net/apartheid-free-zones" style="">BDS Movement's AFZ website</a>.<br><br>
-<a href="https://afzjapan.com/register" style="">▶︎ Join the AFZ Japan community！(form is available in English)</a>
+The Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural facilities, and local governments around the world to declare their solidarity with the Palestinian people and reject Israel's apartheid policies, through the BDS movement. Thousands of schools and businesses around the world have already declared themselves as AFZ. This site is dedicated to localizing and promoting AFZ in Japan. We now have more than 250 AFZs!
 </div>
-
 
 <div id="afz" style="height: 540px; margin-bottom:10px;"></div>
 <div id="popup" class="ol-popup">
@@ -32,27 +28,25 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
   <li><a onclick="filterAll();" data-type="" class="type-show-all" style="display:none;"><div class="badge badge-light"><span>✖︎ 絞り込みを解除</span></div></a></li>
 </ul>
 
-
-
 <div>
 
 {% assign pref = site.data.prefectures %}
 
-<table class="afz-table table-bordered">
+<table class="afz-table">
   <thead>
     <tr>
-      <th>名前</th>
+      <th>name</th>
       <th class="column-pref">
         <div class="contain-filter">
-          所在地
+          place
           <li class="dropdown d-inline">
             <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
             <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
-              <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
+              <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">show all</a></li>
               <li class="nav-item"><hr class="m-0"></li>
               {% for p in pref %}
                 {% if p.id > 0 %}
-              <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
+              <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.en }}</a></li>
                 {% endif %}
               {% endfor %}
             </ul>
@@ -68,7 +62,7 @@ The global Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, c
   {% for afz in list %}
 
   <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
-    <td style="vertical-align: bottom;"> {% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
+    <td> {% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
     {% for tag in afz.tags %}
 
       <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>

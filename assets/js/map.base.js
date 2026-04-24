@@ -35,7 +35,7 @@ const attribution = new ol.control.Attribution({
 
 var tileUrl = "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
 if (window.location.pathname === "/en/") {
-  tileUrl = "https://tile.openstreetmap.jp/styles/osm-bright/{z}/{x}/{y}.png";
+  tileUrl = "https://tile.openstreetmap.jp/styles/maptiler-basic-en/{z}/{x}/{y}.png";
 }
 
 const map = new ol.Map({
@@ -49,7 +49,7 @@ const map = new ol.Map({
     })
   ],
   overlays: [overlay],
-  view: new ol.View({ center: ol.proj.fromLonLat([135.939478, 35.152832]), zoom: 4.7 }),
+  view: new ol.View({ center: ol.proj.fromLonLat([135.939478, 36.252832]), zoom: 4.9 }),
 });
 
 // Pins
