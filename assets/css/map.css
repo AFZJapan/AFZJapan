@@ -42,7 +42,7 @@ span {
 .afz-in-japan {
   bottom: 120px;
   right: 2.5em;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 }
@@ -50,7 +50,7 @@ span {
 .around-the-world {
   bottom: 40px;
   right: 2.5em;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 800px) {
     display: none;
   }
 }
