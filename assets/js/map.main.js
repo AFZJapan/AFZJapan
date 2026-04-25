@@ -29,8 +29,42 @@ class LetsMakeMap extends ol.control.Control {
   }
 }
 
+class AFZs extends ol.control.Control {
+  constructor() {
+    const button = document.createElement('div');
+    if (window.location.pathname === "/en/") {
+      var img = "/assets/img/250.png"
+      button.innerHTML = '<img src=' + img + ' height=150 width=250 />';
+      const element = document.createElement('div');
+      element.className = 'afz-in-japan ol-unselectable ol-control';
+      element.appendChild(button);
+      super({
+        element: element
+      });
+    }
+  }
+}
+
+class AroundTheWorld extends ol.control.Control {
+  constructor() {
+    const button = document.createElement('div');
+    if (window.location.pathname === "/en/") {
+      var img = "/assets/img/around_the_world.png"
+      button.innerHTML = '<img src=' + img + ' height=75 width=250 />';
+      const element = document.createElement('div');
+      element.className = 'around-the-world ol-unselectable ol-control';
+      element.appendChild(button);
+      super({
+        element: element
+      });
+    }
+  }
+}
+
 map.addControl(new NearbyMapControl());
 map.addControl(new LetsMakeMap());
+map.addControl(new AFZs());
+map.addControl(new AroundTheWorld());
 
 // Interactions
 map.getInteractions().forEach((interaction) => {

@@ -38,3 +38,19 @@ span {
     display: none;
   }
 }
+
+.afz-in-japan {
+  bottom: 120px;
+  right: 2.5em;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.around-the-world {
+  bottom: 40px;
+  right: 2.5em;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
