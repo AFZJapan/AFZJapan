@@ -1,6 +1,15 @@
 html {
   scroll-padding-top: 32px;
 }
+.statement {
+  border: 5px solid #a3c9ab;
+  border-radius: 3px;
+  padding: 24px 12px 12px;
+}
+.statement-footnote {
+  font-size: 0.9em;
+  margin: 12px 0 120px;  
+}
 .plant {
   display: flex;
   flex-direction: row;
