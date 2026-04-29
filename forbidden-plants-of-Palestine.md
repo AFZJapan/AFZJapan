@@ -4,6 +4,7 @@ title: "パレスチナの禁じられた植物"
 description: "ナクバの日（アラビア語: ذكرى النكبة、ラテン文字表記: Dhikra an-Nakba、大惨事の記憶の意、英語: Nakba Day）は、1948年前後にパレスチナの社会と祖国が破壊され、パレスチナの人々の大多数が永続的に強制退去を余儀なくされた、パレスチナの大厄災としても知られるナクバを記念する日である。"
 image: "https://afzjapan.com/assets/forbidden_plants/intro.png"
 css: ["index.css", "forbidden_plants.css"]
+js: ["forbidden_plants.js"]
 ---
 <div class="main-content">
 
