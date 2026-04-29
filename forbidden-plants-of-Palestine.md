@@ -35,7 +35,8 @@ js: ["forbidden_plants.js"]
 <p>あなたの作品にこれらがどう取り入れられるか是非拝見したいです—シェアする際は私へのタグ付けと#ForbiddenPlantsOfPalestineのハッシュタグをお願いします！</p>
 
 <p style="text-align: right">
-Instagram: shereen.quttaineh<br>
+www: <a href="https://shereenquttaineh.com/">https://shereenquttaineh.com/</a><br>
+Instagram: <a href="https://www.instagram.com/shereen.quttaineh/">shereen.quttaineh</a><br>
 Email: Shereenq@gmail.com<br>
 Shereen Quttaineh / シェリーン・クッタイネ
 </p>
