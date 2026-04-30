@@ -12,11 +12,22 @@ js: ["forbidden_plants.js"]
     <div class="section-header">
       <h2 class="section-title">パレスチナの禁じられた植物 / Forbidden Plants of Palestine 刺繍モチーフプロジェクト</h2>
       <div class="section-header-breadcrumb" style="padding: 0 16px;">
-        <div class="breadcrumb-item active"><a href="https://drive.proton.me/urls/V5JD5ZB7RM#2BNxWCjx6G4u" target="_blank" style="font-weight: 700;">Zineをダウンロードする</a></div>
+        <div class="breadcrumb-item active"><a href="https://drive.proton.me/urls/V5JD5ZB7RM#2BNxWCjx6G4u" target="_blank" class="btn btn-primary" style="background-color: #029455; color: #fff; ">Zineをダウンロードする</a></div>
       </div>
     </div>
 
     <div class="main-content-inner">
+
+<div class="plant-heading-notice">
+  <div class="callout">
+<p>
+このプロジェクトは、ヨルダン在住アーティストShereen Quttainehさんの許可を頂いて紹介しています。彼女が新しく考案したタトリーズ（パレスチナ刺繍）の図案に各植物のパレスチナ文化における背景を説明した教育目的のプロジェクトです。個人や友人と楽しんだり、イベントや学校での活動にご活用ください。パレスチナ文化と制作者の意向を尊重し、営利目的での使用はご遠慮ください。
+</p>
+
+Zineの使い方：ダウンロードして両面印刷し、重ねて点線で折ると小冊子になります。
+
+  </div>
+</div>
 
 <div>
   <img src="/assets/forbidden_plants/title.png" style="float: right; width: 500px; max-width: 90%; padding: 16px;" />

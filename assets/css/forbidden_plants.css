@@ -56,3 +56,11 @@ html {
     flex: 1;
   }
 }
+
+.plant-heading-notice .callout {
+  display: inline-block;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #d8d8d8;
+  padding: 12px 40px 12px 8px;
+}
