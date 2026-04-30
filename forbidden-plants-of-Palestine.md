@@ -10,9 +10,9 @@ js: ["forbidden_plants.js"]
 
   <section class="section">
     <div class="section-header">
-      <h2 class="section-title">パレスチナの禁じられた植物</h2>
+      <h2 class="section-title">パレスチナの禁じられた植物 / Forbidden Plants of Palestine 刺繍モチーフプロジェクト</h2>
       <div class="section-header-breadcrumb" style="padding: 0 16px;">
-        <div class="breadcrumb-item active"><a href="https://drive.proton.me/urls/V5JD5ZB7RM#2BNxWCjx6G4u" target="_blank">Zineをダウンロードする</a></div>
+        <div class="breadcrumb-item active"><a href="https://drive.proton.me/urls/V5JD5ZB7RM#2BNxWCjx6G4u" target="_blank" style="font-weight: 700;">Zineをダウンロードする</a></div>
       </div>
     </div>
 
