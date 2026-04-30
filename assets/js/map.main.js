@@ -63,8 +63,10 @@ class AroundTheWorld extends ol.control.Control {
 
 map.addControl(new NearbyMapControl());
 map.addControl(new LetsMakeMap());
-map.addControl(new AFZs());
-map.addControl(new AroundTheWorld());
+if (window.location.pathname === "/en/") {
+  map.addControl(new AFZs());
+  map.addControl(new AroundTheWorld());
+}
 
 // Interactions
 map.getInteractions().forEach((interaction) => {
