@@ -1949,5 +1949,12 @@
     "type": 3,
     "pref": 7,
     "geo": {"lat": 37.68878783688041, "lon": 140.4695558881691}
+  },
+  {
+    "name": "観て 聞いて 食べて知るパレスチナ",
+    "type": 3,
+    "pref": 26,
+    "geo": {"lat": 35.02939894135075, "lon": 135.767989417427},
+    "links": {"web": "https://linktr.ee/Gaza.SignalofLife.jp", "insta": "marox0915", "insta2": "bani_alsalam"}
   }
 ]
