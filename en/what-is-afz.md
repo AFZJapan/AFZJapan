@@ -27,11 +27,13 @@ lang: "en"
     <div class="main-content-inner">
 <div class="page">
 
-<p>The Apartheid Free Zone campaign, as part of the BDS movement, creates spaces across the world that are free from apartheid and colonial occupation by Israel. The idea came from the struggle against racism among the South African people.</p>
+<p>Spaces, such as restaurants, shops, hotels, and other businesses, who have committed to boycott israeli products and priority targets set by BDS, are Apartheid Free Zones (AFZ). We now have over 250 AFZs all over Japan!</p>
+
+<p>The AFZ campaign, as part of the BDS movement, creates spaces across the world that are free from apartheid and colonial occupation by Israel. The idea came from the struggle against racism among the South African people.</p>
 
 <p>The Apartheid Free Zone spaces commit to resisting providing any kind of support for injustice to Palestinians and the apartheid regime caused by the colonial occupation of Israel, and to pursue spaces free from inequality and oppression.</p>
 
-<img src="/assets/img/AFZ_logo_white.png" style="float:right; width: 180px; padding: 10px" />
+<img src="/assets/img/AFZ_int_logo_bw_whitebg.png" style="float:right; width: 180px; padding: 10px" />
 
 <p>
   <p>Examples of the AFZ space:</p>

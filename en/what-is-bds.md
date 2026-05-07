@@ -30,13 +30,38 @@ lang: "en"
     <div class="main-content-inner">
 <div class="page">
 
+<h6><span style="color: #a32a34">▶︎</span> The BDS Movement</h6>
+
 <p>
+The Palestinian-led Boycott, Divestment and Sanctions (BDS) movement is a global, nonviolent campaign to pressure  Israel to follow international human rights laws in their treatment of the Palestinian people.</p>
 
-<a href="https://bdsmovement.net" target="_blank">BDS </a>was initiated by Palestinian civil society, which issued a call for a campaign, and is emerging as a non-violent movement in response to this call. This is the embodiment of our solidarity with Palestinians and is an effective strategy to urge Israel to comply with international law and Palestinian rights.</p>
+<p>
+It was inspired by the call for BDS by Black South Africans. and those around the world who stood in solidarity with them, to successfully pressure the South African government to abandon its policy of apartheid.<br>
+</p>
 
-<p>Boycotts at the individual and group levels (B), Divestment by financial institutions, business associations, Companies, and Universities (D), and Sanctions by states or governments (S) are a systematic program that realistically puts pressure on Israel.</p>
+<p>Boycotts (B) at the individual and group levels, Divestment (D) by financial institutions, companies, universities, and government-run ministries, e.g. research collaboration with defense ministries, etc, and Sanctions (S) by states or governments are a systematic program that realistically puts pressure on Israel.</p>
 
-<p>Apartheid Free Zone plays a part in this BDS and calls for a worldwide movement.</p>
+<h6><span style="color: #a32a34">▶︎</span> The three demands of BDS</h6>
+
+<ol>
+  <li> Ending its occupation and colonization of all Arab lands and dismantle the Wall</li>
+
+  <li> Recognizing the fundamental rights of Arab-Palestinian citizens of Israel to full equality</li>
+
+  <li> Respecting, protecting and promoting the rights of Palestinian refugees to return to their homes and properties as stipulated in UN Resolution 194</li>
+</ol>
+
+<h6><span style="color: #a32a34">▶︎</span> Targeted boycotts</h6>
+<p>
+  <img src="/assets/img/BDS_targeted_boycott_en.jpg" width="100%; max-width: 375px">
+</p>
+
+<h6><span style="color: #a32a34">▶︎</span> BDS Works!</h6>
+<p>
+  <img src="/assets/img/BDS_success.jpg" width="100%; max-width: 375px">
+</p>
+
+<p>Apartheid Free Zone plays a part in this. Let's make the whole world Apartheid-Free Zone!</p>
 
 <img src="/assets/img/handala.png" style="float:right; width: 240px; margin: 20px" />
 
@@ -54,8 +79,6 @@ Handala is a character created by Palestinian cartoonist Naji Al-Ali, depicting 
 </div>
 
 <a href="/en/what-is-afz">▶︎ What is AFZ</a>
-<br/>
-<br/>
 </div>
 
     </div>

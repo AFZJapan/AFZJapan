@@ -54,8 +54,8 @@ The crucial goal of the BDS campaign and Apartheid Free Zones is to change the s
 
 
 
-<button type="button" class="collapsible">What Retail Stores/local businesses Can Do</button>
-<div class="content">
+<button type="button" class="afz-collapsible">What Retail Stores/local businesses Can Do</button>
+<div class="afz-content">
   <p>
 
 <h6><span class="afz-heading-small-colored">Become a hub of the AFZ community</span></h6>
@@ -86,8 +86,8 @@ Example: Stop purchasing drinks from Coca-Cola (You can stop purchasing after th
 
 
 
-<button type="button" class="collapsible">What Schools and Universities Can Do</button>
-<div class="content">
+<button type="button" class="afz-collapsible">What Schools and Universities Can Do</button>
+<div class="afz-content">
   <p>
 
 <h6><span class="afz-heading-small-colored">Examples that educational institutions and laboratories can do：</span></h6>
@@ -122,8 +122,8 @@ Example: Stop purchasing drinks from Coca-Cola (You can stop purchasing after th
 
 
 
-<button type="button" class="collapsible">What Cultural Institution Can Do</button>
-<div class="content">
+<button type="button" class="afz-collapsible">What Cultural Institution Can Do</button>
+<div class="afz-content">
   <p>
 
 <p>Cultural institutions such as libraries, movie theatres, music clubs, playhouses, art galleries, and film festivals can support Palestine in a creative way.</p>
@@ -153,8 +153,8 @@ Example: Stop purchasing drinks from Coca-Cola (You can stop purchasing after th
 
 
 
-<button type="button" class="collapsible">What Religious Institutions Can Do</button>
-<div class="content">
+<button type="button" class="afz-collapsible">What Religious Institutions Can Do</button>
+<div class="afz-content">
   <p>
 
 <h6><span class="afz-heading-small-colored">Clarify the solidarity with Palestine</span></h6>
@@ -203,8 +203,8 @@ Example: Stop purchasing drinks from Coca-Cola (You can stop purchasing after th
 
 
 
-<button type="button" class="collapsible">What Community Councils and the Government of States Can Do</button>
-<div class="content">
+<button type="button" class="afz-collapsible">What Community Councils and the Government of States Can Do</button>
+<div class="afz-content">
   <p>
 
 <p>Community councils and local governments can endorse the basis of unity of the BDS movement and strategies along with our guidelines, and they can also play a role in extending solidarity with Palestine. Refrain from purchasing any products and services from Israel and from companies complicit with Israel supporting human rights violations of Palestinians and the colonial occupation of Palestinian lands. Work independently in support of boycott, divestment and sanctions activities against Israel.</p>
