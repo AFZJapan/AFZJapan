@@ -1,0 +1,50 @@
+* {
+  box-sizing:border-box;
+}
+
+.boycotts-container {
+  padding: 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.column-66 {
+  float: left;
+  width: 50%; /* 66.66666%; */
+  padding: 16px;
+}
+
+.column-33 {
+  float: left;
+  width: 50%; /* 33.33333%; */
+  padding: 16px;
+}
+
+.large-font {
+  font-size: 32px;
+}
+
+.boycotts-img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+  }
+  .boycotts-img {
+    margin: auto;
+  }
+}
