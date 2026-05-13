@@ -6,25 +6,16 @@ image: "https://afzjapan.com/assets/img/afz_scr_whatsafz.png"
 css: ["index.css", "afz.css"]
 lang: "en"
 ---
-<!-- table style="table-layout: fixed; padding: 0; margin:0; width: 100%; min-width: 360px; height: 80px; max-height:80px; background-image:url('/assets/img/top_bg.png')">
-  <tr style="padding: 0; margin:0">
-    <td class="example" style="padding: 0; margin:0; max-height:80px;">
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 80px; margin-left: 0px;" class="image-mobile" />
-      <img src="/assets/img/top-image-right.png" style="float: right; height: 120px; margin-left: 0px;" class="image-pc" />
-      <img src="/assets/img/top-image-left.png" style=" height: 80px; margin-left: 50px;" class="image-mobile"/>
-      <img src="/assets/img/top-image-left.png" style=" height: 120px; margin-top: 0px; margin-left: 20px;" class="image-pc"/>
-    </td>
-  </tr>
-</table -->
 
 <div class="main-content">
 
-<section class="section">
-          <div class="section-header">
-            <h2 class="section-title">What's AFZ</h2>
-          </div>
+  <section class="section">
+    <div class="section-header">
+      <h2 class="section-title">What's AFZ</h2>
+    </div>
 
     <div class="main-content-inner">
+
 <div class="page">
 
 <p>Spaces, such as restaurants, shops, hotels, and other businesses, who have committed to boycott israeli products and priority targets set by BDS, are Apartheid Free Zones (AFZ). We now have over 250 AFZs all over Japan!</p>
@@ -33,19 +24,21 @@ lang: "en"
 
 <p>The Apartheid Free Zone spaces commit to resisting providing any kind of support for injustice to Palestinians and the apartheid regime caused by the colonial occupation of Israel, and to pursue spaces free from inequality and oppression.</p>
 
+<p>Since this is part of BDS movement, similar campaigns exist all around the world, thousands of AFZs in many countries. Check out <a href="/AFZs-around-the-world">AFZs around the world page</a> and <a href="https://bdsmovement.net/apartheid-free-zones" target="_blank">BDS movement's AFZ page <img src="/assets/icons/extlink.png" height="16px" style="margin-bottom: 5px">.</a></p>
+
 <img src="/assets/img/AFZ_int_logo_bw_whitebg.png" style="float:right; width: 180px; padding: 10px" />
 
 <p>
   <p>Examples of the AFZ space:</p>
   <ul>
     <li>Community-based small businesses like restaurants, cafés, bookstores, and retail stores</li>
-    <li>Academic spaces like universities, research institutions, and academic associations</li>
+    <li>Academic spaces like universities, academic institutions, and research labs</li>
     <li>Cultural spaces like theatres, libraries, and concert halls</li>
-    <li>Events like music festivals, art festivals, and group events</li>
-    <li>Governmental institutions like community circles, city councils, and parliaments</li>
+    <li>Events like music festivals, art exhibitions, and group events</li>
+    <li>Governmental institutions like city councils, and parliaments</li>
     <li>Sports clubs and circles, non-governmental organizations, religious institutions, and corporations</li>
   </ul>
-Every different space is eligible to be AFZ.
+All different spaces and groups are eligible to be AFZ.
 </p>
 
 </div>
@@ -65,9 +58,11 @@ Every different space is eligible to be AFZ.
   </td></tr>
 </table>
 
-<a href="register" style="font-weight: bold; color: #fff;">▶︎ <u>Help break down the walls of apartheid, register with AFZ</u></a><br /><br />
+<br>
 
-</div>
-</section>
+<a href="register" style="font-weight: bold;">▶︎ <u>Help break down the walls of apartheid! register with AFZ!</u></a><br />
+
+    </div>
+  </section>
 
 </div>
