@@ -1,6 +1,6 @@
 ---
 layout: new-page
-title: "What is BDS"
+title: "What to boycott?"
 description: "The following are the BDS movement's current top priority boycott and pressure international corporate targets. They are split these targets into three sections: consumer boycott priority targets, pressure targets, and organic boycott targets.
 image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
 css: ["index.css", "linkpreview.css", "boycotts.css"]
