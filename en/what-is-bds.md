@@ -3,7 +3,8 @@ layout: new-page
 title: "What is BDS"
 description: "The BDS movement began at the call of Palestinians. As a direct, nonviolent response to the calls of Palestinian citizens, it is a highly effective movement for showing solidarity with Palestine and applying concrete pressure on Israel. It applies pressure to Israel through boycotts at the individual and group level (B), withdrawal of capital at the investment group, company, and university level (D), and sanctions at the national level (S)."
 image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
-css: ["index.css", "linkpreview.css"]
+css: ["index.css", "linkpreview.css", "slides.css"]
+js: ["slides.js"]
 lang: "en"
 ---
 
@@ -41,7 +42,7 @@ It was inspired by the call for BDS by Black South Africans. and those around th
 
 <p>Boycotts (B) at the individual and group levels, Divestment (D) by financial institutions, companies, universities, and government-run ministries, e.g. research collaboration with defense ministries, etc, and Sanctions (S) by states or governments are a systematic program that realistically puts pressure on Israel.</p>
 
-<h6><span style="color: #a32a34">▶︎</span> The three demands of BDS</h6>
+<h6><span style="color: #a32a34">▶︎</span> Demands of BDS</h6>
 
 <ol>
   <li> Ending its occupation and colonization of all Arab lands and dismantle the Wall</li>
@@ -51,17 +52,56 @@ It was inspired by the call for BDS by Black South Africans. and those around th
   <li> Respecting, protecting and promoting the rights of Palestinian refugees to return to their homes and properties as stipulated in UN Resolution 194</li>
 </ol>
 
-<h6><span style="color: #a32a34">▶︎</span> Targeted boycotts</h6>
+<h6><span style="color: #a32a34">▶︎</span> Targeted Boycotts vs. Non-Targeted Boycotts</h6>
+
+<!-- p>"What's wrong with going beyond the BDS boycott targets and boycotting absolutely everything we can?"</p>
+
+<p><b>The passion and commitment to justice behind the will to boycott every company that's complicit with the genocidal Israel regime are commendable</b>, and we encourage you to always make informed and ethical decisions as an individual customer.</p>
+
+<p><b>But, to be effective, our efforts must be collective.</b></p -->
+
+<p>The BDS movement strategically focuses on specific targets to mobilize mass pressure against them, ensuring that our efforts are impactful.</p>
+
 <p>
-  <img src="/assets/img/BDS_targeted_boycott_en.jpg" width="100%; max-width: 375px">
+  <img src="/assets/img/targeted.webp" width="100%; max-width: 375px">
 </p>
+
+<br>
 
 <h6><span style="color: #a32a34">▶︎</span> BDS Works!</h6>
 <p>
-  <img src="/assets/img/BDS_success.jpg" width="100%; max-width: 375px">
+  <div class="slideshow-container">
+    <div class="slides fade-slide">
+      <div class="numbertext">1 / 3</div>
+      <img src="/assets/img/BDS-success-1.jpeg" style="max-width: 100%; height: auto; ">
+    </div>
+    <div class="slides fade-slide">
+      <div class="numbertext">2 / 3</div>
+      <img src="/assets/img/BDS-success-2.jpeg" style="max-width: 100%; height: auto; ">
+    </div>
+    <div class="slides fade-slide">
+      <div class="numbertext">3 / 3</div>
+      <img src="/assets/img/BDS-success-3.jpeg" style="max-width: 100%; height: auto; ">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
 </p>
 
-<p>Apartheid Free Zone plays a part in this. Let's make the whole world Apartheid-Free Zone!</p>
+<h6><span style="color: #a32a34">▶︎</span> What to boycott</h6>
+<p>
+  <img src="/assets/img/BDS_targets_en.png" width="100%; max-width: 375px">
+</p>
+
+<p>For more details, check <a href="/boycotts">boycotts</a> page.</p>
+
+<!-- p>Let's make the whole world Apartheid-Free Zone!</p -->
 
 <img src="/assets/img/handala.png" style="float:right; width: 240px; margin: 20px" />
 
