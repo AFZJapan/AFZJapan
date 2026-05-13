@@ -99,7 +99,7 @@ It was inspired by the call for BDS by Black South Africans. and those around th
   <img src="/assets/img/BDS_targets_en.png" width="100%; max-width: 375px">
 </p>
 
-<p>For more details, check <a href="/boycotts">boycotts</a> page.</p>
+<p>For more details, check <a href="/en/boycotts">boycotts</a> page.</p>
 
 <!-- p>Let's make the whole world Apartheid-Free Zone!</p -->
 
