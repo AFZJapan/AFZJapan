@@ -69,6 +69,9 @@ It was inspired by the call for BDS by Black South Africans. and those around th
 <br>
 
 <h6><span style="color: #a32a34">▶︎</span> BDS Works!</h6>
+
+<p>These are just a few examples of the BDS movement's success in Japan. There are countless examples worldwide. Please follow the social media of the BDS movement for updates.</p>
+
 <p>
   <div class="slideshow-container">
     <div class="slides fade-slide">
