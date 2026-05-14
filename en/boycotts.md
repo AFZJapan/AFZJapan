@@ -24,9 +24,9 @@ lang: "en"
       <h1 class="large-font"><b>Boycott targets of the BDS movement</b></h1>
       <p>The following are the BDS movement's current top priority boycott and pressure international corporate targets. They are split these targets into three sections:</p>
       <ol>
-        <li>Consumer boycott priority targets - The BDS movement calls for a complete boycott of these brands carefully selected due to each company's proven record of complicity in Israeli apartheid.</li>
-        <li> Pressure targets - The BDS movement actively calls for pressure campaigns against these targets. This includes boycotts when reasonable alternatives exist, lobbying, peaceful disruptions, social media pressure, strategic litigation, etc.</li>
-        <li>Organic boycott targets - The BDS movement did not initiate these grassroots boycott campaigns but actively supports them due to these brands’ egregious complicity in Israel’s genocide and apartheid against Palestinians.</li>
+        <li><a href="#priority-targets" style="color:#a32a34">Consumer boycott priority targets</a> - The BDS movement calls for a complete boycott of these brands carefully selected due to each company's proven record of complicity in Israeli apartheid.</li>
+        <li><a href="#pressure-targets" style="color:#a32a34">Pressure targets</a> - The BDS movement actively calls for pressure campaigns against these targets. This includes boycotts when reasonable alternatives exist, lobbying, peaceful disruptions, social media pressure, strategic litigation, etc.</li>
+        <li><a href="#organic-targets" style="color:#a32a34">Organic boycott targets</a> - The BDS movement did not initiate these grassroots boycott campaigns but actively supports them due to these brands’ egregious complicity in Israel’s genocide and apartheid against Palestinians.</li>
       </ol>
       <a href="https://bdsmovement.net/Guide-to-BDS-Boycott" target="_blank" style="color:#a32a34">check the detailed page</a>
     </div>
@@ -37,7 +37,7 @@ lang: "en"
 </div>
 
 
-<!-- priority_targets -->
+<a id="priority-targets" />
 <div class="boycotts-container" style="background-color:#a32a34">
   <div class="row" style="margin-right: 0; margin-left: 0;">
     <div class="column-33">
@@ -67,7 +67,7 @@ lang: "en"
 </div>
 
 
-<!-- pressure_targets -->
+<a id="pressure-targets" />
 <div class="boycotts-container" style="background-color:#f7f2eb">
   <div class="row" style="margin-right: 0; margin-left: 0;">
     <div class="column-66">
@@ -92,7 +92,7 @@ lang: "en"
 </div>
 
 
-<!-- organic targets -->
+<a id="organic-targets" />
 <div class="boycotts-container">
   <div class="row" style="margin-right: 0; margin-left: 0;">
     <div class="column-33">
