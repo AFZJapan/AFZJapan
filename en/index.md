@@ -62,7 +62,7 @@ The Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural
   {% for afz in list %}
 
   <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
-    <td> {% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
+    <td> {% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin_white.png' width='20px' height='20px' /></a> {% endif %} <br>
     {% for tag in afz.tags %}
 
       <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>
