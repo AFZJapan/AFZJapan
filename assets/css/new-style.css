@@ -1936,6 +1936,13 @@ a.dropdown-item {
   /* IE9 Compat Modes */
   src: local("Nunito ExtraBold"), local("Nunito-ExtraBold"), url("../fonts/nunito-v9-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v9-latin-800.woff2") format("woff2"), url("../fonts/nunito-v9-latin-800.woff") format("woff"), url("../fonts/nunito-v9-latin-800.ttf") format("truetype"), url("../fonts/nunito-v9-latin-800.svg#Nunito") format("svg");
   /* Legacy iOS */ }
+
+@font-face {
+  font-family: 'NihongoFont';
+  src: url("/assets/fonts/KosugiMaru-Regular.ttf") format('truetype');
+  unicode-range: U+3000-9FFF;  /* 日本語（ひらがな・カタカナ・漢字） */
+}
+
 :root {
   /* Colors */
   --primary: color(primary);
@@ -1950,7 +1957,7 @@ a.dropdown-item {
 body {
   font-size: 14px;
   font-weight: 400;
-  font-family: 'Nunito', 'Segoe UI', arial;
+  font-family: 'NihongoFont', 'Nunito', 'Segoe UI', arial;
   color: #000; }
 
 a.bb {
