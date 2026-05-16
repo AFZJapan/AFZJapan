@@ -3,7 +3,8 @@ layout: new-page
 title: "AFZとは"
 description: "アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。"
 image: "https://afzjapan.com/assets/img/afz_scr_whatsafz.png"
-css: ["index.css", "afz.css"]
+css: ["index.css", "afz.css", "slides.css"]
+js: ["slides.js"]
 lang: "ja"
 ---
 
@@ -20,6 +21,8 @@ lang: "ja"
 
 <p>アパルトヘイト・フリー・ゾーンは、イスラエルによる占領やアパルトヘイト政策に加担しない空間を世界中に作るためのキャンペーンです。BDS運動の一環で、南アフリカの反アパルトヘイト運動に着想を得ています。</p>
 
+<img src="/assets/img/AFZ_int_logo_bw_whitebg.png" style="float:right; width: 180px; padding: 10px" />
+
 <p>AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。</p>
 
 <p>お店、学校、ギャラリー、劇場、クラブ、お寺、事務所など、主に人々が集まって活動する「スペース」が対象です。AFZはどこにいても、パレスチナのために行動したいと思う人たちが、自分の生活圏内で実践できるキャンペーンです。</p>
@@ -34,8 +37,6 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
 </iframe>
 </div>
 
-<img src="/assets/img/AFZ_int_logo_bw_whitebg.png" style="float:right; width: 180px; padding: 10px" />
-
 <p>
   <p>対象となる「スペース」の例</p>
   <ul>
@@ -49,8 +50,6 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
   </ul>
 など、あらゆる「スペース」が対象です
 </p>
-
-</div>
 
 <table style="width: 100%; height: 30px;">
   <tr><td>
@@ -68,7 +67,39 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
 </table>
 
 <br>
-<a href="register" style="font-weight: bold;">▶︎ <u>アパルトヘイトの壁を壊す、AFZに登録する</u></a>
+<br>
+
+<h6><span style="color: #029455">▶︎</span> 登録は簡単です</h6>
+
+<p>
+  <div class="slideshow-container">
+    <div class="slides fade-slide">
+      <div class="numbertext">1 / 3</div>
+      <img src="/assets/img/register-1.png" style="max-width: 100%; height: auto; ">
+    </div>
+    <div class="slides fade-slide">
+      <div class="numbertext">2 / 3</div>
+      <img src="/assets/img/register-2.png" style="max-width: 100%; height: auto; ">
+    </div>
+    <div class="slides fade-slide">
+      <div class="numbertext">3 / 3</div>
+      <img src="/assets/img/register-3.png" style="max-width: 100%; height: auto; ">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</p>
+
+<a href="register" style="font-weight: bold;">▶︎ <u>今すぐAFZに登録しよう</u></a>
+<p>✳︎ 場所がなくても登録できます（その場合website・SNSアカウントを入力してください）</p>
+
+</div> <!-- page -->
 
     </div>
   </section>
