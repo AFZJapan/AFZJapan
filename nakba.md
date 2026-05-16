@@ -32,7 +32,7 @@ description: "ナクバは、アラビア語で「大惨事」を意味します
 <div class="jekyll-linkpreview-wrapper">
   <div class="jekyll-linkpreview-wrapper-inner">
     <h2 class="jekyll-linkpreview-title">
-      <h6><span class="afz-heading-small-colored"><a href="https://ja.wikipedia.org/wiki/%E3%83%8A%E3%82%AF%E3%83%90%E3%81%AE%E6%97%A5" style="font-weight: bold; color: white;" target="_blank">ナクバの日</a>
+      <h6><span class="afz-heading-small-colored"><a href="https://ja.wikipedia.org/wiki/%E3%83%8A%E3%82%AF%E3%83%90%E3%81%AE%E6%97%A5" style="font-weight: bold;" target="_blank">ナクバの日</a>
 </span></h6>
     </h2>
     <div class="jekyll-linkpreview-description">ナクバの日（ナクバのひ、アラビア語: ذكرى النكبة、ラテン文字表記: Dhikra an-Nakba、大惨事の記憶の意、英語: Nakba Day）は、1948年前後にパレスチナの社会と祖国が破壊され、パレスチナの人々の大多数が永続的に強制退去を余儀なくされた、パレスチナの大厄災としても知られるナクバを記念する日である。</div>

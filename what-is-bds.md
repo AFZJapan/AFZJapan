@@ -129,7 +129,7 @@ lang: "ja"
 
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <h6><span class="afz-heading-small-colored">BDSムーブメント入門</span></h6><a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: bold;">パレスチナのためにできること</a>
+          <h6><span class="afz-heading-small-colored"><a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: bold;"> BDSムーブメント入門｜パレスチナのためにできること</a></span></h6>
         </h2>
         <div class="jekyll-linkpreview-description">2021年6月18日に行ったウェビナーを公開しました。主催：BDS Japan Bulletin</div>
       </div>

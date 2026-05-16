@@ -95,7 +95,7 @@ js: ["images.js", "slides.js"]
       </div>
     </div>
     <div class="jekyll-linkpreview-footer">
-      <span class="afz-heading-small-colored" style="line-height: 20pt;">アムネスティ日本 ｜ <a href="//www.amnesty.or.jp" target="_blank" style="color: #fff">www.amnesty.or.jp</a></span>
+      <span class="afz-heading-small-colored" style="line-height: 20pt;">アムネスティ日本 ｜ <a href="//www.amnesty.or.jp" target="_blank">www.amnesty.or.jp</a></span>
     </div>
   </div>
 </div>
@@ -111,7 +111,7 @@ js: ["images.js", "slides.js"]
       </div>
     </div>
     <div class="jekyll-linkpreview-footer">
-      <span class="afz-heading-small-colored" style="line-height: 20pt;">Human Rights Watch ｜ <a href="//www.hrw.org" target="_blank" style="color: #fff">www.hrw.org</a></span>
+      <span class="afz-heading-small-colored" style="line-height: 20pt;">Human Rights Watch ｜ <a href="//www.hrw.org" target="_blank">www.hrw.org</a></span>
     </div>
   </div>
 </div>
