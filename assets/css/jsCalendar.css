@@ -46,7 +46,7 @@
 			border-radius: 16px;
 			box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
 			color: #5a5a5a;
-			font-family: Tahoma, Geneva, sans-serif;
+			/* font-family: Tahoma, Geneva, sans-serif; */
 			margin: 16px;
                         max-width: 566px;
 		}
@@ -130,7 +130,7 @@
 			width: 32px;
 		}
 		.jsCalendar tbody td.jsCalendar-current {
-			background-color: #a32a34;
+			background-color: #029455;
 			border-radius: 18px;
 			color: #FFFFFF;
 		}
