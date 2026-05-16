@@ -42,13 +42,14 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
 <div class="boycotts-container" style="background-color:#a32a34">
   <div class="row" style="margin-right: 0; margin-left: 0;">
     <div class="column-33">
-      <img src="/assets/img/BDS_priority_targets_en.jpg" class="boycotts-img" alt="App" width="100%">
+      <img src="/assets/img/BDS_priority_targets_ja.png" class="boycotts-img" alt="App" width="100%">
     </div>
     <div class="column-66">
       <h1 class="large-font" style="color:white;"><b>優先的なボイコット対象</b></h1>
       <p><span style="color:white;">パレスチナ主導のBDS運動は、イスラエルのアパルトヘイト、占領、そしてパレスチナ人に対するジェノサイドへの加担が証明されている企業を厳選し、これらのブランドに対する<b>全面的なボイコット</b>を呼びかけている。</span></p>
 
       <ul style="color:white;">
+        <li>イスラエル産農産物およびその他の商品</li>
         <li>シェブロン（カルテックス、テキサコを含む）</li>
         <li>インテル</li>
         <li>ヒューレット・パッカード（HP）</li>
@@ -61,7 +62,6 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
         <li>ソーダストリーム</li>
         <li>リーボック</li>
         <li>テバ</li>
-        <li>イスラエル産農産物およびその他の商品</li>
       </ul>
     </div>
   </div>
@@ -76,6 +76,7 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
       <p>BDS運動は、これらの標的に対する<b>圧力キャンペーン</b>を積極的に呼びかけています。これには、合理的な代替手段が存在する場合のボイコット、ロビー活動、平和的な妨害行為、ソーシャルメディアを通じた圧力、戦略的な訴訟などが含まれます。</p>
 
       <ul>
+        <li>FANUC</li>
         <li>マイクロソフト</li>
         <li>グーグル</li>
         <li>アマゾン</li>
@@ -87,7 +88,7 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
       </ul>
     </div>
     <div class="column-33">
-      <img src="/assets/img/BDS_pressure_targets_en.jpg" class="boycotts-img" width="100%" />
+      <img src="/assets/img/BDS_pressure_targets_ja.png" class="boycotts-img" width="100%" />
     </div>
   </div>
 </div>
@@ -97,7 +98,7 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
 <div class="boycotts-container">
   <div class="row" style="margin-right: 0; margin-left: 0;">
     <div class="column-33">
-      <img src="/assets/img/BDS_organic_en.jpg" class="boycotts-img" alt="App" width="100%">
+      <img src="/assets/img/BDS_organic_ja.png" class="boycotts-img" alt="App" width="100%">
     </div>
     <div class="column-66">
       <h1 class="large-font"><b>草の根ボイコット対象 </b></h1>
