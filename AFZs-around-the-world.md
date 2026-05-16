@@ -35,6 +35,8 @@ css: ["index.css", "links.css", "images.css"]
 
   </div>
 
+<p>Also check out BDS movement's <a href="https://bdsmovement.net/apartheid-free-zones" target="_blank">Apartheid-Free Zones page <img src="/assets/icons/extlink.png" height="16px" style="margin-bottom: 5px"></a></p>
+
     </div>
 
   </section>
