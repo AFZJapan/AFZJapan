@@ -3,7 +3,8 @@ layout: new-page
 title: "BDS運動とは"
 description: "BDS運動はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。"
 image: "https://afzjapan.com/assets/img/BDS_logo.jpg"
-css: ["index.css", "linkpreview.css"]
+css: ["index.css", "linkpreview.css", "slides.css"]
+js: ["slides.js"]
 lang: "ja"
 ---
 
@@ -30,13 +31,82 @@ lang: "ja"
 
 <div class="page">
 
-<p>
+<h6><span style="color: #a32a34">▶︎</span> BDS運動</h6>
 
-<a href="https://bdsmovement.net" target="_blank">BDS運動</a>はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。</p>
+<!-- p>
+<a href="https://bdsmovement.net" target="_blank">BDS運動</a>はパレスチナ人の呼びかけによって始まった運動です。パレスチナ市民の呼びかけに対する直接的、非暴力的な応答として、パレスチナと連帯し、イスラエルに具体的な圧力をかける上で非常に有効な運動です。</p -->
 
-<p>個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。</p>
+<!-- p>個人や団体レベルのボイコット（B)、投資団体、会社、大学レベルで行う資本の引き上げ（D）、国家レベルで行う制裁（S)を行うことで、イスラエルへの圧力をかける運動です。</p -->
+
+<p>パレスチナ主導のBDS運動は、イスラエルがパレスチナ人に対する扱いにおいて国際人権法を遵守するよう圧力をかけるための、世界的な非暴力キャンペーンです。</p>
+
+<p>この運動は、南アフリカの黒人によるBDS運動の呼びかけ、そして彼らに連帯した世界中の人々によって触発され、南アフリカ政府にアパルトヘイト政策を放棄させるという成果を上げました。</p>
+
+<p>個人や団体レベルでのボイコット（B）、金融機関、企業、大学、政府機関（例えば国防省との研究協力など）による投資撤退（D）、そして国家や政府で行う制裁（S）は、イスラエルに現実的な圧力をかける運動です。</p>
 
 <p>アパルトヘイト・フリーゾーンはBDS運動の一環として、世界的な連帯のネットワークを構築することを求めています。</p>
+
+<br>
+<h6><span style="color: #a32a34">▶︎</span> BDSの要求</h6>
+
+<ol>
+
+  <li>すべてのアラブ領土の占領と植民地化を終結させ、分離壁を撤去する</li>
+
+  <li>イスラエルのアラブ系パレスチナ市民の完全な平等という基本的権利を認める</li>
+
+  <li>国連決議194に規定されているとおり、パレスチナ難民が故郷と財産に帰還する権利を尊重、保護、促進する</li>
+
+</ol>
+
+<br>
+<h6><span style="color: #a32a34">▶︎</span> 対象を絞ったボイコット vs. 対象を絞らないボイコット</h6>
+
+<p>BDS運動は、特定の標的に戦略的に焦点を当て、それらに対する大衆の圧力を動員することで、私たちの活動が効果を発揮するように努めています。</p>
+
+<p>
+  <img src="/assets/img/targeted.webp" width="100%; max-width: 375px">
+</p>
+
+<br>
+<h6><span style="color: #a32a34">▶︎</span> 何をボイコットするの？</h6>
+<p>
+  <img src="/assets/img/BDSBoycotts.jpeg" width="100%; max-width: 375px">
+</p>
+
+<p><a href="https://bdsjapanbulletin.wordpress.com/2024/01/27/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%8A%80%E8%A1%93/" target="_blank" data-cke-saved-href="https://bdsjapanbulletin.wordpress.com/2024/01/27/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%8A%80%E8%A1%93/" class="font-weight-600">もっと詳しくはBDS Bulletin Japanの記事をご覧ください <img src="/assets/icons/extlink.png" height="16px" style="margin-bottom: 5px"></a></p>
+
+<br>
+<h6><span style="color: #a32a34">▶︎</span> BDS運動の成功例</h6>
+
+<p>これらは、日本におけるBDS運動の成功例のほんの一部です。世界中には数え切れないほどの事例があります。最新情報については、BDS運動のソーシャルメディアをフォローしてください。</p>
+
+<p>
+  <div class="slideshow-container">
+    <div class="slides fade-slide">
+      <div class="numbertext">1 / 3</div>
+      <img src="/assets/img/BDS-success-1.jpeg" style="max-width: 100%; height: auto; ">
+    </div>
+    <div class="slides fade-slide">
+      <div class="numbertext">2 / 3</div>
+      <img src="/assets/img/BDS-success-2.jpeg" style="max-width: 100%; height: auto; ">
+    </div>
+    <div class="slides fade-slide">
+      <div class="numbertext">3 / 3</div>
+      <img src="/assets/img/BDS-success-3.jpeg" style="max-width: 100%; height: auto; ">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+</p>
+
+<h6><span style="color: #a32a34">▶︎</span> ハンダラくん</h6>
 
 <img src="/assets/img/handala.png" style="float:right; width: 240px; margin: 20px" />
 
@@ -75,9 +145,7 @@ lang: "ja"
   <script async src="//www.instagram.com/embed.js"></script>
 </div>
 
-<a href="/what-is-afz">▶︎ AFZとは</a>
-<br/>
-<br/>
+<!-- a href="/what-is-afz">▶︎ AFZとは</a -->
 
 </div>
 
