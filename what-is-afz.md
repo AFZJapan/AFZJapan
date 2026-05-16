@@ -22,7 +22,11 @@ lang: "ja"
 
 <p>AFZ に参加したスペースは、パレスチナ人への占領による人権侵害やアパルトヘイトに加担しないことを宣言し、あらゆる差別や抑圧のない空間を目指します。</p>
 
-<p>さらに詳しくはこの記事をご覧ください：<a href="https://bdsjapanbulletin.wordpress.com/2025/09/30/afz" style="font-weight: bold;">AFZ（アパルトヘイト・フリーゾーン） 入門ウェビナー ＜近所から始めるBDS運動＞</a></p>
+<p>お店、学校、ギャラリー、劇場、クラブ、お寺、事務所など、主に人々が集まって活動する「スペース」が対象です。AFZはどこにいても、パレスチナのために行動したいと思う人たちが、自分の生活圏内で実践できるキャンペーンです。</p>
+
+<p><b>日本におけるAFZ賛同店・スペースのマップです。現在北海道から沖縄まで250件以上の登録があり、日本は今、世界でもAFZの増加率が最も高い国です。</b></p>
+
+<p>さらに詳しくはこの記事をご覧ください：<a href="https://bdsjapanbulletin.wordpress.com/2025/09/30/afz" style="font-weight: bold;">AFZ入門ウェビナー ＜近所から始めるBDS運動＞</a></p>
 
 <div class="video-container">
 <iframe width="600" height="450"
