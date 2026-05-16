@@ -28,9 +28,9 @@ js: ["images.js"]
 
 <img src="{{site.baseurl}}/assets/img/palestine.png" style="max-width:100%;">
 
-<p>
+<!-- p>
   <a href="/apartheid">▶︎ アパルトヘイトについて</a>
-</p>
+</p -->
 
 </div>
 

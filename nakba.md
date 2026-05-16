@@ -39,7 +39,7 @@ description: "ナクバは、アラビア語で「大惨事」を意味します
   </div>
 </div>
 
-<a href="/occupation">▶︎ イスラエルの占領について</a>
+<!-- a href="/occupation">▶︎ イスラエルの占領について</a -->
 
 <br />
 

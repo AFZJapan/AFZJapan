@@ -68,7 +68,7 @@ js: ["images.js"]
   </div>
 </div>
 
-<a href="/nakba">▶︎ ナクバについて</a>
+<!-- a href="/nakba">▶︎ ナクバについて</a -->
 
   </td>
 </tr>
