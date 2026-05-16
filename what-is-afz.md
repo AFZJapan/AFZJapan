@@ -74,15 +74,12 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
 <p>
   <div class="slideshow-container">
     <div class="slides fade-slide">
-      <div class="numbertext">1 / 3</div>
       <img src="/assets/img/register-1.png" style="max-width: 100%; height: auto; ">
     </div>
     <div class="slides fade-slide">
-      <div class="numbertext">2 / 3</div>
       <img src="/assets/img/register-2.png" style="max-width: 100%; height: auto; ">
     </div>
     <div class="slides fade-slide">
-      <div class="numbertext">3 / 3</div>
       <img src="/assets/img/register-3.png" style="max-width: 100%; height: auto; ">
     </div>
     <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -96,7 +93,7 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
   </div>
 </p>
 
-<a href="register" style="font-weight: bold;">▶︎ <u>今すぐAFZに登録しよう</u></a>
+<a href="register" style="font-weight: bold;">▶︎ 今すぐ登録しよう</a>
 <p>✳︎ 場所がなくても登録できます（その場合website・SNSアカウントを入力してください）</p>
 
 </div> <!-- page -->
