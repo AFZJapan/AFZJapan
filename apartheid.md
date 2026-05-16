@@ -28,7 +28,7 @@ js: ["images.js", "slides.js"]
   <div class="slideshow-container">
     {% for i in (1..10) %}
     <div class="slides fade-slide">
-      <div class="numbertext">1 / {{ i }}</div>
+      <div class="numbertext">{{ i }} / 10</div>
       <img src="/assets/img/apartheid-{{ i }}.jpeg" style="max-width: 100%; height: auto; ">
     </div>
     {% endfor %}
