@@ -1,0 +1,13 @@
+.football {
+  list-style: none;
+  padding: 0;
+  margin: 1.1rem;
+
+  li {
+    padding-left: 1rem;
+    text-indent: -1.1rem;
+  }
+  li::before {
+    content: "⚽️ ";
+  }
+}
