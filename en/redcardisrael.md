@@ -22,13 +22,13 @@ lang: "en"
     </div>
 
     <div class="column-66">
-      <h1 class="large-font"><b>Show Israel the <div style="color: red; font-weight: bold; display:inline;">RED CARD</div>!</b></h1>
+      <h1 class="large-font"><b>Show Israel the <div style="color: #c9101d; font-weight: bold; display:inline;">RED CARD</div>!</b></h1>
       <ul class="football">
-        <li><a href="#goals" style="color: red; font-weight: bold; display:inline;">Goals of this campaign</a></li>
-        <li><a href="#hypocrisy" style="color: red; font-weight: bold; display:inline;">Hypocrisy in football</a></li>
-        <li><a href="#sporticide" style="color: red; font-weight: bold; display:inline;">Israel is committing SPORTICIDE</a></li>
-        <li><a href="#deliberate" style="color: red; font-weight: bold; display:inline;">Israel deliberately shoots Palestinian children in the legs</a></li>
-        <li><a href="#download" style="color: red; font-weight: bold; display:inline;">Download flyer</a></li>
+        <li><a href="#goals" style="color: #c9101d; font-weight: bold; display:inline;">Goals of this campaign</a></li>
+        <li><a href="#hypocrisy" style="color: #c9101d; font-weight: bold; display:inline;">Hypocrisy in football</a></li>
+        <li><a href="#sporticide" style="color: #c9101d; font-weight: bold; display:inline;">Israel is committing SPORTICIDE</a></li>
+        <li><a href="#deliberate" style="color: #c9101d; font-weight: bold; display:inline;">Israel deliberately shoots Palestinian children in the legs</a></li>
+        <li><a href="#download" style="color: #c9101d; font-weight: bold; display:inline;">Download flyer</a></li>
       </ul>
     </div>
   </div>
