@@ -86,7 +86,7 @@ lang: "en"
             <img src="/assets/img/redcardisrael_front_en.png" alt="redcardisrael_チラシ" height="200px">
           </a>
           <div class="desc">
-            <button class="btnic" type="submit" onclick="window.open('https://drive.proton.me/urls/89QNZHEB3G#uNEoHrRGvM67')"><span style="font-size: 0.875em;"><i class="fa fa-download"></i> download flyer</span></button>
+            <button class="btnic" type="submit" onclick="window.open('https://drive.proton.me/urls/00EGDDVF4C#528D6SJXUlFE')"><span style="font-size: 0.875em;"><i class="fa fa-download"></i> download flyer</span></button>
           </div>
         </div>
       </div>
