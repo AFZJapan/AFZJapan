@@ -76,7 +76,7 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
       <p>BDS運動は、これらの標的に対する<b>圧力キャンペーン</b>を積極的に呼びかけています。これには、合理的な代替手段が存在する場合のボイコット、ロビー活動、平和的な妨害行為、ソーシャルメディアを通じた圧力、戦略的な訴訟などが含まれます。</p>
 
       <ul>
-        <li>FANUC</li>
+        <li>ファナック</li>
         <li>マイクロソフト</li>
         <li>グーグル</li>
         <li>アマゾン</li>
@@ -86,6 +86,17 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
         <li>Airbnb</li>
         <li>Booking.com</li>
       </ul>
+
+<p>
+
+<a href="https://bdsjapanbulletin.wordpress.com/2026/01/05/fanuc-meti2025/" target="_blank"> ファナック <img src="/assets/icons/extlink.png" height="16px" style="margin-bottom: 5px"></a>
+
+<br>
+
+<a href="https://bdsjapanbulletin.wordpress.com/2026/03/24/booking-com-airbnb%e3%83%9c%e3%82%a4%e3%82%b3%e3%83%83%e3%83%88%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3/" target="_blank"> Booking.com/Airbnbボイコットキャンペーン <img src="/assets/icons/extlink.png" height="16px" style="margin-bottom: 5px"></a>
+
+</p>
+
     </div>
     <div class="column-33">
       <img src="/assets/img/BDS_pressure_targets_ja.png" class="boycotts-img" width="100%" />
