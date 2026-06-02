@@ -94,7 +94,7 @@ src="https://www.youtube.com/embed/8AAjFKlrflA">
 </p>
 
 <a href="register" style="font-weight: bold;">▶︎ 今すぐ登録しよう</a>
-<p>✳︎ 場所がなくても登録できます（その場合website・SNSアカウントを入力してください）</p>
+<p>✳︎ 固定の場所がなくても（例：イベント、移動式スペース、オンラインショップ等）登録できます。その場合website、SNSアカウントを入力してください</p>
 
 </div> <!-- page -->
 
