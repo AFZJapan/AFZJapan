@@ -1956,5 +1956,12 @@
     "pref": 26,
     "geo": {"lat": 35.02939894135075, "lon": 135.767989417427},
     "links": {"web": "https://linktr.ee/Gaza.SignalofLife.jp", "insta": "marox0915", "insta2": "bani_alsalam"}
+  },
+  {
+    "name": "名古屋ＮＧＯセンター",
+    "type": 4,
+    "pref": 23,
+    "geo": {"lat": 35.1700651778142, "lon": 136.9116053921646},
+    "links": {"web": "https://nangoc.org", "twitter": "nangoc", "insta": "nagoya_ngo_center"}
   }
 ]
