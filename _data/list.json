@@ -1963,5 +1963,11 @@
     "pref": 23,
     "geo": {"lat": 35.1700651778142, "lon": 136.9116053921646},
     "links": {"web": "https://nangoc.org", "twitter": "nangoc", "insta": "nagoya_ngo_center"}
+  },
+  {
+    "name": "パレスチナのかけら　ガザの声",
+    "type": 3,
+    "pref": 13,
+    "links": {"insta": "hanginpiu"}
   }
 ]
