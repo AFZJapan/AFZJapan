@@ -85,20 +85,43 @@
             <i class="fas fa-th"></i><!-- fa-ellipsis-v"></i -->
           </a>
           <ul class="navbar-nav mr-3">
-            <li class="nav-item active"><a href="/" class="nav-link link"><i class="fa-fw fas fa-home"></i></a></li>
-            <li class="nav-item"><a href="/news" class="nav-link font-weight-600 link">ニュース</a></li>
+            <li class="nav-item active">
+              <a href="/" class="nav-link link">
+                <i class="fa-fw fas fa-home"></i>
+              </a>
+            </li>            
+            
+            <li class="nav-item">
+              <a href="/news" class="nav-link font-weight-600 link">
+                {% if page.lang == "en" %}News{% else %}ニュース{% endif %}
+              </a>
+            </li>
+
             <li class="nav-item dropdown d-inline">
-              <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false"><span>キャンペーン</span></a>
+              <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false">
+                <span>{% if page.lang == "en" %}Campaigns{% else %}キャンペーン{% endif %}</span>
+              </a>
               <ul class="dropdown-menu">
                 <!-- li class="dropdown-item"><a href="pacbi" class="nav-link">学術ボイコット (PACBI)</a></li -->
                 <!-- li class="dropdown-item"><a href="banwarcriminals" class="nav-link">戦争犯罪人を追放する</a></li -->
-                <li class="dropdown-item"><a href="/noroom" class="nav-link">No Room For Genocide<br>(観光分野)</a></li>
-                <li class="dropdown-item"><a href="/redcardisrael" class="nav-link">Red Card Israel<br>(スポーツ・ボイコット)</a></li>
+              <li class="dropdown-item">
+                <a href="/noroom" class="nav-link">
+                  No Room For Genocide{% if page.lang != "en" %}<br>(観光分野){% endif %}
+                </a>
+              </li>
+
+              <li class="dropdown-item">
+                <a href="/redcardisrael" class="nav-link">
+                  Red Card Israel{% if page.lang != "en" %}<br>(スポーツ・ボイコット){% endif %}
+                </a>
+              </li>
                 <!-- li class="dropdown-item"><a href="/nota" class="nav-link">No Tech For Apartheid</a></li -->
               </ul>
             </li>
             <li class="nav-item">
-              <a href="/boycotts" class="nav-link font-weight-600">ボイコットガイド</a>
+              <a href="/boycotts" class="nav-link font-weight-600">
+                {% if page.lang == "en" %}Boycott guide{% else %}ボイコットガイド{% endif %}
+              </a>
             </li>
             <!-- LATER li class="nav-item dropdown d-inline">
               <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false"><span><i class="fa-fw fas fa-tag"></i> </span></a>
