@@ -32,6 +32,13 @@ The Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural
 
 {% assign pref = site.data.prefectures %}
 
+<div class="tag-search" style="margin-bottom: 8px;">
+  <input type="text" id="tag-search"
+         placeholder="Search by tag (e.g. vegan, halal, organic)"
+         class="form-control"
+         style="max-width: 360px;">
+</div>
+
 <table class="afz-table">
   <thead>
     <tr>
@@ -61,11 +68,12 @@ The Apartheid Free Zone (AFZ) campaign encourages spaces such as shops, cultural
   {% assign list = site.data.list %}
   {% for afz in list %}
 
-  <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
+  {% capture row_tags %}{% for t in afz.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
+  <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}" data-tags="{{ row_tags | downcase }}">
     <td> {% if afz.en != null %}{{ afz.en }}{% else %}{{ afz.name }}{% endif %} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment x %});"><img align='top' src='/assets/icons/pin_white.png' width='20px' height='20px' /></a> {% endif %} <br>
-    {% for tag in afz.tags %}
+    {% for t in afz.tags %}
 
-      <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>
+      <div class="badge badge-light" style="  margin-top:10px">{{ t.en }}</div>
     {% endfor %}
     </td>
     <td>{{ pref[afz.pref].en }}</td>

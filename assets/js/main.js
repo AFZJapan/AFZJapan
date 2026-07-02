@@ -97,4 +97,22 @@ $( document ).ready(function() {
     });
   });
 
+  // Filter by tag (bilingual substring search)
+  const tagSearch = document.getElementById('tag-search');
+  if (tagSearch) {
+    tagSearch.addEventListener('input', function() {
+      const q = this.value.trim().toLowerCase();
+      let tableIsEmpty = true;
+
+      tableRows.forEach(row => {
+        const rowTags = row.getAttribute('data-tags') || '';
+        const matches = q === '' || rowTags.indexOf(q) !== -1;
+        row.classList.toggle('hidden', !matches);
+        if (matches) tableIsEmpty = false;
+      });
+
+      tableFallback.classList.toggle('hidden', !tableIsEmpty);
+    });
+  }
+
 });
