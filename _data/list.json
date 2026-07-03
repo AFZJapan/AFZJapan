@@ -25,7 +25,7 @@
     "type": 0,
     "pref": 26,
     "geo": {"lat": 35.039196850218715, "lon": 135.78231488193407},
-    "tags": ["自然栽培、有機栽培の野菜"],
+    "tags": [{"ja": "自然栽培・有機野菜", "en": "Organic vegetables"}],
     "links": {"insta":"naturalfoodsdonguri"}
   },
   {
@@ -34,7 +34,7 @@
     "type": 0,
     "pref": 28,
     "geo": {"lat": 34.336122136273445, "lon": 134.74649203721995},
-    "tags": ["ヴィーガン/Vegan"],
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}],
     "links": {"web":"https://mainichishokudo.com/", "insta":"mainichi_shokudo"},
     "c2025": 1
   },
@@ -51,7 +51,7 @@
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.70422686480873, "lon": 139.73252432225615},
-    "tags": ["ハラール/Halal", "Arabic cafe & deli"],
+    "tags": [{"ja": "ハラール", "en": "Halal"}, {"ja": "アラビア料理カフェ", "en": "Arabic cafe & deli"}],
     "links": {"web":"https://abuessam.jp/"}
   },
   {
@@ -125,7 +125,7 @@
     "type": 0,
     "pref": 14,
     "geo": {"lat": 35.34355248384452, "lon": 139.40781490741023},
-    "tags": ["自家製酵母パン"],
+    "tags": [{"ja": "自家製酵母パン", "en": "Homemade sourdough bread"}],
     "links": {"insta":"jiji.pan.chigasaki"},
     "c2025": 1
   },
@@ -141,7 +141,7 @@
     "type": 1,
     "pref": 34,
     "geo": {"lat": 34.82673772407683, "lon": 133.00932043477937},
-    "tags": ["オーガニック/organic"],
+    "tags": [{"ja": "オーガニック", "en": "Organic"}],
     "links": {"web":"https://www.barbarianfarm.net/", "insta":"barbarianfarm"}
   },
   {
@@ -189,7 +189,7 @@
     "type": 2,
     "pref": 47,
     "geo": {"lat": 26.368760006358205, "lon": 127.74775782430561},
-    "tags": ["ヴィーガン/vegan"],
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}],
     "links": {"twitter":"dechibica", "insta":"dechibica/"}
   },
   {
@@ -210,7 +210,7 @@
     "en": "Assalaam",
     "type": 2,
     "pref": 32,
-    "tags": ["ハラール/Halal"],
+    "tags": [{"ja": "ハラール", "en": "Halal"}],
     "links": {"insta":"assalaam_yasugi"}
   },
   {
@@ -249,7 +249,7 @@
     "type": 1,
     "pref": 34,
     "geo": {"lat": 34.784857163016476, "lon": 133.0854913541886},
-    "tags": ["2025年12月31日をもって閉鎖"],
+    "tags": [{"ja": "2025年12月31日で閉店", "en": "Closing Dec 31, 2025"}],
     "links": {"insta":"chosen_family_shobara_fr"}
   },
   {
@@ -272,7 +272,7 @@
     "type": 0,
     "pref": 13,
     "geo": {"lat": 35.65504767811617, "lon": 139.39137872538524},
-    "tags": ["ヴィーガン/vegan"],
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}],
     "links": {"web":"https://blake-sharekitchen.com/", "twitter":"@Blake_FAfree", "insta":"blake_bakedgoods/"}
   },
   {
@@ -295,7 +295,7 @@
     "type": 0,
     "pref": 40,
     "geo": {"lat": 33.574428597163674, "lon": 130.37819524951672},
-    "tags": ["Gaza Cola販売中"]
+    "tags": [{"ja": "Gaza Cola販売中", "en": "Sells Gaza Cola"}]
   },
   {
     "name": "和食 キンペイ",
@@ -327,7 +327,7 @@
     "type": 2,
     "pref": 26,
     "geo": {"lat": 35.02937568395893, "lon": 135.78654351875446},
-    "tags": ["Fair Trade"],
+    "tags": [{"ja": "フェアトレード", "en": "Fair Trade"}],
     "links": {"web":"https://kitchen-halina.jimdofree.com/", "twitter":"kitchenhalina", "insta":"explore/locations/404876655/kitchinharina-kitchen-halina/"}
   },
   {
@@ -336,7 +336,7 @@
     "type": 0,
     "pref": 26,
     "geo": {"lat": 35.0416407139269, "lon": 135.7858498476226},
-    "tags": ["シェア型書店"],
+    "tags": [{"ja": "シェア型書店", "en": "Shared bookstore"}],
     "links": {"twitter":"hina13f", "insta":"tenko_dou"}
   },
   {
@@ -360,14 +360,14 @@
     "type": 0,
     "pref": 26,
     "geo": {"lat": 35.0203627000941, "lon": 135.73741766609947},
-    "tags": ["オーガニック", "豆・スパイス", "ゲストハウス", "小さな仕事塾"],
+    "tags": [{"ja": "オーガニック", "en": "Organic"}, {"ja": "豆・スパイス", "en": "Beans & spices"}, {"ja": "ゲストハウス", "en": "Guesthouse"}, {"ja": "小さな仕事塾", "en": "Small work school"}],
     "links": {"web":"https://www.rakutendo.com/", "twitter":"chiakitakashima", "insta":"rakutendo"}
   },
   {
     "name": "madcoffee_house",
     "type": 2,
     "pref": 24,
-    "tags": ["pop-up cafe"],
+    "tags": [{"ja": "ポップアップカフェ", "en": "Pop-up cafe"}],
     "links": {"insta":"madcoffee_house"}
   },
   {
@@ -375,7 +375,7 @@
     "type": 2,
     "pref": 23,
     "geo": {"lat": 34.98550067639529, "lon": 137.08570148991657},
-    "tags": ["ハラール/Halal"],
+    "tags": [{"ja": "ハラール", "en": "Halal"}],
     "links": {"web":"https://madinajp.company.site/", "insta":"madina_halal_restaurant"}
   },
   {
@@ -393,7 +393,7 @@
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.7254403578841, "lon": 139.77784906420234},
-    "tags": ["Palestine cafe", "Info library"],
+    "tags": [{"ja": "パレスチナカフェ", "en": "Palestine cafe"}, {"ja": "情報ライブラリー", "en": "Info library"}],
     "links": {"insta":"sawasawahouse"},
     "c2025": 1
   },
@@ -403,7 +403,7 @@
     "type": 0,
     "pref": 26,
     "geo": {"lat": 34.992889677530954, "lon": 135.72702764550755},
-    "tags": ["books & items for thoughts"],
+    "tags": [{"ja": "本と考えるためのアイテム", "en": "Books & items for thoughts"}],
     "links": {"web":"https://nsthinking.official.ec/", "insta":"nsthinking"}
   },
   {
@@ -419,7 +419,7 @@
     "en": "MOKOO",
     "type": 3,
     "pref": 13,
-    "tags": ["Multimedia event"],
+    "tags": [{"ja": "マルチメディアイベント", "en": "Multimedia event"}],
     "links": {"insta":"mokoo.kemuri"}
   },
   {
@@ -428,7 +428,7 @@
     "type": 3,
     "pref": 13,
     "geo": {"lat": 35.701334198912065, "lon": 139.64587513835383},
-    "tags": ["Art space"],
+    "tags": [{"ja": "アートスペース", "en": "Art space"}],
     "links": {"web":"http://portolibre.com/"},
     "c2025": 1
   },
@@ -453,7 +453,7 @@
     "type": 1,
     "pref": 13,
     "geo": {"lat": 35.71462429552318, "lon": 139.69659619379684},
-    "tags": ["Online store"],
+    "tags": [{"ja": "オンラインストア", "en": "Online store"}],
     "links": {"web":"https://palestinewillbefree.net/", "twitter":"pwbfree", "insta":"pwbefree"}
   },
   {
@@ -468,7 +468,7 @@
     "name": "Harat Al-Yasmina (The Jasmine Street)",
     "type": 0,
     "pref": 13,
-    "tags": ["Palestinian-owned"],
+    "tags": [{"ja": "パレスチナ人経営", "en": "Palestinian-owned"}],
     "links": {"insta":"tatianarika", "insta2":"intifada_habibti"}
   },
   {
@@ -484,7 +484,7 @@
     "type": 1,
     "pref": 25,
     "geo": {"lat": 35.012485653276556, "lon": 135.86283919652504},
-    "tags": ["Fairtrade"],
+    "tags": [{"ja": "フェアトレード", "en": "Fair Trade"}],
     "links": {"web":"https://www.npo-hcc.org"},
     "c2025": 1
   },
@@ -492,7 +492,7 @@
     "name": "Sloth life Nakatsugawa",
     "type": 1,
     "pref": 26,
-    "tags": ["Shared house"],
+    "tags": [{"ja": "シェアハウス", "en": "Shared house"}],
     "links": {"fb":"https://www.facebook.com/SlothLifeNakatsugawa/"}
   },
   {
@@ -501,7 +501,7 @@
     "type": 0,
     "pref": 23,
     "geo": {"lat": 35.022194674231244, "lon": 136.93537803007683},
-    "tags": ["Tire shop"],
+    "tags": [{"ja": "タイヤ店", "en": "Tire shop"}],
     "links": {"web":"https://amantradingcompany.com/"}
   },
   {
@@ -532,7 +532,7 @@
     "type": 0,
     "pref": 23,
     "geo": {"lat": 35.15799993199405, "lon": 136.91296670856698},
-    "tags": ["ハラール/Halal"],
+    "tags": [{"ja": "ハラール", "en": "Halal"}],
     "links": {"web":"http://tomonesia.blogspot.com", "insta":"halalkombiniplus"}
   },
   {
@@ -582,7 +582,7 @@
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.69056111005902, "lon": 139.7130938574024},
-    "tags": ["植物由来🌱", "オーガニック"],
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}, {"ja": "オーガニック", "en": "Organic"}],
     "links": {"insta":"mer_art73"}
   },
   {
@@ -649,7 +649,7 @@
     "type": 2,
     "pref": 27,
     "geo": {"lat": 34.69831403137409, "lon": 135.50726048249655},
-    "tags": ["ハラール/Halal", "ベジタリアン", "ヴィーガン", "小麦不使用"],
+    "tags": [{"ja": "ハラール", "en": "Halal"}, {"ja": "ベジタリアン", "en": "Vegetarian"}, {"ja": "ヴィーガン", "en": "Vegan"}, {"ja": "小麦不使用", "en": "Wheat-free"}],
     "links": {"web":"https://sites.google.com/sevenhillsjapan.com/sevenhills/home", "twitter":"SevenHillsJapan", "insta":"seven_hills_japan"}
   },
   {
@@ -902,7 +902,7 @@
     "en": "Fekra",
     "type": 0,
     "pref": 13,
-    "tags": ["Designed in Gaza", "Online store"],
+    "tags": [{"ja": "ガザデザイン", "en": "Designed in Gaza"}, {"ja": "オンラインストア", "en": "Online store"}],
     "links": {"web":"https://fekra-japan.com/", "insta":"fekra_japan", "insta2":"fekra.global"}
   },
   {
@@ -1300,7 +1300,7 @@
     "name": "Cafe Falastin",
     "type": 2,
     "pref": 13,
-    "tags": ["pop-up cafe"],
+    "tags": [{"ja": "ポップアップカフェ", "en": "Pop-up cafe"}],
     "links": {"insta":"cafefalastin_japan"}
   },
   {
@@ -1369,7 +1369,7 @@
     "type": 2,
     "pref": 26,
     "geo": {"lat": 34.830096842110926, "lon": 135.74728494625586},
-    "tags": ["シリア・アラブ料理のレストラン🍽️"],
+    "tags": [{"ja": "シリア・アラブ料理レストラン", "en": "Syrian & Arabic restaurant"}],
     "links": {"web":"https://a-and-j-trading.com/", "insta":"saharamoon20"}
   },
   {
@@ -1514,7 +1514,7 @@
     "type": 2,
     "pref": 28,
     "geo": {"lat": 34.846378278414434, "lon": 134.68192412482972},
-    "tags": ["ヴィーガン/vegan", "動物＆添加物&白砂糖フリー", "小麦フリー"],
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}, {"ja": "動物性・添加物・白砂糖フリー", "en": "Animal-, additive- & white-sugar-free"}, {"ja": "小麦不使用", "en": "Wheat-free"}],
     "links": {"web":"https://cafuuvegan.jugem.jp/", "insta":"momomayu321"}
   },
   {
@@ -1572,7 +1572,7 @@
     "type": 0,
     "pref": 39,
     "geo": {"lat": 33.33759529465864, "lon": 133.13774272529994},
-    "tags": ["Catering", "Organic Vegan Chef"],
+    "tags": [{"ja": "ケータリング", "en": "Catering"}, {"ja": "オーガニック・ヴィーガンシェフ", "en": "Organic Vegan Chef"}],
     "links": {"web":"https://www.roku-berlin.com/", "insta":"roku_berlin"}
   },
   {
@@ -1596,7 +1596,7 @@
     "en": "michibataprint",
     "type": 3,
     "pref": 13,
-    "tags": ["Print for Palestine", "silkscreen", "Kufiyeh spray paint"],
+    "tags": [{"ja": "パレスチナのためのプリント", "en": "Print for Palestine"}, {"ja": "シルクスクリーン", "en": "Silkscreen"}, {"ja": "クーフィーヤスプレーペイント", "en": "Kufiyeh spray paint"}],
     "links": {"insta":"michibataprint"}
   },
   {
@@ -1654,7 +1654,7 @@
     "name": "Eidantoei",
     "type": 1,
     "pref": 13,
-    "tags": ["#NoTechForApartheid"],
+    "tags": [{"ja": "#NoTechForApartheid", "en": "#NoTechForApartheid"}],
     "links": {"web":"https://eidantoei.org/", "insta":"kssk"}
   },
   {

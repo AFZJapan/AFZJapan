@@ -12,11 +12,15 @@ lang: "ja"
   AFZキャンペーンは、世界各地のお店や文化施設、自治体などの「場所」がパレスチナの人々と連帯し、<a href="/what-is-bds">BDS（ボイコット）運動</a>を通して、イスラエルによる<a href="/apartheid">アパルトヘイト（人種隔離）政策</a>に反対していることを宣言するキャンペーンです。世界中でたくさんの学校やビジネスがAFZに名乗りをあげています。AFZ宣言スペースは、パレスチナをはじめとし、あらゆる差別と抑圧、植民地主義に反対し、それをコミュニティや仕事の場で実践することを目指します。
   </div>
 
+{% comment %} the map  {% endcomment %}
   <div id="afz" style="height: 540px; width: 100%; margin-bottom:10px;"></div>
   <div id="popup" class="ol-popup">
     <a href="#" id="popup-closer" class="ol-popup-closer"></a>
     <div id="popup-content"></div>
   </div>
+
+
+{% comment %} categories {% endcomment %}
 
 {% assign types = site.data.types %}
 <ul id="legend">
@@ -27,6 +31,13 @@ lang: "ja"
 </ul>
 
 {% assign pref = site.data.prefectures %}
+
+<div class="tag-search" style="margin-bottom: 8px;">
+  <input type="text" id="tag-search"
+         placeholder="タグで検索（例: vegan, ハラール, オーガニック）"
+         class="form-control"
+         style="max-width: 360px;">
+</div>
 
 <table class="afz-table table-bordered">
   <thead>
@@ -57,11 +68,12 @@ lang: "ja"
   {% assign list = site.data.list %}
   {% for afz in list %}
 
-  <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}">
+  {% capture row_tags %}{% for t in afz.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
+  <tr data-pref="{{ afz.pref }}" data-type="{{ types[afz.type].type }}" data-tags="{{ row_tags | downcase }}">
     <td> {{afz.name}} <img align='top' src='/assets/icons/{{ types[afz.type].type }}.png' width='20px' height='20px' /> {% if afz.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if afz.geo != nil %} <a href="#map" onclick="popup({% increment popup_index %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
-    {% for tag in afz.tags %}
+    {% for t in afz.tags %}
 
-      <div class="badge badge-light" style="  margin-top:10px">{{ tag }}</div>
+      <div class="badge badge-light" style="  margin-top:10px">{{ t.ja }}</div>
     {% endfor %}
     </td>
     <td>{{ pref[afz.pref].name }}</td>
@@ -86,6 +98,7 @@ lang: "ja"
 
  </tbody>
 </table>
+
 <div class="afz-table-fallback hidden">
   <div>
     No results..
