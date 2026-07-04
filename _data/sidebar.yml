@@ -1,0 +1,124 @@
+# Rendered by _includes/sidebar.html, included by new-header.html and dark-header.html:  {% assign menu = site.data.sidebar[lang] %}
+
+
+ja:
+  - header: "AFZ・BDS"
+
+  - title: "AFZ"
+    icon: "icons/pin.png"
+    icon_dark: "icons/pin_white.png"
+    children:
+      - title: "AFZについて"
+        href: "/what-is-afz"
+      - title: "AFZとしてできること"
+        href: "/what-you-can-do"
+
+  - title: "BDS運動とは"
+    icon: "menu/handala.png"
+    icon_dark: "menu/handala_white.png"
+    href: "/what-is-bds"
+
+  - button: true
+    title: "AFZを登録する"
+    href: "/register"
+
+  - header: "PALESTINE"
+
+  - title: "パレスチナについて"
+    icon: "icons/map.png"
+    children:
+      - title: "パレスチナについて学ぼう"
+        href: "/palestine"
+      - title: "ナクバについて"
+        href: "/nakba"
+      - title: "シオニズムについて"
+        href: "/occupation"
+      - title: "アパルトヘイトについて"
+        href: "/apartheid"
+
+  - header: "MISC"
+
+  - title: "資料、ダウンロード"
+    micon: "file_download"
+    href: "/downloads"
+  - title: "関連リンク集"
+    micon: "link"
+    href: "/links"
+  - title: "世界中のAFZ"
+    micon: "public"
+    href: "/AFZs-around-the-world"
+  - title: "FAQ"
+    micon: "question_answer"
+    href: "/faq"
+
+  - header: "PARTNERS"
+
+  - title: "パレスチナの禁じられた植物"
+    icon: "icons/forbidden_plants.png"
+    small: true
+    href: "/forbidden-plants-of-Palestine"
+  - title: "パレスチナ映画祭2025"
+    icon: "icons/cinema_small.png"
+    small: true
+    href: "/cinemadays2025"
+
+en:
+  - header: "AFZ・BDS"
+
+  - title: "AFZ"
+    icon: "icons/pin.png"
+    icon_dark: "icons/pin_white.png"
+    children:
+      - title: "What's AFZ?"
+        href: "/en/what-is-afz"
+      - title: "What AFZs can do"
+        href: "/en/what-you-can-do"
+
+  - title: "What's BDS?"
+    icon: "menu/handala.png"
+    icon_dark: "menu/handala_white.png"
+    href: "/en/what-is-bds"
+
+  - button: true
+    title: "Register as AFZ"
+    href: "/en/register"
+
+  - header: "PALESTINE"
+
+  - title: "Palestine"
+    icon: "icons/map.png"
+    children:
+      - title: "Learn about Palestine"
+        href: "/palestine"               
+      - title: "Nakba"
+        href: "/nakba"
+      - title: "Zionism"
+        href: "/occupation"
+      - title: "Apartheid"
+        href: "/apartheid"
+
+  - header: "MISC"
+
+  - title: "Downloads"
+    micon: "file_download"
+    href: "/downloads"
+  - title: "Related links"
+    micon: "link"
+    href: "/links"
+  - title: "AFZs around the world"
+    micon: "public"
+    href: "/AFZs-around-the-world"
+  - title: "FAQ"
+    micon: "question_answer"
+    href: "/faq"
+
+  - header: "PARTNERS"
+
+  - title: "Forbidden Plants of Palestine"
+    icon: "icons/forbidden_plants.png"
+    small: true
+    href: "/forbidden-plants-of-Palestine"
+  - title: "Cinema Days 2025"
+    icon: "icons/cinema_small.png"
+    small: true
+    href: "/cinemadays2025"

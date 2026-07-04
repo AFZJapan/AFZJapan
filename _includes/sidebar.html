@@ -1,0 +1,28 @@
+{%- comment -%}
+  Sidebar menu items, driven by _data/sidebar.yml.
+  Pass dark=true from dark-header.html to use white (icon_dark) images.
+  Default language is Japanese when page.lang is unset.
+{%- endcomment -%}
+{% if page.lang == "en" %}{% assign menulang = "en" %}{% else %}{% assign menulang = "ja" %}{% endif %}
+{% for item in site.data.sidebar[menulang] %}
+  {% if item.header %}
+  <li class="menu-header">{{ item.header }}</li>
+  {% elsif item.button %}
+  <li class="li-register-afz"><a class="btn btn-primary" style="background-color: #029455; color: #fff;" href="{{ site.baseurl }}{{ item.href }}"><span class="register-afz" style="text-align: center;">{{ item.title }}</span></a></li>
+  {% elsif item.children %}
+    {%- assign active = false -%}
+    {%- for child in item.children %}{% if page.url contains child.href %}{% assign active = true %}{% endif %}{% endfor -%}
+    {%- if include.dark and item.icon_dark %}{% assign img = item.icon_dark %}{% else %}{% assign img = item.icon %}{% endif -%}
+  <li class="dropdown{% if active %} active{% endif %}">
+    <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">{% if img %}<img src="{{ site.baseurl }}/assets/{{ img }}" height="20" style="vertical-align: middle; margin-right: 16px;" /> {% endif %}<span>{{ item.title }}</span></a>
+    <ul class="dropdown-menu">
+      {% for child in item.children %}
+      <li{% if page.url contains child.href %} class="active"{% endif %}><a class="nav-link" href="{{ site.baseurl }}{{ child.href }}">{{ child.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </li>
+  {% else %}
+    {%- if include.dark and item.icon_dark %}{% assign img = item.icon_dark %}{% else %}{% assign img = item.icon %}{% endif -%}
+  <li{% if page.url contains item.href %} class="active"{% endif %}><a class="nav-link" href="{{ site.baseurl }}{{ item.href }}">{% if item.micon %}<i class="material-icons">{{ item.micon }}</i>{% elsif img %}<img src="{{ site.baseurl }}/assets/{{ img }}" width="20" height="20" style="vertical-align: middle; margin-right: 12px;" />{% endif %} <span{% if item.small %} style="font-size: 12px"{% endif %}>{{ item.title }}</span></a></li>
+  {% endif %}
+{% endfor %}

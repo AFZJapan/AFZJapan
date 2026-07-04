@@ -1,0 +1,28 @@
+{%- comment -%}
+  Top navbar items, driven by _data/navbar.yml.
+  Pass dark=true from dark-header.html for white text + shadow styling.
+  Default language is Japanese when page.lang is unset.
+{%- endcomment -%}
+{% if page.lang == "en" %}{% assign navlang = "en" %}{% else %}{% assign navlang = "ja" %}{% endif %}
+<ul class="navbar-nav mr-3">
+  {% for item in site.data.navbar[navlang] %}
+    {% if item.children %}
+      <li class="nav-item dropdown d-inline">
+        <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false"><span>{{ item.title }}</span></a>
+        <ul class="dropdown-menu">
+          {% for child in item.children %}
+          <li class="dropdown-item"><a href="{{ child.href }}" class="nav-link"{% if include.dark %} style="color: #029455; text-shadow: none;"{% endif %}>{{ child.title }}{% if child.note %}<br>{{ child.note }}{% endif %}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% elsif item.fa %}
+      <li class="nav-item{% if page.url == item.href %} active{% endif %}">
+        <a href="{{ item.href }}" class="nav-link link"{% if include.dark %} style="color: white; text-shadow: 1px 1px 2px #000000;"{% endif %}><i class="{{ item.fa }}"></i></a>
+      </li>
+    {% else %}
+      <li class="nav-item{% if page.url contains item.href %} active{% endif %}">
+        <a href="{{ item.href }}" class="nav-link font-weight-600 link"{% if include.dark %} style="color: white; text-shadow: 1px 1px 2px #000000;"{% endif %}>{{ item.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
