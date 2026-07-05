@@ -1,0 +1,37 @@
+# Rendered by _includes/sidebar.html, included by new-header.html and dark-header.html:  {% assign menu = site.data.sidebar[lang] %}
+
+ja:
+  - href: "/"
+    fa: "fa-fw fas fa-home"
+
+  - title: "ニュース"
+    href: "/news"
+
+  - title: "キャンペーン"
+    children:
+      - title: "No Room For Genocide"
+        note: "(観光分野)"
+        href: "/noroom"
+      - title: "Red Card Israel"
+        note: "(スポーツ・ボイコット)"
+        href: "/redcardisrael"
+
+  - title: "ボイコットガイド"
+    href: "/boycotts"
+
+en:
+  - href: "/"
+    fa: "fa-fw fas fa-home"
+
+  - title: "News"
+    href: "/news"
+
+  - title: "Campaigns"
+    children:
+      - title: "No Room For Genocide"
+        href: "/noroom"                 
+      - title: "Red Card Israel"
+        href: "/en/redcardisrael"
+
+  - title: "Boycott guide"
+    href: "/en/boycotts"

@@ -84,54 +84,7 @@
           <a class="sidebar-gone-show nav-collapse-toggle nav-link" href="#">
             <i class="fas fa-th"></i><!-- fa-ellipsis-v"></i -->
           </a>
-          <ul class="navbar-nav mr-3">
-            <li class="nav-item active">
-              <a href="/" class="nav-link link">
-                <i class="fa-fw fas fa-home"></i>
-              </a>
-            </li>            
-            
-            <li class="nav-item">
-              <a href="/news" class="nav-link font-weight-600 link">
-                {% if page.lang == "en" %}News{% else %}ニュース{% endif %}
-              </a>
-            </li>
-
-            <li class="nav-item dropdown d-inline">
-              <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false">
-                <span>{% if page.lang == "en" %}Campaigns{% else %}キャンペーン{% endif %}</span>
-              </a>
-              <ul class="dropdown-menu">
-                <!-- li class="dropdown-item"><a href="pacbi" class="nav-link">学術ボイコット (PACBI)</a></li -->
-                <!-- li class="dropdown-item"><a href="banwarcriminals" class="nav-link">戦争犯罪人を追放する</a></li -->
-              <li class="dropdown-item">
-                <a href="/noroom" class="nav-link">
-                  No Room For Genocide{% if page.lang != "en" %}<br>(観光分野){% endif %}
-                </a>
-              </li>
-
-              <li class="dropdown-item">
-                <a href="/redcardisrael" class="nav-link">
-                  Red Card Israel{% if page.lang != "en" %}<br>(スポーツ・ボイコット){% endif %}
-                </a>
-              </li>
-                <!-- li class="dropdown-item"><a href="/nota" class="nav-link">No Tech For Apartheid</a></li -->
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a href="/boycotts" class="nav-link font-weight-600">
-                {% if page.lang == "en" %}Boycott guide{% else %}ボイコットガイド{% endif %}
-              </a>
-            </li>
-            <!-- LATER li class="nav-item dropdown d-inline">
-              <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false"><span><i class="fa-fw fas fa-tag"></i> </span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item"><a href="vegan" class="nav-link">Vegan</a></li>
-                <li class="dropdown-item"><a href="halal" class="nav-link">Halal</a></li>
-                <li class="dropdown-item"><a href="events" class="nav-link">イベント</a></li>
-              </ul>
-            </li -->
-          </ul>
+          {% include navbar.html %}
         </div>
 
         <div class="sidebar-gone-hide nav-collapse" style="flex: 1;"></div>
@@ -176,45 +129,14 @@
               </tr>
             </table>
 
-            <li class="menu-header">AFZ・BDS</li>
-            <li class="dropdown active">
-              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><img src="{{site.baseurl}}/assets/icons/pin.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>AFZ{% if page.lang != "en" %}とは{% endif %}</span></a>
-              <ul class="dropdown-menu">
-                <li {% if page.url contains '/what-is-afz' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-is-afz">{% if page.lang != "en" %}AFZについて{% else %}What's AFZ?{% endif %}</a></li>
-                <li {% if page.url contains '/what-you-can-do' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-you-can-do">{% if page.lang != "en" %}AFZとしてできること{% else %}What AFZs can do{% endif %}</a></li>
-                <!-- li {% if page.url contains '/get-involved' %}class="active"{% endif %}><a class="nav-link" href="/get-involved">一緒に広げる</a></li -->
-              </ul>
-            </li>
-            <li {% if page.url contains '/what-is-bds' %}class="active"{% endif %}><a class="nav-link" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}what-is-bds"><img src="{{site.baseurl}}/assets/menu/handala.png" height="20px" style="vertical-align: middle; margin-right: 12px;" /> <span>{% if page.lang != "en" %}BDS運動とは{% else %}What's BDS?{% endif %}</span></a></li>
-            <li class="li-register-afz"><a class="btn btn-primary" style="background-color: #029455; color: #fff;" href="{{site.baseurl}}/{% if page.lang == "en" %}en/{% endif %}register"><span class="register-afz" style="text-align: center;">{% if page.lang != "en" %}AFZを登録する{% else %}Register as AFZ{% endif %}</span></a></li>
-            <li class="menu-header">PALESTNIE</li>
-            <li class="dropdown {% if page.url contains "/palestine" or page.url contains "/nakba" or page.url contains "/occupation" or page.url contains "/apartheid" %}active{% endif %}">
-              <a href="#" class="nav-link has-dropdown"><img src="{{site.baseurl}}/assets/icons/map.png" height="20" style="vertical-align: middle; margin-right: 16px;" /> <span>{% if page.lang != "en" %}パレスチナについて{% else %}Palestine{% endif %}</span></a>
-              <ul class="dropdown-menu">
-                <li {% if page.url contains '/palestine' %}class="active"{% endif %}><a class="nav-link" href="/palestine">{% if page.lang != "en" %}パレスチナについて学ぼう{% else %}Learn about Palestine{% endif %}</a></li>
-                <li {% if page.url contains '/nakba' %}class="active"{% endif %}><a class="nav-link" href="/nakba">{% if page.lang != "en" %}ナクバについて{% else %}Nakba{% endif %}</a></li>
-                <li {% if page.url contains '/occupation' %}class="active"{% endif %}><a class="nav-link" href="/occupation">{% if page.lang != "en" %}シオニズムについて{% else %}Zionism{% endif %}</a></li>
-                <li {% if page.url contains '/apartheid' %}class="active"{% endif %}><a class="nav-link" href="/apartheid">{% if page.lang != "en" %}アパルトヘイトについて{% else %}Apartheid{% endif %}</a></li>
-              </ul>
-            </li>
+            {% include sidebar.html %}
 
-            <li class="menu-header">MISC</li>
-            <li {% if page.url contains '/downloads' %}class="active"{% endif %}><a class="nav-link" href="/downloads"><i class="material-icons">file_download</i> <span>{% if page.lang != "en" %}資料、ダウンロード{% else %}Downloads{% endif %}</span></a></li>
-            <li {% if page.url contains '/links' %}class="active"{% endif %}><a class="nav-link" href="/links"><i class="material-icons">link</i> <span>{% if page.lang != "en" %}関連リンク集{% else %}Related links{% endif %}</span></a></li>
-            <li {% if page.url contains '/AFZs-around-the-world' %}class="active"{% endif %}><a class="nav-link" href="/AFZs-around-the-world"><i class="material-icons">public</i> <span>{% if page.lang != "en" %}世界中のAFZ{% else %}AFZs around the world{% endif %}</span></a></li>
-            <li {% if page.url contains '/faq' %}class="active"{% endif %}><a class="nav-link" href="/faq"><i class="material-icons">question_answer</i> <span>FAQ</span></a></li>
-
-            <!-- li class="menu-header">LANGUAGE</li -->
             <li class="sidebar-gone-show"><a class="nav-link" href="#"><img src="{{site.baseurl}}/assets/icons/language.png" height="24px" /></a>
               <ul class="dropdown-menu" style="display: flex;">
                 <li class="nav-item {% if page.url contains "/en" %}{% else %}active{% endif %}"><a href="/">日本語</a></li>
                 <li class="nav-item {% if page.lang == "en" %}active{% endif %}"><a href="/en" class="nav-link">English</a></li>
               </ul>
             </li>
-
-            <li class="menu-header">PARTNERS</li>
-            <li {% if page.url contains '/forbidden-plants-of-Palestine' %}class="active"{% endif %}><a class="nav-link" href="/forbidden-plants-of-Palestine"><img src='/assets/icons/forbidden_plants.png' style="vertical-align: middle; margin-right: 12px;" width='20px' height='20px' /> <span style="font-size: 12px">{% if page.lang != "en" %}パレスチナの禁じられた植物{% else %}Forbidden Plants of Palestine{% endif %}</span></a></li>
-            <li {% if page.url contains '/cinemadays2025' %}class="active"{% endif %}><a class="nav-link" href="/cinemadays2025"><img src='/assets/icons/cinema_small.png' style="vertical-align: middle; margin-right: 12px;" width='20px' height='20px' /> <span style="font-size: 12px">{% if page.lang != "en" %}パレスチナ映画祭2025{% else %}Cinema Days 2025{% endif %}</span></a></li>
           </ul>
 
           <div class="sidebar-brand sidebar-gone-show"><img class="z-depth-0" width="120" style="padding: 0px;" src="{{site.baseurl}}/assets//downloads/BDS_logo.png"></div>
