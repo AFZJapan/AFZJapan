@@ -12,6 +12,7 @@
   {% elsif item.children %}
     {%- assign active = false -%}
     {%- for child in item.children %}{% if page.url contains child.href %}{% assign active = true %}{% endif %}{% endfor -%}
+    {% if item.title == "AFZ" %}{% assign active = true %}{% endif %}
     {%- if include.dark and item.icon_dark %}{% assign img = item.icon_dark %}{% else %}{% assign img = item.icon %}{% endif -%}
   <li class="dropdown{% if active %} active{% endif %}">
     <a href="#" class="nav-link has-dropdown" data-toggle="dropdown">{% if img %}<img src="{{ site.baseurl }}/assets/{{ img }}" height="20" style="vertical-align: middle; margin-right: 16px;" /> {% endif %}<span>{{ item.title }}</span></a>
