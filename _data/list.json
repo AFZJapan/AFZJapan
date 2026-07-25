@@ -1975,5 +1975,11 @@
     "pref": 20,
     "geo": {"lat": 36.242922238541944, "lon": 137.96412370812956},
     "links": {"web": "https://www.cafe-rera.com/", "insta": "cafe_rera"}
+  },
+  {
+    "name": "POP UP PALESTINE",
+    "type": 23,
+    "pref": 49,
+    "links": {"insta": "popuppalestine_nagoya"}
   }
 ]
