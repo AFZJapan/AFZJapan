@@ -1,0 +1,52 @@
+html {
+  scroll-padding-top: 32px;
+}
+
+.main-content-inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 24px;
+
+  background-image: url("/assets/ourwarmhome2026/fv1.png");
+  background-position: center -50px;
+  background-size: auto 600px;
+  background-repeat: no-repeat;
+  padding-top: 400px !important;
+  min-height: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .main-content-inner {
+    background-position: center -70px;
+    background-size: auto 500px;
+    padding-top: 300px;
+  }
+}
+
+.callout {
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #d8d8d8;
+  padding: 36px 40px 20px 40px;
+}
+.callout .large {
+  max-width: 500px;
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+@media only screen and (max-width: 600px) {
+  .callout .large {
+    font-size: 1.0rem;
+    line-height: 1.7;
+  }
+}
+
+.link-button {
+  text-align: center;
+}
+
+.link-button a {
+  background-color: #029455;
+  color: #fff;
+}
