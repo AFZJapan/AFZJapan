@@ -1981,5 +1981,12 @@
     "type": 3,
     "pref": 23,
     "links": {"insta": "popuppalestine_nagoya"}
+  },
+  {
+    "name": "ナミオ珈琲",
+    "type": 2,
+    "pref": 13,
+    "geo": {"lat": 35.788808302563325, "lon": 139.26093110753015},
+    "links": {"twitter": "namiocoffee", "insta": "namiocoffee"}
   }
 ]
