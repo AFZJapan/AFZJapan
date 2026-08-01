@@ -19,6 +19,13 @@ ja:
   - title: "ボイコットガイド"
     href: "/boycotts"
 
+  - fa: "fa-fw fas fa-tag"
+    children:
+      - title: "Halal"
+        href: "/en/halal"
+      - title: "Vegan"
+        href: "/en/vegan"
+
 en:
   - href: "/"
     fa: "fa-fw fas fa-home"
@@ -35,3 +42,10 @@ en:
 
   - title: "Boycott guide"
     href: "/en/boycotts"
+
+  - fa: "fa-fw fas fa-tag"
+    children:
+      - title: "Halal"
+        href: "/en/halal"
+      - title: "Vegan"
+        href: "/en/vegan"
