@@ -242,6 +242,7 @@
     "type": 2,
     "pref": 12,
     "geo": {"lat": 35.68417285945017, "lon": 140.04555215034497},
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}, {"ja": "無農薬野菜", "en": "organic vegetables"}],
     "links": {"web":"https://curry-hanaco.com/", "insta":"curry_hanaco"}
   },
   {
@@ -1572,7 +1573,7 @@
     "type": 0,
     "pref": 39,
     "geo": {"lat": 33.33759529465864, "lon": 133.13774272529994},
-    "tags": [{"ja": "ケータリング", "en": "Catering"}, {"ja": "オーガニック・ヴィーガンシェフ", "en": "Organic Vegan Chef"}],
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}, {"ja": "ケータリング", "en": "Catering"}, {"ja": "オーガニック・ヴィーガンシェフ", "en": "Organic Vegan Chef"}],
     "links": {"web":"https://www.roku-berlin.com/", "insta":"roku_berlin"}
   },
   {
@@ -1870,6 +1871,7 @@
     "type": 2,
     "pref": 13,
     "geo": {"lat": 35.673005367500465, "lon": 139.709957454222},
+    "tags": [{"ja": "ヴィーガン", "en": "Vegan"}],
     "links": {"web": "https://www.mominoki-house.net/", "insta": "mominokihouse_jp"}
   },
   {
