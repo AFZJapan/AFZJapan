@@ -27,7 +27,11 @@ js: [""]
             同時開催します。
           </p>
           <hr>
-          <p>「パレスチナ あたたかい家 Vol.3」に、AFZも協賛しています。</p>
+          <p class="center">
+            <strong>呼びかけ</strong>：あたたかい家
+            ／
+            <strong>運営協力</strong>：AFZ Japan
+          </p>
         </div>
       </div>
 
@@ -37,7 +41,7 @@ js: [""]
           <li><strong>会場</strong>：全国の書店やカフェなど、パレスチナに連帯するスペース</li>
           <li><strong>主な内容</strong>：ポスター作品の展示</li>
         </ul>
-        
+
         <div class="link-button">
           <a class="btn btn-primary btn-lg" href="https://sites.google.com/view/ourwarmhome" taget="_blank">
             <span style="text-align: center;">公式サイト<i class="fas fa-external-link-alt"></i></span>
