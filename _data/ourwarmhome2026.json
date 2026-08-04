@@ -1,0 +1,136 @@
+[
+  {
+    "name": "エトセトラブックスBOOKSHOP",
+    "pref": 13,
+    "geo": {"lat": 35.66251344069242, "lon": 139.6600408191749},
+    "link": "https://etcbooks.co.jp/",
+    "afz": 1
+  },
+  {
+    "name": "本屋lighthouse",
+    "pref": 12,
+    "geo": {"lat": 35.65800991872076, "lon": 140.05452364985453},
+    "link": "https://books-lighthouse.com/",
+    "afz": 1
+  },
+  {
+    "name": "本屋BREAD＆ROSES",
+    "pref": 12,
+    "geo": {"lat": 35.80186851040487, "lon": 139.95988409957025},
+    "link": "https://breadandroses-books-matsudo.jimdofree.com/"
+  },
+  {
+    "name": "厩戸・厩戸商店",
+    "pref": 6,
+    "geo": {"lat": 38.15972961988351, "lon": 140.2751931536507},
+    "link": "https://www.umayado-jp.com/"
+  },
+  {
+    "name": "見た目！",
+    "pref": 13,
+    "geo": {"lat": 35.696501708412455, "lon": 139.69751154985622},
+    "link": "https://www.mitamejanai.com/"
+  },
+  {
+    "name": "さくらcafe",
+    "pref": 12,
+    "geo": {"lat": 35.80038459340904, "lon": 139.99824321410478},
+    "link": "https://sakuracafe.michikusa.jp/home/index.html"
+  },
+  {
+    "name": "本屋メガホン",
+    "pref": 26,
+    "geo": {"lat": 35.01494379881034, "lon": 135.73952137070316},
+    "link": "https://lit.link/en/booksmegafon"
+  },
+  {
+    "name": "メシとカシ  りば亭",
+    "pref": 6,
+    "geo": {"lat": 38.73638216687175, "lon": 139.83651312241548},
+    "link": "https://www.libatei.jp/"
+  },
+  {
+    "name": "SUB STORE",
+    "pref": 13,
+    "geo": {"lat": 35.70558492690095, "lon": 139.6488990633516},
+    "link": "https://www.instagram.com/substore.tokyo",
+    "afz": 1
+  },
+  {
+    "name": "河野円",
+    "pref": 9,
+    "geo": {"lat": 36.56541174693806, "lon": 139.7486169187624},
+    "link": "https://center-kanuma.net/"
+  },
+  {
+    "name": "cattic",
+    "pref": 33,
+    "geo": {"lat": 34.55181555573874, "lon": 133.67384999213974},
+    "link": "https://cattic.net/"
+  },
+  {
+    "name": "ひるねこBOOKS",
+    "pref": 13,
+    "geo": {"lat": 35.72164329003491, "lon": 139.76493089403206},
+    "link": "https://www.hirunekobooks.com/"
+  },
+  {
+    "name": "TOUTEN BOOKSTORE",
+    "pref": 23,
+    "geo": {"lat": 35.13839206188643, "lon": 136.90404821303812},
+    "link": "https://www.touten-bookstore.net/",
+    "afz": 1
+  },
+  {
+    "name": "本と物語ユンスル",
+    "pref": 13,
+    "geo": {"lat": 35.691448677368555, "lon": 139.8927492284007},
+    "link": "https://www.instagram.com/books.yoonseul"
+
+  },
+  {
+    "name": "TORTOISE BOOKS&GALLERY",
+    "pref": 13,
+    "geo": {"lat": 35.70195451035436, "lon": 139.5298078247113},
+    "link": "https://tbandg.jp/",
+    "afz": 1
+  },
+  {
+    "name": "Cafeわかば",
+    "pref": 26,
+    "geo": {"lat": 35.16460822877122, "lon": 135.5078209009432},
+    "link": "https://cafe-wakaba.com/",
+    "afz": 1
+  },
+  {
+    "name": "洋裁と愉しみ 多多",
+    "pref": 20,
+    "geo": {"lat": 36.241229942664006, "lon": 137.96598262230802},
+    "link": "https://tataradio.com/",
+    "afz": 1
+  },
+  {
+    "name": "1003",
+    "pref": 28,
+    "geo": {"lat": 34.68706618954275, "lon": 135.18816078125943},
+    "link": "https://1003books.tumblr.com/"
+  },
+  {
+    "name": "Hand Saw Press",
+    "pref": 13,
+    "geo": {"lat": 35.585355227702934, "lon": 139.6772345977164},
+    "link": "https://handsawpresstokyo.com/"
+  },
+  {
+    "name": "Cat's Meow Books",
+    "pref": 13,
+    "geo": {"lat": 35.644919166094574, "lon": 139.66569160325358},
+    "link": "https://catsmeowbooks.stores.jp/"
+  },
+  {
+    "name": "野暮/YAVO",
+    "pref": 13,
+    "geo": {"lat": 35.68165179342416, "lon": 139.44696851675013},
+    "link": "https://www.instagram.com/yavo.spaces/"
+  }
+]

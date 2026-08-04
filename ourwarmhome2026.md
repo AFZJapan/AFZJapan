@@ -3,8 +3,8 @@ layout: new-page
 title: "パレスチナあたたかい家"
 description: "パレスチナあたたかい家Vol3：2026年11月14日（土）〜12月31日（木）全国各地のパレスチナ連帯を表明するスペースで開催！"
 image: "/assets/ourwarmhome2026/ogp1.webp"
-css: ["index.css", "ourwarmhome2026.css"]
-js: [""]
+css: ["index.css", "ourwarmhome2026.css", "https://cdn.skypack.dev/ol/ol.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", "map.main.js", "ol-ext.js"]
 ---
 <div class="main-content">
 
@@ -49,6 +49,47 @@ js: [""]
         </div>
       </div>
     </div>
+
+<a id="locations" />
+<div id="afz" style="height: 540px; margin-top: 0; padding-top: 0;"></div>
+<div id="popup" class="ol-popup">
+  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+  <div id="popup-content"></div>
+</div>
+
+<div>
+
+<table class="afz-table table-bordered">
+  <thead>
+    <tr>
+      <th>上映会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> こ
+のマークはAFZ登録スペースです 】</th>
+      <th>Link</th>
+      <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
+    </tr>
+  </thead>
+  <tbody id="CinemaTable">
+
+  {% assign pref = site.data.prefectures %}
+  {% assign list = site.data.ourwarmhome2026 %}
+  {% for c in list %}
+  <tr>
+    <td style="vertical-align: bottom;">{{ c.name }}{% if c.afz %} <img src="/assets/icons/afz.png" width="16" height="16">{% endif %}
+    </td>
+    <td style="text-align:center;">
+    {% if c.link %}<a href="{{ c.link }}" target="_blank"><img src="/assets/icons/website.png" width="16" height="16"></a>{% endif %}
+    </td>
+    <td style="word-break: keep-all;">{{ pref[c.pref].name }}</td>
+  </tr>
+  {% endfor %}
+
+  </tbody>
+</table>
+</div>
+
+<script>
+var json = {{ list | jsonify }};
+</script>
 
   </section>
 </div>
