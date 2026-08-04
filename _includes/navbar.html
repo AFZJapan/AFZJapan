@@ -8,7 +8,7 @@
   {% for item in site.data.navbar[navlang] %}
     {% if item.children %}
       <li class="nav-item dropdown d-inline">
-        <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false"><span>{{ item.title }}</span></a>
+        <a href="#" data-toggle="dropdown" class="nav-link font-weight-600 has-dropdown dropdown-toggle" aria-expanded="false"><span>{% if item.fa %} <i class="{{ item.fa }}"></i> {% else %} {{ item.title }} {% endif %}</span></a>
         <ul class="dropdown-menu">
           {% for child in item.children %}
           <li class="dropdown-item"><a href="{{ child.href }}" class="nav-link"{% if include.dark %} style="color: #029455; text-shadow: none;"{% endif %}>{{ child.title }}{% if child.note %}<br>{{ child.note }}{% endif %}</a></li>

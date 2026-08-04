@@ -11,7 +11,7 @@ ja:
       - title: "AFZについて"
         href: "/what-is-afz"
       - title: "AFZとしてできること"
-        href: "/what-you-can-do"
+        href: "/what-afz-can-do"
 
   - title: "BDS運動とは"
     icon: "menu/handala.png"
@@ -72,7 +72,7 @@ en:
       - title: "What's AFZ?"
         href: "/en/what-is-afz"
       - title: "What AFZs can do"
-        href: "/en/what-you-can-do"
+        href: "/en/what-afz-can-do"
 
   - title: "What's BDS?"
     icon: "menu/handala.png"

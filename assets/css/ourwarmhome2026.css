@@ -8,18 +8,18 @@ html {
   flex-direction: column;
   row-gap: 24px;
 
-  background-image: url("/assets/ourwarmhome2026/fv1.png");
-  background-position: center -50px;
-  background-size: auto 600px;
+  background-image: url("/assets/ourwarmhome2026/fv2.png");
+  background-position: center -30px;
+  background-size: auto 450px;
   background-repeat: no-repeat;
   padding-top: 400px !important;
   min-height: 200px;
 }
 @media only screen and (max-width: 600px) {
   .main-content-inner {
-    background-position: center -70px;
-    background-size: auto 500px;
-    padding-top: 300px;
+    background-position: center -30px;
+    background-size: auto 320px;
+    padding-top: 300px !important;
   }
 }
 
@@ -35,9 +35,15 @@ html {
   font-size: 1.2rem;
   line-height: 1.9;
 }
+.callout .center {
+  text-align: center;
+}
 @media only screen and (max-width: 600px) {
+  .callout {
+    padding: 18px 24px 10px 24px;
+  }
   .callout .large {
-    font-size: 1.0rem;
+    font-size: 0.95rem;
     line-height: 1.7;
   }
 }
