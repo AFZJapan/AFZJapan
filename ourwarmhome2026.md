@@ -1,8 +1,8 @@
 ---
 layout: new-page
 title: "パレスチナあたたかい家"
-description: "xxx"
-image: "xxx"
+description: "パレスチナあたたかい家Vol3：2026年11月14日（土）〜12月31日（木）全国各地のパレスチナ連帯を表明するスペースで開催！"
+image: "/assets/ourwarmhome2026/fv1.png"
 css: ["index.css", "ourwarmhome2026.css"]
 js: [""]
 ---
