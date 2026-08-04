@@ -62,8 +62,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
 <table class="afz-table table-bordered">
   <thead>
     <tr>
-      <th>上映会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> こ
-のマークはAFZ登録スペースです 】</th>
+      <th>展示会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> このマークはAFZ登録スペースです 】</th>
       <th>Link</th>
       <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
     </tr>
