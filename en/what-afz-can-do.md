@@ -10,7 +10,7 @@ lang: "en"
 <div class="main-content">
   <section class="section">
     <div class="section-header">
-      <h2 class="section-title">Examples of what Apartheid Free Zones can do</h2>
+      <h2 class="section-title">What Apartheid Free Zones can do</h2>
     </div>
 
 <div class="imageContainer">
