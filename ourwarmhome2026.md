@@ -62,7 +62,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
 <table class="afz-table table-bordered">
   <thead>
     <tr>
-      <th>展示会場 【 <img align="top" src="/assets/icons/afz.png" width="20" height="20"> このマークはAFZ登録スペースです 】</th>
+      <th>展示会場 【 <img align="middle" src="/assets/icons/afz.png" width="16" height="16" style="vertical-align: sub;"> このマークはAFZ登録スペースです 】</th>
       <th>Link</th>
       <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
     </tr>
@@ -73,7 +73,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
   {% assign list = site.data.ourwarmhome2026 %}
   {% for c in list %}
   <tr>
-    <td style="vertical-align: bottom;">{{ c.name }}{% if c.afz %} <img src="/assets/icons/afz.png" width="16" height="16">{% endif %}
+    <td style="vertical-align: bottom;">{{ c.name }}{% if c.afz %} <img src="/assets/icons/afz.png" width="16" height="16" style="vertical-align: sub;">{% endif %}
     </td>
     <td style="text-align:center;">
     {% if c.link %}<a href="{{ c.link }}" target="_blank"><img src="/assets/icons/website.png" width="16" height="16"></a>{% endif %}
