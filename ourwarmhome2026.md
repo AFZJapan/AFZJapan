@@ -28,8 +28,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
           </p>
           <hr>
           <p class="center">
-            <strong>呼びかけ</strong>：あたたかい家
-            ／
+            <strong>呼びかけ</strong>：あたたかい家<br>
             <strong>運営協力</strong>：AFZ Japan
           </p>
         </div>
@@ -37,7 +36,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
 
       <div class="basic-info">
         <ul>
-          <li><strong>期間</strong>：2026年11月14日（土）〜12月31日（木）<br>（各会場により異なります）</li>
+          <li><strong>期間</strong>：2026年11月14日（土）〜12月31日（木） <small>※各会場により異なります</small></li>
           <li><strong>会場</strong>：全国の書店やカフェなど、パレスチナに連帯するスペース</li>
           <li><strong>主な内容</strong>：ポスター作品の展示</li>
         </ul>
