@@ -16,8 +16,8 @@ ja:
         note: "(スポーツ・ボイコット)"
         href: "/redcardisrael"
 
-  - title: "ボイコットガイド"
-    href: "/boycotts"
+  - title: "あたたかい家"
+    href: "/ourwarmhome2026"
 
   - fa: "fa-fw fas fa-tag"
     children:
@@ -40,8 +40,8 @@ en:
       - title: "Red Card Israel"
         href: "/en/redcardisrael"
 
-  - title: "Boycott guide"
-    href: "/en/boycotts"
+  - title: "あたたかい家"
+    href: "/ourwarmhome2026"
 
   - fa: "fa-fw fas fa-tag"
     children:
