@@ -139,5 +139,15 @@
     "geo": {"lat": 35.72553614134479, "lon": 139.77847669772214},
     "link": "https://www.instagram.com/sawasawahouse/",
     "afz": 1
+  },
+  {
+    "name": "OGU MAG+",
+    "pref": 13,
+    "geo": {"lat": 35.741893, "lon": 139.766456}
+  },
+  {
+    "name": "本と商いある日、",
+    "pref": 47,
+    "geo": {"lat": 26.322869,"lon": 127.965194 }
   }
 ]
