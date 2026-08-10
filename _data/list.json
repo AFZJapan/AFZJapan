@@ -1990,5 +1990,12 @@
     "pref": 13,
     "geo": {"lat": 35.788808302563325, "lon": 139.26093110753015},
     "links": {"twitter": "namiocoffee", "insta": "namiocoffee"}
+  },
+  {
+    "name": "ブックカフェ・ノーム",
+    "type": 2,
+    "pref": 13,
+    "geo": {"lat": 35.725449281851326, "lon": 139.70644135170224},
+    "links": {"twitter": "bookcafe_gnome", "insta": "bookcafe.gnome"}
   }
 ]
