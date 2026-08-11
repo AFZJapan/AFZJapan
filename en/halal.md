@@ -146,7 +146,7 @@ lang: "en"
           <p class="c4"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; width: 169.00px;"><img src="/assets/downloads/BDS_logo.png" style="width: 169.00px; margin-left: 0.00px; margin-top: 0.00px;"></span></p>
         </td>
         <td class="c22" colspan="1" rowspan="1">
-          <p class="c1"><span>AFZ campagin is part of the </span><span class="c11 c6">BDS Movement</span><span class="c0">, which exerts international pressure against israel&#39;s occupation, genocide, and ethnic cleansing of the Palestinian people.</span></p>
+          <p class="c1"><span>AFZ campaign is part of the </span><span class="c11 c6">BDS Movement</span><span class="c0">, which exerts international pressure against israel&#39;s occupation, genocide, and ethnic cleansing of the Palestinian people.</span></p>
           <p class="c1"><span>BDS has been hugely successful, forcing many companies to change their behavior in face of boycotts and public criticism.</span></p>
         </td>
       </tr>
