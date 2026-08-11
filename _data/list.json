@@ -1997,5 +1997,19 @@
     "pref": 13,
     "geo": {"lat": 35.725449281851326, "lon": 139.70644135170224},
     "links": {"twitter": "bookcafe_gnome", "insta": "bookcafe.gnome"}
+  },
+  {
+    "name": "マスジド木田",
+    "type": 2,
+    "pref": 21,
+    "geo": {"lat": 35.43985748127474, "lon": 136.7172216130504},
+    "links": {"insta": "masjidkidagifu"}
+  },
+  {
+    "name": "Cat's Meow Books",
+    "type": 0,
+    "pref": 13,
+    "geo": {"lat": 35.644779666364464, "lon": 139.66551994189373},
+    "links": {"web": "https://catsmeowbooks.stores.jp/", "twitter": "CatsMeowBooks", "insta": "catsmeowbooksjp"}
   }
 ]
