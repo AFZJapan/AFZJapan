@@ -21,7 +21,7 @@
       </li>
     {% else %}
       <li class="nav-item{% if page.url contains item.href %} active{% endif %}">
-        <a href="{{ item.href }}" class="nav-link font-weight-600 link"{% if include.dark %} style="color: white; text-shadow: 1px 1px 2px #000000;"{% endif %}>{{ item.title }}</a>
+        <a href="{{ item.href }}" class="nav-link font-weight-600 link{% if item.active %} beep{% endif %}"{% if include.dark %} style="color: white; text-shadow: 1px 1px 2px #000000;"{% endif %}>{{ item.title }}</a>
       </li>
     {% endif %}
   {% endfor %}

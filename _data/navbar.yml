@@ -18,6 +18,7 @@ ja:
 
   - title: "あたたかい家"
     href: "/ourwarmhome2026"
+    active: true
 
   - fa: "fa-fw fas fa-tag"
     children:
