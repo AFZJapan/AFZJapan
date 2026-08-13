@@ -65,16 +65,16 @@ lang: "ja"
 <p>BDS運動は、特定の標的に戦略的に焦点を当て、それらに対する大衆の圧力を動員することで、私たちの活動が効果を発揮するように努めています。</p>
 
 <p>
-  <img src="/assets/img/targeted.webp" width="100%; max-width: 375px">
+  <img src="/assets/img/targeted_jp.png" width="100%; max-width: 375px">
 </p>
 
 <br>
 <h6><span style="color: #a32a34">▶︎</span> 何をボイコットするの？</h6>
 <p>
-  <img src="/assets/img/BDSBoycotts.jpeg" width="100%; max-width: 375px">
+  <a href="/boycotts"><img src="/assets/img/BDSBoycotts.jpeg" width="100%; max-width: 375px"></a>
 </p>
 
-<p><a href="https://bdsjapanbulletin.wordpress.com/2024/01/27/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%8A%80%E8%A1%93/" target="_blank" data-cke-saved-href="https://bdsjapanbulletin.wordpress.com/2024/01/27/%E3%81%A4%E3%81%AA%E3%81%8C%E3%82%8B%E6%8A%80%E8%A1%93/" class="font-weight-600">もっと詳しくはBDS Bulletin Japanの記事をご覧ください <img src="/assets/icons/extlink.png" height="16px" style="margin-bottom: 5px"></a></p>
+<p><a href="/boycotts" class="font-weight-600">詳しくはボイコットガイドをご覧ください</a></p>
 
 <br>
 <h6><span style="color: #a32a34">▶︎</span> BDS運動の成功例</h6>
