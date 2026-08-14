@@ -1,0 +1,157 @@
+---
+layout: new-page
+title: "パレスチナ映画祭2026"
+description: "パレスチナ映画祭: バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！2026年11月2日(日曜日)に世界中で同時開催！"
+image: "https://afzjapan.com/assets/cinema2026/1.png"
+css: ["https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "cinemadays2025.css"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.cinema.js", "map.main.js", "ol-ext.js"]
+lang: "ja"
+---
+<!--
+https://www.flp.ps/
+https://www.flp.ps/node/2005
+-->
+
+<!-- div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
+  <img src="{{site.baseurl}}/assets/img/cinema_bg.png" style="width:100%; padding:0; margin:0;">
+</div -->
+
+<!-- div id="afz" style="height: 540px; margin-top: 0; padding-top: 0;"></div>
+<div id="popup" class="ol-popup">
+  <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+  <div id="popup-content"></div>
+</div -->
+
+<div class="main-content">
+
+<div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
+  <img src="{{site.baseurl}}/assets/cinema2026/1.png" style="width:100%; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！共催：日本各地の上映会場、AFZ Japan推進チーム">
+</div>
+
+<div class="cinemaday-heading">
+
+<div class="cinemaday-heading-notice">
+  <div class="callout">
+    <ul>
+      <li>上映時間や上映作品は各会場によって異なりますので、直接会場にお問い合わせください。</li>
+      <li>会場情報が見つからない場合は<a href="/about">AFZ Japan推進チーム</a>へお問い合わせください。</li>
+    </ul>
+  </div>
+</div>
+
+<div class="cinemaday-heading-info">
+
+  <h6><span class="afz-heading-small-colored">PALESTINE CINEMA DAYS AROUND THE WORLD</span></h6>
+  <br/>
+
+  <h6><span class="afz-heading-small-colored">呼びかけ</span></h6>
+  <p>
+    <span style="font-size: 1.3em;">Filmlab Palestine</span><br>
+    <span style="font-size: 1.0em;"><a href="https://www.flp.ps/node/2005" class="link-movies">https://www.flp.ps/node/2005</a></span><br>
+  </p>
+  <br/>
+
+  <h6><span class="afz-heading-small-colored">上映日</span></h6>
+  <p>
+    <span style="font-size: 1.3em;">2026年11月2日</span><br>
+  </p>
+  <br/>
+
+  <h6><span class="afz-heading-small-colored"><!-- a href="/cinema2026/register" -->上映会場として登録ご希望の方<!-- /a --></span></h6>
+  <p><span style="font-size: 1.0em">※登録フォームは今準備中</span></p>
+  <br/>
+
+  <!-- h6><span class="afz-heading-small-colored">上映会場</span></h6>
+  <p>
+    <a href="#locations" class="link-locations">上映会場の一覧はこちら &#9661;</a>
+  </p>
+  <br/ -->
+
+  <h6><span class="afz-heading-small-colored">上映映画紹介</span></h6>
+  <p>
+  1. <a href="#return-to-haifa" class="link-movies">Return to Haifa</a><br/>
+  2. <!-- a href="#boycott" class="link-movies">Boycott</a --><br/>
+  3. <!-- a href="#foragers" class="link-movies">Foragers</a --><br/>
+  4. <!-- a href="#gazawyat" class="link-movies">Gazawyat: Fidaa</a --><br/>
+  5. <!-- a href="#gazawyat" class="link-movies">Gazawyat: Noor</a --><br/>
+  6. <!-- a href="#gazawyat" class="link-movies">Gazawyat: Hadeel</a --><br/>
+  7. <!-- a href="#gazawyat" class="link-movies">Gazawyat: Maha</a --><br/>
+  8. <!-- a href="#the-flowers-stand-silently-witnessing" class="link-movies">The Flowers Stand Silently, Witnessing</a --><br/><br/>
+  </p>
+</div>
+
+</div>
+
+<a id="return-to-haifa" />
+
+<div class="movie">
+  <figure class="movie-keyvisual">
+    <img src="{{site.baseurl}}/assets/cinema2026/m1.jpg">
+  </figure>
+  <div class="movie-info">
+    <h3>
+      <span>Return to Haifa</span><br>
+    </h3>
+    <p class="year-length">77分</p>
+    <p class="description">A Palestinian couple goes back to Haifa after the 1967 war to look for their baby, whom they were forced to leave behind in the war of 1948. They find him grown up as an Israeli adopted son, now soldier.</p>
+  </div>
+</div>
+
+<a id="boycott" />
+
+<!-- div class="movie">
+  <figure class="movie-keyvisual">
+    <img src="{{site.baseurl}}/assets/cinema2026/m2.jpg">
+  </figure>
+  <div class="movie-info">
+    <h3>
+      <span>When I Saw You</span><br>
+      <span>ぼくの見えた道</span>
+    </h3>
+    <p class="year-length">2012年／98分</p>
+    <p class="description">父と生き別れ、母と一緒にヨルダンで難民となったパレスチナ人少年ターレクは、難民キャンプの生活に馴染めない。子どもの目を通して描かれる、パレスチナ人に押し付けられた不正義、故郷への思い、そしてレジスタンス。ターレクは故郷パレスチナに戻れるのか。パレスチナ人女性として初めて長編映画を撮影したアンマリー・ジャーシル監督による2作目長編映画。第63回ベルリン国際映画祭、最優秀アジア映画賞受賞作。</p>
+  </div>
+</div>
+
+<a id="jenin-jenin" />
+
+<div class="movie">
+  <figure class="movie-keyvisual">
+    <img src="{{site.baseurl}}/assets/cinema2025/4-kv.jpg">
+  </figure>
+  <div class="movie-info">
+    <h3>
+      <span>Jenin Jenin</span><br>
+      <span>ジェニン、ジェニン</span>
+    </h3>
+    <p class="year-length">2002年／54分</p>
+    <p class="description">イスラエルで上映禁止になった「ジェニンの戦い」を題材にしたドキュメンタリー。2002年のイスラエルによる軍事作戦中、ジェニン難民キャンプへのジャーナリストや人権団体の立ち入りは禁止され、パレスチナ側のナラティブは届かない。パレスチナ系イスラエル人、モハンマド・バクリ監督がカメラを手にジェニンで拾う、パレスチナ人の生の声。</p>
+    <div class="description-callout">
+      <p>＊追記 <small>（2025年10月26日）</small></p>
+      <p>バクリ監督について、こちらに「パレスチナ系イスラエル人」と表記しましたが、<strong>「1948年領（現在のイスラエル領）に住むパレスチナ人、モハンマド・バクリ監督」</strong>と改めさせて頂きます。</p>
+      <p>「48年領」すなわち現在の「イスラエル」に住み、イスラエル国籍を持っているパレスチナ人は、本人の意思に関わらずそうしなければ故郷に留まることができない状況にあります。特に10月7日以降のジェノサイド後は、自らを「イスラエル人」と呼ぶことを拒否するパレスチナ人も増えています。この問題を明らかにするため、原文は上記にそのまま残し、イスラエル国籍を持たざるを得ないパレスチナ人のみなさまにお詫びして訂正いたします。</p>
+    </div>
+  </div>
+</div>
+
+<a id="upshot" />
+
+<div class="movie">
+  <figure class="movie-keyvisual">
+    <img src="{{site.baseurl}}/assets/cinema2025/5-kv.jpg">
+  </figure>
+  <div class="movie-info">
+    <h3>
+      <span>Upshot</span><br>
+      <span>爪痕</span>
+    </h3>
+    <p class="year-length">2024年／34分</p>
+    <p class="description">田舎で動物や植物を育て、隠居生活を送るパレスチナ人老夫婦。5人の子供たちの現状や将来について、二人の意見はいつもぶつかり合う。ある時そんな二人の日常につらい過去を思い出させる来客がある。凄惨な爪痕と共に生きることを強いられた、ガザの人々の30年後の姿を映し出す短編ドラマ。</p>
+  </div>
+</div -->
+
+<div>
+
+</div>
+
+</div>
