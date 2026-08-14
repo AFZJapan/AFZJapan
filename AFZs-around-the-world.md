@@ -14,6 +14,10 @@ css: ["index.css", "links.css", "images.css"]
 
   <div class="link-items" id="LinksTable">
 
+  <div class="imageContainer">
+    <img src="{{site.baseurl}}/assets/img/around-the-world.png" style="width:100%; max-width: 640px;">
+  </div>
+
   {% for link in site.data.world %}
     <div class="link-item">
       <a href="{{ link.url }}" target="_blank">
