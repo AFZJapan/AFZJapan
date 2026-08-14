@@ -21,7 +21,7 @@ css: ["index.css", "linkpreview.css", "boycotts.css"]
   <div class="row" style="margin-right: 0; margin-left: 0;">
     <div class="column-66">
       <h1 class="large-font"><b>BDS運動のボイコット対象</b></h1>
-      <p>以下は、BDS運動が現在最優先でボイコットおよび圧力をかけている国際的な企業です。これらの対象は3つのカテゴリーに分類されます：</p>
+      <p>以下は、<a href="/what-is-bds">BDS運動</a>が現在最優先でボイコットおよび圧力をかけている国際的な企業です。これらの対象は3つのカテゴリーに分類されます：</p>
       <ol>
         <li><a href="#priority-targets">BDS運動による優先的なボイコット対象</a> ― BDS運動は、イスラエルのアパルトヘイトへの加担が証明されている企業を厳選し、これらのブランドに対する全面的なボイコットを呼びかけています。</li>
         <li><a href="#pressure-targets">BDS運動による圧力対象</a> ― BDS運動は、これらの企業に対する圧力キャンペーンを積極的に呼びかけています。これには、代替手段が存在する場合のボイコット、ロビー活動、平和的な妨害行為、ソーシャルメディアを通じた圧力、戦略的な訴訟などが含まれます。</li>

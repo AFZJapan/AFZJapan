@@ -25,7 +25,7 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
 <h6><span class="afz-heading-small-colored">1. AFZであることを宣言する</span></h6>
 アパルトヘイト・フリーゾーンとBDS運動の重要な目的は、イスラエルによる人権侵害や占領政策が普通のことだと考える社会認識を変えることです。イスラエルはさまざまな文化事業を通して、占領やアパルトヘイト体制を正当化しようとしています。そのため、ボイコットをすること同じくらい大切なのは、それを行なっていることとその理由を公にすることです。AFZに登録したら、宣誓文や資料を掲示したり、独自の声明を発表するなどして、スペースの利用者と連帯の輪を広げましょう。
 <ul>
-  <li>AFZに登録し、マップに記載される（<a href="https://afzjapan.com/register">登録はこちらから</a>）。</li>
+  <li>AFZに登録し、マップに記載される（<a href="/register">登録はこちらから</a>）。</li>
   <li>独自の声明を作成したり、<a href="https://www.cultureagainstapartheid.jp/" target="_blank" data-cke-saved-href="https://www.cultureagainstapartheid.jp/">＜アパルトヘイトに抗する『文化』/ Culture Against Apartheid＞</a>のような既存の声明に署名する。</li>
   <li>AFZであることを示す標識やステッカー、パンフレット、AFZのウェブサイトリンクをスペースの入り口やサイトに掲示する。</li>
 </ul>
@@ -35,7 +35,7 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
 <h6><span class="afz-heading-small-colored">2. 入植や占領に加担する商品のボイコット</span></h6>
 <ul>
   <li><span class="bold">仕入れ先の見直し</span>：イスラエルの入植地や占領地で生産された商品を取り扱わない。</li>
-  <li><span class="bold">不買リストの活用</span>：BDSの公式リスト（<a href="https://x.com/BDSjapan/status/1874683344350540175">BDSJapanの投稿</a>）や信頼できる情報源を参照し、ボイコット対象商品を特定。</li>
+  <li><span class="bold">不買リストの活用</span>：<a href="/boycotts">BDSの公式リスト</a>や信頼できる情報源を参照し、ボイコット対象商品を特定。</li>
   <li><span class="bold">代替商品の導入</span>：パレスチナ産品やフェアトレードの商品を積極的に取り扱う。</li>
 </ul>
 
@@ -86,7 +86,7 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
 <h6><span class="afz-heading-small-colored">取り扱うものを見直そう</span></h6>
 <p>BDSが推奨するボイコットに加え、お店で扱うものを考えよう。
 <ul>
-  <li>サプライチェーンの見直し（<a href="https://x.com/BDSjapan/status/1874683344350540175" target="_blank">ボイコットガイドライン</a>）</li>
+  <li>サプライチェーンの見直し（<a href="/boycotts">ボイコットガイドライン</a>）</li>
 </ul>
 例：ヘイト本をとり扱わない。<br/>
 例：CocaColaをとり扱わない（既に取り扱っている場合は、在庫が切れた後は買わない）
@@ -132,7 +132,7 @@ AFZは、それぞれの参加スペースがそれぞれパレスチナのた�
 <ul>
   <li>AFZに登録している他の研究室や大学、教育機関を探し、共同活動やプロジェクトをみんなでやろう。</li>
   <li>AFZやBDSについての勉強会を他の研究室などと共同で行い、ネットワークを広げよう。</li>
-  <li>海外のAFZはBNCのウェブサイトをご覧ください。<br/><a href="https://bdsmovement.net/apartheid-free-zones" target="_blank" data-cke-saved-href="https://bdsmovement.net/apartheid-free-zones">https://bdsmovement.net/apartheid-free-zones</a></li>
+  <li>海外のAFZはBNCのウェブサイトをご覧ください。<br/><a href="https://bdsmovement.net/apartheid-free-zones" target="_blank">https://bdsmovement.net/apartheid-free-zones</a></li>
 </ul>
 
 </p>
