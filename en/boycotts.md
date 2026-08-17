@@ -29,6 +29,8 @@ lang: "en"
         <li><a href="#organic-targets" style="color:#a32a34">Organic boycott targets</a> - The BDS movement did not initiate these grassroots boycott campaigns but actively supports them due to these brands’ egregious complicity in Israel’s genocide and apartheid against Palestinians.</li>
       </ol>
       <a href="https://bdsmovement.net/Guide-to-BDS-Boycott" target="_blank" style="color:#a32a34">check the detailed page</a>
+      <br>
+      if you're still asking why only these and not that brand: check <a href="/en/what-is-bds#targeted-boycotts">BDS targeted boycotts</a>
     </div>
     <div class="column-33">
       <img src="/assets/img/BDS_targets_en.jpg" class="boycotts-img" width="100%">

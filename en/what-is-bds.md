@@ -52,6 +52,7 @@ It was inspired by the call for BDS by Black South Africans. and those around th
   <li> Respecting, protecting and promoting the rights of Palestinian refugees to return to their homes and properties as stipulated in UN Resolution 194</li>
 </ol>
 
+<a id="targeted-boycotts" />
 <h6><span style="color: #a32a34">▶︎</span> Targeted Boycotts vs. Non-Targeted Boycotts</h6>
 
 <!-- p>"What's wrong with going beyond the BDS boycott targets and boycotting absolutely everything we can?"</p>
@@ -68,6 +69,7 @@ It was inspired by the call for BDS by Black South Africans. and those around th
 
 <br>
 
+<a id="bds-works" />
 <h6><span style="color: #a32a34">▶︎</span> BDS Works!</h6>
 
 <p>These are just a few examples of the BDS movement's success in Japan. There are countless examples worldwide. Please follow the social media of the BDS movement for updates.</p>
