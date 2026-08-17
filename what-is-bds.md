@@ -23,7 +23,7 @@ lang: "ja"
   <tr>
     <td class="bds-bottom"><div style="font-weight: 700; text-align: center;">ボイコット<br />(不買運動)</div></td>
     <td class="bds-bottom"><div style="font-weight: 700; text-align: center">ダイベストメント<br />(資本の引き上げ)</div></td>
-    <td class="bds-bottom"><div style="font-weight: 700; text-align: center">サンクション<br />(経済制裁)</div></td>
+    <td class="bds-bottom"><div style="font-weight: 700; text-align: center">サンクション<br />(制裁)</div></td>
   </tr>
 </table>
 
@@ -42,7 +42,7 @@ lang: "ja"
 
 <p>この運動は、南アフリカの黒人によるBDS運動の呼びかけ、そして彼らに連帯した世界中の人々によって触発され、南アフリカ政府にアパルトヘイト政策を放棄させるという成果を上げました。</p>
 
-<p>個人や団体レベルでのボイコット（B）、金融機関、企業、大学、政府機関（例えば国防省との研究協力など）による投資撤退（D）、そして国家や政府で行う制裁（S）は、イスラエルに現実的な圧力をかける運動です。</p>
+<p>個人や団体レベルでの<span style="font-weight: 700;">ボイコット (B)</span>、金融機関、企業、大学、政府機関（例えば国防省との研究協力など）による<span style="font-weight: 700;">投資撤退 (D)</span>、そして国家や政府で行う<span style="font-weight: 700;">制裁 (S)</span>は、イスラエルに現実的な圧力をかける運動です。</p>
 
 <p>アパルトヘイト・フリーゾーンはBDS運動の一環として、世界的な連帯のネットワークを構築することを求めています。</p>
 
@@ -74,7 +74,7 @@ lang: "ja"
   <a href="/boycotts"><img src="/assets/img/BDSBoycotts.jpeg" width="100%; max-width: 375px"></a>
 </p>
 
-<p><a href="/boycotts" class="font-weight-600">詳しくはボイコットガイドをご覧ください</a></p>
+<p><a href="/boycotts" style="font-weight: 700; color: #a32a34">詳しくはボイコットガイドをご覧ください</a></p>
 
 <br>
 <h6><span style="color: #a32a34">▶︎</span> BDS運動の成功例</h6>
@@ -129,13 +129,13 @@ lang: "ja"
 
       <div class="jekyll-linkpreview-body">
         <h2 class="jekyll-linkpreview-title">
-          <h6><span class="afz-heading-small-colored"><a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: bold;"> BDSムーブメント入門｜パレスチナのためにできること</a></span></h6>
+          <h6><span class="afz-heading-small-colored"><a href="https://www.youtube.com/watch?v=jzwN7phIbHg" target="_blank" style="font-weight: 700; color: #a32a34"> BDSムーブメント入門｜パレスチナのためにできること</a></span></h6>
         </h2>
-        <div class="jekyll-linkpreview-description">2021年6月18日に行ったウェビナーを公開しました。主催：BDS Japan Bulletin</div>
+        <div class="jekyll-linkpreview-description">2021年6月18日に行ったウェビナーを公開しました。<br>主催：BDS Japan Bulletin</div>
       </div>
     </div>
     <div class="jekyll-linkpreview-footer">
-      <a href="//www.youtube.com/@bdsjapanbulletin8996" target="_blank">www.youtube.com/@bdsjapanbulletin8996</a>
+      <a href="//www.youtube.com/@bdsjapanbulletin8996" target="_blank" style="color: #a32a34">www.youtube.com/@bdsjapanbulletin8996</a>
     </div>
   </div>
 </div>
