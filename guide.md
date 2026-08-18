@@ -1,4 +1,4 @@
 ---
-redirect:   /what-you-can-do.md
+redirect:   /what-afz-can-do
 layout:     redirect
 ---
