@@ -145,5 +145,46 @@
     "pref": 47,
     "geo": {"lat": 26.322869,"lon": 127.965194 },
     "link": "https://www.instagram.com/aruhi_okinawa_/"
+  },
+  {
+    "name": "ポルトリブレ デ・ノーヴォ",
+    "pref": 13,
+    "geo": {"lat": 35.7012993486384,"lon": 139.64593951121623},
+    "link": "http://www.portolibre.com/",
+    "afz": 1
+  },
+  {
+    "name": "erimaki",
+    "pref": 38,
+    "geo": {"lat": 33.86396134112209,"lon": 132.71585950560743},
+    "link": "https://www.instagram.com/erimaki_cat/",
+    "afz": 1
+  },
+  {
+    "name": "白と青と",
+    "pref": 13,
+    "geo": {"lat": 35.75088990135942,"lon": 139.76100115170328},
+    "link": "https://www.instagram.com/sirotoaoto"
+  },
+  {
+    "name": "Another World Infoshop",
+    "pref": 23,
+    "geo": {"lat": 35.16826194065782,"lon": 136.94169243518587},
+    "link": "https://www.instagram.com/awi_nagoya/",
+    "afz": 1
+  },
+  {
+    "name": "ごはんカフェMARE",
+    "pref": 13,
+    "geo": {"lat": 35.72790054345724,"lon": 139.72747691306222},
+    "link": "https://www.instagram.com/maremomocafe/",
+    "afz": 1
+  },
+  {
+    "name": "ブックカフェ・ノーム",
+    "pref": 13,
+    "geo": {"lat": 35.72552767117514,"lon": 139.70673103024694},
+    "link": "https://www.instagram.com/bookcafe.gnome/",
+    "afz": 1
   }
 ]
