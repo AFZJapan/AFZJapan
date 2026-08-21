@@ -2011,5 +2011,11 @@
     "pref": 13,
     "geo": {"lat": 35.644779666364464, "lon": 139.66551994189373},
     "links": {"web": "https://catsmeowbooks.stores.jp/", "twitter": "CatsMeowBooks", "insta": "catsmeowbooksjp"}
+  },
+  {
+    "name": "Art and Olive",
+    "type": 3,
+    "pref": 27,
+    "links": {"insta": "art_and_olive"}
   }
 ]
