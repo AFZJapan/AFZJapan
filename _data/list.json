@@ -506,14 +506,6 @@
     "links": {"web":"https://amantradingcompany.com/"}
   },
   {
-    "name": "Cafeわかば",
-    "en": "Cafe Wakaba",
-    "type": 2,
-    "pref": 26,
-    "geo": {"lat": 35.16481754329463, "lon": 135.50834549600572},
-    "links": {"web":"https://cafe-wakaba.com/", "twitter":"cafewakaba", "insta":"cafewakaba"}
-  },
-  {
     "name": "BEER&CAFE BERG 新宿ベルク",
     "en": "BEER&CAFE BERG Shinjuku",
     "type": 2,
