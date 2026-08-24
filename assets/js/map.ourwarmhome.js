@@ -83,7 +83,7 @@ function display(json) {
     styles[data.name] = [
       new ol.style.Style({
         image: new ol.style.Icon({
-          src: "assets/ourwarmhome2026/ourwarmhome_small_map.png",
+          src: "/assets/ourwarmhome2026/ourwarmhome_small_map.png",
           scale: 0.1,
           anchor: [0.5, 1]
         })
