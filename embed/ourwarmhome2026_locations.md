@@ -73,15 +73,22 @@ layout: null
     <link rel="stylesheet" href="/assets/css/new-style.css">
     <link rel="stylesheet" href="/assets/css/top.css">
 
+<style>
+body.layout-2 .main-content {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 100%;
+  position: relative;
+}
+</style>
+
   </head>
 
 <body class="layout-2">
   <div id="app">
-    <div class="main-wrapper">
 
   <div class="main-content">
-
-  <section class="section">
 
 <a id="locations" />
 <div id="afz" style="height: 540px; margin-top: 0; padding-top: 0;"></div>
@@ -123,19 +130,8 @@ layout: null
 var json = {{ list | jsonify }};
 </script>
 
-  </section>
 </div>
 
-
-
-      <footer class="main-footer">
-        <div class="footer-right">
-          <a class="grey-text text-lighten-4 right" style="font-size: 11px; text-align: center;" href="/privacy">
-            個人情報保護方針
-          </a>
-        </div>
-      </footer>
-    </div>
   </div>
 
   <!-- General JS Scripts -->
