@@ -70,7 +70,6 @@ layout: null
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="/assets/css/new-components.css">
-    <link rel="stylesheet" href="/assets/css/new-style.css">
     <link rel="stylesheet" href="/assets/css/top.css">
 
 <style>
