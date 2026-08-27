@@ -1,0 +1,59 @@
+:root {
+  --color-a: #ffc900;
+  --color-b: #ee280b;
+  --color-c: #0da65a; 
+}
+html {
+  scroll-padding-top: 32px;
+}
+
+h1 {
+  padding-bottom: 120px;
+}
+
+.marker {
+  background-color: var(--color-a);
+}
+
+.movie-list {
+  width: 100%;
+  max-width: 800px;
+  border: 1px solid #d8d8d8;
+  margin-bottom: 48px;
+}
+.movie-list th {
+  background-color: var(--color-a);
+}
+.movie-list th,
+.movie-list td {
+  border: 1px solid #d8d8d8;
+  padding-left: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.movie-list td.title {
+  font-size: 1.3rem;
+}
+
+.cinemaday-heading {
+  display: flex;;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin-top: 32px;
+  padding: 0px 24px;
+  gap: 32px;
+}
+.cinemaday-heading-info {
+  flex: 1;
+}
+.cinemaday-heading-notice {
+  flex: 1;
+}
+
+@media only screen and (max-width: 992px) {
+  .cinemaday-heading {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 600px) {
+}
