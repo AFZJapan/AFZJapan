@@ -36,7 +36,7 @@ layout: null
   <div class="main-content">
 
 <a id="locations" />
-<div id="afz" style="height: 540px; margin-top: 0; padding-top: 0;"></div>
+<div id="afz" style="height: 600px; margin-top: 0; padding-top: 0;"></div>
 <div id="popup" class="ol-popup">
   <a href="#" id="popup-closer" class="ol-popup-closer"></a>
   <div id="popup-content"></div>
