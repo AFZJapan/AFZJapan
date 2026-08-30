@@ -2009,5 +2009,11 @@
     "type": 3,
     "pref": 27,
     "links": {"insta": "art_and_olive"}
+  },
+  {
+    "name": "BOOKCAFE ANQAA | 不死鳥文庫",
+    "type": 0,
+    "pref": 13,
+    "links": {"insta": "bookcafe.anqaa"}
   }
 ]
