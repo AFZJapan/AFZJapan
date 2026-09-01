@@ -1,7 +1,7 @@
 ---
 layout: new-page
 title: "パレスチナ映画祭2026 会場募集"
-description: "パレスチナ映画祭: バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！2025年11月2日(日曜日)に世界中で同時開催！日本にも60以上の上映会場！すべての会場で入場無料！"
+description: "「パレスチナ映画祭2026」会場募集ページです"
 image: ""
 css: ["index.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "cinemadays2026.css"]
 js: []
@@ -29,65 +29,125 @@ robots: noindex
       映画館、お店など、上映スペースをお持ちの方、パレスチナ映画を上映しませんか？ 
     </p>
 
-    <h4>上映日</h4>
-    <p>
-      <span style="font-size: 1.3em;">2026年11月2日（月）</span><br>
-      <span style="font-size: 1.0em">11月1日（日）・3日（火/祝）・4日（水）の開催も可能です</span>
-    </p>
-    <br/>
+    <section>
+      <h4>上映日</h4>
+      <p>
+        <span style="font-size: 1.3em;">2026年11月2日（月）</span><br>
+        <span style="font-size: 1.0em">11月1日（日）・3日（火/祝）・4日（水）の開催も可能です</span>
+      </p>
+    </section>
 
-    <h4>作品リスト</h4>
-    <table class="movie-list">
-      <thead>
-        <tr><th>タイトル(en)</th> <th>上映時間</th> <th>ジャンル</th> <th>字幕言語</th> </tr>
-      </thead>
-      <tbody>
-        <tr><td class="title">The Dream</td> <td>45分</td> <td>ドキュメンタリー</td> <td></td> </tr>
-        <tr><td class="title">Return to Haifa</td> <td>77分</td> <td>ドラマ</td> <td></td></tr>
-        <tr><td class="title">With Hasan in Gaza</td> <td>106分</td> <td>ドキュメンタリー</td> <td></td></tr>
-        <tr><td class="title">Boycott</td> <td>73分</td> <td>ドキュメンタリー</td> <td></td></tr>
-        <tr><td class="title">Foragers</td> <td>65分</td> <td>ドキュメンタリー</td> <td></td></tr>
-        <tr><td class="title">They Do Not Exist</td> <td>25分</td> <td>ドキュメンタリー</td> <td></td></tr>
-        <tr><td class="title">The Flowers Stand Silently, Witnessing</td> <td>17分</td> <td>ドキュメンタリー</td> <td></td></tr>
-        <tr><td class="title">Gazawyat</td> <td>計28分（4本の連作）</td> <td>ドキュメンタリー</td> <td></td></tr>
-      </tbody>
-    </table>
+    <section>
+      <h4>作品リスト</h4>
+      <table class="movie-list">
+        <thead>
+          <tr><th>タイトル</th> <th>上映時間</th> <th>ジャンル</th> <th>内容</th> <th>字幕言語</th> </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="title-main">ハイファに戻って</span><br>Return to Haifa</td>
+            <td>77分</td>
+            <td>ドラマ</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>日本語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">ボイコット</span><br>Boycott</td>
+            <td>73分</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>日本語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">採集する人々</span><br>Foragers</td>
+            <td>65分</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>日本語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">花は静かに証言する</span><br>The Flowers Stand Silently, Witnessing</td>
+            <td>17分</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>日本語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">ガザウィヤート〈小さな物語〉</span><br>Gazawyat</td>
+            <td>計28分（4本の連作）</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>英語・アラビア語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">The Dream</span></td>
+            <td>45分</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>英語・アラビア語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">With Hasan in Gaza</span></td>
+            <td>106分</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>英語・アラビア語</td>
+          </tr>
+          <tr>
+            <td><span class="title-main">They Do Not Exist</span></td>
+            <td>25分</td>
+            <td>ドキュメンタリー</td>
+            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
+            <td>英語・アラビア語</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        詳細は、Filmlab Palestine の紹介ページにも載っています<br>
+        → <a href="https://flp.ps/node/2005" target="_blank">https://flp.ps/node/2005</a>
+      </p>
+    </section>
 
-    <h4>上映条件</h4>
-    <p>
-      上映にあたっては、Filmlabから指定されている上映条件や、運営上の都合からお願いしたいことがいくつかあります。
-      これらを満たせるかどうか、予めご確認の上で会場の登録をおねがいします！
-    </p>
-    <ol>
-      <li>
-        <strong>条件1｜すでにスペースを持っている人向けの募集です</strong><br>
-        上映会のために特別に会場を借りる、ということも考えられると思いますが、基本的にはすでにスペースを持っている、あるいは利用可能な方に登録頂く想定のものです。<br>
-        「条件2」とも関連しますが、会場を借りる場合の資金は主催メンバー内で出すことにとどめ、来場者にカンパを求めることは避けてください。<br>
-        <br>
-      </li>
-      <li>
-        <strong>条件2｜映画を観賞するためのお金をとらない</strong><br>
-        ❌ NG例：入場料をとること<br>
-        ❌ NG例：カンパで会場費を集めること<br>
-        ✅ OK例：スペース内でドリンクやグッズの販売をする<br>
-        <br>
-      </li>
-      <li>
-        <strong>条件3｜会場内で寄付金を集める場合、主催の Filmlab が募っている者ではないことを明示する</strong><br>
-        パレスチナのための支援金・寄付金を集めること自体は問題ありません。<br>
-        ただし、映画祭の主催（Palestine Filmlab）が集めているものではなく、スペースオーナーが集めているものであることを、はっきりと明示してください。<br>
-      </li>
-    </ol>
+    <section>
+      <h4>上映条件</h4>
+      <p>
+        上映にあたっては、Filmlabから指定されている上映条件や、運営上の都合からお願いしたいことがいくつかあります。
+        これらを満たせるかどうか、予めご確認の上で会場の登録をおねがいします！
+      </p>
+      <ol>
+        <li>
+          <strong>条件1｜すでにスペースを持っている人向けの募集です</strong><br>
+          基本的には、すでに利用可能なスペースを持っている方に登録頂く想定のものです。<br>
+          上映会のために特別に会場を借りる場合、その資金は主催メンバー内で出すことにとどめることを推奨します。「条件2」とも関連しますが、来場者にカンパを求めることは避けてください。<br>
+        </li>
+        <li>
+          <strong>条件2｜映画を観賞するためのお金をとらない</strong><br>
+          
+          ❌ NG例：入場料をとる<br>
+          ❌ NG例：カンパで会場費を集めること<br>
+          ✅ OK例：スペース内でドリンクやグッズの販売をする<br>
+          <br>
+        </li>
+        <li>
+          <strong>条件3｜会場内で寄付金を集める場合、主催（Palestine Filmlab）が募っているものではないことを明示する</strong><br>
+          パレスチナのための支援金・寄付金を集めること自体は問題ありません。<br>
+          ただし、映画祭の主催（Palestine Filmlab）が集めているものではなく、スペースオーナーが集めているものであることを、はっきりと明示してください。<br>
+        </li>
+      </ol>
+    </section>
 
-    <h4>会場申込み</h4>
-    <p>
-      ☆☆☆☆☆上映会場登録フォーム ここにEmbedする（またはリンク）☆☆☆☆☆
-    </p>
+    <section>
+      <h4>会場登録フォーム</h4>
+      <iframe data-tally-src="https://tally.so/embed/2EdMEg?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" frameborder="0" marginheight="0" marginwidth="0" title="パレスチナ映画祭2026｜上映会場登録" style="width:100%; height:2200px; max-width:900px;"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+    </section>
 
-    <h4>お問い合わせ</h4>
-    <p>
-      ご不明点は<a href="/about">AFZ Japan推進チーム</a>までお問い合わせください
-    </p>
+    <section>
+      <h4>お問い合わせ</h4>
+      <p>
+        ご不明点は<a href="/about">AFZ Japan推進チーム</a>までお問い合わせください
+      </p>
+    </section>
   </div>
 
 </div>

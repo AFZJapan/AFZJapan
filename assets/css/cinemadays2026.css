@@ -11,15 +11,20 @@ h1 {
   padding-bottom: 120px;
 }
 
+
+.cinemaday-heading section {
+  margin-top: 60px;  
+}
+
 .marker {
   background-color: var(--color-a);
 }
 
 .movie-list {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   border: 1px solid #d8d8d8;
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 .movie-list th {
   background-color: var(--color-a);
@@ -31,12 +36,17 @@ h1 {
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.movie-list td.title {
-  font-size: 1.3rem;
+.movie-list .title-main {
+  font-size: 1.1rem;
+}
+
+.movie-list .description {
+  width: 200px;
+  font-size: 0.75rem;
 }
 
 .cinemaday-heading {
-  display: flex;;
+  display: flex;
   flex-direction: row-reverse;
   width: 100%;
   margin-top: 32px;
