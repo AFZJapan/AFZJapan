@@ -1,0 +1,84 @@
+- name: Return to Haifa
+  ja: ハイファに戻って
+  img: return_to_haifa.jpg
+  desc: A Palestinian couple goes back to Haifa after the 1967 war to look for their baby, whom they were forced to leave behind in the war of 1948. They find him grown up as an Israeli adopted son, now soldier.
+  length: 77分
+  genre: ドラマ
+  subtitles: 日本語
+
+- name: Boycott
+  ja: ボイコット
+  img: boycott.jpg
+  desc: As a wave of anti-boycott legislation has swept through the country, so has a counter-wave in defense of freedom of speech. Everyday Americans are challenging these laws for their constitutionality in a nation-wide battle likely to go all the way to the Supreme Court.
+  length: 73分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: Foragers
+  ja: 採集する人々
+  img: foragers.jpg
+  desc: Foragers interweaves documentary and fiction to report on a searing conflict between the Israel Nature and Parks Authority and Palestinian foragers.
+  length: 65分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: The Flowers Stand Silently, Witnessing
+  ja: 花は静かに証言する
+  img: the_flowers.png
+  desc: When a filmmaker of Palestinian descent based in Scotland unearths a rarely-seen Scottish film archive of Palestinian wildflowers, he decides to reclaim the footage. 
+  length: 17分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: "Gazawyat: Fidaa"
+  ja: ガザウィヤート〈ガザの小さな物語〉：フィダー
+  img: gazawyat_fidaa.png
+  desc: The film follows Fidaa Abu Maryam as she uses storytelling as psychological first aid, gathering testimonies from women in Gaza and transforming their voices into a living archive of feminist memory that resists erasure and reclaims the self amid devastation.
+  length: 11分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: "Gazawyat: Noor"
+  ja: ガザウィヤート〈ガザの小さな物語〉：ヌール
+  img: gazawyat_noor.png
+  desc: The film follows Nour, a Palestinian journalist living through genocide between frontline reporting and displacement, as life inside a tent exposes the fragility of privacy, the body, and marriage, turning her daily existence into a silent struggle for dignity, voice, and humanity under constant threat.
+  length: 7分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: "Gazawyat: Hadeel"
+  ja: ガザウィヤート〈ガザの小さな物語〉：ハディール
+  img: gazawyat_hadeel.png
+  desc: In displacement camps across central and southern Gaza, women gather spontaneously to share how genocide strips away their humanity and privacy, forcing them to revive old rituals to reclaim their bodies and dignity amid exposed tents.
+  length: 6分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: "Gazawyat: Maha"
+  ja: ガザウィヤート〈ガザの小さな物語〉：マハ
+  img: gazawyat_maha.png
+  desc: The film tells the story of Maha Abu Ammouneh, a displaced mother who, in the heart of genocide, becomes a mother, teacher, doctor, and refuge, reinventing life for her children from nothing through imagination and play to shield them from fear and create a safer world within the ruins.
+  length: 4分
+  genre: ドキュメンタリー
+  subtitles: 日本語
+
+- name: The Dream
+  img: the_dream.jpg
+  desc: A collection of interviews with Palestinian refugees in Lebanon during the civil war, interviewed by Malas about what dreams they saw when they went to sleep.
+  length: 45分
+  genre: ドキュメンタリー
+  subtitles: 英語・アラビア語
+
+- name: With Hasan in Gaza
+  img: with_hasan_in_gaza.png
+  desc: Three MiniDV tapes of life in Gaza from 2001 were recently rediscovered.  A search for a former prison mate from 1989, leads to an unexpected road trip from the north to the south of Gaza with Hasan, a local guide whose fate remains unknown. 
+  length: 106分
+  genre: ドキュメンタリー
+  subtitles: 英語・アラビア語
+
+- name: They Do Not Exist
+  img: they_do_not_exist.jpeg
+  desc: Shooting under extraordinary conditions, the director covers conditions in Lebanon’s refugee camps, the effects of Israeli bombardments, and the lives of guerrillas in training camps. 
+  length: 25分
+  genre: ドキュメンタリー
+  subtitles: 英語・アラビア語

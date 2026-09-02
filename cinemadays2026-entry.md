@@ -3,7 +3,7 @@ layout: new-page
 title: "パレスチナ映画祭2026 会場募集"
 description: "「パレスチナ映画祭2026」会場募集ページです"
 image: ""
-css: ["index.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "cinemadays2026.css"]
+css: ["index.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "cinemadays2026.css", "cinemadays2025.css"]
 js: []
 lang: "ja"
 robots: noindex
@@ -13,7 +13,7 @@ robots: noindex
 
 <div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
   
-  <!--<img src="{{site.baseurl}}/assets/cinema2025/1.png" style="width:100%; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！日本の上映会場、60+！すべての会場で入場無料／共催：日本各地の上映会場、AFZ Japan推進チーム">-->
+  <img src="{{site.baseurl}}/assets/cinema2026/1.png" style="width:100%; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！日本の上映会場、60+！すべての会場で入場無料／共催：日本各地の上映会場、AFZ Japan推進チーム">
 </div>
 
 <div class="cinemaday-heading">
@@ -41,65 +41,40 @@ robots: noindex
       <h4>作品リスト</h4>
       <table class="movie-list">
         <thead>
-          <tr><th>タイトル</th> <th>上映時間</th> <th>ジャンル</th> <th>内容</th> <th>字幕言語</th> </tr>
+          <tr><th>詳細</th> <th>字幕言語</th></tr>
         </thead>
         <tbody>
+
+  {% assign movies = site.data.cinema2026_movies %}
+  {% for m in movies %}
+
           <tr>
-            <td><span class="title-main">ハイファに戻って</span><br>Return to Haifa</td>
-            <td>77分</td>
-            <td>ドラマ</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>日本語</td>
+            <td>
+
+              <div class="col-12" style="padding-left: 8px; padding-right: 16px">
+                <article class="article" style="margin-bottom: 0">
+                  <div class="article-header" style="height: 300px;">
+                    <div class="article-image" data-background="{{site.baseurl}}/assets/cinema2026/{{ m.img }}" style="background-image: url(&quot;{{site.baseurl}}/assets/cinema2026/{{ m.img }}&quot;);">
+                    </div>
+                    <div class="article-title">
+                      <h2><span style="color:white">{{ m.ja }}<br>{{ m.name }}</span></h2>
+                    </div>
+                  </div>
+                  <div class="article-details">
+                    <p>{{ m.desc }}</p>
+                    <div class="article-cta">
+                      {{ m.length }}・{{ m.genre }}
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+            </td>
+            <td>{{ m.subtitles }}</td>
           </tr>
-          <tr>
-            <td><span class="title-main">ボイコット</span><br>Boycott</td>
-            <td>73分</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>日本語</td>
-          </tr>
-          <tr>
-            <td><span class="title-main">採集する人々</span><br>Foragers</td>
-            <td>65分</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>日本語</td>
-          </tr>
-          <tr>
-            <td><span class="title-main">花は静かに証言する</span><br>The Flowers Stand Silently, Witnessing</td>
-            <td>17分</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>日本語</td>
-          </tr>
-          <tr>
-            <td><span class="title-main">ガザウィヤート〈小さな物語〉</span><br>Gazawyat</td>
-            <td>計28分（4本の連作）</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>英語・アラビア語</td>
-          </tr>
-          <tr>
-            <td><span class="title-main">The Dream</span></td>
-            <td>45分</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>英語・アラビア語</td>
-          </tr>
-          <tr>
-            <td><span class="title-main">With Hasan in Gaza</span></td>
-            <td>106分</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>英語・アラビア語</td>
-          </tr>
-          <tr>
-            <td><span class="title-main">They Do Not Exist</span></td>
-            <td>25分</td>
-            <td>ドキュメンタリー</td>
-            <td class="description">あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。あああ、あああ。</td>
-            <td>英語・アラビア語</td>
-          </tr>
+
+  {% endfor %}
+
         </tbody>
       </table>
       <p>
