@@ -2021,5 +2021,12 @@
     "type": 0,
     "pref": 4,
     "links": {"insta": "fufufu.books"}
+  },
+  {
+    "name": "ハカワティ・ブックカフェ",
+    "type": 2,
+    "pref": 28,
+    "geo": {"lat": 34.685243806348545, "lon": 135.18418565408538},
+    "links": {"insta": "hakawati_bookcafe_kobe"}
   }
 ]
