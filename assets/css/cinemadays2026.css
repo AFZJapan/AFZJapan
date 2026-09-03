@@ -1,5 +1,5 @@
 :root {
-  --color-a: #ffc900;
+  --color-a: #ffcb00;
   --color-b: #ee280b;
   --color-c: #0da65a; 
 }
@@ -13,7 +13,7 @@ h1 {
 
 
 .cinemaday-heading section {
-  margin-top: 8px;
+  margin-top: 48px;
 }
 
 .marker {
@@ -22,27 +22,53 @@ h1 {
 
 .movie-list {
   width: 100%;
-  max-width: 1000px;
-  border: 1px solid #d8d8d8;
+  max-width: 800px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
-.movie-list th {
-  background-color: var(--color-a);
-}
-.movie-list th,
-.movie-list td {
+
+.movie-item {
   border: 1px solid #d8d8d8;
-  padding-left: 8px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
 }
-.movie-list .title-main {
+
+.movie-item .header {
+  background-size: cover; 
+}
+
+.movie-item .header img {
+  width: 250px;
+}
+
+.movie-item .detail {
+  padding: 16px;
+}
+
+.movie-item .title {
+  display: block;
+  font-size: 1.1rem;
+  border-bottom: 2px solid var(--color-a);
+  margin-bottom: 24px;
+}
+
+.movie-item .title-main {
   font-size: 1.1rem;
 }
 
-.movie-list .description {
-  width: 200px;
-  font-size: 0.75rem;
+.movie-item .description {
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.movie-item .article-cta .badge {
+  border-radius: 3px;
+  border: 1px solid #000;
+  padding: 3px;
+  margin-bottom: 2px;
 }
 
 .cinemaday-heading {
@@ -66,4 +92,11 @@ h1 {
   }
 }
 @media only screen and (max-width: 600px) {
+  .movie-item .header img {
+    width: 100%;
+  }
+  .movie-item {
+    flex-direction: column;
+    gap: 8px;
+  }
 }

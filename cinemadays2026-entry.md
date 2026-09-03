@@ -3,10 +3,9 @@ layout: new-page
 title: "パレスチナ映画祭2026 会場募集"
 description: "「パレスチナ映画祭2026」会場募集ページです"
 image: ""
-css: ["index.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "cinemadays2026.css", "cinemadays2025.css"]
+css: ["index.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "cinemadays2026.css"]
 js: []
 lang: "ja"
-robots: noindex
 ---
 
 <div class="main-content">
@@ -26,8 +25,23 @@ robots: noindex
 
     <p>
       <a href="./cinemadays2025">昨年の「パレスチナ映画祭2025」</a>に引き続き、今年も11月2日に「パレスチナ映画祭2026」を開催します！<br>
-      映画館、お店など、上映スペースをお持ちの方、パレスチナ映画を上映しませんか？ 
+      これは、バルフォア宣言が出された11月2日に、全世界で同時開催される映画上映のイベントです。
     </p>
+    <p>
+      現在、上映会場（ホスト）を募集しています。ホストは、映画を無料で上映をすることができます。<br>
+      映画館、お店、カフェ などの上映スペースをお持ちの方、パレスチナ映画を上映しませんか？ <br>
+      
+    </p>
+
+    <section>
+      <h4>概要</h4>
+      <ul>
+        <li>イベント名｜パレスチナ映画祭2026<br>
+          Palestine Cinema Days Around the World</li>
+        <li>主催｜<a href="https://flp.ps/node/2005" target="_blank">Filmlab Palestine</a></li>
+        <li>会場募集締切｜2026年10月11日</li>
+      </ul>
+    </section>
 
     <section>
       <h4>上映日</h4>
@@ -39,44 +53,34 @@ robots: noindex
 
     <section>
       <h4>作品リスト</h4>
-      <table class="movie-list">
-        <thead>
-          <tr><th>詳細</th> <th>字幕言語</th></tr>
-        </thead>
-        <tbody>
-
+      <div class="movie-list">
   {% assign movies = site.data.cinema2026_movies %}
   {% for m in movies %}
 
-          <tr>
-            <td>
+        <article class="movie-item">
+          <div class="header">
+            <img src="{{site.baseurl}}/assets/cinema2026/{{ m.img }}">
+          </div>
 
-              <div class="col-12" style="padding-left: 8px; padding-right: 16px">
-                <article class="article" style="margin-bottom: 0">
-                  <div class="article-header" style="height: 300px;">
-                    <div class="article-image" data-background="{{site.baseurl}}/assets/cinema2026/{{ m.img }}" style="background-image: url(&quot;{{site.baseurl}}/assets/cinema2026/{{ m.img }}&quot;);">
-                    </div>
-                    <div class="article-title">
-                      <h2><span style="color:white">{{ m.ja }}<br>{{ m.name }}</span></h2>
-                    </div>
-                  </div>
-                  <div class="article-details">
-                    <p>{{ m.desc }}</p>
-                    <div class="article-cta">
-                      {{ m.length }}・{{ m.genre }}
-                    </div>
-                  </div>
-                </article>
+          <div class="detail">
+            <h5 class="title">
+              <span>{{ m.name_ja }}<br>{{ m.name }}</span>
+            </h5>
+            <div>
+              <p class="description">{{ m.desc_ja }}</p>
+              <div class="article-cta">
+                {{ m.length }}・{{ m.genre }}<br>
+                <span class="badge">音声</span> {{ m.audio }}<br>
+                <span class="badge">字幕</span> {{ m.subtitles }}
               </div>
-
-            </td>
-            <td>{{ m.subtitles }}</td>
-          </tr>
+            </div>
+          
+          </div>
+        </article>
 
   {% endfor %}
 
-        </tbody>
-      </table>
+      </div>
       <p>
         詳細は、Filmlab Palestine の紹介ページにも載っています<br>
         → <a href="https://flp.ps/node/2005" target="_blank">https://flp.ps/node/2005</a>
@@ -86,7 +90,7 @@ robots: noindex
     <section>
       <h4>上映条件</h4>
       <p>
-        上映にあたっては、Filmlabから指定されている上映条件や、運営上の都合からお願いしたいことがいくつかあります。
+        上映にあたっては、Filmlab Palestineから指定されている上映条件や、運営上の都合からお願いしたいことがいくつかあります。
         これらを満たせるかどうか、予めご確認の上で会場の登録をおねがいします！
       </p>
       <ol>
@@ -99,14 +103,14 @@ robots: noindex
           <strong>条件2｜映画を観賞するためのお金をとらない</strong><br>
           
           ❌ NG例：入場料をとる<br>
-          ❌ NG例：カンパで会場費を集めること<br>
+          ❌ NG例：カンパで会場費を集める<br>
           ✅ OK例：スペース内でドリンクやグッズの販売をする<br>
           <br>
         </li>
         <li>
-          <strong>条件3｜会場内で寄付金を集める場合、主催（Palestine Filmlab）が募っているものではないことを明示する</strong><br>
+          <strong>条件3｜会場内で寄付金を集める場合、主催（Filmlab Palestine）が募っているものではないことを明示する</strong><br>
           パレスチナのための支援金・寄付金を集めること自体は問題ありません。<br>
-          ただし、映画祭の主催（Palestine Filmlab）が集めているものではなく、スペースオーナーが集めているものであることを、はっきりと明示してください。<br>
+          ただし、映画祭の主催（Filmlab Palestine）が集めているものではなく、スペースオーナーが集めているものであることを、はっきりと明示してください。<br>
         </li>
       </ol>
     </section>
