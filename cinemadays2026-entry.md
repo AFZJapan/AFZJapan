@@ -25,7 +25,7 @@ lang: "ja"
 
     <p>
       <a href="./cinemadays2025">昨年の「パレスチナ映画祭2025」</a>に引き続き、今年も11月2日に「パレスチナ映画祭2026」を開催します！<br>
-      これは、バルフォア宣言が出された11月2日に、全世界で同時開催される映画上映のイベントです。
+      バルフォア宣言に抗議する形で、宣言が出された11月2日に、全世界で同時開催される映画祭です。
     </p>
     <p>
       現在、上映会場（ホスト）を募集しています。ホストは、映画を無料で上映をすることができます。<br>
@@ -70,8 +70,8 @@ lang: "ja"
               <p class="description">{{ m.desc_ja }}</p>
               <div class="article-cta">
                 {{ m.length }}・{{ m.genre }}<br>
-                <span class="badge">音声</span> {{ m.audio }}<br>
-                <span class="badge">字幕</span> {{ m.subtitles }}
+                <span class="badge">音声｜Original Audio</span> {{ m.audio }}<br>
+                <span class="badge">字幕｜Subtitles</span> {{ m.subtitles }}
               </div>
             </div>
           

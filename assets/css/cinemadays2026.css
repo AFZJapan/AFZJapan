@@ -92,6 +92,12 @@ h1 {
   }
 }
 @media only screen and (max-width: 600px) {
+  .cinemaday-heading-info h1 {
+    font-size: 1.8rem;
+  }
+  .cinemaday-heading-info p {
+    line-height: 1.7;
+  }
   .movie-item .header img {
     width: 100%;
   }

@@ -15,7 +15,7 @@
   desc_ja: イスラエル製品ボイコットを巡り、州政府を相手取って裁判を起こした３人の米国人を追ったドキュメンタリー。パレスチナ系米国人の言語療法士、ユダヤ教徒の妻と息子を持つ弁護士、田舎の出版社社長は、職場を解雇されたり、補助金を打ち切られたりするリスクを負いながらも、自らの信念のために戦うことを選択する。ボイコットをする権利、自由に物を言う権利が、州政府によって制限されるのは米国憲法に違反するのではないか？米国政治に深く巣食ったイスラエル・ロビー、クリスチャン・シオニストの言動、黒人解放運動の歴史も織り交ぜながら描かれる米国の姿。
   length: 73分
   genre: ドキュメンタリー
-  subtitles: アラビア語・日本語
+  subtitles: 日本語・アラビア語
   audio: 英語
 
 - name: Foragers
@@ -40,7 +40,7 @@
 
 - name: "Gazawyat"
   name_ja: ガザウィヤート：ガザの小さな物語
-  img: gazawyat_all.png
+  img: gazawyat_all.jpg
   desc: 
   desc_ja: ガザにおけるジェノサイドの中、ぎりぎりのところで尊厳を保ちながら困難な日々を生き抜く女性達に焦点を当てた短編ドキュメンタリー4作。母、妻、教師、ジャーナリスト、など様々な立場から、女性ならではの視点でジェノサイドの日常を伝える。
   length: 短編4作品：計28分
@@ -53,18 +53,21 @@
   desc: A collection of interviews with Palestinian refugees in Lebanon during the civil war, interviewed by Malas about what dreams they saw when they went to sleep.
   length: 45分
   genre: ドキュメンタリー
-  subtitles: 英語・アラビア語
+  subtitles: Arabic, English
+  audio: Arabic
 
 - name: With Hasan in Gaza
   img: with_hasan_in_gaza.png
   desc: Three MiniDV tapes of life in Gaza from 2001 were recently rediscovered.  A search for a former prison mate from 1989, leads to an unexpected road trip from the north to the south of Gaza with Hasan, a local guide whose fate remains unknown. 
   length: 106分
   genre: ドキュメンタリー
-  subtitles: 英語・アラビア語
+  subtitles: Arabic, English
+  audio: Arabic
 
 - name: They Do Not Exist
   img: they_do_not_exist.jpeg
   desc: Shooting under extraordinary conditions, the director covers conditions in Lebanon’s refugee camps, the effects of Israeli bombardments, and the lives of guerrillas in training camps. 
   length: 25分
   genre: ドキュメンタリー
-  subtitles: 英語・アラビア語
+  subtitles: Arabic, English
+  audio: Arabic
