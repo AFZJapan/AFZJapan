@@ -2028,5 +2028,11 @@
     "pref": 28,
     "geo": {"lat": 34.685243806348545, "lon": 135.18418565408538},
     "links": {"insta": "hakawati_bookcafe_kobe"}
+  },
+  {
+    "name": "なまけものハウス",
+    "type": 0,
+    "pref": 33,
+    "links": {"insta": "namakemono_house"}
   }
 ]
