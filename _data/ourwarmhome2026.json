@@ -73,7 +73,9 @@
     "name": "Cat's Meow Books",
     "pref": 13,
     "geo": {"lat": 35.644919166094574, "lon": 139.66569160325358},
-    "link": "https://catsmeowbooks.stores.jp/"
+    "link": "https://catsmeowbooks.stores.jp/",
+    "barrier_free": "・玄関に段差がございますが、簡易スロープを用意しております。<br> ・展示は１階フロアのみです。<br> ・店内は幅64センチ以内の車
+椅子・歩行器でしたらお通りになれます。"
   },
   {
     "name": "Kyklopsketchまるひら",
@@ -112,7 +114,8 @@
     "name": "白と青と",
     "pref": 13,
     "geo": {"lat": 35.75088990135942,"lon": 139.76100115170328},
-    "link": "https://www.instagram.com/sirotoaoto"
+    "link": "https://www.instagram.com/sirotoaoto",
+    "barrier_free": "・車椅子ご利用の方用のお手洗いが無いため、近くにあるふれあい館>をご案内させていただきます。<br> ・おむつ替えや授乳室についても同様に、近くのふれあい館をご案内させていた>だきます。"
   },
   {
     "name": "そぞろ書房",
@@ -144,14 +147,16 @@
     "pref": 13,
     "geo": {"lat": 35.72552767117514,"lon": 139.70673103024694},
     "link": "https://www.instagram.com/bookcafe.gnome/",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": "・古い日本家屋を改装しているため、段差の多い構造で>す。<br> ・お履物を脱いでお上がりください。"
   },
   {
     "name": "ポルトリブレ デ・ノーヴォ",
     "pref": 13,
     "geo": {"lat": 35.7012993486384,"lon": 139.64593951121623},
     "link": "http://www.portolibre.com/",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": "・住宅のため車椅子やベビーカーのままでは入れません。<br> ・ベビーカーは外に置けます。<br> ・お履物を脱いでお上がりください。"
   },
   {
     "name": "本と物語ユンスル",
@@ -169,13 +174,15 @@
     "name": "River Coffee & Gallery",
     "pref": 13,
     "geo": {"lat": 35.73938885553378, "lon": 139.76199334574582},
-    "link": "https://rivercag.com/"
+    "link": "https://rivercag.com/",
+    "barrier_free": "トイレは狭く車椅子で入れません。<br> ・会場は田端駅北口からみて丘の上にあります。<br> ・北口をでてすぐのエレベーターを使うと比較的フラットな道です。"
   },
   {
     "name": "tad bottle and bar + gallery yoIo",
     "pref": 14,
     "geo": {"lat": 35.269862364820725, "lon": 139.58616635906333},
-    "link": "https://www.instagram.com/gallery_yolo/"
+    "link": "https://www.instagram.com/gallery_yolo/",
+    "barrier_free": "・店内に多少の段差があります。<br> ・>バリアフリートイレはございません。"
   },
   {
     "name": "カフェ&カイロ有報堂",
@@ -195,7 +202,8 @@
     "pref": 23,
     "geo": {"lat": 35.13839206188643, "lon": 136.90404821303812},
     "link": "https://www.touten-bookstore.net/",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": "・店内トイレ・一部売場は段差（25cm）の先にございます。<br> ・バリアフリートイレは金山駅構内にございます。<br> ・2階は古い木造建築の急な階段となっております。（2>階は展示スペース、カフェ席のスペースとなっています。なお、カフェは1階でもご利用いただけます。今回の展示は1階売場にて開催します。）<br> ・気になる商品がございましたらレジにてお気軽にお声がけください。<br> ・合理的調整が必要な場合はお問い合わせください。"
   },
   {
     "name": "Another World Infoshop",

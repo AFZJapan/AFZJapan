@@ -64,6 +64,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
       <th>展示会場 【 <img align="middle" src="/assets/icons/afz.png" width="16" height="16" style="vertical-align: sub;"> このマークはAFZ登録スペースです 】</th>
       <th>Link</th>
       <th><img align="top" src="/assets/icons/location.png" width="20px" height="20px"></th>
+      <th>バリアフリー</th>
     </tr>
   </thead>
   <tbody id="CinemaTable">
@@ -78,6 +79,7 @@ js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.ourwarmhome.js", 
     {% if c.link %}<a href="{{ c.link }}" target="_blank"><img src="/assets/icons/website.png" width="16" height="16"></a>{% endif %}
     </td>
     <td style="word-break: keep-all;">{{ pref[c.pref].name }}</td>
+    <td style="word-break: keep-all;">{{ c.barrier_free }}</td>
   </tr>
   {% endfor %}
 
