@@ -1,10 +1,34 @@
 [
   {
-    "name": "エトセトラブックスBOOKSHOP",
-    "pref": 13,
-    "geo": {"lat": 35.66251344069242, "lon": 139.6600408191749},
-    "link": "https://etcbooks.co.jp/",
+    "name": "喫茶frame",
+    "pref": 4,
+    "geo": {"lat": 38.26985338325775, "lon": 140.87675232540113},
+    "link": "https://www.instagram.com/kissa_frame"
+  },
+  {
+    "name": "厩戸・厩戸商店",
+    "pref": 6,
+    "geo": {"lat": 38.15972961988351, "lon": 140.2751931536507},
+    "link": "https://www.umayado-jp.com/"
+  },
+  {
+    "name": "メシとカシ  りば亭",
+    "pref": 6,
+    "geo": {"lat": 38.73638216687175, "lon": 139.83651312241548},
+    "link": "https://www.libatei.jp/"
+  },
+  {
+    "name": "国際政治経済研究会（会場：まちなか交流館ふくふる）",
+    "pref": 7,
+    "geo": {"lat": 37.75379203751917, "lon": 140.46518091130304},
+    "link": "https://fukufuru-machinaka.jp/",
     "afz": 1
+  },
+  {
+    "name": "Center / Alternative Space & Hostel",
+    "pref": 9,
+    "geo": {"lat": 36.56541174693806, "lon": 139.7486169187624},
+    "link": "https://center-kanuma.net/"
   },
   {
     "name": "本屋lighthouse",
@@ -20,111 +44,23 @@
     "link": "https://breadandroses-books-matsudo.jimdofree.com/"
   },
   {
-    "name": "厩戸・厩戸商店",
-    "pref": 6,
-    "geo": {"lat": 38.15972961988351, "lon": 140.2751931536507},
-    "link": "https://www.umayado-jp.com/"
-  },
-  {
-    "name": "見た目！",
-    "pref": 13,
-    "geo": {"lat": 35.696501708412455, "lon": 139.69751154985622},
-    "link": "https://www.mitamejanai.com/"
-  },
-  {
     "name": "さくらcafe",
     "pref": 12,
     "geo": {"lat": 35.80038459340904, "lon": 139.99824321410478},
     "link": "https://sakuracafe.michikusa.jp/home/index.html"
   },
   {
-    "name": "本屋メガホン",
-    "pref": 26,
-    "geo": {"lat": 35.01494379881034, "lon": 135.73952137070316},
-    "link": "https://lit.link/en/booksmegafon"
-  },
-  {
-    "name": "メシとカシ  りば亭",
-    "pref": 6,
-    "geo": {"lat": 38.73638216687175, "lon": 139.83651312241548},
-    "link": "https://www.libatei.jp/"
-  },
-  {
-    "name": "SUB STORE",
-    "pref": 13,
-    "geo": {"lat": 35.70558492690095, "lon": 139.6488990633516},
-    "link": "https://www.instagram.com/substore.tokyo",
+    "name": "南インド食堂hanaco",
+    "pref": 12,
+    "geo": {"lat": 35.68434787563383, "lon": 140.04657320879005},
+    "link": "https://curry-hanaco.com/",
     "afz": 1
   },
   {
-    "name": "Center / Alternative Space & Hostel",
-    "pref": 9,
-    "geo": {"lat": 36.56541174693806, "lon": 139.7486169187624},
-    "link": "https://center-kanuma.net/"
-  },
-  {
-    "name": "cattic",
-    "pref": 33,
-    "geo": {"lat": 34.55181555573874, "lon": 133.67384999213974},
-    "link": "https://cattic.net/"
-  },
-  {
-    "name": "ひるねこBOOKS",
+    "name": "エトセトラブックスBOOKSHOP",
     "pref": 13,
-    "geo": {"lat": 35.72164329003491, "lon": 139.76493089403206},
-    "link": "https://www.hirunekobooks.com/"
-  },
-  {
-    "name": "TOUTEN BOOKSTORE",
-    "pref": 23,
-    "geo": {"lat": 35.13839206188643, "lon": 136.90404821303812},
-    "link": "https://www.touten-bookstore.net/",
-    "afz": 1
-  },
-  {
-    "name": "本と物語ユンスル",
-    "pref": 13,
-    "geo": {"lat": 35.691448677368555, "lon": 139.8927492284007},
-    "link": "https://www.instagram.com/books.yoonseul"
-
-  },
-  {
-    "name": "TORTOISE BOOKS&GALLERY",
-    "pref": 13,
-    "geo": {"lat": 35.70195451035436, "lon": 139.5298078247113},
-    "link": "https://tbandg.jp/",
-    "afz": 1
-  },
-  {
-    "name": "洋裁と愉しみ 多多",
-    "pref": 20,
-    "geo": {"lat": 36.241229942664006, "lon": 137.96598262230802},
-    "link": "https://tataradio.com/",
-    "afz": 1
-  },
-  {
-    "name": "1003",
-    "pref": 28,
-    "geo": {"lat": 34.68706618954275, "lon": 135.18816078125943},
-    "link": "https://1003books.tumblr.com/"
-  },
-  {
-    "name": "Hand Saw Press",
-    "pref": 13,
-    "geo": {"lat": 35.585355227702934, "lon": 139.6772345977164},
-    "link": "https://handsawpresstokyo.com/"
-  },
-  {
-    "name": "Cat's Meow Books",
-    "pref": 13,
-    "geo": {"lat": 35.644919166094574, "lon": 139.66569160325358},
-    "link": "https://catsmeowbooks.stores.jp/"
-  },
-  {
-    "name": "さわさわ",
-    "pref": 13,
-    "geo": {"lat": 35.72553614134479, "lon": 139.77847669772214},
-    "link": "https://www.instagram.com/sawasawahouse/",
+    "geo": {"lat": 35.66251344069242, "lon": 139.6600408191749},
+    "link": "https://etcbooks.co.jp/",
     "afz": 1
   },
   {
@@ -134,10 +70,81 @@
     "link": "https://ogumag.com/"
   },
   {
-    "name": "本と商いある日、",
-    "pref": 47,
-    "geo": {"lat": 26.322869,"lon": 127.965194 },
-    "link": "https://www.instagram.com/aruhi_okinawa_/"
+    "name": "Cat's Meow Books",
+    "pref": 13,
+    "geo": {"lat": 35.644919166094574, "lon": 139.66569160325358},
+    "link": "https://catsmeowbooks.stores.jp/"
+  },
+  {
+    "name": "Kyklopsketchまるひら",
+    "pref": 13,
+    "geo": {"lat": 35.706579108725556, "lon": 139.51087989218658},
+    "link": "https://kyklopsketch.jimdofree.com/"
+  },
+  {
+    "name": "ごはんカフェMARE",
+    "pref": 13,
+    "geo": {"lat": 35.72790054345724, "lon": 139.72747691306222},
+    "link": "https://www.instagram.com/maremomocafe/",
+    "afz": 1
+  },
+  {
+    "name": "SUB STORE",
+    "pref": 13,
+    "geo": {"lat": 35.70558492690095, "lon": 139.6488990633516},
+    "link": "https://www.instagram.com/substore.tokyo",
+    "afz": 1
+  },
+  {
+    "name": "さわさわ",
+    "pref": 13,
+    "geo": {"lat": 35.72553614134479, "lon": 139.77847669772214},
+    "link": "https://www.instagram.com/sawasawahouse/",
+    "afz": 1
+  },
+  {
+    "name": "書店kamos",
+    "pref": 13,
+    "geo": {"lat": 35.714234840010946, "lon": 139.82409355170188},
+    "link": "https://kamosbooks.studio.site/"
+  },
+  {
+    "name": "白と青と",
+    "pref": 13,
+    "geo": {"lat": 35.75088990135942,"lon": 139.76100115170328},
+    "link": "https://www.instagram.com/sirotoaoto"
+  },
+  {
+    "name": "そぞろ書房",
+    "pref": 13,
+    "geo": {"lat": 35.70399494451376, "lon": 139.64706689403135},
+    "link": "https://www.instagram.com/sozoroshobou/"
+  },
+  {
+    "name": "TORTOISE BOOKS&GALLERY",
+    "pref": 13,
+    "geo": {"lat": 35.70195451035436, "lon": 139.5298078247113},
+    "link": "https://tbandg.jp/",
+    "afz": 1
+  },
+  {
+    "name": "Hand Saw Press",
+    "pref": 13,
+    "geo": {"lat": 35.585355227702934, "lon": 139.6772345977164},
+    "link": "https://handsawpresstokyo.com/"
+  },
+  {
+    "name": "ひるねこBOOKS",
+    "pref": 13,
+    "geo": {"lat": 35.72164329003491, "lon": 139.76493089403206},
+    "link": "https://www.hirunekobooks.com/"
+  },
+  {
+    "name": "ブックカフェ・ノーム",
+    "pref": 13,
+    "geo": {"lat": 35.72552767117514,"lon": 139.70673103024694},
+    "link": "https://www.instagram.com/bookcafe.gnome/",
+    "afz": 1
   },
   {
     "name": "ポルトリブレ デ・ノーヴォ",
@@ -147,17 +154,48 @@
     "afz": 1
   },
   {
-    "name": "erimaki",
-    "pref": 38,
-    "geo": {"lat": 33.86396134112209,"lon": 132.71585950560743},
-    "link": "https://www.instagram.com/erimaki_cat/",
+    "name": "本と物語ユンスル",
+    "pref": 13,
+    "geo": {"lat": 35.691448677368555, "lon": 139.8927492284007},
+    "link": "https://www.instagram.com/books.yoonseul"
+  },
+  {
+    "name": "見た目！",
+    "pref": 13,
+    "geo": {"lat": 35.696501708412455, "lon": 139.69751154985622},
+    "link": "https://www.mitamejanai.com/"
+  },
+  {
+    "name": "River Coffee & Gallery",
+    "pref": 13,
+    "geo": {"lat": 35.73938885553378, "lon": 139.76199334574582},
+    "link": "https://rivercag.com/"
+  },
+  {
+    "name": "tad bottle and bar + gallery yoIo",
+    "pref": 14,
+    "geo": {"lat": 35.269862364820725, "lon": 139.58616635906333},
+    "link": "https://www.instagram.com/gallery_yolo/"
+  },
+  {
+    "name": "カフェ&カイロ有報堂",
+    "pref": 20,
+    "geo": {"lat": 35.269862364820725, "lon": 139.58616635906333},
+    "link": "http://yuhoudou.choitoippuku.com/"
+  },
+  {
+    "name": "洋裁と愉しみ 多多",
+    "pref": 20,
+    "geo": {"lat": 36.241229942664006, "lon": 137.96598262230802},
+    "link": "https://tataradio.com/",
     "afz": 1
   },
   {
-    "name": "白と青と",
-    "pref": 13,
-    "geo": {"lat": 35.75088990135942,"lon": 139.76100115170328},
-    "link": "https://www.instagram.com/sirotoaoto"
+    "name": "TOUTEN BOOKSTORE",
+    "pref": 23,
+    "geo": {"lat": 35.13839206188643, "lon": 136.90404821303812},
+    "link": "https://www.touten-bookstore.net/",
+    "afz": 1
   },
   {
     "name": "Another World Infoshop",
@@ -167,17 +205,41 @@
     "afz": 1
   },
   {
-    "name": "ごはんカフェMARE",
-    "pref": 13,
-    "geo": {"lat": 35.72790054345724,"lon": 139.72747691306222},
-    "link": "https://www.instagram.com/maremomocafe/",
+    "name": "本屋メガホン",
+    "pref": 26,
+    "geo": {"lat": 35.01494379881034, "lon": 135.73952137070316},
+    "link": "https://lit.link/en/booksmegafon"
+  },
+  {
+    "name": "1003",
+    "pref": 28,
+    "geo": {"lat": 34.68706618954275, "lon": 135.18816078125943},
+    "link": "https://1003books.tumblr.com/"
+  },
+  {
+    "name": "ハカワティ・ブックカフェ",
+    "pref": 28,
+    "geo": {"lat": 34.68532320630104, "lon": 135.18422856942533},
+    "link": "https://www.instagram.com/hakawati_bookcafe_kobe/",
     "afz": 1
   },
   {
-    "name": "ブックカフェ・ノーム",
-    "pref": 13,
-    "geo": {"lat": 35.72552767117514,"lon": 139.70673103024694},
-    "link": "https://www.instagram.com/bookcafe.gnome/",
+    "name": "cattic",
+    "pref": 33,
+    "geo": {"lat": 34.55181555573874, "lon": 133.67384999213974},
+    "link": "https://cattic.net/"
+  },
+  {
+    "name": "erimaki",
+    "pref": 38,
+    "geo": {"lat": 33.86396134112209,"lon": 132.71585950560743},
+    "link": "https://www.instagram.com/erimaki_cat/",
     "afz": 1
+  },
+  {
+    "name": "本と商いある日、",
+    "pref": 47,
+    "geo": {"lat": 26.322869,"lon": 127.965194 },
+    "link": "https://www.instagram.com/aruhi_okinawa_/"
   }
 ]
