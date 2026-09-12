@@ -22,7 +22,8 @@
     "pref": 7,
     "geo": {"lat": 37.75379203751917, "lon": 140.46518091130304},
     "link": "https://fukufuru-machinaka.jp/",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": "車椅子・ベビーカーOK"
   },
   {
     "name": "Center / Alternative Space & Hostel",
@@ -61,7 +62,8 @@
     "pref": 13,
     "geo": {"lat": 35.66251344069242, "lon": 139.6600408191749},
     "link": "https://etcbooks.co.jp/",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "OGU MAG+",
@@ -74,7 +76,7 @@
     "pref": 13,
     "geo": {"lat": 35.644919166094574, "lon": 139.66569160325358},
     "link": "https://catsmeowbooks.stores.jp/",
-    "barrier_free": "・玄関に段差がございますが、簡易スロープを用意しております。<br>・展示は１階フロアのみです。<br>・店内は幅64センチ以内の車椅子・歩行器でしたらお通りになれます。"
+    "barrier_free": "'車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "Kyklopsketchまるひら",
@@ -94,7 +96,8 @@
     "pref": 13,
     "geo": {"lat": 35.70558492690095, "lon": 139.6488990633516},
     "link": "https://www.instagram.com/substore.tokyo",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": 筆談対応可
   },
   {
     "name": "さわさわ",
@@ -114,7 +117,7 @@
     "pref": 13,
     "geo": {"lat": 35.75088990135942,"lon": 139.76100115170328},
     "link": "https://www.instagram.com/sirotoaoto",
-    "barrier_free": "・車椅子ご利用の方用のお手洗いが無いため、近くにあるふれあい館>をご案内させていただきます。<br>・おむつ替えや授乳室についても同様に、近くのふれあい館をご案内させていた>だきます。"
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "そぞろ書房",
@@ -127,7 +130,8 @@
     "pref": 13,
     "geo": {"lat": 35.70195451035436, "lon": 139.5298078247113},
     "link": "https://tbandg.jp/",
-    "afz": 1
+    "afz": 1,
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "Hand Saw Press",
@@ -139,7 +143,8 @@
     "name": "ひるねこBOOKS",
     "pref": 13,
     "geo": {"lat": 35.72164329003491, "lon": 139.76493089403206},
-    "link": "https://www.hirunekobooks.com/"
+    "link": "https://www.hirunekobooks.com/",
+    "barrier_free": "筆談対応可"
   },
   {
     "name": "ブックカフェ・ノーム",
@@ -147,7 +152,7 @@
     "geo": {"lat": 35.72552767117514,"lon": 139.70673103024694},
     "link": "https://www.instagram.com/bookcafe.gnome/",
     "afz": 1,
-    "barrier_free": "・古い日本家屋を改装しているため、段差の多い構造で>す。<br>・お履物を脱いでお上がりください。"
+    "barrier_free": "筆談対応可"
   },
   {
     "name": "ポルトリブレ デ・ノーヴォ",
@@ -155,7 +160,7 @@
     "geo": {"lat": 35.7012993486384,"lon": 139.64593951121623},
     "link": "http://www.portolibre.com/",
     "afz": 1,
-    "barrier_free": "・住宅のため車椅子やベビーカーのままでは入れません。<br>・ベビーカーは外に置けます。<br>・お履物を脱いでお上がりください。"
+    "barrier_free": "筆談対応可"
   },
   {
     "name": "本と物語ユンスル",
@@ -174,14 +179,14 @@
     "pref": 13,
     "geo": {"lat": 35.73938885553378, "lon": 139.76199334574582},
     "link": "https://rivercag.com/",
-    "barrier_free": "・トイレは狭く車椅子で入れません。<br>・会場は田端駅北口からみて丘の上にあります。<br>・北口をでてすぐのエレベーターを使うと比較的フラットな道です。"
+    "barrier_free": "'車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "tad bottle and bar + gallery yoIo",
     "pref": 14,
     "geo": {"lat": 35.269862364820725, "lon": 139.58616635906333},
     "link": "https://www.instagram.com/gallery_yolo/",
-    "barrier_free": "・店内に多少の段差があります。<br>・バリアフリートイレはございません。"
+    "barrier_free": "筆談対応可, 車椅子・ベビーカーOK"
   },
   {
     "name": "カフェ&カイロ有報堂",
@@ -202,7 +207,7 @@
     "geo": {"lat": 35.13839206188643, "lon": 136.90404821303812},
     "link": "https://www.touten-bookstore.net/",
     "afz": 1,
-    "barrier_free": "・店内トイレ・一部売場は段差（25cm）の先にございます。<br>・バリアフリートイレは金山駅構内にございます。<br>・2階は古い木造建築の急な階段となっております。（2階は展示スペース、カフェ席のスペースとなっています。なお、カフェは1階でもご利用いただけます。今回の展示は1階売場にて開催します。）<br>・気になる商品がございましたらレジにてお気軽にお声がけください。<br>・合理的調整が必要な場合はお問い合わせください。"
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "Another World Infoshop",
@@ -215,7 +220,8 @@
     "name": "本屋メガホン",
     "pref": 26,
     "geo": {"lat": 35.01494379881034, "lon": 135.73952137070316},
-    "link": "https://lit.link/en/booksmegafon"
+    "link": "https://lit.link/en/booksmegafon",
+    "barrier_free": "筆談対応可"
   },
   {
     "name": "1003",
@@ -247,6 +253,7 @@
     "name": "本と商いある日、",
     "pref": 47,
     "geo": {"lat": 26.322869,"lon": 127.965194 },
-    "link": "https://www.instagram.com/aruhi_okinawa_/"
+    "link": "https://www.instagram.com/aruhi_okinawa_/",
+    "barrier_free": "筆談対応可"
   }
 ]
