@@ -558,9 +558,9 @@
   {
     "name": "Social Book Cafeハチドリ舎",
     "en": "Social Book Cafe Hachidorisha",
-    "type": 0,
+    "type": 2,
     "pref": 34,
-    "geo": {"lat": 34.39394590499505, "lon": 132.45046342191043},
+    "geo": {"lat": 34.39351987313983, "lon": 132.4488547704449},
     "links": {"web":"https://hachidorisha.com", "insta":"hachidorisha"}
   },
   {
