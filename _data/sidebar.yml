@@ -57,6 +57,10 @@ ja:
     icon: "icons/forbidden_plants.png"
     small: true
     href: "/forbidden-plants-of-Palestine"
+  - title: "パレスチナ映画祭2026"
+    icon: "icons/cinema_small.png"
+    small: true
+    href: "/cinemadays2026-entry"
   - title: "パレスチナ映画祭2025"
     icon: "icons/cinema_small.png"
     small: true
@@ -118,6 +122,10 @@ en:
     icon: "icons/forbidden_plants.png"
     small: true
     href: "/forbidden-plants-of-Palestine"
+  - title: "Cinema Days 2026"
+    icon: "icons/cinema_small.png"
+    small: true
+    href: "/cinemadays2026-entry"
   - title: "Cinema Days 2025"
     icon: "icons/cinema_small.png"
     small: true
