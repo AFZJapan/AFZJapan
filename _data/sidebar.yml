@@ -36,6 +36,18 @@ ja:
       - title: "アパルトヘイトについて"
         href: "/apartheid"
 
+  - header: "PARTNERS"
+
+  - title: "パレスチナ映画祭2026"
+    icon: "icons/cinema_small.png"
+    small: true
+    href: "/cinemadays2026-entry"
+    active: true
+  - title: "パレスチナの禁じられた植物"
+    icon: "icons/forbidden_plants.png"
+    small: true
+    href: "/forbidden-plants-of-Palestine"
+
   - header: "MISC"
 
   - title: "資料、ダウンロード"
@@ -50,21 +62,6 @@ ja:
   - title: "FAQ"
     micon: "question_answer"
     href: "/faq"
-
-  - header: "PARTNERS"
-
-  - title: "パレスチナの禁じられた植物"
-    icon: "icons/forbidden_plants.png"
-    small: true
-    href: "/forbidden-plants-of-Palestine"
-  - title: "パレスチナ映画祭2026"
-    icon: "icons/cinema_small.png"
-    small: true
-    href: "/cinemadays2026-entry"
-  - title: "パレスチナ映画祭2025"
-    icon: "icons/cinema_small.png"
-    small: true
-    href: "/cinemadays2025"
 
 en:
   - header: "AFZ・BDS"
@@ -126,7 +123,3 @@ en:
     icon: "icons/cinema_small.png"
     small: true
     href: "/cinemadays2026-entry"
-  - title: "Cinema Days 2025"
-    icon: "icons/cinema_small.png"
-    small: true
-    href: "/cinemadays2025"
