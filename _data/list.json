@@ -2027,5 +2027,19 @@
     "type": 0,
     "pref": 33,
     "links": {"insta": "namakemono_house"}
+  },
+  {
+    "name": "BAR ハコニト",
+    "type": 2,
+    "pref": 23,
+    "geo": {"lat": 35.16819707725353, "lon": 136.96927932099953},
+    "links": {"insta": "hakonito", "twitter": "hakonito"}
+  },
+  {
+    "name": "うらんたん文庫",
+    "type": 3,
+    "pref": 40,
+    "geo": {"lat": 33.77037235668802, "lon": 130.51137388284536},
+    "links": {"insta": "urantan55"}
   }
 ]
