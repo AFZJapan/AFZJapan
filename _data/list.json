@@ -2041,5 +2041,33 @@
     "pref": 40,
     "geo": {"lat": 33.77037235668802, "lon": 130.51137388284536},
     "links": {"insta": "urantan55"}
+  },
+  {
+    "name": "エスパス・オール",
+    "type": 1,
+    "pref": 13,
+    "geo": {"lat": 35.7055002756221, "lon":139.58145934189625},
+    "links": {"web": "https://www.instagram.com/p/CzSeXNTSaSp/"}
+  },
+  {
+    "name": "本屋メガホン",
+    "type": 0,
+    "pref": 26,
+    "geo": {"lat": 35.01496568572141, "lon": 135.73923069215832},
+    "links": {"insta": "books_megafone", "web": "https://booksmegafon.stores.jp/"}
+  },
+  {
+    "name": "mountain△grocery",
+    "type": 2,
+    "pref": 15,
+    "geo": {"lat": 37.921074396923615, "lon": 139.07167728432017},
+    "links": {"insta": "mountaingrocery"}
+  },
+  {
+    "name": "サウンドガーデン　サンフラワー",
+    "type": 2,
+    "pref": 23,
+    "geo": {"lat": 35.15224209446371, "lon": 136.95241993264887},
+    "links": {"insta": "sunflower_karaoke"}
   }
 ]
