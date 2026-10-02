@@ -1,4 +1,12 @@
 [
+
+  {
+    "name": "おうちcoffee",
+    "pref": 1,
+    "geo": {"lat": 42.64114699701901, "lon": 141.6089770276513},
+    "link": "http://ouchicoffee.jp/",
+    "barrier_free": "筆談対応可"
+  },
   {
     "name": "喫茶frame",
     "pref": 4,
@@ -32,6 +40,12 @@
     "link": "https://center-kanuma.net/"
   },
   {
+    "name": "Lydie tells a small lie",
+    "pref": 9,
+    "geo": {"lat": 36.385890578220504, "lon": 139.73394049464045},
+    "link": "https://www.instagram.com/lydietellsasmalllie"
+  },
+  {
     "name": "本屋lighthouse",
     "pref": 12,
     "geo": {"lat": 35.65800991872076, "lon": 140.05452364985453},
@@ -58,6 +72,12 @@
     "afz": 1
   },
   {
+    "name": "茜画荘",
+    "pref": 13,
+    "geo": {"lat": 35.66603368614329, "lon": 139.60338142101995},
+    "link": "https://www.instagram.com/ak_ane708/"
+  },
+  {
     "name": "エトセトラブックスBOOKSHOP",
     "pref": 13,
     "geo": {"lat": 35.66251344069242, "lon": 139.6600408191749},
@@ -66,10 +86,22 @@
     "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
+    "name": "王子教会",
+    "pref": 13,
+    "geo": {"lat": 35.7540157088481, "lon": 139.73338334005336},
+    "link": "https://ojichurch.exblog.jp/3388010/"
+  },
+  {
     "name": "OGU MAG+",
     "pref": 13,
     "geo": {"lat": 35.741893, "lon": 139.766456},
     "link": "https://ogumag.com/"
+  },
+  {
+    "name": "キノコヤ",
+    "pref": 13,
+    "geo": {"lat": 35.647933695970465, "lon": 139.44748244373886},
+    "link": "https://www.instagram.com/kinokoya96/"
   },
   {
     "name": "Cat's Meow Books",
@@ -97,7 +129,7 @@
     "geo": {"lat": 35.70558492690095, "lon": 139.6488990633516},
     "link": "https://www.instagram.com/substore.tokyo",
     "afz": 1,
-    "barrier_free": 筆談対応可
+    "barrier_free": "筆談対応可"
   },
   {
     "name": "さわさわ",
@@ -140,6 +172,14 @@
     "link": "https://handsawpresstokyo.com/"
   },
   {
+    "name": "百塔珈琲",
+    "pref": 13,
+    "geo": {"lat": 35.738700042361494, "lon": 139.7461485019931},
+    "link": "http://shop.hyaqtoh.com/",
+    "afz": 1,
+    "barrier_free": "筆談対応可"
+  },
+  {
     "name": "ひるねこBOOKS",
     "pref": 13,
     "geo": {"lat": 35.72164329003491, "lon": 139.76493089403206},
@@ -153,6 +193,12 @@
     "link": "https://www.instagram.com/bookcafe.gnome/",
     "afz": 1,
     "barrier_free": "筆談対応可"
+  },
+  {
+    "name": "POTATO CHIP BOOKS",
+    "pref": 13,
+    "link": "https://www.instagram.com/potatochipbooks",
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "ポルトリブレ デ・ノーヴォ",
@@ -169,6 +215,14 @@
     "link": "https://www.instagram.com/books.yoonseul"
   },
   {
+    "name": "よりまし堂",
+    "pref": 13,
+    "geo": {"lat": 35.65427688511551, "lon": 139.39327048237928},
+    "link": "https://yorimashido.stores.jp/",
+    "afz": 1,
+    "barrier_free": "'車椅子・ベビーカーOK, 筆談対応可"
+  },
+  {
     "name": "見た目！",
     "pref": 13,
     "geo": {"lat": 35.696501708412455, "lon": 139.69751154985622},
@@ -182,11 +236,42 @@
     "barrier_free": "'車椅子・ベビーカーOK, 筆談対応可"
   },
   {
+    "name": "サザンカブックス",
+    "pref": 14,
+    "geo": {"lat": 35.34981080895609, "lon": 139.53298449583346},
+    "link": "https://www.instagram.com/sasanqua_books"
+  },
+  {
+    "name": "新日本婦人の会宮前支部事務所",
+    "pref": 14,
+    "geo": {"lat": 35.57701611238158, "lon": 139.57020424985117},
+    "link": "https://x.com/shinfumiyamae"
+  },
+  {
+    "name": "CENTRAL GROVE COFFEE",
+    "pref": 14,
+    "geo": {"lat": 35.50745524801848, "lon": 139.44891846460783},
+    "link": "https://www.instagram.com/centralgrovecoffee"
+  },
+  {
     "name": "tad bottle and bar + gallery yoIo",
     "pref": 14,
     "geo": {"lat": 35.269862364820725, "lon": 139.58616635906333},
     "link": "https://www.instagram.com/gallery_yolo/",
     "barrier_free": "筆談対応可, 車椅子・ベビーカーOK"
+  },
+  {
+    "name": "電燈",
+    "pref": 14,
+    "geo": {"lat": 35.48717443951111, "lon": 139.62434053266273},
+    "link": "https://www.instagram.com/book.dento/"
+  },
+  {
+    "name": "Daughter",
+    "pref": 19,
+    "geo": {"lat": 35.70618798935703, "lon": 138.45231184801165},
+    "link": "https://www.instagram.com/daughter.cafe/",
+    "barrier_free": "車椅子・ベビーカーOK"
   },
   {
     "name": "カフェ&カイロ有報堂",
@@ -202,6 +287,13 @@
     "afz": 1
   },
   {
+    "name": "Another World Infoshop",
+    "pref": 23,
+    "geo": {"lat": 35.16826194065782,"lon": 136.94169243518587},
+    "link": "https://www.instagram.com/awi_nagoya/",
+    "afz": 1
+  },
+  {
     "name": "TOUTEN BOOKSTORE",
     "pref": 23,
     "geo": {"lat": 35.13839206188643, "lon": 136.90404821303812},
@@ -210,11 +302,17 @@
     "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
-    "name": "Another World Infoshop",
+    "name": "BAR 凡",
     "pref": 23,
-    "geo": {"lat": 35.16826194065782,"lon": 136.94169243518587},
-    "link": "https://www.instagram.com/awi_nagoya/",
-    "afz": 1
+    "geo": {"lat": 34.988535458385634, "lon": 136.99810146332217},
+    "link": "https://www.instagram.com/barbon1959"
+  },
+  {
+    "name": "ギャラリーQ",
+    "pref": 25,
+    "geo": {"lat": 35.008558062529765, "lon": 135.86386163815212},
+    "link": "https://shigaminpo.com/gallery9/",
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "本屋メガホン",
@@ -224,10 +322,43 @@
     "barrier_free": "筆談対応可"
   },
   {
+    "name": "よるしるべ",
+    "pref": 26,
+    "geo": {"lat": 34.97831886409241, "lon": 135.77041933900085},
+    "link": "https://www.instagram.com/yorushirube/"
+  },
+  {
+    "name": "ながめCOFFEE SHOP",
+    "pref": 27,
+    "geo": {"lat": 34.767208061680954, "lon": 135.68698814001306},
+    "link": "https://www.instagram.com/nagame_coffeeshop"
+  },
+  {
+    "name": "book cafe 本と人つむぐ",
+    "pref": 27,
+    "geo": {"lat": 34.79960688312952, "lon": 135.5194489952588},
+    "link": "https://www.instagram.com/hontohito_tsumugu/",
+    "barrier_free": "筆談対応可"
+  },
+  {
     "name": "1003",
     "pref": 28,
     "geo": {"lat": 34.68706618954275, "lon": 135.18816078125943},
     "link": "https://1003books.tumblr.com/"
+  },
+  {
+    "name": "コミュニティスペース そらにじひめじ",
+    "pref": 28,
+    "geo": {"lat": 34.83145533847219, "lon": 134.69396464729212},
+    "link": "https://soranijihimeji.wordpress.com/",
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
+  },
+  {
+    "name": "日本キリスト教団はりま平安教会",
+    "pref": 28,
+    "geo": {"lat": 34.76013722901781, "lon": 134.827361665158},
+    "link": "https://www.instagram.com/harimaheianchurch/",
+    "barrier_free": "車椅子・ベビーカーOK"
   },
   {
     "name": "ハカワティ・ブックカフェ",
@@ -237,10 +368,23 @@
     "afz": 1
   },
   {
+    "name": "百花園",
+    "pref": 30,
+    "link": "https://www.instagram.com/hyakkaen_irokawa"
+  },
+  {
     "name": "cattic",
     "pref": 33,
     "geo": {"lat": 34.55181555573874, "lon": 133.67384999213974},
     "link": "https://cattic.net/"
+  },
+  {
+    "name": "Social Book Cafeハチドリ舎",
+    "pref": 34,
+    "geo": {"lat": 34.39398574414441, "lon": 132.45014155660238},
+    "link": "https://hachidorisha.com/home/",
+    "afz": 1,
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "erimaki",
@@ -248,6 +392,21 @@
     "geo": {"lat": 33.86396134112209,"lon": 132.71585950560743},
     "link": "https://www.instagram.com/erimaki_cat/",
     "afz": 1
+  },
+  {
+    "name": "うらんたん文庫",
+    "pref": 40,
+    "geo": {"lat": 33.7703456009379, "lon": 130.51212490133312},
+    "link": "https://www.instagram.com/urantan55/",
+    "afz": 1,
+    "barrier_free": "ベビーカーOK, 筆談対応可"
+  },
+  {
+    "name": "books selva",
+    "pref": 46,
+    "geo": {"lat": 31.59603825974916, "lon": 130.55843628561888},
+    "link": "https://booksselva.square.site/",
+    "barrier_free": "筆談対応可"
   },
   {
     "name": "本と商いある日、",
