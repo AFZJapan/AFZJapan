@@ -72,6 +72,7 @@ lang: "ja"
                 <span class="badge">音声｜Original Audio</span> {{ m.audio }}<br>
                 <span class="badge">字幕｜Subtitles</span> {{ m.subtitles }}
               </div>
+              <p class="appendix">{{ m.appendix }}</p>
             </div>
           
           </div>

@@ -67,6 +67,12 @@ h1 {
   line-height: 1.5;
 }
 
+.movie-item .appendix {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  margin-top: 12px;
+}
+
 .movie-item .article-cta .badge {
   border-radius: 3px;
   border: 1px solid #000;
