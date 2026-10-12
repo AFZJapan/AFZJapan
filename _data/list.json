@@ -2069,5 +2069,173 @@
     "pref": 23,
     "geo": {"lat": 35.15224209446371, "lon": 136.95241993264887},
     "links": {"insta": "sunflower_karaoke"}
+  },
+  {
+    "name": "トリアロコひろしま",
+    "type": 1,
+    "pref": 34,
+    "geo": {"lat": 34.464831, "lon": 132.509884},
+    "links": {}
+  },
+  {
+    "name": "ふぇみんスペース",
+    "type": 4,
+    "pref": 13,
+    "geo": {"lat": 35.672500259147505, "lon": 139.71073323779666},
+    "links": {"web": "https://www.jca.apc.org/femin/", "insta": "femin_journal", "twitter": "femin1946"}
+  },
+  {
+    "name": "もっきんバー",
+    "type": 2,
+    "pref": 13,
+    "geo": {"lat": 35.65892061049114, "lon": 139.31308093171748},
+    "links": {}
+  },
+  {
+    "name": "ひろんた村母屋",
+    "type": 4,
+    "pref": 42,
+    "geo": {"lat": 32.943412834851955, "lon": 129.0857806726821 },
+    "links": {"web": "https://www.hironta.com/", "insta": "https://www.instagram.com/hironta_mura/"}
+  },
+  {
+    "name": "中通島シネマ",
+    "type": 4,
+    "pref": 42,
+    "geo": {"lat": 32.94369779607915, "lon": 129.0857031494202},
+    "links": {"insta": "nakadorijim_cinema"}
+  },
+  {
+    "name": "スイカの会こまえ",
+    "type": 3,
+    "pref": 13,
+    "geo": {"lat": 35.6326006092614, "lon": 139.5774536360625}, 
+    "links": {"insta": "komae_palestine"}
+  },
+  {
+    "name": "如春荘",
+    "type": 3,
+    "pref": 7,
+    "geo": {"lat": 37.767543864856655, "lon": 140.4553790606406},
+    "links": {"insta": "joshunso.since1937"}
+  },
+  {
+    "name": "一乗寺BOOK APARTMENT",
+    "type": 0,
+    "pref": 26,
+    "geo": {"lat": 35.04164155869574, "lon": 135.78587303774705},
+    "links": {"web": "https://ichijojibookapartment.my.canva.site/ichijyoji-book-apartment#home", "insta": "@bookapa_kyoto", "twitter":"BOOKAPA_kyoto1"}
+  },
+  {
+    "name": "dongbaek ／トンベク",
+    "type": 3,
+    "pref": 40,
+    "geo": {"lat": 33.57043342511758, "lon": 130.3681422427521},
+    "links": {"web": "https://dongbaek25.com/", "insta": "dongbaek25"}
+  },
+  {
+    "name": "書店if you",
+    "type": 0,
+    "pref": 17,
+    "geo": {"lat": 36.55414497306008, "lon": 136.67218665799643},
+    "links": {"insta": "if_you_jp"}
+  },
+  {
+    "name": "日本基督教団八ヶ岳教会",
+    "type": 1,
+    "pref": 19,
+    "geo": {"lat": 35.8227776484022, "lon": 138.42667415063977},
+    "links": {"web": "https://yatsugatake-church.com"}
+  },
+  {
+    "name": "スペースふうら",
+    "type": 3,
+    "pref": 27,
+    "geo": {"lat": 34.67797757205352, "lon": 135.5613766047393},
+    "links": {}
+  },
+  {
+    "name": "あまふく食堂",
+    "type": 2,
+    "pref": 11,
+    "geo": {"lat": 36.06367407706423, "lon": 139.24760132251626},
+    "links": {"insta": "ama_fuku_shokudou"}
+  },
+  {
+    "name": "東京藝術大学 取手キャンパス 3F 映像編集スタジオ",
+    "type": 3,
+    "pref": 8,
+    "geo": {"lat": 35.879916689578636, "lon": 140.11598353340239},
+    "links": {}
+  },
+  {
+    "name": "メシとカシ りば亭",
+    "type": 2,
+    "pref": 6,
+    "geo": {"lat": 38.73628332268675, "lon": 139.83546416617682},
+    "links": {"web":"https://libatei.jp/", "insta": "libatei"}
+  },
+  {
+    "name": "まちの拠り所～Yosuga～",
+    "type": 1,
+    "pref": 27,
+    "geo": {"lat": 34.655814295128195, "lon": 135.53844939793893},
+    "links": {"web":"https://hitokototumugu-yosuga.com/", "insta": "yosuganikitene"}
+  },
+  {
+    "name": "日本山妙法寺日本橋道場",
+    "type": 4,
+    "pref": 13,
+    "geo": {"lat": 35.69387441143978, "lon": 139.78641732846637},
+    "links": {"twitter": "No_bukimihon1"}
+  },
+  {
+    "name": "教覚寺",
+    "type": 4,
+    "pref": 28,
+    "geo": {"lat": 34.91223816001145, "lon": 134.5893764535066},
+    "links": {}
+  },
+  {
+    "name": "火曜舎",
+    "type": 2,
+    "pref": 13,
+    "geo": {"lat": 35.699893181638735, "lon": 139.63287022632483},
+    "links": {"web": "https://onomatopen.wixsite.com/-site", "insta":"chai.kayousya"}
+  },
+  {
+    "name": "ブックカフェ四次元",
+    "type": 2,
+    "pref": 22,
+    "geo": {"lat": 34.98804695948734, "lon": 138.382495882607},
+    "links": {"web":"https://lit.link/yojigen", "insta": "yojigen.bookcafe"}
+  },
+  {
+    "name": "とっぴんしゃん",
+    "type": 3,
+    "pref": 29,
+    "geo": {"lat": 34.52006575446395, "lon": 135.74279287302573},
+    "links": {"web": "http://kansai.me/bibliotheca/"}
+  },
+  {
+    "name": "Untitled.pdf",
+    "type": 3,
+    "pref": 13,
+    "geo": {"lat": 35.709355205702416, "lon": 139.65199507467716},
+    "links": {"insta": "untitled.pdf.tokyo"}
+  },
+  {
+    "name": "ロバハウス",
+    "type": 3,
+    "pref": 13,
+    "geo": {"lat": 35.73014169002891, "lon": 139.42300981075664},
+    "links": {"insta": "roba_house"}
+  },
+  {
+    "name": "stand.",
+    "type": 3,
+    "pref": 13,
+    "geo": {"lat": 35.74089183331131, "lon":  139.85049455351404},
+    "links": {"web":"https://www.standpoint-artspace.com/", "insta": "standpoint_artspace"}
   }
 ]
