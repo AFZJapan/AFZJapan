@@ -1,0 +1,38 @@
+- place_name: カフェ・れら
+  organizer_name: ""
+  address: ""
+  url: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov2
+- place_name: 果樹園
+  organizer_name: 百花園
+  address: 和歌山県東牟婁郡那智勝浦町築地3−2−6
+  url: "https://www.instagram.com/hyakkaen_irokawa"
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: 日野市七生公会堂
+  organizer_name: （個人）
+  address: 東京都日野市三沢3丁目50-1
+  url: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - the_flower_stand
+    - gazawyat
+  screening_dates: []
