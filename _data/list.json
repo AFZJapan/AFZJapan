@@ -2237,5 +2237,68 @@
     "pref": 13,
     "geo": {"lat": 35.74089183331131, "lon":  139.85049455351404},
     "links": {"web":"https://www.standpoint-artspace.com/", "insta": "standpoint_artspace"}
+  },
+  {
+    "name": "本屋BREAD＆ROSES",
+    "type": 0,
+    "pref": 12,
+    "geo": {"lat": 35.80181660088105, "lon": 139.95933723003844},
+    "links": {"web":"https://breadandroses-books-matsudo.jimdofree.com/", "insta": "breadandroses0501", "twitter":"breadrosesbooks"}
+  },
+  {
+    "name": "公益社団法人子ども情報研究センター",
+    "type": 4,
+    "pref": 27,
+    "geo": {"lat": 34.67373595253284, "lon": 135.46377070320045},
+    "links": {"web":"https://kojoken.jp/", "insta": "kojoken_harappa"}
+  },
+  {
+    "name": "よるしるべ",
+    "type": 0,
+    "pref": 26,
+    "geo": {"lat": 34.97832106180453, "lon": 135.770266453177 },
+    "links": {"insta":"yorushirube", "twitter": "yorushirube_"}
+  },
+  {
+    "name": "トンベク／dongbaek",
+    "type": 3,
+    "pref": 40,
+    "geo": {"lat": 33.570461581501895, "lon": 130.36812717096612},
+    "links": {"web":"https://dongbaek25.com/", "insta": "dongbaek25"}
+  },
+  {
+    "name": "府中プラッツ",
+    "type": 3,
+    "pref": 13,
+    "geo": {"lat": 35.67197475894046, "lon": 139.47953836870377},
+    "links": {}
+  },
+  {
+    "name": "開発教育協会",
+    "type": 4,
+    "pref": 13,
+    "geo": {"lat": 35.71111233198381, "lon": 139.7483620880996},
+    "links": {"web":"https://www.dear.or.jp/", "insta": "ngo.dear", "twitter":"ngoDEAR"}
+  },
+  {
+    "name": "北秋田市ふれあいプラザコムコム研修室D",
+    "type": 3,
+    "pref": 5,
+    "geo": {"lat": 40.228043148598225, "lon": 140.37070630295295},
+    "links": {}
+  },
+  {
+    "name": "とっぴんしゃん",
+    "type": 1,
+    "pref": 29,
+    "geo": {"lat": 34.520086462182356, "lon": 135.74277669175754},
+    "links": {}
+  },
+  {
+    "name": "aida",
+    "type": 1,
+    "pref": 13,
+    "geo": {"lat": 35.71619538051323, "lon": 139.78813017052008},
+    "links": {"insta": "aida_asakusa"}
   }
 ]
