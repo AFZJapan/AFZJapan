@@ -95,10 +95,48 @@ h1 {
   flex: 1;
 }
 
+.internal-nav {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 96px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: center;
+  align-content: stretch;
+  gap: 12px;
+}
+
+.internal-nav a {
+  display: block;
+  background-color: var(--color-a);
+  border-radius: 4px;
+  color: #000;
+  width: 200px;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.internal-nav a:hover {
+  box-shadow: inset 0 60px 0 0 var(--color-b);
+  text-decoration: none;
+  color: #fff;
+}
+
+
 @media only screen and (max-width: 992px) {
   .cinemaday-heading {
     flex-direction: column;
   }
+  .internal-nav {
+    flex-wrap: wrap;
+  }
+  .internal-nav a {
+    font-size: 1.1em;
+    width: calc(100% / 2 - 24px);
+  }
+
 }
 @media only screen and (max-width: 600px) {
   .main-content {
@@ -117,5 +155,9 @@ h1 {
   .movie-item {
     flex-direction: column;
     gap: 8px;
+  }
+  .internal-nav a {
+    font-size: 1.1em;
+    width: 100%;
   }
 }

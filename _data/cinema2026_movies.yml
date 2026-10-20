@@ -2,6 +2,8 @@
   name_ja: ハイファに戻って
   img: return_to_haifa.jpg
   desc: パレスチナを代表する作家、ガッサーン・カナファーニーの有名な小説「ハイファに戻って」を映画化した作品。20年ぶりにハイファの自宅に戻る機会を得たパレスチナ人夫婦は、そこで20年前どさくさに紛れて生き別れとなっていた息子に会う。しかし息子は、ポーランドから移住して今はこの家に住むユダヤ人夫婦の子どもとして育てられ、イスラエル軍に従軍していた。パレスチナ人夫婦の悲劇的なストーリーを、イラク人監督、レバノン人、シリア人俳優たちが表現した汎アラブ映画。音楽は、2025年に亡くなったレバノンが誇る音楽家・劇作家のZiad Rahbaniが担当。
+  director: Kassem Hawal
+  year: 1982
   length: 77分
   genre: ドラマ
   subtitles: 日本語・英語
@@ -11,6 +13,8 @@
   name_ja: ボイコット
   img: boycott.jpg
   desc: イスラエル製品ボイコットを巡り、州政府を相手取って裁判を起こした３人の米国人を追ったドキュメンタリー。パレスチナ系米国人の言語療法士、ユダヤ教徒の妻と息子を持つ弁護士、田舎の出版社社長は、職場を解雇されたり、補助金を打ち切られたりするリスクを負いながらも、自らの信念のために戦うことを選択する。ボイコットをする権利、自由に物を言う権利が、州政府によって制限されるのは米国憲法に違反するのではないか？米国政治に深く巣食ったイスラエル・ロビー、クリスチャン・シオニストの言動、黒人解放運動の歴史も織り交ぜながら描かれる米国の姿。
+  director: Julia Bacha
+  year: 2021
   length: 73分
   genre: ドキュメンタリー
   subtitles: 日本語・アラビア語
@@ -20,6 +24,8 @@
   name_ja: 採集する人々
   img: foragers.jpg
   desc: 季節の野草やハーブは、古来よりパレスチナ人の食文化を豊かなものにしてきた。しかし「自然保護」の名目でそれらの採集を禁止するイスラエルの政策は、パレスチナ人の文化、ひいては民族性そのものを消し去ろうとする行為に他ならない。様々な手を用いて伝統の野草摘みを続けようとするパレスチナ人と、それを取り締まろうとするイスラエル当局のやりとりを通し、占領、民族浄化、抵抗とは何かを考えさせる再現ドキュメンタリー。
+  director: Jumana Manna
+  year: 2022
   length: 65分
   genre: 再現ドキュメンタリー
   subtitles: 日本語・英語
@@ -30,6 +36,8 @@
   name_ja: 花は静かに証言する
   img: the_flowers.png
   desc: パレスチナにルーツを持つ監督が、イギリス統治下（1930年～40年代）のパレスチナでスコットランド人伝道師が撮影した映像を使って制作した、詩的かつ私的な短編作品。一見美しい花や風景を映しただけに見える映像に垣間見える植民地主義、オリエンタリズムを静かにあぶり出すアートによるレジスタンスの実践。2025年サンダンス映画祭短編最優秀審査員賞受賞作。
+  director: Theo Panagopoulos
+  year: 2024
   length: 17分
   genre: ドキュメンタリー
   subtitles: 日本語・アラビア語・英語
@@ -39,6 +47,8 @@
   name_ja: ガザウィヤート：ガザの小さな物語
   img: gazawyat_all.jpg
   desc: ガザにおけるジェノサイドの中、ぎりぎりのところで尊厳を保ちながら困難な日々を生き抜く女性達に焦点を当てた短編ドキュメンタリー4作。母、妻、教師、ジャーナリスト、など様々な立場から、女性ならではの視点でジェノサイドの日常を伝える。
+  director: Khaled Tuaima / Shorouq Al-Aila / Aisha Adli / Moayed Abu Ammouneh
+  year: 2025
   length: 短編4作品：計28分
   genre: ドキュメンタリー
   subtitles: 日本語・英語
@@ -47,6 +57,8 @@
 - name: The Dream
   img: the_dream.jpg
   desc: A collection of interviews with Palestinian refugees in Lebanon during the civil war, interviewed by Malas about what dreams they saw when they went to sleep.
+  director: Mohammad Malas
+  year: 1987
   length: 45分
   genre: ドキュメンタリー
   subtitles: Arabic, English
@@ -55,6 +67,8 @@
 - name: With Hasan in Gaza
   img: with_hasan_in_gaza.png
   desc: Three MiniDV tapes of life in Gaza from 2001 were recently rediscovered.  A search for a former prison mate from 1989, leads to an unexpected road trip from the north to the south of Gaza with Hasan, a local guide whose fate remains unknown. 
+  director: Kamal Aljafari
+  year: 2025
   length: 106分
   genre: ドキュメンタリー
   subtitles: Arabic, English
@@ -63,6 +77,8 @@
 - name: They Do Not Exist
   img: they_do_not_exist.jpeg
   desc: Shooting under extraordinary conditions, the director covers conditions in Lebanon’s refugee camps, the effects of Israeli bombardments, and the lives of guerrillas in training camps. 
+  director: Mustafa Abu Ali
+  year: 1974
   length: 25分
   genre: ドキュメンタリー
   subtitles: Arabic, English
