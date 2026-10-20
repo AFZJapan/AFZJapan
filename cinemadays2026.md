@@ -1,8 +1,8 @@
 ---
 layout: new-page
 title: "パレスチナ映画祭2026"
-description: "「パレスチナ映画祭2026」は、11月2日（火）全国各地で同時開催されます"
-image: ""
+description: "11月2日（月）バルフォア宣言に抗議するかたちで世界各地で同時開催さされる映画祭です。主催：Palestine Filmlab／共催：日本各地の上映会場、AFZ Japan推進チーム"
+image: "assets/cinema2026/cinemaday2026-banner1.png"
 css: ["cinemadays2026.css", "https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "top.css", ]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "ol-ext.js"]
 lang: "ja"
@@ -12,7 +12,7 @@ lang: "ja"
 
 <div class="imageContainer" style="padding-bottom: 0px; margin-bottom: 0px;">
   
-  <img src="{{site.baseurl}}/assets/cinema2026/flp.ps_2026.png" style="width:100%; max-width:1200px; padding:0; margin:0;" alt="バルフォア宣言が出された11月2日、パレスチナ人のナラティブをかき消そうとする圧力に文化で抗議、連帯する映画祭！／世界中で同時開催！日本の上映会場、60+！すべての会場で入場無料／共催：日本各地の上映会場、AFZ Japan推進チーム">
+  <img src="{{site.baseurl}}/assets/cinema2026/cinemaday2026-banner1.png" style="width:100%; max-width:1200px; padding:0; margin:0;" alt="パレスチナ映画祭2026 バナー画像">
 </div>
 
 <div class="cinemaday-heading">
@@ -20,7 +20,7 @@ lang: "ja"
   <div class="cinemaday-heading-info">
     <h1>
       パレスチナ映画祭2026<br>
-      <small class="marker">Palestine Cinema Days Around the World</small>
+      <small>Palestine Cinema Days Around the World</small>
     </h1>
 
     <p>
@@ -31,12 +31,20 @@ lang: "ja"
       日本でも、AFZ Japanの呼びかけで各地で上映会が行われます。ぜひお近くの会場を探して、足を運んでみてください！
     </p>
 
+    <nav class="internal-nav">
+      <a href="#general">概要 <small>▼</small></a>
+      <a href="#movie-info">作品リスト <small>▼</small></a>
+      <a href="#locations">上映会場 <small>▼</small></a>
+      <a href="#contact">お問い合わせ <small>▼</small></a>
+    </nav>
+
     <section>
-      <h4>概要</h4>
+      <h4 id="general">概要</h4>
       <ul>
         <li><strong>イベント名</strong>｜パレスチナ映画祭2026<br>
           Palestine Cinema Days Around the World</li>
         <li><strong>主催</strong>｜<a href="https://flp.ps/node/2005" target="_blank">Filmlab Palestine</a></li>
+        <li><strong>共催</strong>｜AFZ Japan推進チーム, 日本各地の各上映会場</li>
         <li><strong>上映日</strong>｜2026年11月2日（月）<br>
           11月1日（日）・3日（火/祝）・4日（水）に上映する会場もあります
         </li>
@@ -44,7 +52,7 @@ lang: "ja"
     </section>
 
     <section>
-      <h4>作品リスト</h4>
+      <h4 id="movie-info">作品リスト</h4>
       <div class="movie-list">
   {% assign movies = site.data.cinema2026_movies %}
   {% for m in movies %}
@@ -61,7 +69,8 @@ lang: "ja"
             <div>
               <p class="description">{{ m.desc }}</p>
               <div class="article-cta">
-                {{ m.length }}・{{ m.genre }}<br>
+                {{ m.year }}年｜{{ m.length }}・{{ m.genre }}<br>
+                監督＝{{ m.director }}<br>
                 <span class="badge">音声｜Original Audio</span> {{ m.audio }}<br>
                 <span class="badge">字幕｜Subtitles</span> {{ m.subtitles }}
               </div>
@@ -84,6 +93,7 @@ lang: "ja"
       <h4>上映会場</h4>
 
       {% comment %} the map  {% endcomment %}
+      {% comment %}
         <div id="afz" style="height: 540px; width: 100%; margin-bottom:10px;"></div>
         <div id="popup" class="ol-popup">
           <a href="#" id="popup-closer" class="ol-popup-closer"></a>
@@ -108,7 +118,13 @@ lang: "ja"
               class="form-control"
               style="max-width: 360px;">
       </div>
+      {% endcomment %}
 
+      <div style="border: 1px solid #d8d8d8;background-color:#efefef;padding:2em 2em 20em;">
+        ただいま準備中<br>
+        今回は<strong>140以上の会場</strong>で上映予定です（※プライベート上映含む）
+      </div>
+      {% comment %}
       <table class="afz-table table-bordered">
         <thead>
           <tr>
@@ -208,16 +224,20 @@ lang: "ja"
       var json = {{ list | jsonify }}.filter(geo);
       function geo(j) { return j.geo != null }
       </script>
+      {% endcomment %}
 
     </section>
 
 
     <section>
-      <h4>お問い合わせ</h4>
+      <h4 id="contact">お問い合わせ</h4>
       <p>
         ご不明点は<a href="/about">AFZ Japan推進チーム</a>までお問い合わせください
       </p>
     </section>
+
+    <div class="spacer" style="height: 500px">
+    </div>
   </div>
 
 </div>
