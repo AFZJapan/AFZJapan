@@ -1,7 +1,7 @@
 ---
 layout: new-page
 title: "パレスチナ映画祭2026"
-description: "11月2日（月）バルフォア宣言に抗議するかたちで世界各地で同時開催される映画祭です。主催：Palestine Filmlab／共催：日本各地の上映会場、AFZ Japan推進チーム"
+description: "11月2日（月）バルフォア宣言に抗議するかたちで世界各地で同時開催される映画祭です。主催：Filmlab Palestine／共催：日本各地の上映会場、AFZ Japan推進チーム"
 image: "assets/cinema2026/cinemaday2026-banner1.png"
 css: ["cinemadays2026.css", "https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "top.css", ]
 js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "ol-ext.js"]
