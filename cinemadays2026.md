@@ -67,14 +67,17 @@ lang: "ja"
               <span>{{ m.name_ja }}<br>{{ m.name }}</span>
             </h5>
             <div>
-              <p class="description">{{ m.desc }}</p>
               <div class="article-cta">
                 {{ m.year }}年｜{{ m.length }}・{{ m.genre }}<br>
                 監督＝{{ m.director }}<br>
                 <span class="badge">音声｜Original Audio</span> {{ m.audio }}<br>
                 <span class="badge">字幕｜Subtitles</span> {{ m.subtitles }}
               </div>
-              <p class="appendix">{{ m.appendix }}</p>
+              <details class="description-box">
+                <summary><span>詳しく</span></summary>
+                <p class="description">{{ m.desc }}</p>
+                <p class="appendix">{{ m.appendix }}</p>
+              </details>
             </div>
           
           </div>
@@ -232,7 +235,8 @@ lang: "ja"
     <section>
       <h4 id="contact">お問い合わせ</h4>
       <p>
-        ご不明点は<a href="/about">AFZ Japan推進チーム</a>までお問い合わせください
+        ご連絡先：<a href="/about">AFZ Japan推進チーム</a><br>
+        ＊各上映会場については、会場に直接お尋ねください
       </p>
     </section>
 

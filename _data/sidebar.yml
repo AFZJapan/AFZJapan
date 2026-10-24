@@ -41,7 +41,7 @@ ja:
   - title: "パレスチナ映画祭2026"
     icon: "icons/cinema_small.png"
     small: true
-    href: "/cinemadays2026-entry"
+    href: "/cinemadays2026"
     active: true
   - title: "パレスチナの禁じられた植物"
     icon: "icons/forbidden_plants.png"
