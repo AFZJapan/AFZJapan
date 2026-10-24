@@ -49,6 +49,7 @@ h1 {
 
 .movie-item .detail {
   padding: 16px;
+  width: 100%;
 }
 
 .movie-item .title {
@@ -67,6 +68,36 @@ h1 {
   line-height: 1.5;
 }
 
+.movie-item .description-box {
+  width: 100%;
+  margin-top: 16px;
+  border-top: 1px #333 dotted;
+  border-bottom: 1px #333 dotted;
+}
+
+.movie-item .description-box summary {
+  line-height: 3em;
+  padding-left: 16px;
+  color: var(--color-b);
+}
+
+.movie-item .description-box summary span {
+  font-size: 0.8em;
+  /* text-decoration: underline var(--color-b) 2px; */
+  /* text-underline-offset: 3px; */
+  color: #000;
+}
+
+.movie-item .description-box[open] summary {
+  border-bottom: 1px #333 dotted;
+}
+
+.movie-item .description-box .description {
+  margin: 16px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .movie-item .appendix {
   font-size: 0.85rem;
   line-height: 1.5;
@@ -82,7 +113,6 @@ h1 {
 
 .cinemaday-heading {
   display: flex;
-  flex-direction: row-reverse;
   width: 100%;
   margin-top: 32px;
   padding: 0px 24px;
@@ -90,6 +120,9 @@ h1 {
 }
 .cinemaday-heading-info {
   flex: 1;
+}
+.cinemaday-heading-info p {
+  max-width: 700px;
 }
 .cinemaday-heading-notice {
   flex: 1;
