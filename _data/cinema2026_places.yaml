@@ -1,17 +1,1796 @@
+- place_name: 苗穂基地
+  organizer_name: ""
+  prefecture: 1
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: もりおか女性センター
+  organizer_name: ""
+  prefecture: 3
+  link_web: ""
+  link_instagram: "https://www.instagram.com/compassmorioka/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: プラザおでって5F 河南公民館
+  organizer_name: ""
+  prefecture: 3
+  link_web: "https://compassmorioka.wixsite.com/compass"
+  link_instagram: "https://www.instagram.com/compassmorioka/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies: []
+  screening_dates: []
+- place_name: 東北大学川内北キャンパス マルチメディア棟６階大ホール
+  organizer_name: ""
+  prefecture: 4
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: Akita International University - Alumni Hall
+  organizer_name: ""
+  prefecture: 5
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov2
+- place_name: 北秋田市民ふれあいプラザコムコム
+  organizer_name: ""
+  prefecture: 5
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: Happy Goat Farm
+  organizer_name: ""
+  prefecture: 6
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - foragers
+  screening_dates:
+    - nov4
+- place_name: しらたか
+  organizer_name: ""
+  prefecture: 6
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: メシとカシ りば亭
+  organizer_name: ""
+  prefecture: 6
+  link_web: "https://www.libatei.jp/"
+  link_instagram: "https://www.instagram.com/libatei"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 厩戸
+  organizer_name: ""
+  prefecture: 6
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - boycott
+  screening_dates: []
+- place_name: 自宅
+  organizer_name: ""
+  prefecture: 6
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 如春荘
+  organizer_name: ""
+  prefecture: 7
+  link_web: ""
+  link_instagram: "https://www.instagram.com/joshunso.since1937/"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: 東京藝術大学取手キャンパス３F 映像編集スタジオ
+  organizer_name: ""
+  prefecture: 8
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 大松園
+  organizer_name: ""
+  prefecture: 9
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: 太田市美術館・図書館　視聴覚ホール
+  organizer_name: ""
+  prefecture: 10
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov1
+- place_name: あまふく食堂
+  organizer_name: ""
+  prefecture: 11
+  link_web: ""
+  link_instagram: "https://www.instagram.com/ama_fuku_shokudo/"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 文教大学言語教育センター
+  organizer_name: ""
+  prefecture: 11
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov4
+- place_name: A. Small House 小窝
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - gazawyat
+  screening_dates:
+    - nov4
+- place_name: CS-Lab
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://cs-lab.zokei.ac.jp/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: Cat's Meow Books
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: D's Table
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: KOMAD
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+  screening_dates: []
+- place_name: Mer 海と芸術の家
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: Unicorn image
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/unicorn_image__"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: Untitled.pdf
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/untitled.pdf.tokyo"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: a bookshelf
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/bookshelf_coffee/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+    - nov4
+- place_name: stand.
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://www.standpoint-artspace.com/"
+  link_instagram: "https://www.instagram.com/standpoint_artspace/"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov4
+- place_name: 「命どう宝 団結まつり」亀戸中央公園A地区テント内
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://zenko-peace.com/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: いまここcafe杜丸
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: さわさわ　Sawa Sawa
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: のらねこハウスよろず相談室
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: ひの市民活動支援センター
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: ひろがれ！ピース・ミュージアムいたばし
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://www.facebook.com/PeaceMuseumItabashi.Campaign/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: ふぇみんスペース
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://www.jca.apc.org/femin/"
+  link_instagram: "https://www.instagram.com/femin_journal/"
+  link_twitter: "https://x.com/femin1946"
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: もっきんバー
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+    - nov4
+- place_name: エスパス・オール
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/p/CzSeXNTSaSp/"
+  link_twitter: "https://x.com/siouxmimir"
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+- place_name: キノコヤ
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: スイカの会こまえ
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/komae_palestine"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: パレスチナ映画会　セシオン杉並
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: フェアコープ関東
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://faircoop.myportfolio.com/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: ブックカフェ・ノーム
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+  screening_dates:
+    - nov2
+- place_name: ラフィーネ
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+  screening_dates:
+    - nov1
+- place_name: ロバハウス
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/roba_house"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 八王子市生涯学習センター南大沢分館視聴覚室
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov4
+- place_name: 多摩美術大学絵画東棟アトリエ
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: "https://www.instagram.com/mado_art_mado"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+- place_name: 小さなパレスチナ映画上映会（仮）
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov3
+- place_name: 日々舎
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 日本山妙法寺日本橋道場
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: "https://x.com/No_bukimihon1"
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov4
+- place_name: 日野市七生公会堂
+  organizer_name: （個人）
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - the_flower_stand
+    - gazawyat
+  screening_dates: []
+- place_name: 東京女子大学「平和学」授業内
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - foragers
+  screening_dates:
+    - nov3
+- place_name: 火曜舎
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://onomatopen.wixsite.com/-site"
+  link_instagram: "https://instagram.com/chai.kayousya"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+- place_name: 生涯学習センター南大沢視聴覚室
+  organizer_name: JAALA美術家評議会
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 町田市民フォーラム 視聴覚室
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 自由学園最高学部
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 自由学園高等部
+  organizer_name: ""
+  prefecture: 13
+  link_web: "https://jiyu.school/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 路地テアトロ
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+  screening_dates:
+    - nov4
+- place_name: 開発教育協会
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 駒澤大学「国際関係論」授業内
+  organizer_name: ""
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - boycott
+  screening_dates:
+    - nov3
+- place_name: Bagel cafe nico.
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: Moonshed
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: ZEROWASTE川田商店
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - foragers
+  screening_dates:
+    - nov2
+- place_name: ちいさな森林
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: エキマエ大船ビジネスポート　ハイウェーブ
+  organizer_name: ""
+  prefecture: 14
+  link_web: "https://note.com/ofuna_hamakama"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov3
+- place_name: チャンドラ・スーリヤ
+  organizer_name: ""
+  prefecture: 14
+  link_web: "https://www.instagram.com/chandra_sula_minamirinkan/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: 勤労市民会館(神奈川県茅ヶ崎市)
+  organizer_name: 自家製酵母パン JiJi ジジ
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov1
+- place_name: 手芸部ていせん
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 自宅
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: 電燈
+  organizer_name: ""
+  prefecture: 14
+  link_web: ""
+  link_instagram: "https://www.instagram.com/book.dento/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: mountain△grocery
+  organizer_name: ""
+  prefecture: 15
+  link_web: ""
+  link_instagram: "https://www.instagram.com/mountaingrocery"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+    - nov4
+- place_name: 反戦TOYAMA
+  organizer_name: ""
+  prefecture: 16
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov1
+- place_name: 書店if you
+  organizer_name: ""
+  prefecture: 17
+  link_web: ""
+  link_instagram: "https://www.instagram.com/if_you_jp/"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: ナモナモ寺
+  organizer_name: ""
+  prefecture: 18
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - foragers
+  screening_dates:
+    - nov2
+- place_name: 日本基督教団八ヶ岳教会
+  organizer_name: ""
+  prefecture: 19
+  link_web: "https://yatsugatake-church.com"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 甲斐市敷島総合文化会館　視聴覚ホール
+  organizer_name: ""
+  prefecture: 19
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov1
+- place_name: ふるほんや日日書房
+  organizer_name: ""
+  prefecture: 20
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: アートハウス
+  organizer_name: ""
+  prefecture: 20
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - gazawyat
+  screening_dates:
+    - nov1
 - place_name: カフェ・れら
   organizer_name: ""
-  address: ""
-  url: ""
+  prefecture: 20
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
   is_public: true
   is_afz: true
   screening_movies:
     - return_to_haifa
   screening_dates:
     - nov2
+- place_name: ノルウェービレッジ
+  organizer_name: ""
+  prefecture: 20
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: パレスチナとともに静岡
+  organizer_name: ""
+  prefecture: 22
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: ブックカフェ四次元
+  organizer_name: ""
+  prefecture: 22
+  link_web: "https://lit.link/yojigen"
+  link_instagram: "https://www.instagram.com/yojigen.bookcafe/"
+  link_twitter: "https://x.com/Man0Atar1"
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: Another World Infoshop
+  organizer_name: ""
+  prefecture: 23
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: サウンドガーデン　サンフラワー
+  organizer_name: ""
+  prefecture: 23
+  link_web: ""
+  link_instagram: "https://www.instagram.com/sunflower_karaoke"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+  screening_dates:
+    - nov3
+- place_name: シアターカフェ
+  organizer_name: ""
+  prefecture: 23
+  link_web: "https://theatercafe.jp/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: 玉ノ井すみびらき
+  organizer_name: ""
+  prefecture: 23
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 自宅
+  organizer_name: ""
+  prefecture: 23
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: アスト津3階　みえ市民活動ボランティアセンター　ミーティングルームA
+  organizer_name: ""
+  prefecture: 24
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 大津市立中央公民館
+  organizer_name: Palestine Film Network Shiga
+  prefecture: 25
+  link_web: "https://www.npo-hcc.org/index2.html"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: Social Kitchen
+  organizer_name: ""
+  prefecture: 26
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: ZENKO・京都
+  organizer_name: ""
+  prefecture: 26
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov1
+- place_name: カフェ・メーテルリンク
+  organizer_name: ""
+  prefecture: 26
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: ソムードの集い（京都）
+  organizer_name: ""
+  prefecture: 26
+  link_web: "https://note.com/somoudjapan"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov3
+- place_name: 一乗寺BOOK APARTMENT
+  organizer_name: ""
+  prefecture: 26
+  link_web: "https://ichijojibookapartment.my.canva.site/ichijyoji-book-apartment#home"
+  link_instagram: "https://www.instagram.com/bookapa_kyoto"
+  link_twitter: "https://x.com/BOOKAPA_kyoto1"
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: 京都大学中東問題有志学習会
+  organizer_name: ""
+  prefecture: 26
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov2
+- place_name: 京都大学吉田キャンパス（教室調整中）
+  organizer_name: ""
+  prefecture: 26
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 出町柳でパレスチナ映画を観る会
+  organizer_name: ""
+  prefecture: 26
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 本屋メガホン
+  organizer_name: ""
+  prefecture: 26
+  link_web: "https://booksmegafon.stores.jp/about"
+  link_instagram: "https://www.instagram.com/books_megafone"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: LAGセンター
+  organizer_name: 平和と民主主義をめざす全国交歓会
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: ZENKO南大阪（平和と民主主義をめざす会)
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: まちの拠り所～Yosuga～
+  organizer_name: ""
+  prefecture: 27
+  link_web: "https://hitokototumugu-yosuga.com/"
+  link_instagram: "https://www.instagram.com/yosuganikitene"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+  screening_dates:
+    - nov4
+- place_name: スペースふうら
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: リユースショップえまうす
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 公益社団法人子ども情報研究センター
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 寝屋川　平和と市民自治の会事務所
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 希望をつむぐ本屋さん
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: 枚方市総合文化芸術センター別館（旧メセナ枚方）
+  organizer_name: ""
+  prefecture: 27
+  link_web: "https://hirakata-arts.jp/facility/annex/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 箕面市立市民ギャラリー チカノバ
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: "https://www.instagram.com/chika_nova_/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 茨木市クリエイトセンター　203
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 路上パレスチナ上映会
+  organizer_name: ""
+  prefecture: 27
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: Farm & Stay みつやまの里
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: スイカハウス
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: ハカワティ・ブックカフェ神戸
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: パレスチナにつながるすいかとクフィーヤの会
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 人文系私設図書室 BIBLIOTHECA 猫婆軒
+  organizer_name: ""
+  prefecture: 28
+  link_web: "http://kansai.me/bibliotheca/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: 園和コミュニティーホール
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 尼崎女性センター　トレピエ
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov4
+- place_name: 平和と福祉のまち西宮をつくる会
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 教覚寺
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov3
+    - nov4
+- place_name: 毎日食堂
+  organizer_name: ""
+  prefecture: 28
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: とっぴんしゃん
+  organizer_name: ""
+  prefecture: 29
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov2
 - place_name: 果樹園
   organizer_name: 百花園
-  address: 和歌山県東牟婁郡那智勝浦町築地3−2−6
-  url: "https://www.instagram.com/hyakkaen_irokawa"
+  prefecture: 30
+  link_web: ""
+  link_instagram: "https://www.instagram.com/hyakkaen_irokawa"
+  link_twitter: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -25,14 +1804,369 @@
     - nov2
     - nov3
     - nov4
-- place_name: 日野市七生公会堂
-  organizer_name: （個人）
-  address: 東京都日野市三沢3丁目50-1
-  url: ""
+- place_name: 岡山スイカの会
+  organizer_name: ""
+  prefecture: 33
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 藤野民宿
+  organizer_name: ""
+  prefecture: 33
+  link_web: "https://www.facebook.com/share/1KLp9c2UcL/?mibextid=wwXIfr"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: Social Book Cafeハチドリ舎
+  organizer_name: ""
+  prefecture: 34
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: アステールプラザ
+  organizer_name: ""
+  prefecture: 34
+  link_web: ""
+  link_instagram: ""
+  link_twitter: "https://x.com/zenkohiroshima"
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov1
+- place_name: トリアロコひろしま
+  organizer_name: ""
+  prefecture: 34
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - foragers
+    - they_do_not_exist
+    - the_flower_stand
+    - gazawyat
+  screening_dates: []
+- place_name: ヒマール
+  organizer_name: ""
+  prefecture: 35
+  link_web: "https://himaar.com"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+- place_name: 日本基督教団小月教会
+  organizer_name: ""
+  prefecture: 35
+  link_web: "https://nishityugokukyokus.wixsite.com/nishichugoku-uccj/複製-安岡教会"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: おせきの家
+  organizer_name: ""
+  prefecture: 36
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 波川公民館
+  organizer_name: ""
+  prefecture: 39
+  link_web: ""
+  link_instagram: kochi_peace4p
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - with_hasan
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: dongbaek ／トンベク
+  organizer_name: ""
+  prefecture: 40
+  link_web: "https://dongbaek25.com/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov3
+- place_name: うらんたん文庫
+  organizer_name: ""
+  prefecture: 40
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov2
+- place_name: カフェ・ド・ゆらら
+  organizer_name: ""
+  prefecture: 40
+  link_web: ""
+  link_instagram: "https://www.instagram.com/chimuyana0204"
+  link_twitter: ""
   is_public: true
   is_afz: false
   screening_movies:
     - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: スタジオジョイント5
+  organizer_name: ""
+  prefecture: 40
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: パレスチナハウス
+  organizer_name: ""
+  prefecture: 40
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+  screening_dates:
+    - nov1
+- place_name: 西南学院大学
+  organizer_name: ""
+  prefecture: 40
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 西南学院大学
+  organizer_name: ""
+  prefecture: 40
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov2
+- place_name: 循誘公民館
+  organizer_name: ""
+  prefecture: 41
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - foragers
+  screening_dates:
+    - nov4
+- place_name: ひろんた村母屋
+  organizer_name: ""
+  prefecture: 42
+  link_web: "https://www.hironta.com/"
+  link_instagram: "https://www.instagram.com/hironta_mura/"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - foragers
+    - the_flower_stand
+  screening_dates:
+    - nov3
+- place_name: 中通島シネマ
+  organizer_name: ""
+  prefecture: 42
+  link_web: ""
+  link_instagram: "https://www.instagram.com/nakadorijim_cinema/"
+  link_twitter: ""
+  is_public: false
+  is_afz: true
+  screening_movies:
+    - the_dream
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: 半井桃水館
+  organizer_name: ""
+  prefecture: 42
+  link_web: "https://tsushima-tosui.com/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov2
+- place_name: 長崎市中央公民館視聴覚室
+  organizer_name: ""
+  prefecture: 42
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
     - the_flower_stand
     - gazawyat
-  screening_dates: []
+  screening_dates:
+    - nov2
+    - nov3
+- place_name: 小さなパレスチナ映画祭
+  organizer_name: ""
+  prefecture: 43
+  link_web: ""
+  link_instagram: "https://www.instagram.com/kumamoto.palestine/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: book cafe ブッキッシュ
+  organizer_name: ""
+  prefecture: 47
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4
+- place_name: スペース サバニ
+  organizer_name: ""
+  prefecture: 47
+  link_web: ""
+  link_instagram: "https://www.instagram.com/sabani_space/"
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov3
+- place_name: 自宅
+  organizer_name: ""
+  prefecture: 47
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: false
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
+    - nov2
+    - nov3
+    - nov4

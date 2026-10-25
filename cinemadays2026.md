@@ -94,7 +94,6 @@ lang: "ja"
 
     <section id="locations">
       <h4>上映会場</h4>
-
       {% comment %} the map  {% endcomment %}
       {% comment %}
         <div id="afz" style="height: 540px; width: 100%; margin-bottom:10px;"></div>
@@ -102,119 +101,98 @@ lang: "ja"
           <a href="#" id="popup-closer" class="ol-popup-closer"></a>
           <div id="popup-content"></div>
         </div>
-
-      {% comment %} categories {% endcomment %}
-
-      {% assign types = site.data.types %}
-      <ul id="legend">
-        {% for type in types %}
-        <li><a href="javascript:;" data-type="{{ type.type }}"><div class="badge badge-light"><img src="{{site.baseurl}}/assets/icons/{{ type.type }}.png" height=20 width=20><span style="margin-left: 5px;">{{ type.name }}</span></div></a></li>
-        {% endfor %}
-        <li><a onclick="filterAll();" data-type="" class="type-show-all" style="display:none;"><div class="badge badge-light"><span>✖︎ 絞り込みを解除</span></div></a></li>
-      </ul>
+      {% endcomment %}
 
       {% assign pref = site.data.prefectures %}
 
-      <div class="tag-search" style="margin-bottom: 8px;">
-        <input type="text" id="tag-search"
-              placeholder="タグで検索（例: vegan, ハラール, オーガニック）"
-              class="form-control"
-              style="max-width: 360px;">
+      <div class="scroll-hint">右にもスクロールできます 👉</div>
+      <div class="table-x-scrollable">
+        <table class="afz-table table-bordered">
+          <thead>
+            <tr>
+              <th>名前</th>
+              <th class="column-pref">
+                <div class="contain-filter">
+                  所在地
+                  {% comment %}
+                  <li class="dropdown d-inline">
+                    <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
+                    <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
+                      <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
+                      <li class="nav-item"><hr class="m-0"></li>
+                      {% for p in pref %}
+                        {% if p.id > 0 %}
+                      <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  </li>
+                  {% endcomment %}
+                </div>
+              </th>
+              <th><i class="fas fa-solid fa-link"></i></th>
+              <th><i class="fas fa-calendar"></i> 上映日</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ハイファに戻って</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ボイコット</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> 採集する人々</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> 花は静かに証言する</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ガザウィヤート</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> The Dream</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> With Hasan in Gaza</th>
+              <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> They Do Not Exist</th>
+            </tr>
+          </thead>
+          <tbody id="AFZTable">
+            {% assign popup_index = 0 %}
+            {% assign list = site.data.cinema2026_places %}
+            {% for place in list %}
+
+            {% capture row_tags %}{% for t in place.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
+            <tr data-pref="{{ place.prefecture }}" data-type="{{ types[place.type].type }}" data-tags="{{ row_tags | downcase }}" class="{% if place.is_public == false %}is-private{%endif%}">
+              <td>
+                {{place.place_name}}
+                {% if place.is_public == false %}
+                  <div class="is-private-badge"><i class="fas fa-lock"></i> プライベート上映</div>
+                {% endif %}
+                </td>
+              <td class="cell-prefecture">{{ pref[place.prefecture].name }}</td>
+              <td>
+              {% if place.link_web != '' %}
+                <a href="{{ place.link_web }}" target="_blank"><img align="top" src="/assets/icons/website.png" width="20px" height="20px" alt="Webサイト"></a>
+              {% endif %}
+              {% if place.link_instagram != '' %}
+                <a href="{{ place.link_instagram }}" target="_blank"><img align="top" src="/assets/icons/instagram.png" width="20px" height="20px" alt="Instagram"></a>
+              {% endif %}
+              {% if place.link_twitter != '' %}
+                <a href="{{ place.link_twitter }}" target="_blank"><img align="top" src="/assets/icons/twitter.png" width="20px" height="20px" alt="X"></a>
+              {% endif %}
+              </td>
+              <td>
+                {%- for date in place.screening_dates -%}
+                  {%- case date -%}
+                    {%- when "nov1" -%}11/1
+                    {%- when "nov2" -%}11/2
+                    {%- when "nov3" -%}11/3
+                    {%- when "nov4" -%}11/4
+                  {%- endcase -%}
+                  {%- unless forloop.last -%}・{% endunless -%}
+                {%- endfor -%}
+              </td>
+              <td>{% if place.screening_movies contains "return_to_haifa" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "boycott" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "foragers" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "the_flower_stand" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "gazawyat" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "the_dream" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "with_hasan" %}✓{% endif %}</td>
+              <td>{% if place.screening_movies contains "they_do_not_exist" %}✓{% endif %}</td>
+            </tr>
+
+            {% endfor %}
+
+          </tbody>
+        </table>
       </div>
-      {% endcomment %}
-
-      <div style="border: 1px solid #d8d8d8;background-color:#efefef;padding:2em 2em 20em;">
-        ただいま準備中<br>
-        今回は<strong>140以上の会場</strong>で上映予定です（※プライベート上映含む）
-      </div>
-      {% comment %}
-      <table class="afz-table table-bordered">
-        <thead>
-          <tr>
-            <th>名前</th>
-            <th class="column-pref">
-              <div class="contain-filter">
-                所在地
-                <li class="dropdown d-inline">
-                  <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
-                  <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
-                    <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
-                    <li class="nav-item"><hr class="m-0"></li>
-                    {% for p in pref %}
-                      {% if p.id > 0 %}
-                    <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </li>
-              </div>
-            </th>
-            <th><i class="fas fa-rss"></i></th>
-            <th><i class="fas fa-calendar"></i> 上映日</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ハイファに戻って</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ボイコット</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> 採集する人々</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> 花は静かに証言する</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ガザウィヤート</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> The Dream</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> With Hasan in Gaza</th>
-            <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> They Do Not Exist</th>
-          </tr>
-      </thead>
-      <tbody id="AFZTable">
-        {% assign popup_index = 0 %}
-        {% assign list = site.data.cinema2026_places %}
-        {% for place in list %}
-
-        {% capture row_tags %}{% for t in place.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
-        <tr data-pref="{{ place.pref }}" data-type="{{ types[place.type].type }}" data-tags="{{ row_tags | downcase }}">
-          <td> {{place.place_name}} <img align='top' src='/assets/icons/{{ types[place.type].type }}.png' width='20px' height='20px' /> {% if place.c2025 %} <img align='top' src='/assets/icons/cinema_small.png' width='20px' height='20px' /> {% endif %} {% if place.geo != nil %} <a href="#map" onclick="popup({% increment popup_index %});"><img align='top' src='/assets/icons/pin.png' width='20px' height='20px' /></a> {% endif %} <br>
-          {% for t in place.tags %}
-
-            <div class="badge badge-light" style="  margin-top:10px">{{ t.ja }}</div>
-          {% endfor %}
-          </td>
-          <td>{{ pref[place.pref].name }}</td>
-          <td>
-          {% for link in place.links %}
-            {% if link[0] == "twitter" %}
-              <a href='https://x.com/{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/twitter.png' width='20px' height='20px'></a>
-            {% elsif link[0] == "insta" %}
-              <a href='https://www.instagram.com/{{ link[1] }}/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>
-            {% elsif link[0] == "insta2" %}
-              <a href='https://www.instagram.com/{{ link[1] }}/' target='_blank'><img align='top' src='/assets/icons/instagram.png' width='20px' height='20px'></a>
-            {% elsif link[0] == "fb" %}
-              <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/facebook.png' width='20px' height='20px'></a>
-            {% else %}
-              <a href='{{ link[1] }}' target='_blank'><img align='top' src='/assets/icons/website.png' width='20px' height='20px'></a>
-            {% endif %}
-          {% endfor %}
-          </td>
-          <td>
-            {%- for date in place.screening_dates -%}
-              {%- case date -%}
-                {%- when "nov1" -%}11/1
-                {%- when "nov2" -%}11/2
-                {%- when "nov3" -%}11/3
-                {%- when "nov4" -%}11/4
-              {%- endcase -%}
-              {%- unless forloop.last -%}・{% endunless -%}
-            {%- endfor -%}
-          </td>
-          <td>{% if place.screening_movies contains "return_to_haifa" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "boycott" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "foragers" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "the_flower_stand" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "gazawyat" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "the_dream" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "with_hasan" %}✓{% endif %}</td>
-          <td>{% if place.screening_movies contains "they_do_not_exist" %}✓{% endif %}</td>
-        </tr>
-
-        {% endfor %}
-
-      </tbody>
-      </table>
 
       <div class="afz-table-fallback hidden">
         <div>
@@ -227,7 +205,6 @@ lang: "ja"
       var json = {{ list | jsonify }}.filter(geo);
       function geo(j) { return j.geo != null }
       </script>
-      {% endcomment %}
 
     </section>
 
