@@ -131,17 +131,18 @@
     - gazawyat
   screening_dates:
     - nov1
-- place_name: 厩戸
+- place_name: 厩戸 -umayado-
   organizer_name: ""
   prefecture: 6
-  link_web: ""
-  link_instagram: ""
+  link_web: "https://www.umayado-jp.com/"
+  link_instagram: "https://www.instagram.com/umayadoo/"
   link_twitter: ""
-  is_public: false
+  is_public: true
   is_afz: false
   screening_movies:
     - boycott
-  screening_dates: []
+  screening_dates:
+    - nov1
 - place_name: 小国町 水源の郷交流館
   organizer_name: ""
   prefecture: 6
