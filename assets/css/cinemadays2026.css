@@ -179,6 +179,20 @@ h1 {
   font-size: 0.7em;
   padding: 1px 9px;
 }
+.organizer {
+  font-size: 0.85rem;
+  line-height: 1.9;
+}
+.organizer-badge {
+  display: inline-block;
+  border-radius: 3px;
+  background: #ccc;
+  border: 1px solid #b0b0b0;
+  padding: 0 8px;
+  margin-top: 1px;
+  font-size: 0.75rem;
+}
+
 .cell-prefecture {
   white-space: nowrap;
   font-size: 0.86rem;

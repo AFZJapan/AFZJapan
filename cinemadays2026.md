@@ -154,6 +154,11 @@ lang: "ja"
                 {% if place.is_public == false %}
                   <div class="is-private-badge"><i class="fas fa-lock"></i> プライベート上映</div>
                 {% endif %}
+                {% if place.organizer_name != "" %}
+                  <div class="organizer">
+                    <span class="organizer-badge">企画者</span> {{ place.organizer_name }}
+                  </div>
+                {% endif %}
                 </td>
               <td class="cell-prefecture">{{ pref[place.prefecture].name }}</td>
               <td>
