@@ -2141,13 +2141,6 @@
     "links": {"insta": "if_you_jp"}
   },
   {
-    "name": "日本基督教団八ヶ岳教会",
-    "type": 1,
-    "pref": 19,
-    "geo": {"lat": 35.8227776484022, "lon": 138.42667415063977},
-    "links": {"web": "https://yatsugatake-church.com"}
-  },
-  {
     "name": "スペースふうら",
     "type": 3,
     "pref": 27,
