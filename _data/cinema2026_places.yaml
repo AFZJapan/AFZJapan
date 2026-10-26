@@ -35,7 +35,7 @@
     - nov2
     - nov3
 - place_name: プラザおでって5F 河南公民館
-  organizer_name: ""
+  organizer_name: Compass
   prefecture: 3
   link_web: "https://compassmorioka.wixsite.com/compass"
   link_instagram: "https://www.instagram.com/compassmorioka/"
@@ -45,7 +45,7 @@
   screening_movies: []
   screening_dates: []
 - place_name: 東北大学川内北キャンパス マルチメディア棟６階大ホール
-  organizer_name: ""
+  organizer_name: パレスチナと仙台を結ぶ会
   prefecture: 4
   link_web: ""
   link_instagram: ""
@@ -142,6 +142,22 @@
   screening_movies:
     - boycott
   screening_dates: []
+- place_name: 小国町 水源の郷交流館
+  organizer_name: ""
+  prefecture: 6
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - foragers
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
 - place_name: 自宅
   organizer_name: ""
   prefecture: 6
@@ -173,7 +189,21 @@
   screening_dates:
     - nov2
     - nov3
-- place_name: 東京藝術大学取手キャンパス３F 映像編集スタジオ
+- place_name: 湯本駅前ミニシアターKuramoto
+  organizer_name: ""
+  prefecture: 7
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - boycott
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: 東京藝術大学取手キャンパス3F 映像編集スタジオ
   organizer_name: ""
   prefecture: 8
   link_web: ""
@@ -208,7 +238,7 @@
     - nov2
     - nov3
 - place_name: 太田市美術館・図書館　視聴覚ホール
-  organizer_name: ""
+  organizer_name: サリーコネクション by 北関東チーム
   prefecture: 10
   link_web: ""
   link_instagram: ""
@@ -580,8 +610,8 @@
     - gazawyat
   screening_dates:
     - nov1
-- place_name: パレスチナ映画会　セシオン杉並
-  organizer_name: ""
+- place_name: セシオン杉並
+  organizer_name: パレスチナ映画会
   prefecture: 13
   link_web: ""
   link_instagram: ""
@@ -650,7 +680,21 @@
   screening_dates:
     - nov3
 - place_name: 八王子市生涯学習センター南大沢分館視聴覚室
-  organizer_name: ""
+  organizer_name: JAALA美術家評議会
+  prefecture: 13
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - foragers
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: 八王子市生涯学習センター南大沢分館視聴覚室
+  organizer_name: JAALA美術家評議会
   prefecture: 13
   link_web: ""
   link_instagram: ""
@@ -663,7 +707,7 @@
     - gazawyat
   screening_dates:
     - nov4
-- place_name: 多摩美術大学絵画東棟アトリエ
+- place_name: 多摩美術大学 絵画東棟アトリエ
   organizer_name: ""
   prefecture: 13
   link_web: ""
@@ -770,20 +814,6 @@
     - nov1
     - nov2
     - nov3
-- place_name: 生涯学習センター南大沢視聴覚室
-  organizer_name: JAALA美術家評議会
-  prefecture: 13
-  link_web: ""
-  link_instagram: ""
-  link_twitter: ""
-  is_public: true
-  is_afz: false
-  screening_movies:
-    - return_to_haifa
-    - foragers
-    - gazawyat
-  screening_dates:
-    - nov1
 - place_name: 町田市民フォーラム 視聴覚室
   organizer_name: ""
   prefecture: 13
@@ -931,7 +961,7 @@
   screening_dates:
     - nov3
 - place_name: エキマエ大船ビジネスポート　ハイウェーブ
-  organizer_name: ""
+  organizer_name: 大船はまかま寄席
   prefecture: 14
   link_web: "https://note.com/ofuna_hamakama"
   link_instagram: ""
@@ -1267,8 +1297,8 @@
     - gazawyat
   screening_dates:
     - nov1
-- place_name: アスト津3階　みえ市民活動ボランティアセンター　ミーティングルームA
-  organizer_name: ""
+- place_name: みえ市民活動ボランティアセンター　ミーティングルームA
+  organizer_name: フォトジャーナリズム展三重
   prefecture: 24
   link_web: ""
   link_instagram: ""
@@ -1387,7 +1417,7 @@
   screening_dates:
     - nov2
 - place_name: 京都大学吉田キャンパス（教室調整中）
-  organizer_name: ""
+  organizer_name: しろる
   prefecture: 26
   link_web: ""
   link_instagram: ""
@@ -1699,7 +1729,7 @@
     - nov1
     - nov2
 - place_name: 園和コミュニティーホール
-  organizer_name: ""
+  organizer_name: ピースウェーブ from 尼崎／ZENKO兵庫
   prefecture: 28
   link_web: ""
   link_instagram: ""
@@ -1846,7 +1876,7 @@
   screening_dates:
     - nov3
 - place_name: アステールプラザ
-  organizer_name: ""
+  organizer_name: ZENKO（平和と民主主義をめざす全国交歓会）・広島
   prefecture: 34
   link_web: ""
   link_instagram: ""
@@ -2012,11 +2042,10 @@
   is_public: true
   is_afz: false
   screening_movies:
-    - boycott
-    - gazawyat
+    - return_to_haifa
   screening_dates:
-    - nov3
-- place_name: 西南学院大学
+    - nov2
+- place_name: 西南学院大学（2号館201教室）
   organizer_name: ""
   prefecture: 40
   link_web: ""
@@ -2025,9 +2054,10 @@
   is_public: true
   is_afz: false
   screening_movies:
-    - return_to_haifa
+    - boycott
+    - gazawyat
   screening_dates:
-    - nov2
+    - nov3
 - place_name: 循誘公民館
   organizer_name: ""
   prefecture: 41
@@ -2101,8 +2131,8 @@
   screening_dates:
     - nov2
     - nov3
-- place_name: 小さなパレスチナ映画祭
-  organizer_name: ""
+- place_name: 熊本市中央公民館
+  organizer_name: 小さなパレスチナ映画祭
   prefecture: 43
   link_web: ""
   link_instagram: "https://www.instagram.com/kumamoto.palestine/"
