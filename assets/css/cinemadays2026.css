@@ -197,6 +197,14 @@ h1 {
   white-space: nowrap;
   font-size: 0.86rem;
 }
+.city {
+  color: #7a7a7a;
+}
+
+.link-announce {
+  text-decoration: underline 1.5px;
+  text-underline-offset: 4px;
+}
 
 @media only screen and (max-width: 992px) {
   .cinemaday-heading {
@@ -211,6 +219,20 @@ h1 {
   }
   .scroll-hint {
     display: block;
+  }
+  .afz-table {
+    font-size: 0.86rem;
+  }
+  .organizer {
+    font-size: 0.75rem;
+    line-height: 1.7;
+  }
+  .organizer-badge {
+    font-size: 0.65rem;
+    padding: 0 4px;
+  }
+  .cell-prefecture {
+    font-size: 0.75rem;
   }
 }
 @media only screen and (max-width: 600px) {

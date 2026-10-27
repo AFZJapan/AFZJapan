@@ -105,12 +105,14 @@ lang: "ja"
 
       {% assign pref = site.data.prefectures %}
 
+      <div>
+        <p><small>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</small></p>
+      </div>
       <div class="scroll-hint">右にもスクロールできます 👉</div>
       <div class="table-x-scrollable">
         <table class="afz-table table-bordered">
           <thead>
             <tr>
-              <th>名前</th>
               <th class="column-pref">
                 <div class="contain-filter">
                   所在地
@@ -130,6 +132,7 @@ lang: "ja"
                   {% endcomment %}
                 </div>
               </th>
+              <th>名前</th>
               <th><i class="fas fa-solid fa-link"></i></th>
               <th><i class="fas fa-calendar"></i> 上映日</th>
               <th style="writing-mode: vertical-rl;"><i class="fas fa-film"></i> ハイファに戻って</th>
@@ -149,6 +152,10 @@ lang: "ja"
 
             {% capture row_tags %}{% for t in place.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
             <tr data-pref="{{ place.prefecture }}" data-type="{{ types[place.type].type }}" data-tags="{{ row_tags | downcase }}" class="{% if place.is_public == false %}is-private{%endif%}">
+              <td class="cell-prefecture">
+                {{ pref[place.prefecture].name }}
+                <span class="city">{{ place.city }}</span>
+              </td>
               <td>
                 {{place.place_name}}
                 {% if place.is_public == false %}
@@ -159,8 +166,7 @@ lang: "ja"
                     <span class="organizer-badge">企画者</span> {{ place.organizer_name }}
                   </div>
                 {% endif %}
-                </td>
-              <td class="cell-prefecture">{{ pref[place.prefecture].name }}</td>
+              </td>
               <td>
               {% if place.link_web != '' %}
                 <a href="{{ place.link_web }}" target="_blank"><img align="top" src="/assets/icons/website.png" width="20px" height="20px" alt="Webサイト"></a>
@@ -173,6 +179,9 @@ lang: "ja"
               {% endif %}
               </td>
               <td>
+                {% if place.link_announce != '' %}
+                  <a href="{{ place.link_announce }}" target="_blank" class="link-announce">
+                {% endif %}
                 {%- for date in place.screening_dates -%}
                   {%- case date -%}
                     {%- when "nov1" -%}11/1
@@ -182,6 +191,9 @@ lang: "ja"
                   {%- endcase -%}
                   {%- unless forloop.last -%}・{% endunless -%}
                 {%- endfor -%}
+                {% if place.link_announce != '' %}
+                  </a>
+                {% endif %}
               </td>
               <td>{% if place.screening_movies contains "return_to_haifa" %}✓{% endif %}</td>
               <td>{% if place.screening_movies contains "boycott" %}✓{% endif %}</td>
