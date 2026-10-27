@@ -55,7 +55,7 @@
   prefecture: 4
   city: 仙台市
   link_announce: "https://www.instagram.com/p/Deb8ni9iSFu/"
-  link_web: ""
+  link_web: "https://musubukai.tonkotsu.jp/"
   link_instagram: ""
   link_twitter: ""
   is_public: true
@@ -443,9 +443,9 @@
   prefecture: 13
   city: 世田谷区
   link_announce: ""
-  link_web: ""
-  link_instagram: ""
-  link_twitter: ""
+  link_web: "https://catsmeowbooks.stores.jp/"
+  link_instagram: "https://www.instagram.com/catsmeowbooksjp/"
+  link_twitter: "https://x.com/CatsMeowBooks"
   is_public: true
   is_afz: true
   screening_movies:
@@ -641,8 +641,8 @@
   city: 多摩市
   link_announce: "https://www.instagram.com/p/De9_LDtkz5v/"
   link_web: ""
-  link_instagram: ""
-  link_twitter: ""
+  link_instagram: "https://www.instagram.com/kinokoya96/"
+  link_twitter: "https://x.com/kinokoya2"
   is_public: true
   is_afz: true
   screening_movies:
@@ -673,10 +673,10 @@
   organizer_name: ""
   prefecture: 13
   city: 文京区
-  link_announce: ""
-  link_web: ""
-  link_instagram: ""
-  link_twitter: ""
+  link_announce: "https://www.instagram.com/p/De1exC1DMgB/"
+  link_web: "https://www.dear.or.jp/"
+  link_instagram: "https://www.instagram.com/ngo.dear/"
+  link_twitter: "https://x.com/ngoDEAR"
   is_public: true
   is_afz: true
   screening_movies:
@@ -689,9 +689,9 @@
   organizer_name: ""
   prefecture: 13
   city: 新宿区
-  link_announce: ""
+  link_announce: "https://peatix.com/event/5240723"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/mer_art73/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -943,9 +943,9 @@
   organizer_name: ""
   prefecture: 13
   city: 荒川区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De3G57PS8wH/"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/sawasawahouse/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -981,9 +981,9 @@
   organizer_name: ""
   prefecture: 13
   city: 豊島区
-  link_announce: ""
+  link_announce: "https://peatix.com/event/5193162"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/bookcafe.gnome/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -1120,10 +1120,10 @@
   organizer_name: ""
   prefecture: 14
   city: 横須賀市
-  link_announce: ""
-  link_web: ""
-  link_instagram: ""
-  link_twitter: ""
+  link_announce: "https://www.instagram.com/p/Detb-coxKb-/"
+  link_web: "https://bagelcafenico.com/"
+  link_instagram: "https://www.instagram.com/bagelcafenico/"
+  link_twitter: "https://x.com/bagelcafe_nico"
   is_public: true
   is_afz: true
   screening_movies:
@@ -1140,9 +1140,9 @@
   organizer_name: 自家製酵母パン JiJi ジジ
   prefecture: 14
   city: 茅ヶ崎市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De0dFvwk4Li/"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/jiji.pan.chigasaki/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -1170,9 +1170,9 @@
   organizer_name: ""
   prefecture: 14
   city: 鎌倉市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/Deqe_Ino5an/"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/zerowaste.kawada/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -1280,9 +1280,9 @@
   organizer_name: ""
   prefecture: 20
   city: 伊那市
-  link_announce: ""
-  link_web: ""
-  link_instagram: ""
+  link_announce: "https://www.instagram.com/p/Dera0_dEvJ_/"
+  link_web: "https://nichinichi-shobo.com/"
+  link_instagram: "https://www.instagram.com/nichinichishobo/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -1317,9 +1317,9 @@
   organizer_name: ""
   prefecture: 20
   city: 松本市
-  link_announce: ""
-  link_web: ""
-  link_instagram: ""
+  link_announce: "https://www.instagram.com/p/Dev0sBgOExn/"
+  link_web: "https://www.cafe-rera.com/"
+  link_instagram: "https://www.instagram.com/cafe_rera/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -1366,7 +1366,7 @@
   organizer_name: ""
   prefecture: 22
   city: 静岡市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/Dey-9ruAUI6/"
   link_web: "https://lit.link/yojigen"
   link_instagram: "https://www.instagram.com/yojigen.bookcafe/"
   link_twitter: "https://x.com/Man0Atar1"
@@ -1421,7 +1421,7 @@
   city: 名古屋市千種区
   link_announce: ""
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/awi_nagoya/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -1500,7 +1500,7 @@
   organizer_name: Palestine Film Network Shiga
   prefecture: 25
   city: 大津市
-  link_announce: ""
+  link_announce: "https://www.npo-hcc.org/index2.html"
   link_web: "https://www.npo-hcc.org/index2.html"
   link_instagram: ""
   link_twitter: ""
@@ -1519,9 +1519,9 @@
   prefecture: 26
   city: ""
   link_announce: "https://ku-midwest-study.jimdosite.com/"
-  link_web: ""
+  link_web: "https://ku-midwest-study.jimdosite.com/"
   link_instagram: ""
-  link_twitter: ""
+  link_twitter: "https://x.com/ku_mestudy_2025"
   is_public: true
   is_afz: true
   screening_movies:
@@ -1592,7 +1592,7 @@
   prefecture: 26
   city: 京都市上京区
   link_announce: ""
-  link_web: ""
+  link_web: "https://hanareproject.net/"
   link_instagram: ""
   link_twitter: ""
   is_public: true
@@ -1725,10 +1725,10 @@
   organizer_name: ""
   prefecture: 27
   city: 大阪市旭区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/Dei-216mkgN/"
   link_web: ""
-  link_instagram: ""
-  link_twitter: ""
+  link_instagram: "https://www.instagram.com/thousand_bi_books/"
+  link_twitter: "https://x.com/thousand_book"
   is_public: true
   is_afz: true
   screening_movies:
@@ -1761,7 +1761,7 @@
   prefecture: 27
   city: 大阪市港区
   link_announce: ""
-  link_web: ""
+  link_web: "https://kojoken.jp/index.html"
   link_instagram: ""
   link_twitter: ""
   is_public: true
@@ -1792,10 +1792,10 @@
   organizer_name: ""
   prefecture: 27
   city: 大阪市西成区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DeEv9J1DyX8/"
   link_web: ""
-  link_instagram: ""
-  link_twitter: ""
+  link_instagram: "https://www.instagram.com/hahaha_y25/"
+  link_twitter: "https://x.com/hana87emmaus"
   is_public: true
   is_afz: true
   screening_movies:
@@ -1809,10 +1809,10 @@
   organizer_name: ""
   prefecture: 27
   city: 寝屋川市
-  link_announce: ""
+  link_announce: "https://x.com/neyajiti/status/2107324027434041799"
   link_web: ""
   link_instagram: ""
-  link_twitter: ""
+  link_twitter: "https://x.com/neyajiti"
   is_public: true
   is_afz: true
   screening_movies:
@@ -1932,8 +1932,8 @@
   prefecture: 28
   city: 南あわじ市
   link_announce: ""
-  link_web: ""
-  link_instagram: ""
+  link_web: "https://mainichishokudo.com/"
+  link_instagram: "https://www.instagram.com/mainichi_shokudo/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -2016,7 +2016,7 @@
   city: 神戸市
   link_announce: "https://www.instagram.com/p/DegnoiwoEE3/"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/hakawati_bookcafe_kobe/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -2038,8 +2038,8 @@
   organizer_name: ""
   prefecture: 28
   city: 西宮市
-  link_announce: ""
-  link_web: ""
+  link_announce: "https://heiwafukushi.blog.fc2.com/blog-entry-118.html"
+  link_web: "https://heiwafukushi.blog.fc2.com/"
   link_instagram: ""
   link_twitter: ""
   is_public: true
@@ -2107,8 +2107,8 @@
   prefecture: 34
   city: 広島市中区
   link_announce: "https://hachidorisha.com/event/261103/"
-  link_web: ""
-  link_instagram: ""
+  link_web: "https://hachidorisha.com/home/"
+  link_instagram: "https://www.instagram.com/hachidorisha/"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -2242,7 +2242,7 @@
   organizer_name: ""
   prefecture: 40
   city: 福岡市中央区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De_IsZevJDw/"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -2299,11 +2299,11 @@
     - gazawyat
   screening_dates:
     - nov3
-- place_name: 西南学院大学
-  organizer_name: ""
+- place_name: 西南学院大学（2号館301教室）
+  organizer_name: 西南学院大学 国際文化学部
   prefecture: 40
   city: 福岡市早良区
-  link_announce: ""
+  link_announce: "https://seinan-kokubun.jp/return_to_haifa/"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -2317,9 +2317,9 @@
   organizer_name: ""
   prefecture: 40
   city: 福津市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/Depfcj0jV5B/"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/urantan55/"
   link_twitter: ""
   is_public: true
   is_afz: true
