@@ -569,7 +569,7 @@
   organizer_name: ""
   prefecture: 13
   city: 八王子市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De_p1hsElud/"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -707,7 +707,7 @@
     - nov2
     - nov3
 - place_name: 日野市七生公会堂
-  organizer_name: （個人）
+  organizer_name: ""
   prefecture: 13
   city: 日野市
   link_announce: ""
@@ -811,7 +811,7 @@
   organizer_name: ""
   prefecture: 13
   city: 武蔵野市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De3HvBIhb_T/"
   link_web: ""
   link_instagram: "https://www.instagram.com/p/CzSeXNTSaSp/"
   link_twitter: "https://x.com/siouxmimir"
@@ -912,7 +912,7 @@
   organizer_name: ""
   prefecture: 13
   city: 立川市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DezNN9zmcXN/"
   link_web: ""
   link_instagram: "https://www.instagram.com/roba_house"
   link_twitter: ""
@@ -928,7 +928,7 @@
   organizer_name: ""
   prefecture: 13
   city: 荒川区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De0dY-JEq9A/"
   link_web: ""
   link_instagram: "https://www.instagram.com/unicorn_image__"
   link_twitter: ""
@@ -1998,7 +1998,7 @@
   organizer_name: ""
   prefecture: 28
   city: 川西市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DeFzeUQkx-m/"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -2058,7 +2058,7 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/hyakkaen_irokawa"
   link_twitter: ""
-  is_public: false
+  is_public: true
   is_afz: false
   screening_movies:
     - return_to_haifa
