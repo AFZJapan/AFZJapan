@@ -1415,38 +1415,6 @@
     - gazawyat
   screening_dates:
     - nov1
-- place_name: サウンドガーデン　サンフラワー
-  organizer_name: ""
-  prefecture: 23
-  city: 名古屋市
-  link_announce: ""
-  link_web: ""
-  link_instagram: "https://www.instagram.com/sunflower_karaoke"
-  link_twitter: ""
-  is_public: true
-  is_afz: true
-  screening_movies:
-    - return_to_haifa
-    - gazawyat
-  screening_dates:
-    - nov3
-- place_name: シアターカフェ
-  organizer_name: ""
-  prefecture: 23
-  city: 名古屋市
-  link_announce: ""
-  link_web: "https://theatercafe.jp/"
-  link_instagram: ""
-  link_twitter: ""
-  is_public: true
-  is_afz: false
-  screening_movies:
-    - return_to_haifa
-    - the_flower_stand
-    - gazawyat
-  screening_dates:
-    - nov1
-    - nov2
 - place_name: Another World Infoshop
   organizer_name: ""
   prefecture: 23
@@ -1464,6 +1432,53 @@
     - the_flower_stand
     - gazawyat
   screening_dates:
+    - nov2
+- place_name: BAR ハコニト
+  organizer_name: ""
+  prefecture: 23
+  city: 名古屋市千種区
+  link_announce: "https://www.instagram.com/p/DerPtaqlK3y/"
+  link_web: ""
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov1
+- place_name: サウンドガーデン　サンフラワー
+  organizer_name: ""
+  prefecture: 23
+  city: 名古屋市昭和区
+  link_announce: ""
+  link_web: ""
+  link_instagram: "https://www.instagram.com/sunflower_karaoke"
+  link_twitter: ""
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov3
+- place_name: シアターカフェ
+  organizer_name: ""
+  prefecture: 23
+  city: 名古屋市東区
+  link_announce: ""
+  link_web: "https://theatercafe.jp/"
+  link_instagram: ""
+  link_twitter: ""
+  is_public: true
+  is_afz: false
+  screening_movies:
+    - return_to_haifa
+    - the_flower_stand
+    - gazawyat
+  screening_dates:
+    - nov1
     - nov2
 - place_name: みえ市民活動ボランティアセンター　ミーティングルームA
   organizer_name: フォトジャーナリズム展三重
