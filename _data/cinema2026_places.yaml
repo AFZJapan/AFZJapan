@@ -876,7 +876,7 @@
   organizer_name: ""
   prefecture: 13
   city: 狛江市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De7Sa4Hk6pJ/"
   link_web: ""
   link_instagram: "https://www.instagram.com/komae_palestine"
   link_twitter: ""
@@ -1047,9 +1047,9 @@
   organizer_name: ""
   prefecture: 14
   city: 三浦市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De75N1LE1hf/"
   link_web: ""
-  link_instagram: ""
+  link_instagram: "https://www.instagram.com/shugeibu.teisen/"
   link_twitter: ""
   is_public: true
   is_afz: false
@@ -1467,7 +1467,7 @@
   organizer_name: ""
   prefecture: 23
   city: 名古屋市東区
-  link_announce: ""
+  link_announce: "https://theatercafe.blog.fc2.com/blog-entry-1134.html"
   link_web: "https://theatercafe.jp/"
   link_instagram: ""
   link_twitter: ""
@@ -1512,20 +1512,6 @@
     - foragers
     - the_flower_stand
     - gazawyat
-  screening_dates:
-    - nov2
-- place_name: 京都大学中東問題有志学習会
-  organizer_name: ""
-  prefecture: 26
-  city: ""
-  link_announce: "https://ku-midwest-study.jimdosite.com/"
-  link_web: "https://ku-midwest-study.jimdosite.com/"
-  link_instagram: ""
-  link_twitter: "https://x.com/ku_mestudy_2025"
-  is_public: true
-  is_afz: true
-  screening_movies:
-    - return_to_haifa
   screening_dates:
     - nov2
 - place_name: 出町柳でパレスチナ映画を観る会
@@ -1650,11 +1636,25 @@
   screening_dates:
     - nov2
     - nov3
-- place_name: 京都大学吉田キャンパス（教室調整中）
-  organizer_name: しろる
+- place_name: 京都大学 吉田キャンパス 文学部第三講義室
+  organizer_name: 京都大学中東問題有志学習会
   prefecture: 26
   city: 京都市左京区
-  link_announce: ""
+  link_announce: "https://ku-midwest-study.jimdosite.com/"
+  link_web: "https://ku-midwest-study.jimdosite.com/"
+  link_instagram: ""
+  link_twitter: "https://x.com/ku_mestudy_2025"
+  is_public: true
+  is_afz: true
+  screening_movies:
+    - return_to_haifa
+  screening_dates:
+    - nov2
+- place_name: 京都大学 吉田キャンパス 総合研究4号館 1F講義室1
+  organizer_name: SHIRORU・藤原辰史研究室
+  prefecture: 26
+  city: 京都市左京区
+  link_announce: "https://www.instagram.com/p/De1dvazTWYI/"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -1685,7 +1685,7 @@
   organizer_name: ""
   prefecture: 27
   city: 大阪市中央区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De8NtiwhVsQ/"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -1931,7 +1931,7 @@
   organizer_name: ""
   prefecture: 28
   city: 南あわじ市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/De9FC_AvZ7I/"
   link_web: "https://mainichishokudo.com/"
   link_instagram: "https://www.instagram.com/mainichi_shokudo/"
   link_twitter: ""
@@ -2054,7 +2054,7 @@
   organizer_name: 百花園
   prefecture: 30
   city: ""
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DeimbkLIIz6/"
   link_web: ""
   link_instagram: "https://www.instagram.com/hyakkaen_irokawa"
   link_twitter: ""
@@ -2206,12 +2206,12 @@
   screening_dates:
     - nov2
 - place_name: 波川公民館
-  organizer_name: ""
+  organizer_name: 高知からパレスチナ・沖縄連帯実行委員会
   prefecture: 39
   city: 吾川郡
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DeoJ9MSgTtF/"
   link_web: ""
-  link_instagram: kochi_peace4p
+  link_instagram: "http://instagram.com/kochi_peace4p"
   link_twitter: ""
   is_public: true
   is_afz: true
@@ -2257,7 +2257,7 @@
   organizer_name: ""
   prefecture: 40
   city: 福岡市城南区
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DenlSmaIVpW/"
   link_web: "https://dongbaek25.com/"
   link_instagram: ""
   link_twitter: ""
@@ -2414,7 +2414,7 @@
   organizer_name: 小さなパレスチナ映画祭
   prefecture: 43
   city: 熊本市
-  link_announce: ""
+  link_announce: "https://www.instagram.com/p/DemL5aqmFkD/"
   link_web: ""
   link_instagram: "https://www.instagram.com/kumamoto.palestine/"
   link_twitter: ""
