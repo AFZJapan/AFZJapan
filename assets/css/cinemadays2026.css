@@ -157,6 +157,13 @@ h1 {
   color: #fff;
 }
 
+.notice-before-table {
+  margin-top: 48px;
+}
+.notice-before-table p {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
 .scroll-hint {
   display: none;
   text-align: right;
@@ -206,6 +213,22 @@ h1 {
   text-underline-offset: 4px;
 }
 
+#popup-content {
+  font-size: 0.9rem;
+}
+#popup-content .organizer-badge {
+  font-size: 0.65rem;
+}
+#popup-content .organizer-name {
+  font-size: 0.75rem;
+}
+#popup-content .screening-dates {
+  font-size: 0.85rem;
+}
+#popup-content .screening-movies {
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
 @media only screen and (max-width: 992px) {
   .cinemaday-heading {
     flex-direction: column;
@@ -256,5 +279,8 @@ h1 {
   .internal-nav a {
     font-size: 1.1em;
     width: 100%;
+  }
+  .afz-map {
+    height: 350px;
   }
 }

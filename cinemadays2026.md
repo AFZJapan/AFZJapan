@@ -4,7 +4,7 @@ title: "パレスチナ映画祭2026"
 description: "11月2日（月）バルフォア宣言に抗議するかたちで世界各地で同時開催される映画祭です。主催：Filmlab Palestine／共催：日本各地の上映会場、AFZ Japan推進チーム"
 image: "assets/cinema2026/cinemaday2026-banner1.png"
 css: ["cinemadays2026.css", "https://cdn.skypack.dev/ol/ol.css", "index.css", "map.css", "list.css", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css", "popup.css", "top.css", ]
-js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.base.js", "map.main.js", "ol-ext.js"]
+js: ["https://cdn.jsdelivr.net/npm/ol@v8.1.0/dist/ol.js", "map.cinemadays2026.js", "map.main.js", "ol-ext.js"]
 lang: "ja"
 ---
 
@@ -94,19 +94,23 @@ lang: "ja"
 
     <section id="locations">
       <h4>上映会場</h4>
+      
       {% comment %} the map  {% endcomment %}
-      {% comment %}
-        <div id="afz" style="height: 540px; width: 100%; margin-bottom:10px;"></div>
-        <div id="popup" class="ol-popup">
-          <a href="#" id="popup-closer" class="ol-popup-closer"></a>
-          <div id="popup-content"></div>
+      <div id="afz" class="afz-map" style="height: 540px; margin-top: 0; padding-top: 0;"></div>
+      <div id="popup" class="ol-popup">
+        <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+        <div id="popup-content">
+          <div id="popup-title"></div>
+          <div id="popup-body"></div>
         </div>
-      {% endcomment %}
+      </div>
 
       {% assign pref = site.data.prefectures %}
+      {% assign list = site.data.cinema2026_places %}
+      {% assign popup_index = 0 %}
 
-      <div>
-        <p><small>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</small></p>
+      <div class="notice-before-table">
+        <p>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</p>
       </div>
       <div class="scroll-hint">右にもスクロールできます 👉</div>
       <div class="table-x-scrollable">
@@ -146,8 +150,6 @@ lang: "ja"
             </tr>
           </thead>
           <tbody id="AFZTable">
-            {% assign popup_index = 0 %}
-            {% assign list = site.data.cinema2026_places %}
             {% for place in list %}
 
             {% capture row_tags %}{% for t in place.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
@@ -218,9 +220,7 @@ lang: "ja"
       </div>
 
       <script>
-      var types = {{ types | jsonify }};
-      var json = {{ list | jsonify }}.filter(geo);
-      function geo(j) { return j.geo != null }
+      var json = {{ list | jsonify }};
       </script>
 
     </section>

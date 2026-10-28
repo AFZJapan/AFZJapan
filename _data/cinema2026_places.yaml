@@ -6,6 +6,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 43.07884079347406
+  geo_lon: 141.37278658322856
   is_public: true
   is_afz: false
   screening_movies:
@@ -27,6 +29,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/compassmorioka/"
   link_twitter: ""
+  geo_lat: 39.70023234743527
+  geo_lon: 141.15470128123496
   is_public: true
   is_afz: false
   screening_movies:
@@ -42,6 +46,8 @@
   link_web: "https://compassmorioka.wixsite.com/compass"
   link_instagram: "https://www.instagram.com/compassmorioka/"
   link_twitter: ""
+  geo_lat: 39.695028931392166
+  geo_lon: 141.16054307528825
   is_public: true
   is_afz: false
   screening_movies:
@@ -57,6 +63,8 @@
   link_web: "https://musubukai.tonkotsu.jp/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 38.26100223896279
+  geo_lon: 140.85097958173904
   is_public: true
   is_afz: true
   screening_movies:
@@ -77,6 +85,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 40.2281101
+  geo_lon: 140.3711047
   is_public: true
   is_afz: true
   screening_movies:
@@ -95,6 +105,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 39.628278582037936
+  geo_lon: 140.19726229606508
   is_public: true
   is_afz: false
   screening_movies:
@@ -109,6 +121,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -125,6 +139,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -141,6 +157,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -155,6 +173,8 @@
   link_web: "https://www.umayado-jp.com/"
   link_instagram: "https://www.instagram.com/umayadoo/"
   link_twitter: ""
+  geo_lat: 38.159122226016024
+  geo_lon: 140.27390569472342
   is_public: true
   is_afz: false
   screening_movies:
@@ -169,6 +189,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 37.99278408231028
+  geo_lon: 139.80418691107246
   is_public: true
   is_afz: false
   screening_movies:
@@ -187,6 +209,8 @@
   link_web: "https://www.libatei.jp/"
   link_instagram: "https://www.instagram.com/libatei"
   link_twitter: ""
+  geo_lat: 38.73640727341809
+  geo_lon: 139.83552606954865
   is_public: true
   is_afz: true
   screening_movies:
@@ -204,6 +228,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 37.00644821339241
+  geo_lon: 140.84877634264393
   is_public: true
   is_afz: false
   screening_movies:
@@ -220,6 +246,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/joshunso.since1937/"
   link_twitter: ""
+  geo_lat: 37.767135183882814
+  geo_lon: 140.45572249465033
   is_public: true
   is_afz: true
   screening_movies:
@@ -239,6 +267,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.88090960946862
+  geo_lon: 140.11635963875386
   is_public: true
   is_afz: true
   screening_movies:
@@ -257,6 +287,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -274,6 +306,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 36.294687806943784
+  geo_lon: 139.37849096760505
   is_public: true
   is_afz: false
   screening_movies:
@@ -288,6 +322,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/ama_fuku_shokudo/"
   link_twitter: ""
+  geo_lat: 36.06383235545412
+  geo_lon: 139.24766301177297
   is_public: true
   is_afz: true
   screening_movies:
@@ -304,6 +340,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.904975738974585
+  geo_lon: 139.7739351810842
   is_public: true
   is_afz: false
   screening_movies:
@@ -320,6 +358,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -339,6 +379,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -356,6 +398,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -373,6 +417,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -387,6 +433,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -401,6 +449,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -415,6 +465,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.75251192835427
+  geo_lon: 139.53797726573717
   is_public: false
   is_afz: false
   screening_movies:
@@ -430,6 +482,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -445,6 +499,8 @@
   link_web: "https://catsmeowbooks.stores.jp/"
   link_instagram: "https://www.instagram.com/catsmeowbooksjp/"
   link_twitter: "https://x.com/CatsMeowBooks"
+  geo_lat: 35.644768985157036
+  geo_lon: 139.66477825223922
   is_public: true
   is_afz: true
   screening_movies:
@@ -460,6 +516,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/bookshelf_coffee/"
   link_twitter: ""
+  geo_lat: 35.64780887232374
+  geo_lon: 139.67230421534134
   is_public: true
   is_afz: false
   screening_movies:
@@ -476,6 +534,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: "https://x.com/No_bukimihon1"
+  geo_lat: 35.69387434041616
+  geo_lon: 139.7863968571729
   is_public: true
   is_afz: true
   screening_movies:
@@ -493,6 +553,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/untitled.pdf.tokyo"
   link_twitter: ""
+  geo_lat: 35.70960189432487
+  geo_lon: 139.6519932675829
   is_public: true
   is_afz: true
   screening_movies:
@@ -517,6 +579,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.6591843052835
+  geo_lon: 139.31312719826354
   is_public: true
   is_afz: true
   screening_movies:
@@ -536,6 +600,8 @@
   link_web: "https://cs-lab.zokei.ac.jp/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.615584742997946
+  geo_lon: 139.33490718292066
   is_public: true
   is_afz: false
   screening_movies:
@@ -557,6 +623,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.611880908793374
+  geo_lon: 139.379318065732
   is_public: true
   is_afz: false
   screening_movies:
@@ -572,6 +640,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.64423359234807
+  geo_lon: 139.28082175408636
   is_public: true
   is_afz: false
   screening_movies:
@@ -589,6 +659,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/mado_art_mado"
   link_twitter: ""
+  geo_lat: 35.612164381526796
+  geo_lon: 139.35046663717807
   is_public: true
   is_afz: false
   screening_movies:
@@ -609,6 +681,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.611880908793374
+  geo_lon: 139.379318065732
   is_public: true
   is_afz: false
   screening_movies:
@@ -625,6 +699,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.77663195499449
+  geo_lon: 139.72433964059738
   is_public: true
   is_afz: true
   screening_movies:
@@ -642,6 +718,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/kinokoya96/"
   link_twitter: "https://x.com/kinokoya2"
+  geo_lat: 35.64792497757911
+  geo_lon: 139.44668850990973
   is_public: true
   is_afz: true
   screening_movies:
@@ -661,6 +739,8 @@
   link_web: "https://faircoop.myportfolio.com/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.5691471877883
+  geo_lon: 139.71412165962545
   is_public: true
   is_afz: false
   screening_movies:
@@ -676,6 +756,8 @@
   link_web: "https://www.dear.or.jp/"
   link_instagram: "https://www.instagram.com/ngo.dear/"
   link_twitter: "https://x.com/ngoDEAR"
+  geo_lat: 35.71132560895156
+  geo_lon: 139.74839253135852
   is_public: true
   is_afz: true
   screening_movies:
@@ -692,6 +774,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/mer_art73/"
   link_twitter: ""
+  geo_lat: 35.69051894
+  geo_lon: 139.7123828
   is_public: true
   is_afz: true
   screening_movies:
@@ -713,6 +797,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.658307504118014
+  geo_lon: 139.414089937431
   is_public: true
   is_afz: false
   screening_movies:
@@ -728,6 +814,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.65994434871378
+  geo_lon: 139.38048438107512
   is_public: true
   is_afz: false
   screening_movies:
@@ -746,6 +834,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.69718154619301
+  geo_lon: 139.65422027497158
   is_public: true
   is_afz: false
   screening_movies:
@@ -762,6 +852,8 @@
   link_web: "https://onomatopen.wixsite.com/-site"
   link_instagram: "https://instagram.com/chai.kayousya"
   link_twitter: ""
+  geo_lat: 35.700036261558495
+  geo_lon: 139.63295971360643
   is_public: true
   is_afz: true
   screening_movies:
@@ -785,6 +877,8 @@
   link_web: "https://jiyu.school/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.75327770526362
+  geo_lon: 139.53756687894975
   is_public: true
   is_afz: false
   screening_movies:
@@ -799,6 +893,8 @@
   link_web: "https://www.facebook.com/PeaceMuseumItabashi.Campaign/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.7495273
+  geo_lon: 139.7020021
   is_public: true
   is_afz: true
   screening_movies:
@@ -814,6 +910,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/p/CzSeXNTSaSp/"
   link_twitter: "https://x.com/siouxmimir"
+  geo_lat: 35.705509587735435
+  geo_lon: 139.58077932525342
   is_public: true
   is_afz: true
   screening_movies:
@@ -834,6 +932,8 @@
   link_web: "https://zenko-peace.com/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.69978436023528
+  geo_lon: 139.83540342368744
   is_public: true
   is_afz: false
   screening_movies:
@@ -849,6 +949,8 @@
   link_web: "https://www.jca.apc.org/femin/"
   link_instagram: "https://www.instagram.com/femin_journal/"
   link_twitter: "https://x.com/femin1946"
+  geo_lat: 35.67263053964231
+  geo_lon: 139.7107426675815
   is_public: true
   is_afz: true
   screening_movies:
@@ -864,6 +966,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.68084045403966
+  geo_lon: 139.68754998107588
   is_public: true
   is_afz: false
   screening_movies:
@@ -879,6 +983,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/komae_palestine"
   link_twitter: ""
+  geo_lat: 35.63514866769501
+  geo_lon: 139.57852035408592
   is_public: true
   is_afz: true
   screening_movies:
@@ -897,6 +1003,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.542019041307206
+  geo_lon: 139.4498788540826
   is_public: true
   is_afz: false
   screening_movies:
@@ -915,6 +1023,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/roba_house"
   link_twitter: ""
+  geo_lat: 35.73031187955166
+  geo_lon: 139.42307395408974
   is_public: true
   is_afz: true
   screening_movies:
@@ -931,6 +1041,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/unicorn_image__"
   link_twitter: ""
+  geo_lat: 35.74995294682543
+  geo_lon: 139.76502558107845
   is_public: true
   is_afz: false
   screening_movies:
@@ -946,6 +1058,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/sawasawahouse/"
   link_twitter: ""
+  geo_lat: 35.7255796909368
+  geo_lon: 139.7778008810775
   is_public: true
   is_afz: true
   screening_movies:
@@ -961,6 +1075,8 @@
   link_web: "https://www.standpoint-artspace.com/"
   link_instagram: "https://www.instagram.com/standpoint_artspace/"
   link_twitter: ""
+  geo_lat: 35.74109247833228
+  geo_lon: 139.8504199099135
   is_public: true
   is_afz: true
   screening_movies:
@@ -984,6 +1100,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/bookcafe.gnome/"
   link_twitter: ""
+  geo_lat: 35.72551962150777
+  geo_lon: 139.70599963874818
   is_public: true
   is_afz: true
   screening_movies:
@@ -999,7 +1117,9 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
-  is_public: false
+  geo_lat: ""
+  geo_lon: ""
+  is_public: true
   is_afz: false
   screening_movies:
     - boycott
@@ -1016,6 +1136,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -1032,6 +1154,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: true
   screening_movies:
@@ -1050,6 +1174,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/shugeibu.teisen/"
   link_twitter: ""
+  geo_lat: 35.17863495932846
+  geo_lon: 139.64090675406894
   is_public: true
   is_afz: false
   screening_movies:
@@ -1066,6 +1192,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.26552735170985
+  geo_lon: 139.5758927540723
   is_public: true
   is_afz: false
   screening_movies:
@@ -1090,6 +1218,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/chandra_sula_minamirinkan/"
   link_twitter: ""
+  geo_lat: 35.49429179974704
+  geo_lon: 139.44732266757475
   is_public: true
   is_afz: false
   screening_movies:
@@ -1109,6 +1239,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/book.dento/"
   link_twitter: ""
+  geo_lat: 35.48727053442731
+  geo_lon: 139.62409376942173
   is_public: true
   is_afz: false
   screening_movies:
@@ -1123,6 +1255,8 @@
   link_web: "https://bagelcafenico.com/"
   link_instagram: "https://www.instagram.com/bagelcafenico/"
   link_twitter: "https://x.com/bagelcafe_nico"
+  geo_lat: 35.27699746720265
+  geo_lon: 139.67015981520024
   is_public: true
   is_afz: true
   screening_movies:
@@ -1143,6 +1277,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/jiji.pan.chigasaki/"
   link_twitter: ""
+  geo_lat: 35.33265470597589
+  geo_lon: 139.40396485222757
   is_public: true
   is_afz: true
   screening_movies:
@@ -1159,6 +1295,8 @@
   link_web: "https://note.com/ofuna_hamakama"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.352178385175705
+  geo_lon: 139.53183623873412
   is_public: true
   is_afz: false
   screening_movies:
@@ -1173,6 +1311,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/zerowaste.kawada/"
   link_twitter: ""
+  geo_lat: 35.311639981767826
+  geo_lon: 139.49828178290923
   is_public: true
   is_afz: true
   screening_movies:
@@ -1187,6 +1327,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/mountaingrocery"
   link_twitter: ""
+  geo_lat: 37.92128308946411
+  geo_lon: 139.07098422700838
   is_public: true
   is_afz: true
   screening_movies:
@@ -1206,6 +1348,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 36.69529342006588
+  geo_lon: 137.20802247741977
   is_public: true
   is_afz: false
   screening_movies:
@@ -1222,6 +1366,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/if_you_jp/"
   link_twitter: ""
+  geo_lat: 36.554262695789994
+  geo_lon: 136.67227975412095
   is_public: true
   is_afz: true
   screening_movies:
@@ -1239,6 +1385,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 36.059079652011796
+  geo_lon: 136.20550539643145
   is_public: true
   is_afz: false
   screening_movies:
@@ -1253,6 +1401,8 @@
   link_web: "https://yatsugatake-church.com"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.82297445273602
+  geo_lon: 138.4267167675871
   is_public: true
   is_afz: false
   screening_movies:
@@ -1269,6 +1419,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.688820146839426
+  geo_lon: 138.5218563829234
   is_public: true
   is_afz: false
   screening_movies:
@@ -1283,6 +1435,8 @@
   link_web: "https://nichinichi-shobo.com/"
   link_instagram: "https://www.instagram.com/nichinichishobo/"
   link_twitter: ""
+  geo_lat: 35.840730481637316
+  geo_lon: 137.9639121441766
   is_public: true
   is_afz: true
   screening_movies:
@@ -1302,6 +1456,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 36.69456185179422
+  geo_lon: 137.83835138296178
   is_public: true
   is_afz: false
   screening_movies:
@@ -1320,6 +1476,8 @@
   link_web: "https://www.cafe-rera.com/"
   link_instagram: "https://www.instagram.com/cafe_rera/"
   link_twitter: ""
+  geo_lat: 36.24277658
+  geo_lon: 137.9647114
   is_public: true
   is_afz: true
   screening_movies:
@@ -1334,6 +1492,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.527360082270796
+  geo_lon: 137.8432883540821
   is_public: true
   is_afz: false
   screening_movies:
@@ -1348,6 +1508,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: true
   screening_movies:
@@ -1369,6 +1531,8 @@
   link_web: "https://lit.link/yojigen"
   link_instagram: "https://www.instagram.com/yojigen.bookcafe/"
   link_twitter: "https://x.com/Man0Atar1"
+  geo_lat: 34.9881080187418
+  geo_lon: 138.3825753828974
   is_public: true
   is_afz: true
   screening_movies:
@@ -1386,6 +1550,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -1404,6 +1570,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: true
   screening_movies:
@@ -1422,6 +1590,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/awi_nagoya/"
   link_twitter: ""
+  geo_lat: 35.16845298613183
+  geo_lon: 136.94160025563434
   is_public: true
   is_afz: true
   screening_movies:
@@ -1440,6 +1610,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.16802433326265
+  geo_lon: 136.96888289869867
   is_public: true
   is_afz: true
   screening_movies:
@@ -1455,6 +1627,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/sunflower_karaoke"
   link_twitter: ""
+  geo_lat: 35.15236490469207
+  geo_lon: 136.95208733872684
   is_public: true
   is_afz: true
   screening_movies:
@@ -1470,6 +1644,8 @@
   link_web: "https://theatercafe.jp/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.18257057109331
+  geo_lon: 136.9140338117398
   is_public: true
   is_afz: false
   screening_movies:
@@ -1487,6 +1663,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.7344224
+  geo_lon: 136.5086791
   is_public: true
   is_afz: false
   screening_movies:
@@ -1503,6 +1681,8 @@
   link_web: "https://www.npo-hcc.org/index2.html"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.008593937857384
+  geo_lon: 135.8654629675569
   is_public: true
   is_afz: true
   screening_movies:
@@ -1521,6 +1701,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -1542,6 +1724,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.93764797307956
+  geo_lon: 135.76681088303042
   is_public: true
   is_afz: true
   screening_movies:
@@ -1558,6 +1742,8 @@
   link_web: "https://note.com/somoudjapan"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -1580,6 +1766,8 @@
   link_web: "https://hanareproject.net/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.035037538263055
+  geo_lon: 135.76301246940506
   is_public: true
   is_afz: true
   screening_movies:
@@ -1598,6 +1786,8 @@
   link_web: "https://booksmegafon.stores.jp/about"
   link_instagram: "https://www.instagram.com/books_megafone"
   link_twitter: ""
+  geo_lat: 35.01498773351673
+  geo_lon: 135.73889909823953
   is_public: true
   is_afz: true
   screening_movies:
@@ -1612,6 +1802,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.93920653523723
+  geo_lon: 135.7650372945422
   is_public: true
   is_afz: true
   screening_movies:
@@ -1627,6 +1819,8 @@
   link_web: "https://ichijojibookapartment.my.canva.site/ichijyoji-book-apartment#home"
   link_instagram: "https://www.instagram.com/bookapa_kyoto"
   link_twitter: "https://x.com/BOOKAPA_kyoto1"
+  geo_lat: 35.04185407435583
+  geo_lon: 135.7858754963933
   is_public: true
   is_afz: true
   screening_movies:
@@ -1643,6 +1837,8 @@
   link_web: "https://ku-midwest-study.jimdosite.com/"
   link_instagram: ""
   link_twitter: "https://x.com/ku_mestudy_2025"
+  geo_lat: 35.02724691814429
+  geo_lon: 135.78104099857555
   is_public: true
   is_afz: true
   screening_movies:
@@ -1657,6 +1853,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.0282964049599
+  geo_lon: 135.78242747575456
   is_public: true
   is_afz: false
   screening_movies:
@@ -1672,6 +1870,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.490584745588286
+  geo_lon: 135.5710627523253
   is_public: true
   is_afz: true
   screening_movies:
@@ -1688,6 +1888,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.66535960772255
+  geo_lon: 135.50064182357116
   is_public: true
   is_afz: false
   screening_movies:
@@ -1712,6 +1914,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.698515455882855
+  geo_lon: 135.53781315220405
   is_public: true
   is_afz: true
   screening_movies:
@@ -1728,6 +1932,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/thousand_bi_books/"
   link_twitter: "https://x.com/thousand_book"
+  geo_lat: 34.72449411578223
+  geo_lon: 135.55445038104045
   is_public: true
   is_afz: true
   screening_movies:
@@ -1745,6 +1951,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.67812865570601
+  geo_lon: 135.56142604055663
   is_public: true
   is_afz: true
   screening_movies:
@@ -1763,6 +1971,8 @@
   link_web: "https://kojoken.jp/index.html"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.673924088561805
+  geo_lon: 135.46376668288585
   is_public: true
   is_afz: true
   screening_movies:
@@ -1781,6 +1991,8 @@
   link_web: "https://hitokototumugu-yosuga.com/"
   link_instagram: "https://www.instagram.com/yosuganikitene"
   link_twitter: ""
+  geo_lat: 34.65600323055862
+  geo_lon: 135.53837229453188
   is_public: true
   is_afz: true
   screening_movies:
@@ -1795,6 +2007,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/hahaha_y25/"
   link_twitter: "https://x.com/hana87emmaus"
+  geo_lat: 34.648431831571095
+  geo_lon: 135.4832468369371
   is_public: true
   is_afz: true
   screening_movies:
@@ -1812,6 +2026,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: "https://x.com/neyajiti"
+  geo_lat: 34.763190379085955
+  geo_lon: 135.6211740963831
   is_public: true
   is_afz: true
   screening_movies:
@@ -1827,6 +2043,8 @@
   link_web: "https://hirakata-arts.jp/facility/annex/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.81919298222061
+  geo_lon: 135.64813308355897
   is_public: true
   is_afz: false
   screening_movies:
@@ -1843,6 +2061,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/chika_nova_/"
   link_twitter: ""
+  geo_lat: 34.821347442359134
+  geo_lon: 135.4908209657026
   is_public: true
   is_afz: false
   screening_movies:
@@ -1858,6 +2078,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.81907922730607
+  geo_lon: 135.56857181357378
   is_public: true
   is_afz: false
   screening_movies:
@@ -1874,6 +2096,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -1897,6 +2121,8 @@
   link_web: "http://kansai.me/bibliotheca/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -1916,6 +2142,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 35.010917145722
+  geo_lon: 134.31357748105086
   is_public: true
   is_afz: false
   screening_movies:
@@ -1934,6 +2162,8 @@
   link_web: "https://mainichishokudo.com/"
   link_instagram: "https://www.instagram.com/mainichi_shokudo/"
   link_twitter: ""
+  geo_lat: 34.33610441775356
+  geo_lon: 134.7459877810263
   is_public: true
   is_afz: true
   screening_movies:
@@ -1950,6 +2180,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.91245662776097
+  geo_lon: 134.5891022098827
   is_public: true
   is_afz: true
   screening_movies:
@@ -1969,6 +2201,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.75438185854478
+  geo_lon: 135.44558897670652
   is_public: true
   is_afz: false
   screening_movies:
@@ -1984,6 +2218,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.749157712046575
+  geo_lon: 135.3929650810413
   is_public: true
   is_afz: false
   screening_movies:
@@ -2001,6 +2237,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.826743522639376
+  geo_lon: 135.412639052561
   is_public: true
   is_afz: false
   screening_movies:
@@ -2017,6 +2255,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/hakawati_bookcafe_kobe/"
   link_twitter: ""
+  geo_lat: 34.68531438420645
+  geo_lon: 135.184228569471
   is_public: true
   is_afz: true
   screening_movies:
@@ -2041,6 +2281,8 @@
   link_web: "https://heiwafukushi.blog.fc2.com/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.73518227869754
+  geo_lon: 135.34409156754663
   is_public: true
   is_afz: true
   screening_movies:
@@ -2057,6 +2299,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/hyakkaen_irokawa"
   link_twitter: ""
+  geo_lat: 33.62857117041068
+  geo_lon: 135.94274456007892
   is_public: true
   is_afz: false
   screening_movies:
@@ -2078,6 +2322,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: true
   is_afz: true
   screening_movies:
@@ -2093,6 +2339,8 @@
   link_web: "https://www.facebook.com/share/1KLp9c2UcL/?mibextid=wwXIfr"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.812606345627366
+  geo_lon: 134.1775939387141
   is_public: true
   is_afz: false
   screening_movies:
@@ -2109,6 +2357,8 @@
   link_web: "https://hachidorisha.com/home/"
   link_instagram: "https://www.instagram.com/hachidorisha/"
   link_twitter: ""
+  geo_lat: 34.393595190235864
+  geo_lon: 132.448709194598
   is_public: true
   is_afz: true
   screening_movies:
@@ -2125,6 +2375,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: "https://x.com/zenkohiroshima"
+  geo_lat: 34.387793987411186
+  geo_lon: 132.4480300233575
   is_public: true
   is_afz: false
   screening_movies:
@@ -2139,6 +2391,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.46717256275654
+  geo_lon: 132.51004316938418
   is_public: true
   is_afz: true
   screening_movies:
@@ -2159,6 +2413,8 @@
   link_web: "https://nishityugokukyokus.wixsite.com/nishichugoku-uccj/複製-安岡教会"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.07016849119466
+  geo_lon: 131.02986827647754
   is_public: true
   is_afz: false
   screening_movies:
@@ -2177,6 +2433,8 @@
   link_web: "https://himaar.com"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.16755179904991
+  geo_lon: 132.22112120985548
   is_public: true
   is_afz: false
   screening_movies:
@@ -2196,6 +2454,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.10765110641008
+  geo_lon: 134.45957512334735
   is_public: true
   is_afz: false
   screening_movies:
@@ -2212,6 +2472,8 @@
   link_web: ""
   link_instagram: "http://instagram.com/kochi_peace4p"
   link_twitter: ""
+  geo_lat: 33.546496060878376
+  geo_lon: 133.41189824051594
   is_public: true
   is_afz: true
   screening_movies:
@@ -2229,6 +2491,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/chimuyana0204"
   link_twitter: ""
+  geo_lat: 33.15969131474281
+  geo_lon: 130.46611035030188
   is_public: true
   is_afz: false
   screening_movies:
@@ -2245,6 +2509,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 33.574609585201486
+  geo_lon: 130.37788410983435
   is_public: true
   is_afz: true
   screening_movies:
@@ -2260,6 +2526,8 @@
   link_web: "https://dongbaek25.com/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 33.57057106330718
+  geo_lon: 130.36809498099888
   is_public: true
   is_afz: true
   screening_movies:
@@ -2275,6 +2543,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 33.5828431868756
+  geo_lon: 130.35818096750526
   is_public: true
   is_afz: false
   screening_movies:
@@ -2291,6 +2561,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 33.58464057605193
+  geo_lon: 130.35485181853952
   is_public: true
   is_afz: false
   screening_movies:
@@ -2306,6 +2578,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 33.58487784395315
+  geo_lon: 130.354971911682
   is_public: true
   is_afz: false
   screening_movies:
@@ -2320,6 +2594,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/urantan55/"
   link_twitter: ""
+  geo_lat: 33.77030100801328
+  geo_lon: 130.5113309675119
   is_public: true
   is_afz: true
   screening_movies:
@@ -2334,6 +2610,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 33.25731477935659
+  geo_lon: 130.30611479448172
   is_public: true
   is_afz: false
   screening_movies:
@@ -2348,6 +2626,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/nakadorijim_cinema/"
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: true
   screening_movies:
@@ -2368,6 +2648,8 @@
   link_web: "https://www.hironta.com/"
   link_instagram: "https://www.instagram.com/hironta_mura/"
   link_twitter: ""
+  geo_lat: 32.94486307406065
+  geo_lon: 129.09143017959164
   is_public: true
   is_afz: true
   screening_movies:
@@ -2383,6 +2665,8 @@
   link_web: "https://tsushima-tosui.com/"
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 34.20672550429062
+  geo_lon: 129.29111646752753
   is_public: true
   is_afz: false
   screening_movies:
@@ -2398,6 +2682,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/cinematoyohaku"
   link_twitter: ""
+  geo_lat: 32.7488331081832
+  geo_lon: 129.88124089631137
   is_public: true
   is_afz: false
   screening_movies:
@@ -2417,6 +2703,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/kumamoto.palestine/"
   link_twitter: ""
+  geo_lat: 32.804892794292286
+  geo_lon: 130.71540072514864
   is_public: true
   is_afz: false
   screening_movies:
@@ -2433,6 +2721,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: ""
+  geo_lon: ""
   is_public: false
   is_afz: false
   screening_movies:
@@ -2454,6 +2744,8 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
+  geo_lat: 26.243462427892307
+  geo_lon: 127.750304794263
   is_public: true
   is_afz: false
   screening_movies:
@@ -2475,6 +2767,8 @@
   link_web: ""
   link_instagram: "https://www.instagram.com/sabani_space/"
   link_twitter: ""
+  geo_lat: 26.21735340589683
+  geo_lon: 127.69991606727422
   is_public: true
   is_afz: false
   screening_movies:
