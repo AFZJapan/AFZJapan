@@ -213,6 +213,9 @@ h1 {
   text-underline-offset: 4px;
 }
 
+.nearby-map {
+  display: none;
+}
 #popup-content {
   font-size: 0.9rem;
 }

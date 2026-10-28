@@ -33,10 +33,7 @@ const attribution = new ol.control.Attribution({
   setCollapsed: true
 });
 
-var tileUrl = "https://tile.openstreetmap.jp/{z}/{x}/{y}.png";
-if (window.location.pathname === "/en") {
-  tileUrl = "https://tile.openstreetmap.jp/styles/osm-bright/{z}/{x}/{y}.png";
-}
+var tileUrl = "https://tile.openstreetmap.jp/styles/osm-bright-ja/512/{z}/{x}/{y}.png";
 
 const map = new ol.Map({
   target: 'afz',
