@@ -20,7 +20,7 @@
   screening_dates:
     - nov3
 - place_name: もりおか女性センター
-  organizer_name: ""
+  organizer_name: Compass
   prefecture: 3
   city: 盛岡市
   link_announce: ""
@@ -30,15 +30,11 @@
   is_public: true
   is_afz: false
   screening_movies:
-    - return_to_haifa
-    - boycott
     - foragers
     - the_flower_stand
-    - gazawyat
   screening_dates:
     - nov2
-    - nov3
-- place_name: プラザおでって5F 河南公民館
+- place_name: 河南公民館
   organizer_name: Compass
   prefecture: 3
   city: 盛岡市
@@ -48,8 +44,11 @@
   link_twitter: ""
   is_public: true
   is_afz: false
-  screening_movies: []
-  screening_dates: []
+  screening_movies:
+    - return_to_haifa
+    - gazawyat
+  screening_dates:
+    - nov3
 - place_name: 東北大学川内北キャンパス マルチメディア棟６階大ホール
   organizer_name: パレスチナと仙台を結ぶ会
   prefecture: 4
@@ -792,8 +791,8 @@
     - gazawyat
   screening_dates:
     - nov2
-- place_name: ひろがれ！ピース・ミュージアムいたばし
-  organizer_name: ""
+- place_name: 板橋区立文化会館会議室
+  organizer_name: ひろがれ！ピース・ミュージアムいたばし
   prefecture: 13
   city: 板橋区
   link_announce: ""
@@ -1000,7 +999,7 @@
   link_web: ""
   link_instagram: ""
   link_twitter: ""
-  is_public: true
+  is_public: false
   is_afz: false
   screening_movies:
     - boycott
@@ -2053,7 +2052,7 @@
 - place_name: 果樹園
   organizer_name: 百花園
   prefecture: 30
-  city: ""
+  city: 東牟婁郡
   link_announce: "https://www.instagram.com/p/DeimbkLIIz6/"
   link_web: ""
   link_instagram: "https://www.instagram.com/hyakkaen_irokawa"
