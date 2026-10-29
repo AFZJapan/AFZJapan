@@ -166,9 +166,41 @@ h1 {
 }
 .prefecture-filter {
   display: flex;
-  align-items: center;
   gap: 16px;
   margin-bottom: 12px;
+}
+.table-filter {
+  background-color: #efefef;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+.screening-filter label {
+  margin-bottom: 0;
+}
+.exclude-private {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+}
+.date-filter {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.date-filter legend {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 1rem;
+}
+.date-filter label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 .scroll-hint {
   display: none;
