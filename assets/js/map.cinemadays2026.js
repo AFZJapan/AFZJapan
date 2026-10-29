@@ -96,7 +96,7 @@ function display(json) {
 
     setTimeout(function() {
       addFeatureAt(data)
-    }, 100*i);
+    }, 40*i);
   }
 
   // Popup
