@@ -112,6 +112,17 @@ lang: "ja"
       <div class="notice-before-table">
         <p>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</p>
       </div>
+      <div class="prefecture-filter">
+        <label for="prefecture-filter"><i class="material-icons white-icon">filter_list</i> 都道府県</label>
+        <select id="prefecture-filter">
+          <option value="">すべて表示</option>
+          {% for p in pref %}
+            {% if p.id > 0 %}
+          <option value="{{ p.id }}">{{ p.name }}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </div>
       <div class="scroll-hint">右にもスクロールできます 👉</div>
       <div class="table-x-scrollable">
         <table class="afz-table table-bordered">
@@ -120,20 +131,6 @@ lang: "ja"
               <th class="column-pref">
                 <div class="contain-filter">
                   所在地
-                  {% comment %}
-                  <li class="dropdown d-inline">
-                    <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
-                    <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
-                      <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
-                      <li class="nav-item"><hr class="m-0"></li>
-                      {% for p in pref %}
-                        {% if p.id > 0 %}
-                      <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
-                        {% endif %}
-                      {% endfor %}
-                    </ul>
-                  </li>
-                  {% endcomment %}
                 </div>
               </th>
               <th>名前</th>

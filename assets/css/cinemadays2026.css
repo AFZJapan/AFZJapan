@@ -164,6 +164,12 @@ h1 {
   font-size: 0.9rem;
   line-height: 1.6;
 }
+.prefecture-filter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
 .scroll-hint {
   display: none;
   text-align: right;

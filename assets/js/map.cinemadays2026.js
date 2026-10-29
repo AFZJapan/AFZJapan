@@ -175,3 +175,48 @@ const vector = new ol.layer.Vector({
 map.addLayer(vector);
 
 display(json);
+
+const prefSelect = document.getElementById('prefecture-filter');
+if (prefSelect) {
+  prefSelect.addEventListener('change', function() {
+    const selectedPref = this.value;
+    let tableIsEmpty = true;
+
+    vector.getSource().clear();
+
+    document.querySelectorAll('#AFZTable tr[data-pref]').forEach(row => {
+      const rowPref = row.getAttribute('data-pref');
+      const matches = selectedPref === '' || rowPref === selectedPref;
+      row.classList.toggle('hidden', !matches);
+      if (matches) {
+        tableIsEmpty = false;
+      }
+    });
+
+    for (let i = 0; i < json.length; i++) {
+      const data = json[i];
+      const matches = selectedPref === '' ||
+        String(data.prefecture) === String(selectedPref);
+
+      if (!matches) {
+        continue;
+      }
+
+      styles[data.place_name] = [
+        new ol.style.Style({
+          image: new ol.style.Icon({
+            src: "/assets/icons/cinema_small_map.png",
+            scale: 0.3,
+            anchor: [0.5, 1]
+          })
+        })
+      ];
+      addFeatureAt(data);
+    }
+
+    const tableFallback = document.querySelector('.afz-table-fallback');
+    if (tableFallback) {
+      tableFallback.classList.toggle('hidden', !tableIsEmpty);
+    }
+  });
+}
