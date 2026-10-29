@@ -109,6 +109,30 @@ lang: "ja"
       {% assign list = site.data.cinema2026_places %}
       {% assign popup_index = 0 %}
 
+      <div class="table-filter">
+        <div class="prefecture-filter">
+          <label for="prefecture-filter"><i class="material-icons white-icon">filter_list</i> 都道府県</label>
+          <select id="prefecture-filter">
+            <option value="">すべて表示</option>
+            {% for p in pref %}
+              {% if p.id > 0 %}
+            <option value="{{ p.id }}">{{ p.name }}</option>
+              {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+        <fieldset class="date-filter">
+          <i class="material-icons white-icon">filter_list</i> 上映日
+          <label><input type="checkbox" name="screening-date" value="nov1" checked>11/1</label>
+          <label><input type="checkbox" name="screening-date" value="nov2" checked>11/2</label>
+          <label><input type="checkbox" name="screening-date" value="nov3" checked>11/3</label>
+          <label><input type="checkbox" name="screening-date" value="nov4" checked>11/4</label>
+        </fieldset>
+        <label class="exclude-private">
+          <input type="checkbox" id="exclude-private">
+          プライベート上映を除く
+        </label>
+      </div>
       <div class="notice-before-table">
         <p>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</p>
       </div>
@@ -120,20 +144,6 @@ lang: "ja"
               <th class="column-pref">
                 <div class="contain-filter">
                   所在地
-                  {% comment %}
-                  <li class="dropdown d-inline">
-                    <a data-toggle="dropdown" class="pref-dropdown-trigger has-dropdown font-weight-600 dropdown-toggle" aria-expanded="false" href="javascript:;" data-activates="pref-dropdown"><span class="material-icons white-icon" style="color: white;">filter_list</span></a>
-                    <ul class="dropdown-menu pre-scrollable" style="height: auto; max-height: 280px; overflow: hidden; overflow-y: auto;" id="pref-dropdown">
-                      <li class="nav-item"><a href="javascript:;" data-pref-id="" class="nav-link">すべて表示</a></li>
-                      <li class="nav-item"><hr class="m-0"></li>
-                      {% for p in pref %}
-                        {% if p.id > 0 %}
-                      <li class="nav-item"><a href="javascript:;" data-pref-id="{{ p.id }}" class="nav-link">{{ p.name }}</a></li>
-                        {% endif %}
-                      {% endfor %}
-                    </ul>
-                  </li>
-                  {% endcomment %}
                 </div>
               </th>
               <th>名前</th>
@@ -153,7 +163,7 @@ lang: "ja"
             {% for place in list %}
 
             {% capture row_tags %}{% for t in place.tags %}{{ t.ja }} {{ t.en }} {% endfor %}{% endcapture %}
-            <tr data-pref="{{ place.prefecture }}" data-type="{{ types[place.type].type }}" data-tags="{{ row_tags | downcase }}" class="{% if place.is_public == false %}is-private{%endif%}">
+            <tr data-pref="{{ place.prefecture }}" data-is-public="{% if place.is_public == true %}true{%else%}false{%endif%}" data-dates="{{ place.screening_dates | join: ',' }}" class="{% if place.is_public == false %}is-private{%endif%}">
               <td class="cell-prefecture">
                 {{ pref[place.prefecture].name }}
                 <span class="city">{{ place.city }}</span>

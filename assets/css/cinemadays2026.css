@@ -157,12 +157,49 @@ h1 {
   color: #fff;
 }
 
-.notice-before-table {
-  margin-top: 48px;
-}
 .notice-before-table p {
   font-size: 0.9rem;
   line-height: 1.6;
+}
+.prefecture-filter {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.table-filter {
+  display: flex;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  gap: 8px;
+  background-color: #efefef;
+  flex-direction: column;
+}
+.screening-filter label {
+  margin-bottom: 0;
+}
+.exclude-private {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+}
+.date-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.date-filter legend {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 1rem;
+}
+.date-filter label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
 }
 .scroll-hint {
   display: none;
@@ -213,6 +250,9 @@ h1 {
   text-underline-offset: 4px;
 }
 
+.afz-map {
+  margin-bottom: 24px;
+}
 .nearby-map {
   display: none;
 }

@@ -96,7 +96,7 @@ function display(json) {
 
     setTimeout(function() {
       addFeatureAt(data)
-    }, 100*i);
+    }, 40*i);
   }
 
   // Popup
@@ -175,3 +175,73 @@ const vector = new ol.layer.Vector({
 map.addLayer(vector);
 
 display(json);
+
+const prefSelect = document.getElementById('prefecture-filter');
+const excludePrivate = document.getElementById('exclude-private');
+const dateCheckboxes = document.querySelectorAll('input[name="screening-date"]');
+
+function applyCinemaFilters() {
+  const selectedPref = prefSelect ? prefSelect.value : '';
+  const excludePrivateRows = excludePrivate ? excludePrivate.checked : false;
+  const selectedDates = Array.from(dateCheckboxes)
+    .filter(checkbox => checkbox.checked)
+    .map(checkbox => checkbox.value);
+  let tableIsEmpty = true;
+
+  vector.getSource().clear();
+
+  document.querySelectorAll('#AFZTable tr[data-pref]').forEach(row => {
+    const rowPref = row.getAttribute('data-pref');
+    const rowIsPublic = row.getAttribute('data-is-public');
+    const rowDates = (row.getAttribute('data-dates') || '').split(',');
+    const matchesPref = selectedPref === '' || rowPref === selectedPref;
+    const matchesPublic = !excludePrivateRows || rowIsPublic === 'true';
+    const matchesDate = rowDates.some(date => selectedDates.includes(date));
+    const matches = matchesPref && matchesPublic && matchesDate;
+
+    row.classList.toggle('hidden', !matches);
+    if (matches) {
+      tableIsEmpty = false;
+    }
+  });
+
+  for (let i = 0; i < json.length; i++) {
+    const data = json[i];
+    const matchesPref = selectedPref === '' ||
+      String(data.prefecture) === String(selectedPref);
+    const matchesPublic = !excludePrivateRows || data.is_public === true;
+    const matchesDate = (data.screening_dates || []).some(date =>
+      selectedDates.includes(date)
+    );
+
+    if (!matchesPref || !matchesPublic || !matchesDate) {
+      continue;
+    }
+
+    styles[data.place_name] = [
+      new ol.style.Style({
+        image: new ol.style.Icon({
+          src: "/assets/icons/cinema_small_map.png",
+          scale: 0.3,
+          anchor: [0.5, 1]
+        })
+      })
+    ];
+    addFeatureAt(data);
+  }
+
+  const tableFallback = document.querySelector('.afz-table-fallback');
+  if (tableFallback) {
+    tableFallback.classList.toggle('hidden', !tableIsEmpty);
+  }
+}
+
+if (prefSelect) {
+  prefSelect.addEventListener('change', applyCinemaFilters);
+}
+if (excludePrivate) {
+  excludePrivate.addEventListener('change', applyCinemaFilters);
+}
+dateCheckboxes.forEach(checkbox => {
+  checkbox.addEventListener('change', applyCinemaFilters);
+});
