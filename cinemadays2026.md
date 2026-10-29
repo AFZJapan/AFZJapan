@@ -109,9 +109,6 @@ lang: "ja"
       {% assign list = site.data.cinema2026_places %}
       {% assign popup_index = 0 %}
 
-      <div class="notice-before-table">
-        <p>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</p>
-      </div>
       <div class="table-filter">
         <div class="prefecture-filter">
           <label for="prefecture-filter"><i class="material-icons white-icon">filter_list</i> 都道府県</label>
@@ -135,6 +132,9 @@ lang: "ja"
           <input type="checkbox" id="exclude-private">
           プライベート上映を除く
         </label>
+      </div>
+      <div class="notice-before-table">
+        <p>＊会場／企画者による告知ページを［上映日］の部分にリンクしています（AFZ推進チームが見つけたものから掲載しています）</p>
       </div>
       <div class="scroll-hint">右にもスクロールできます 👉</div>
       <div class="table-x-scrollable">

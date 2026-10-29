@@ -157,9 +157,6 @@ h1 {
   color: #fff;
 }
 
-.notice-before-table {
-  margin-top: 48px;
-}
 .notice-before-table p {
   font-size: 0.9rem;
   line-height: 1.6;
@@ -170,11 +167,12 @@ h1 {
   margin-bottom: 12px;
 }
 .table-filter {
-  background-color: #efefef;
+  display: flex;
   border-radius: 8px;
   padding: 16px;
-  display: flex;
+  margin-bottom: 24px;
   gap: 8px;
+  background-color: #efefef;
   flex-direction: column;
 }
 .screening-filter label {
@@ -187,6 +185,7 @@ h1 {
 }
 .date-filter {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
   margin: 0;
   padding: 0;
@@ -251,6 +250,9 @@ h1 {
   text-underline-offset: 4px;
 }
 
+.afz-map {
+  margin-bottom: 24px;
+}
 .nearby-map {
   display: none;
 }
