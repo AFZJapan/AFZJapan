@@ -77,16 +77,16 @@
     - gazawyat
   screening_dates:
     - nov1
-- place_name: 北秋田市民ふれあいプラザコムコム
-  organizer_name: ""
+- place_name: 秋田県立秋田北鷹高等学校 大講堂
+  organizer_name: 21世紀歴史教育研究会
   prefecture: 5
   city: 北秋田市
   link_announce: ""
   link_web: ""
   link_instagram: ""
   link_twitter: ""
-  geo_lat: 40.2281101
-  geo_lon: 140.3711047
+  geo_lat: 40.22591081995203
+  geo_lon: 140.3769493633658
   is_public: true
   is_afz: true
   screening_movies:
@@ -96,7 +96,7 @@
     - the_flower_stand
     - gazawyat
   screening_dates:
-    - nov2
+    - nov4
 - place_name: Akita International University - Alumni Hall
   organizer_name: ""
   prefecture: 5
@@ -805,7 +805,8 @@
     - boycott
     - the_flower_stand
     - gazawyat
-  screening_dates: []
+  screening_dates:
+    - nov3
 - place_name: ひの市民活動支援センター
   organizer_name: ""
   prefecture: 13
@@ -843,31 +844,6 @@
     - boycott
     - gazawyat
   screening_dates:
-    - nov3
-- place_name: 火曜舎
-  organizer_name: ""
-  prefecture: 13
-  city: 杉並区
-  link_announce: ""
-  link_web: "https://onomatopen.wixsite.com/-site"
-  link_instagram: "https://instagram.com/chai.kayousya"
-  link_twitter: ""
-  geo_lat: 35.700036261558495
-  geo_lon: 139.63295971360643
-  is_public: true
-  is_afz: true
-  screening_movies:
-    - the_dream
-    - return_to_haifa
-    - with_hasan
-    - boycott
-    - foragers
-    - they_do_not_exist
-    - the_flower_stand
-    - gazawyat
-  screening_dates:
-    - nov1
-    - nov2
     - nov3
 - place_name: 自由学園高等部
   organizer_name: ""
@@ -1866,7 +1842,7 @@
   organizer_name: ""
   prefecture: 27
   city: ""
-  link_announce: ""
+  link_announce: "https://zenko-peace.com/archives/25608"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
@@ -1910,7 +1886,7 @@
   organizer_name: 平和と民主主義をめざす全国交歓会
   prefecture: 27
   city: 大阪市城東区
-  link_announce: ""
+  link_announce: "https://zenko-peace.com/archives/25608"
   link_web: ""
   link_instagram: ""
   link_twitter: ""
