@@ -191,9 +191,6 @@ lang: "ja"
               {% endif %}
               </td>
               <td>
-                {% if place.link_announce != '' %}
-                  <a href="{{ place.link_announce }}" target="_blank" class="link-announce">
-                {% endif %}
                 {%- for date in place.screening_dates -%}
                   {%- case date -%}
                     {%- when "nov1" -%}11/1
@@ -204,7 +201,7 @@ lang: "ja"
                   {%- unless forloop.last -%}・{% endunless -%}
                 {%- endfor -%}
                 {% if place.link_announce != '' %}
-                  </a>
+                  <br><a href="{{ place.link_announce }}" target="_blank" class="link-announce">詳細</a>
                 {% endif %}
               </td>
               <td>{% if place.screening_movies contains "return_to_haifa" %}✓{% endif %}</td>

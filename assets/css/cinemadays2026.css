@@ -248,6 +248,7 @@ h1 {
 .link-announce {
   text-decoration: underline 1.5px;
   text-underline-offset: 4px;
+  font-size: 0.86rem;
 }
 
 .afz-map {

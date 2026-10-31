@@ -124,10 +124,10 @@ function display(json) {
         content.innerHTML += `<a href="${feature.get('l_twitter')}" target="_blank"><img align="top" src="/assets/icons/twitter.png" width="18px" height="18px" alt="X"></a> `;
       }
 
+      content.innerHTML += `<br><span class="screening-dates">上映日：${dates_string}</span><br>`;
+      
       if (feature.get('l_announce')) {
-        content.innerHTML += `<br><span class="screening-dates">上映日：<a href="${feature.get('l_announce')}" target="_blank">${dates_string}</a></span><br>`;
-      } else {
-        content.innerHTML += `<br><span class="screening-dates">上映日：${dates_string}</span><br>`;
+        content.innerHTML += `<a href="${feature.get('l_announce')}" class="link-announce" target="_blank">詳細情報</a><br>`;
       }
 
       content.innerHTML += `<br><span class="screening-movies">上映作品：</span><br>`;
