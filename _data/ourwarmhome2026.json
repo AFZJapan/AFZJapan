@@ -8,6 +8,11 @@
     "barrier_free": "筆談対応可"
   },
   {
+    "name": "たどしカフェ",
+    "pref": 1,
+    "geo": {"lat": 43.80897206597061, "lon": 142.02353661954254}
+  },
+  {
     "name": "喫茶frame",
     "pref": 4,
     "geo": {"lat": 38.26985338325775, "lon": 140.87675232540113},
@@ -235,6 +240,20 @@
     "geo": {"lat": 35.73938885553378, "lon": 139.76199334574582},
     "link": "https://rivercag.com/",
     "barrier_free": "'車椅子・ベビーカーOK, 筆談対応可"
+  },
+  {
+    "name": "atelier utopiano",
+    "pref": 14,
+    "geo": {"lat": 35.44529520985883, "lon": 139.63821920237166},
+    "link": "https://www.instagram.com/atelier_utopiano/",
+    "barrier_free": "筆談対応可"
+  },
+  {
+    "name": "cüe",
+    "pref": 14,
+    "geo": {"lat": 35.15624765012084, "lon": 139.135171771165},
+    "link": "https://www.instagram.com/spot_3.9/",
+    "barrier_free": "車椅子・ベビーカーOK, 筆談対応可"
   },
   {
     "name": "サザンカブックス",
